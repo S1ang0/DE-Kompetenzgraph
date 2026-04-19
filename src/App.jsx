@@ -729,24 +729,52 @@ function WeekView({ weekIdx, week, onBack }) {
                 {hourLabels.map((_,i) => (
                   <div key={i} style={{height:HOUR,borderTop:"1px solid #F1F5F9"}}/>
                 ))}
-                {activities.filter(a => a.day === di).map((a,i) => (
-                  <div key={i} style={{
-                    position:"absolute",
-                    top: a.start * HOUR + 4,
-                    left:4, right:4,
-                    height: a.dur * HOUR - 6,
-                    background:`${a.color}12`,
-                    border:`1.5px solid ${a.color}`,
-                    borderLeft:`4px solid ${a.color}`,
-                    borderRadius:6,padding:"6px 8px",
-                    fontSize:11,
-                  }}>
-                    <div style={{display:"flex",alignItems:"center",gap:4,color:a.color,fontWeight:700,fontSize:12}}>
-                      <span>{a.icon}</span>{a.title}
+                {activities.filter(a => a.day === di).map((a,i) => {
+                  const h = a.dur * HOUR - 6;
+                  const tight = h < 42;        // too small for two lines
+                  const veryTight = h < 24;    // too small even for comfortable single line
+                  return (
+                    <div key={i}
+                      title={`${a.title} — ${a.sub}`}
+                      style={{
+                        position:"absolute",
+                        top: a.start * HOUR + 4,
+                        left:4, right:4,
+                        height: h,
+                        background:`${a.color}12`,
+                        border:`1.5px solid ${a.color}`,
+                        borderLeft:`4px solid ${a.color}`,
+                        borderRadius:6,
+                        padding: veryTight ? "2px 6px" : (tight ? "4px 7px" : "6px 8px"),
+                        fontSize:11,
+                        overflow:"hidden",
+                        display:"flex",flexDirection:"column",
+                        justifyContent:tight?"center":"flex-start",
+                        gap:2,
+                      }}>
+                      <div style={{
+                        display:"flex",alignItems:"center",gap:4,
+                        color:a.color,fontWeight:700,
+                        fontSize: veryTight ? 10 : tight ? 11 : 12,
+                        minWidth:0,
+                      }}>
+                        <span style={{flexShrink:0}}>{a.icon}</span>
+                        <span style={{
+                          overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap",minWidth:0,
+                        }}>{a.title}</span>
+                      </div>
+                      {!tight && (
+                        <div style={{
+                          color:"#475569",lineHeight:1.3,
+                          overflow:"hidden",textOverflow:"ellipsis",
+                          display:"-webkit-box",
+                          WebkitBoxOrient:"vertical",
+                          WebkitLineClamp: 2,
+                        }}>{a.sub}</div>
+                      )}
                     </div>
-                    <div style={{color:"#475569",marginTop:2,lineHeight:1.3}}>{a.sub}</div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           ))}
