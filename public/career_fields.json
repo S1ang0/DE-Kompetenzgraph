@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "description": "Berufsfelder mit Ziel-Kompetenzen. Alle Voraussetzungen werden rekursiv aus competency_tree.json abgeleitet.",
+    "hoursPerCompetencyByLevel": {
+      "1": 2,
+      "2": 4,
+      "3": 6,
+      "4": 10
+    },
+    "hoursPerWeek": 25
+  },
+  "fields": [
+    {
+      "id": "e_mobility",
+      "label": "E-Mobility Konstrukteur:in",
+      "emoji": "⚡",
+      "color": "#2563EB",
+      "description": "Entwickelt Komponenten für elektrifizierte Fahrzeuge — von Batteriekühlung über Leichtbau-Chassis bis zur Leistungselektronik.",
+      "outcomes": [
+        "Elektrische Antriebe auslegen",
+        "Batteriekühlkonzepte berechnen",
+        "Strukturleichtbau für E-Fahrzeuge",
+        "EMV-gerechte Konstruktion"
+      ],
+      "targets": [
+        "design_fmea",
+        "design_toleranzkett",
+        "design_lifecycle",
+        "mat_verbund_mechanik",
+        "mech_ermüdung",
+        "mech_kerbwirkung",
+        "mech_schwing3",
+        "therm_wärmeübertrager",
+        "therm_waermeleitung_instat",
+        "et_umrichter",
+        "et_leistungselek",
+        "et_emc",
+        "sim_statisch",
+        "sim_modalanalyse"
+      ]
+    },
+    {
+      "id": "sim_engineer",
+      "label": "Simulations-Ingenieur:in (FEM/CFD)",
+      "emoji": "🔬",
+      "color": "#7C3AED",
+      "description": "Beantwortet konstruktive Fragen durch numerische Simulation — Strukturmechanik, Strömung, Multiphysik, Optimierung.",
+      "outcomes": [
+        "FEM-Modelle für Struktur und Thermik",
+        "CFD-Simulationen aufsetzen und validieren",
+        "Topologie- und Formoptimierung",
+        "High-Performance Computing für Simulationen"
+      ],
+      "targets": [
+        "sim_statisch",
+        "sim_modalanalyse",
+        "sim_nichtlinear",
+        "sim_kontakt",
+        "sim_thermomech",
+        "sim_topology_opt",
+        "sim_cfd_diskret",
+        "sim_cfd_gitter",
+        "sim_cfd_turbulenz",
+        "sim_mks",
+        "math_pde_waerme",
+        "math_pde_laplace_eq",
+        "math_numerik_dgl",
+        "prog_fenicsx",
+        "prog_hpc_slurm",
+        "prog_surrogat",
+        "fluid_navier_stokes",
+        "fluid_turbulenz",
+        "fluid_umströmung",
+        "mech_kontinuum",
+        "mech_plastizitaet"
+      ]
+    },
+    {
+      "id": "production_40",
+      "label": "Produktions-Ingenieur:in (Industrie 4.0)",
+      "emoji": "🏭",
+      "color": "#0891B2",
+      "description": "Plant, automatisiert und optimiert Fertigungssysteme mit datengetriebenen Methoden, Mechatronik und additiver Fertigung.",
+      "outcomes": [
+        "Additive Fertigungsverfahren beherrschen",
+        "Mechatronische Systeme auslegen",
+        "Predictive Maintenance mit ML",
+        "Statistische Prozesskontrolle"
+      ],
+      "targets": [
+        "fert_additive_waam",
+        "reg_digital",
+        "reg_mechatronik",
+        "reg_beobachter",
+        "reg_zustandsraum",
+        "prog_neural",
+        "mess_modaltest",
+        "mess_vibration",
+        "design_fmea",
+        "design_lifecycle",
+        "design_toleranzkett",
+        "math_stat_schaetzen",
+        "math_stat_regression",
+        "math_optimierung"
+      ]
+    },
+    {
+      "id": "materials_lightweight",
+      "label": "Werkstoff-Entwickler:in Leichtbau",
+      "emoji": "🧪",
+      "color": "#059669",
+      "description": "Entwickelt neue Werkstoffe und Verbund-Konstruktionen für Anwendungen mit höchsten Leichtbau-Anforderungen.",
+      "outcomes": [
+        "Faserverbundwerkstoffe auslegen",
+        "Bruchmechanische Sicherheitsnachweise",
+        "Ermüdungsfestigkeit prognostizieren",
+        "Werkstoff-Kennwerte experimentell ermitteln"
+      ],
+      "targets": [
+        "mat_bruchmechanik",
+        "mat_risswachstum",
+        "mat_verbund_mechanik",
+        "mech_plastizitaet",
+        "mech_ermüdung",
+        "mech_kerbwirkung",
+        "mech_knicken",
+        "mech_kontinuum",
+        "mess_modaltest",
+        "mess_vibration",
+        "sim_statisch",
+        "sim_nichtlinear",
+        "therm_exergie"
+      ]
+    }
+  ]
+}
