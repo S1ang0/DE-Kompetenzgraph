@@ -1189,6 +1189,16 @@ export default function App() {
                 fontSize:14,fontFamily:"inherit",fontWeight:view===v.k?600:400,
               }}>{v.label}</button>
           ))}
+          {(selectedId || domFilter || levelFilter || search) && (
+            <button
+              onClick={() => { setSelectedId(null); setDomFilter(null); setLevelFilter(null); setSearch(""); }}
+              title="Ansicht zurücksetzen: Filter, Suche und Auswahl aufheben"
+              style={{
+                background:"#FEF2F2",border:"1px solid #FCA5A5",
+                color:"#B91C1C",padding:"8px 14px",borderRadius:6,
+                cursor:"pointer",fontSize:13,fontFamily:"inherit",fontWeight:600,
+              }}>✕ Alles anzeigen</button>
+          )}
           <button onClick={() => setWeighted(w => !w)} style={{
             background:weighted?"#FFF7ED":"#FFFFFF",
             border:`1px solid ${weighted?"#EA580C":"#CBD5E1"}`,
