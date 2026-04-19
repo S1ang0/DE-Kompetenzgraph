@@ -656,6 +656,10 @@ function WeekView({ weekIdx, week, onBack }) {
   const comp2 = week.items[1]?.node;
   const comp3 = week.items[2]?.node;
 
+  // Industry partnership depth grows with progress in the program
+  const hasChallenge = weekIdx >= 3;   // from week 4 onward
+  const hasMentor    = weekIdx >= 5;   // from week 6 onward
+
   // Activities: type, day, startHour, duration, title, subtitle, color
   const activities = [
     { day:0, start:0,  dur:2, type:"focus",    title:"Fokus-Block",       sub: comp1 ? comp1.label : "Theorie + Simulation",           color:"#2563EB", icon:"🎯" },
@@ -663,7 +667,9 @@ function WeekView({ weekIdx, week, onBack }) {
     { day:0, start:6,  dur:1.5, type:"peer",   title:"Peer-Lerngruppe",   sub:"3er-Gruppe · gegenseitig erklären",                       color:"#DB2777", icon:"👥" },
     { day:0, start:8,  dur:0.5, type:"review", title:"Spaced Repetition", sub:"alte Kompetenzen auffrischen",                            color:"#7C3AED", icon:"🔁" },
 
-    { day:1, start:1,  dur:3, type:"project",  title:"Industrie-Challenge", sub:"echtes Problem aus Unternehmenspartner",                color:"#EA580C", icon:"🏗️" },
+    hasChallenge
+      ? { day:1, start:1, dur:3, type:"project", title:"Industrie-Challenge", sub:"echtes Problem aus Unternehmenspartner",               color:"#EA580C", icon:"🏗️" }
+      : { day:1, start:1, dur:3, type:"focus",   title:"Fokus-Block",          sub: comp2 ? comp2.label : "Vertiefung mit Übung",           color:"#2563EB", icon:"🎯" },
     { day:1, start:5,  dur:2, type:"lab",      title:"Labor / Maker Space", sub:"betreut durch Tutor:in",                                color:"#0891B2", icon:"🔧" },
 
     { day:2, start:2,  dur:2, type:"focus",    title:"Fokus-Block",       sub: comp2 ? comp2.label : "Neue Kompetenz",                   color:"#2563EB", icon:"🎯" },
@@ -671,8 +677,12 @@ function WeekView({ weekIdx, week, onBack }) {
     { day:2, start:6,  dur:0.5, type:"assess", title:"Kompetenzfreigabe", sub: comp1 ? `\u2713 \u201E${comp1.label}\u201C bestanden` : "Meilenstein",  color:"#059669", icon:"⭐" },
 
     { day:3, start:0,  dur:2, type:"focus",    title:"Fokus-Block",       sub: comp3 ? comp3.label : "Vertiefung",                       color:"#2563EB", icon:"🎯" },
-    { day:3, start:3,  dur:2, type:"project",  title:"Projekt-Arbeit",    sub:"Industrie-Challenge fortsetzen",                           color:"#EA580C", icon:"🏗️" },
-    { day:3, start:6,  dur:1, type:"mentor",   title:"Industriementor",   sub:"30 min Karriere-Gespräch",                                color:"#0F766E", icon:"💼" },
+    hasChallenge
+      ? { day:3, start:3, dur:2, type:"project", title:"Projekt-Arbeit",  sub:"Industrie-Challenge fortsetzen",                            color:"#EA580C", icon:"🏗️" }
+      : { day:3, start:3, dur:2, type:"peer",    title:"Peer-Lerngruppe", sub:"gemeinsam Übungsaufgaben lösen",                            color:"#DB2777", icon:"👥" },
+    hasMentor
+      ? { day:3, start:6, dur:1, type:"mentor",  title:"Industriementor", sub:"30 min Karriere-Gespräch",                                  color:"#0F766E", icon:"💼" }
+      : { day:3, start:6, dur:1, type:"review",  title:"Review",          sub:"Woche konsolidieren",                                        color:"#7C3AED", icon:"🔁" },
 
     { day:4, start:1,  dur:2, type:"drill",    title:"Mastery-Check",     sub:"Ergebnisse mit KI-Tutor validieren",                      color:"#16A34A", icon:"🤖" },
     { day:4, start:4,  dur:2, type:"focus",    title:"Vertiefung",        sub:"Freier Block · individuell wählbar",                      color:"#2563EB", icon:"🎯" },
@@ -699,7 +709,9 @@ function WeekView({ weekIdx, week, onBack }) {
         </div>
         <div style={{textAlign:"right",fontSize:11,color:"#94A3B8",lineHeight:1.8}}>
           Keine Frontal-Vorlesung · Prof-Zeit gezielt eingesetzt<br/>
-          Reine Lernzeit — Pausen/Mahlzeiten nicht dargestellt
+          {weekIdx < 3 && <span style={{color:"#64748B"}}>Einarbeitungsphase · Industrie-Kontakte folgen ab Woche 4</span>}
+          {weekIdx >= 3 && weekIdx < 5 && <span style={{color:"#64748B"}}>Industrie-Challenge aktiv · Mentoring ab Woche 6</span>}
+          {weekIdx >= 5 && <span style={{color:"#0F766E"}}>Industrie-Challenge & Mentoring eingebunden</span>}
         </div>
       </div>
 
