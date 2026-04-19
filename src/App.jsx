@@ -20,8 +20,15 @@ const LEVEL_COLORS = { 1: "#2563EB", 2: "#059669", 3: "#D97706", 4: "#DC2626" };
 const LEVEL_NAMES  = { 1: "Grundlage", 2: "Aufbau", 3: "Vertiefung", 4: "Experte" };
 
 // Default if not overridden by career_fields.json meta
-const DEFAULT_HOURS_PER_LEVEL = { 1: 2, 2: 4, 3: 6, 4: 10 };
-const DEFAULT_HOURS_PER_WEEK = 25;
+const DEFAULT_HOURS_PER_LEVEL = { 1: 4, 2: 10, 3: 18, 4: 32 };
+const DEFAULT_HOURS_PER_WEEK  = 25;
+const SEMESTERS               = 6;
+const WEEKS_PER_SEMESTER      = 15;
+const TOTAL_WEEKS             = SEMESTERS * WEEKS_PER_SEMESTER; // 90
+
+// Industry integration kicks in from the 4th semester
+const INDUSTRY_CHALLENGE_FROM_WEEK = 3 * WEEKS_PER_SEMESTER; // 45 → week 46 = sem 4 start
+const INDUSTRY_MENTOR_FROM_WEEK    = 4 * WEEKS_PER_SEMESTER; // 60 → week 61 = sem 5 start
 
 /* ─────────────────────────────────────────────────────────────
  *  Graph / Plan helpers
@@ -152,54 +159,45 @@ function computePlan(targetIds, allNodes, allLinks, hoursPerLevel, hoursPerWeek)
   }
 
   const orderedNodes = ordered.map(id => nodeMap.get(id));
+  const totalHours = orderedNodes.reduce((s, n) => s + (hoursPerLevel[n.level] || 4), 0);
 
-  // Pack into weeks — respecting topology (never put a competency in a week
-  // before all prerequisites are in an earlier or same week)
-  const weeks = [];
-  let current = { items: [], hours: 0 };
-  const placed = new Map();   // id → week idx
-  const flushWeek = () => {
-    if (current.items.length) {
-      weeks.push(current);
-      current = { items: [], hours: 0 };
-    }
-  };
+  // ── Fixed schedule: 6 semesters × 15 weeks = 90 weeks ────────────
+  // Distribute competencies proportionally by cumulative effort.
+  // Respect topology: a competency's week is pushed out if prerequisites land later.
+  const weeks = Array.from({ length: TOTAL_WEEKS }, () => ({ items: [], hours: 0 }));
+  const placed = new Map();
 
+  let cumulative = 0;
   for (const node of orderedNodes) {
     const hrs = hoursPerLevel[node.level] || 4;
+    // Target: place at its pro-rata point on the 90-week timeline
+    const midpoint = cumulative + hrs / 2;
+    let targetWeek = totalHours > 0
+      ? Math.floor((midpoint / totalHours) * TOTAL_WEEKS)
+      : 0;
+    targetWeek = Math.max(0, Math.min(TOTAL_WEEKS - 1, targetWeek));
+
+    // Topology: must land after all prerequisites
     const prereqsInPlan = (prereqMap.get(node.id) || []).filter(p => required.has(p));
     const maxPrereqWeek = prereqsInPlan.reduce(
       (m, p) => Math.max(m, placed.has(p) ? placed.get(p) : -1), -1
     );
-    // target week: current one, but must be > any prereq's week
-    let targetWeek = weeks.length;
-    if (maxPrereqWeek >= targetWeek) {
-      // Need to advance — flush and push empties if needed
-      flushWeek();
-      while (weeks.length <= maxPrereqWeek) {
-        weeks.push({ items: [], hours: 0 });
-      }
-      targetWeek = weeks.length;
-    }
+    if (maxPrereqWeek >= targetWeek) targetWeek = Math.min(TOTAL_WEEKS - 1, maxPrereqWeek + 1);
 
-    // Does it fit in current (targetWeek) within hours cap?
-    if (current.hours + hrs > hoursPerWeek && current.items.length > 0) {
-      flushWeek();
-      targetWeek = weeks.length;
-    }
-    current.items.push({ node, hours: hrs });
-    current.hours += hrs;
+    weeks[targetWeek].items.push({ node, hours: hrs });
+    weeks[targetWeek].hours += hrs;
     placed.set(node.id, targetWeek);
+    cumulative += hrs;
   }
-  flushWeek();
-
-  const totalHours = orderedNodes.reduce((s, n) => s + (hoursPerLevel[n.level] || 4), 0);
 
   return {
     orderedNodes,
     weeks,
     totalHours,
     totalCount: orderedNodes.length,
+    totalWeeks: TOTAL_WEEKS,
+    semesters: SEMESTERS,
+    weeksPerSemester: WEEKS_PER_SEMESTER,
     targetSet: new Set(targetIds),
     requiredSet: required,
   };
@@ -537,22 +535,32 @@ function PlanView({ plan, selectedCareers, careerFields, onSelectWeek, onSelectN
     );
   }
 
-  const hoursPerWeek = plan.weeks.length > 0
-    ? Math.ceil(Math.max(...plan.weeks.map(w => w.hours)))
-    : 25;
-  const semesters = (plan.weeks.length / 14).toFixed(1);
+  const WPS = plan.weeksPerSemester || WEEKS_PER_SEMESTER;
+  const semesterOf = (wi) => Math.floor(wi / WPS);
+  const avgLoad = (plan.totalHours / plan.totalWeeks).toFixed(1);
+
+  // Group weeks by semester
+  const semesterGroups = [];
+  for (let s = 0; s < (plan.semesters || SEMESTERS); s++) {
+    const start = s * WPS;
+    const end = Math.min(plan.totalWeeks, start + WPS);
+    semesterGroups.push({
+      index: s,
+      weeks: plan.weeks.slice(start, end).map((w, i) => ({...w, globalIdx: start + i})),
+    });
+  }
 
   return (
     <div style={{height:"100%",overflowY:"auto",padding:"20px 28px",background:"#F8FAFC"}}>
 
       {/* Stats banner */}
       <div style={{
-        display:"grid",gridTemplateColumns:"repeat(4, 1fr)",gap:14,marginBottom:22,
+        display:"grid",gridTemplateColumns:"repeat(4, 1fr)",gap:14,marginBottom:20,
       }}>
         {[
           { label: "KOMPETENZEN", val: plan.totalCount, sub: `davon ${plan.targetSet.size} Ziele` },
-          { label: "LERNSTUNDEN", val: plan.totalHours, sub: `≈ ${hoursPerWeek} h/Woche` },
-          { label: "WOCHEN",      val: plan.weeks.length, sub: `≈ ${semesters} Semester` },
+          { label: "LERNSTUNDEN", val: plan.totalHours, sub: `ø ${avgLoad} h/Woche` },
+          { label: "STUDIENDAUER", val: `${plan.semesters || SEMESTERS} Semester`, sub: `${plan.totalWeeks} Wochen · ${WPS}/Sem.` },
           { label: "BERUFSZIELE", val: selectedCareers.length, sub: selectedCareers.map(c=>c.emoji).join(" ") },
         ].map((s,i) => (
           <div key={i} style={{
@@ -560,14 +568,14 @@ function PlanView({ plan, selectedCareers, careerFields, onSelectWeek, onSelectN
             border:"1px solid #E2E8F0",
           }}>
             <div style={{fontSize:11,color:"#94A3B8",letterSpacing:1.5,fontWeight:700}}>{s.label}</div>
-            <div style={{fontSize:30,fontWeight:700,color:"#0F172A",lineHeight:1.1,marginTop:4}}>{s.val}</div>
+            <div style={{fontSize:26,fontWeight:700,color:"#0F172A",lineHeight:1.1,marginTop:4}}>{s.val}</div>
             <div style={{fontSize:12,color:"#64748B",marginTop:2}}>{s.sub}</div>
           </div>
         ))}
       </div>
 
       {/* Career chips */}
-      <div style={{display:"flex",gap:8,marginBottom:22,flexWrap:"wrap"}}>
+      <div style={{display:"flex",gap:8,marginBottom:20,flexWrap:"wrap"}}>
         {selectedCareers.map(c => (
           <div key={c.id} style={{
             display:"flex",alignItems:"center",gap:8,
@@ -581,63 +589,127 @@ function PlanView({ plan, selectedCareers, careerFields, onSelectWeek, onSelectN
         ))}
       </div>
 
-      {/* Weekly timeline */}
-      <div style={{fontSize:14,color:"#64748B",letterSpacing:1,marginBottom:10,fontWeight:700}}>
-        WOCHENPLAN · klicke auf eine Woche für den Stundenplan
+      {/* Header + legend */}
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-end",marginBottom:12}}>
+        <div style={{fontSize:14,color:"#64748B",letterSpacing:1,fontWeight:700}}>
+          6-SEMESTER STUDIENPLAN · klicke eine Woche für den Stundenplan
+        </div>
+        <div style={{fontSize:11,color:"#64748B",display:"flex",gap:14,alignItems:"center"}}>
+          <span style={{display:"inline-flex",alignItems:"center",gap:4}}>
+            <span style={{width:8,height:8,borderRadius:2,background:"#D97706"}}/>Ziel-Kompetenz
+          </span>
+          <span style={{display:"inline-flex",alignItems:"center",gap:4}}>
+            <span style={{width:8,height:8,borderRadius:2,background:"#0F766E"}}/>ab Sem. 4: Industrie
+          </span>
+        </div>
       </div>
 
-      <div style={{display:"flex",flexDirection:"column",gap:10}}>
-        {plan.weeks.map((w, wi) => (
-          <div key={wi}
-            onClick={() => onSelectWeek(wi)}
-            style={{
-              background:"#FFFFFF",borderRadius:10,padding:"14px 18px",
-              border:"1px solid #E2E8F0",cursor:"pointer",
-              display:"grid",gridTemplateColumns:"80px 1fr 120px",gap:16,alignItems:"center",
-              transition:"box-shadow 0.15s",
-            }}
-            onMouseEnter={e => e.currentTarget.style.boxShadow = "0 4px 12px rgba(37,99,235,0.15)"}
-            onMouseLeave={e => e.currentTarget.style.boxShadow = "none"}
-          >
-            <div style={{
-              background:"#EFF6FF",color:"#2563EB",
-              padding:"8px 0",borderRadius:8,textAlign:"center",fontWeight:700,fontSize:14,
-            }}>WOCHE<br/><span style={{fontSize:22}}>{wi+1}</span></div>
+      {/* Semester groups */}
+      <div style={{display:"flex",flexDirection:"column",gap:20}}>
+        {semesterGroups.map(sg => {
+          const isIndustryPhase = sg.index >= 3;
+          const sgTotalH = sg.weeks.reduce((s,w) => s + w.hours, 0);
+          const sgTotalC = sg.weeks.reduce((s,w) => s + w.items.length, 0);
+          return (
+            <div key={sg.index}>
+              {/* Semester header */}
+              <div style={{
+                display:"flex",alignItems:"center",gap:10,marginBottom:8,
+                padding:"8px 14px",borderRadius:8,
+                background: isIndustryPhase ? "#ECFDF5" : "#EFF6FF",
+                border: `1px solid ${isIndustryPhase ? "#6EE7B7" : "#BFDBFE"}`,
+              }}>
+                <div style={{
+                  fontSize:14,fontWeight:700,
+                  color: isIndustryPhase ? "#065F46" : "#1E40AF",
+                }}>SEMESTER {sg.index + 1}</div>
+                <div style={{fontSize:12,color: isIndustryPhase ? "#065F46" : "#1E40AF",opacity:0.8}}>
+                  · Wochen {sg.index*WPS+1}&ndash;{(sg.index+1)*WPS}
+                  &nbsp;·&nbsp;{sgTotalC} Kompetenzen&nbsp;·&nbsp;{sgTotalH} h
+                </div>
+                {sg.index === 3 && (
+                  <div style={{
+                    marginLeft:"auto",fontSize:11,padding:"2px 10px",borderRadius:12,
+                    background:"#0F766E",color:"#fff",fontWeight:600,
+                  }}>Industrie-Integration startet</div>
+                )}
+                {sg.index === 5 && (
+                  <div style={{
+                    marginLeft:"auto",fontSize:11,padding:"2px 10px",borderRadius:12,
+                    background:"#D97706",color:"#fff",fontWeight:600,
+                  }}>Abschluss · Capstone</div>
+                )}
+              </div>
 
-            <div style={{display:"flex",flexWrap:"wrap",gap:6}}>
-              {w.items.map(({node, hours}) => {
-                const isTarget = plan.targetSet.has(node.id);
-                const dc = DOMAINS[node.domain];
-                return (
-                  <div key={node.id}
-                    onClick={e => { e.stopPropagation(); onSelectNode(node.id); }}
-                    style={{
-                      display:"flex",alignItems:"center",gap:6,
-                      padding:"4px 10px",borderRadius:16,
-                      background:isTarget ? "#FFFBEB" : `${dc.color}08`,
-                      border:`1px solid ${isTarget ? "#F59E0B" : dc.color+"44"}`,
-                      fontSize:12,color:"#374151",cursor:"pointer",
-                    }}>
-                    {isTarget && <span style={{color:"#D97706"}}>★</span>}
-                    <span style={{width:6,height:6,borderRadius:2,background:dc.color}}/>
-                    <span>{node.label}</span>
-                    <span style={{color:"#94A3B8",fontSize:11}}>{hours}h</span>
-                  </div>
-                );
-              })}
-            </div>
+              {/* Weeks */}
+              <div style={{display:"flex",flexDirection:"column",gap:6}}>
+                {sg.weeks.map((w) => {
+                  const isEmpty = w.items.length === 0;
+                  return (
+                    <div key={w.globalIdx}
+                      onClick={() => onSelectWeek(w.globalIdx)}
+                      style={{
+                        background:isEmpty?"#FAFBFC":"#FFFFFF",
+                        borderRadius:8,padding:"10px 14px",
+                        border:`1px solid ${isEmpty?"#F1F5F9":"#E2E8F0"}`,
+                        cursor:"pointer",
+                        display:"grid",gridTemplateColumns:"70px 1fr 100px",gap:14,alignItems:"center",
+                        transition:"box-shadow 0.15s",
+                        opacity:isEmpty?0.7:1,
+                      }}
+                      onMouseEnter={e => e.currentTarget.style.boxShadow = "0 2px 8px rgba(37,99,235,0.12)"}
+                      onMouseLeave={e => e.currentTarget.style.boxShadow = "none"}
+                    >
+                      <div style={{
+                        background:isEmpty?"#F1F5F9":"#EFF6FF",
+                        color:isEmpty?"#94A3B8":"#2563EB",
+                        padding:"5px 0",borderRadius:6,textAlign:"center",
+                        fontWeight:700,fontSize:12,
+                      }}>W<span style={{fontSize:17,marginLeft:2}}>{w.globalIdx+1}</span></div>
 
-            <div style={{textAlign:"right"}}>
-              <div style={{fontSize:18,fontWeight:700,color:"#0F172A"}}>{w.hours} h</div>
-              <div style={{fontSize:11,color:"#94A3B8"}}>{w.items.length} Kompetenzen</div>
+                      <div style={{display:"flex",flexWrap:"wrap",gap:5}}>
+                        {isEmpty ? (
+                          <span style={{fontSize:12,color:"#94A3B8",fontStyle:"italic"}}>
+                            Review · Projekt · freie Vertiefung
+                          </span>
+                        ) : w.items.map(({node, hours}) => {
+                          const isTarget = plan.targetSet.has(node.id);
+                          const dc = DOMAINS[node.domain];
+                          return (
+                            <div key={node.id}
+                              onClick={e => { e.stopPropagation(); onSelectNode(node.id); }}
+                              style={{
+                                display:"flex",alignItems:"center",gap:5,
+                                padding:"3px 9px",borderRadius:14,
+                                background:isTarget ? "#FFFBEB" : `${dc.color}08`,
+                                border:`1px solid ${isTarget ? "#F59E0B" : dc.color+"44"}`,
+                                fontSize:12,color:"#374151",cursor:"pointer",
+                              }}>
+                              {isTarget && <span style={{color:"#D97706"}}>★</span>}
+                              <span style={{width:6,height:6,borderRadius:2,background:dc.color}}/>
+                              <span>{node.label}</span>
+                              <span style={{color:"#94A3B8",fontSize:11}}>{hours}h</span>
+                            </div>
+                          );
+                        })}
+                      </div>
+
+                      <div style={{textAlign:"right"}}>
+                        <div style={{fontSize:15,fontWeight:700,color:isEmpty?"#94A3B8":"#0F172A"}}>{w.hours} h</div>
+                        <div style={{fontSize:10,color:"#94A3B8"}}>{w.items.length}{w.items.length===1?" Komp.":" Komp."}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
 
       <div style={{textAlign:"center",marginTop:30,fontSize:12,color:"#94A3B8",lineHeight:1.8}}>
-        Zeiten inkl. Self-Study, Übung und Kompetenzfreigabe.<br/>
-        Reihenfolge topologisch korrekt — keine Kompetenz ohne ihre Voraussetzungen.
+        Fester Rahmen: <b>6 Semester à {WPS} Wochen</b>. Kompetenzen sind topologisch korrekt verteilt.<br/>
+        Leere Wochen = Zeit für Projekte, Wiederholung und eigene Vertiefung.
       </div>
     </div>
   );
@@ -656,9 +728,10 @@ function WeekView({ weekIdx, week, onBack }) {
   const comp2 = week.items[1]?.node;
   const comp3 = week.items[2]?.node;
 
-  // Industry partnership depth grows with progress in the program
-  const hasChallenge = weekIdx >= 3;   // from week 4 onward
-  const hasMentor    = weekIdx >= 5;   // from week 6 onward
+  // Industry partnership starts in the 4th semester
+  const semester = Math.floor(weekIdx / WEEKS_PER_SEMESTER) + 1;
+  const hasChallenge = weekIdx >= INDUSTRY_CHALLENGE_FROM_WEEK; // week 46+ (sem 4)
+  const hasMentor    = weekIdx >= INDUSTRY_MENTOR_FROM_WEEK;    // week 61+ (sem 5)
 
   // Activities: type, day, startHour, duration, title, subtitle, color
   const activities = [
@@ -702,16 +775,24 @@ function WeekView({ weekIdx, week, onBack }) {
             padding:"6px 12px",borderRadius:6,cursor:"pointer",fontSize:13,fontFamily:"inherit",marginBottom:10,
           }}>← Zurück zum Wochenplan</button>
           <div style={{fontSize:13,color:"#64748B",letterSpacing:2,fontWeight:700}}>BEISPIEL-STUNDENPLAN</div>
-          <div style={{fontSize:24,fontWeight:700,color:"#0F172A"}}>Woche {weekIdx + 1}</div>
+          <div style={{fontSize:24,fontWeight:700,color:"#0F172A",display:"flex",alignItems:"center",gap:10}}>
+            Woche {weekIdx + 1}
+            <span style={{
+              fontSize:11,padding:"3px 10px",borderRadius:12,fontWeight:700,letterSpacing:1,
+              background:semester >= 4 ? "#ECFDF5" : "#EFF6FF",
+              color:semester >= 4 ? "#065F46" : "#1E40AF",
+              border:`1px solid ${semester >= 4 ? "#6EE7B7" : "#BFDBFE"}`,
+            }}>SEMESTER {semester}</span>
+          </div>
           <div style={{fontSize:14,color:"#64748B",marginTop:4}}>
             {week.items.length} Kompetenzen · {week.hours} Stunden — individuell auf dich zugeschnitten
           </div>
         </div>
         <div style={{textAlign:"right",fontSize:11,color:"#94A3B8",lineHeight:1.8}}>
           Keine Frontal-Vorlesung · Prof-Zeit gezielt eingesetzt<br/>
-          {weekIdx < 3 && <span style={{color:"#64748B"}}>Einarbeitungsphase · Industrie-Kontakte folgen ab Woche 4</span>}
-          {weekIdx >= 3 && weekIdx < 5 && <span style={{color:"#64748B"}}>Industrie-Challenge aktiv · Mentoring ab Woche 6</span>}
-          {weekIdx >= 5 && <span style={{color:"#0F766E"}}>Industrie-Challenge & Mentoring eingebunden</span>}
+          {semester < 4 && <span style={{color:"#64748B"}}>Grundlagen-Phase · Industrie-Kontakte ab 4. Semester</span>}
+          {semester === 4 && <span style={{color:"#0F766E"}}>Industrie-Challenge aktiv · Mentoring ab 5. Semester</span>}
+          {semester >= 5 && <span style={{color:"#0F766E"}}>Industrie-Challenge & Mentoring eingebunden</span>}
         </div>
       </div>
 

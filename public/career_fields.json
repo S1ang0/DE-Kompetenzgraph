@@ -2,12 +2,13 @@
   "meta": {
     "description": "Berufsfelder mit Ziel-Kompetenzen. Alle Voraussetzungen werden rekursiv aus competency_tree.json abgeleitet.",
     "hoursPerCompetencyByLevel": {
-      "1": 2,
-      "2": 4,
-      "3": 6,
-      "4": 10
+      "1": 4,
+      "2": 10,
+      "3": 18,
+      "4": 32
     },
-    "hoursPerWeek": 25
+    "hoursPerWeek": 25,
+    "weeksPerSemester": 14
   },
   "fields": [
     {
