@@ -1,16 +1,41 @@
-# React + Vite
+# M.Sc. Digital Engineering — Modul- & Profilierungsgraph
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interaktiver Wissensgraph für das Masterprogramm **Digital Engineering** (gemeinsam getragen von
+FIN & FMB): **330 Module** aus den Fakultäten Informatik (FIN), Maschinenbau (FMB) und
+Elektro-/Informationstechnik (ETIT), gruppiert in **16 Themencluster**, mit **11 CP-schwellen­basierten
+Profilierungen** als auswählbare Overlays.
 
-Currently, two official plugins are available:
+Aufbauend auf dem B.Sc.-Kompetenzgraphen eines Kollegen (React + Vite + D3); dessen Daten bleiben
+im Repo erhalten (`public/competency_tree.json`, `public/career_fields.json`).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Schnellstart
 
-## React Compiler
+```bash
+npm install
+npm run dev        # http://localhost:5173
+npm run build      # Produktionsbuild nach dist/  (GitHub Pages)
+npm run lint
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Die App lädt ein einziges Datenbundle: `public/de_dataset.json`.
 
-## Expanding the ESLint configuration
+## Profilierungen
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Eine Profilierung („*M.Sc. Digital Engineering mit der Profilierung [Name]*") wird vergeben, wenn
+**≥ 30 CP** aus den zugehörigen Themenclustern erbracht werden (**≥ 18 CP** aus dem Kerncluster).
+Harte Constraints, maschinell geprüft (`scripts/validate_profiles.py`, **11/11 PASS**):
+
+- **C1** — jede Profilierung ist allein mit **englischsprachigen** Modulen erfüllbar; deutsche Module nur als optionale Substitute.
+- **C2** — jede Profilierung ist allein mit Modulen aus **FIN + FMB** erfüllbar; ETIT-Module nur als optionale Substitute.
+
+## Datenpipeline (`scripts/`)
+
+`dump_pdfs` → `scrape_fin` / `parse_fmb` / `parse_etit` → `unify_base` → *LLM-Enrichment* →
+`merge_enrich` (**`data/modules.json`** = Quelle der Wahrheit, + CSV) → `build_profiles` →
+`validate_profiles` → `build_graph` (**`public/de_dataset.json`**). Integrität: `check_dataset`.
+
+## Dokumentation
+
+- **`REPORT.md`** — Abschlussbericht (Architektur, Statistik, Cluster, Profilierungen, Validierung, Design, offene Fragen).
+- **`DECISIONS.md`** — Annahmen/Interpretationen (zur Prüfung markiert).
+- **`OPEN_ITEMS.md`** — Lücken/Übersprungenes. · **`PROGRESS.md`** — Verlaufsprotokoll.
