@@ -1,0 +1,559 @@
+[
+ {
+  "id": "fin-120315",
+  "primary_cluster": "innovation_mgmt",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+    "Develop and implement IT strategies for businesses",
+    "Apply PRINCE2 and agile project management methodologies",
+    "Manage multi-project, program and portfolio environments",
+    "Lead organizational change using models such as ADKAR",
+    "Address IT governance, compliance and stakeholder management in global IT projects"
+  ],
+  "topic_tags": ["it strategy", "project management", "it governance", "change management"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Master-level course on managing large global IT systems, covering IT strategy, project and portfolio management, governance, and change management in international companies."
+ },
+ {
+  "id": "fin-999997",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": [],
+  "competencies": [
+    "Independently solve a complex research or applied problem using scientific methods",
+    "Analyze a problem statement and compare possible solution approaches",
+    "Develop and critically evaluate an original solution",
+    "Assess results and their potential consequences",
+    "Explain findings and defend decisions and interpretations"
+  ],
+  "topic_tags": ["thesis", "scientific work", "research"],
+  "level": "advanced",
+  "kind": "thesis",
+  "language": "de",
+  "description_en": "Master's thesis in which students independently develop an original scientific solution to a research or applied problem and defend their results."
+ },
+ {
+  "id": "fin-120515",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+    "Develop and operate large and small language model applications following MLOps practices",
+    "Use container-based virtualization such as Docker",
+    "Apply configuration and automation tooling to LLM workflows",
+    "Implement CI/CD pipelines for LLM solutions",
+    "Test, deploy and support LLM-based systems with Python"
+  ],
+  "topic_tags": ["mlops", "large language models", "devops", "python"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced course on applying MLOps practices to develop, test, automate and operate large and small language model applications."
+ },
+ {
+  "id": "fin-120523",
+  "primary_cluster": "viz",
+  "secondary_clusters": ["hci"],
+  "competencies": [
+    "Apply narrative visualization methods for science communication",
+    "Design and present data-driven stories",
+    "Select appropriate story-generation concepts and tools",
+    "Communicate research findings to varied audiences visually"
+  ],
+  "topic_tags": ["narrative visualization", "storytelling", "science communication"],
+  "level": "core",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar on narrative visualization techniques and tools for telling data-driven stories that support science communication."
+ },
+ {
+  "id": "fin-120502",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+    "Define and formulate goals and apply time-management methods",
+    "Conduct a systematic literature review",
+    "Identify and formulate research hypotheses",
+    "Structure and write a scientific publication or research proposal",
+    "Present research and apply teamwork and project-management practices"
+  ],
+  "topic_tags": ["scientific work", "soft skills", "scientific writing", "time management"],
+  "level": "introductory",
+  "kind": "skills",
+  "language": "en",
+  "description_en": "Course teaching scientific working methods and transferable soft skills including literature review, scientific writing, presentation, time and project management."
+ },
+ {
+  "id": "fin-120480",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+    "Understand the architecture of parallel storage systems",
+    "Optimize applications for I/O performance",
+    "Apply core concepts of parallel I/O",
+    "Build file systems with different persistence approaches in teams",
+    "Present technical solutions and results"
+  ],
+  "topic_tags": ["parallel storage", "parallel i/o", "file systems", "hpc"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on the architecture of parallel storage systems and parallel I/O, optimizing applications for I/O performance on high-performance computing platforms."
+ },
+ {
+  "id": "fin-120318",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+    "Independently acquire knowledge through research of scientific literature",
+    "Write a scientific paper with minimal supervision",
+    "Present research results and defend arguments in scientific discussion",
+    "Follow the steps of crafting a scientific publication from topic to conference"
+  ],
+  "topic_tags": ["business informatics", "scientific writing", "seminar"],
+  "level": "advanced",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar in which students independently research a current business-informatics topic, write a scientific paper, and present and defend their results."
+ },
+ {
+  "id": "fin-120525",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+    "Understand the business context and types of recommender systems",
+    "Apply advanced recommendation methods",
+    "Critically evaluate recommenders from mining and business perspectives",
+    "Account for adaptation and temporal behaviour in recommenders",
+    "Critically appraise off-the-shelf and state-of-the-art recommendation methods"
+  ],
+  "topic_tags": ["recommender systems", "data mining", "evaluation"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced course on learning and evaluation methods for recommender systems, covering recommendation techniques, adaptation, and business and mining perspectives."
+ },
+ {
+  "id": "fin-120528",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": ["ml_ai", "data_eng"],
+  "competencies": [
+    "Solve a realistic data mining and data engineering task in a team",
+    "Assess the business costs and benefits of a proposed solution",
+    "Organize a team, distribute subtasks and manage milestones",
+    "Design a learning workflow, apply AI methods and evaluate models",
+    "Jointly develop a software solution and justify design decisions"
+  ],
+  "topic_tags": ["team project", "data mining", "machine learning"],
+  "level": "core",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Team project in which students collaboratively solve a realistic data mining and engineering task, building and evaluating a machine learning software solution."
+ },
+ {
+  "id": "fin-120507",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+    "Work and coordinate within a research team",
+    "Write academic papers and present scientific results",
+    "Independently acquire knowledge of an advanced research topic",
+    "Develop solutions on selected database topics",
+    "Critically assess one's own work"
+  ],
+  "topic_tags": ["databases", "genomics", "scientific project"],
+  "level": "advanced",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Scientific project on advanced database research for multi-dimensional data, genomics, and modern hardware, with academic writing and presentation of results."
+ },
+ {
+  "id": "fin-120511",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": [],
+  "competencies": [
+    "Conduct literature research to survey an area of interest",
+    "Identify open research questions and formulate hypotheses",
+    "Structure and write a scientific research proposal",
+    "Select solution methods for a scientific question",
+    "Prepare, present and defend research and evaluate others' work"
+  ],
+  "topic_tags": ["scientific writing", "literature review", "research proposal"],
+  "level": "core",
+  "kind": "skills",
+  "language": "en",
+  "description_en": "Seminar on scientific writing, teaching literature research, hypothesis formulation, proposal writing, and presentation and evaluation of scientific work."
+ },
+ {
+  "id": "fin-120505",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+    "Understand aspects of IT-security orchestration of mechanisms and tools",
+    "Independently address selected IT-security research questions",
+    "Evaluate and creatively extend existing security approaches",
+    "Identify security needs for a given application case and propose improvements",
+    "Implement, evaluate and assess a security solution and identify residual risks"
+  ],
+  "topic_tags": ["it security", "security orchestration", "research project"],
+  "level": "advanced",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Project on IT-security covering orchestration of security mechanisms and tools, in which students investigate, implement and evaluate solutions for an application case."
+ },
+ {
+  "id": "fin-120489",
+  "primary_cluster": "industry40",
+  "secondary_clusters": ["ml_ai", "methods_skills"],
+  "competencies": [
+    "Read and critically discuss scientific articles on predictive maintenance",
+    "Compare predictive-maintenance methods and weigh their pros and cons",
+    "Summarize article contents in a structured report",
+    "Present findings and answer audience questions",
+    "Reflect on challenges in predictive maintenance"
+  ],
+  "topic_tags": ["predictive maintenance", "seminar", "machine learning"],
+  "level": "advanced",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar on advanced predictive-maintenance topics in which students read, compare, summarize and present scientific articles and reflect on key methods."
+ },
+ {
+  "id": "fin-120330",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": ["ml_ai", "data_eng"],
+  "competencies": [
+    "Collect and judge the relevance of literature on a specific topic",
+    "Compare data-mining methods, workflows and frameworks against criteria",
+    "Formulate evaluation criteria independently",
+    "Critically discuss advantages and caveats of published mining methods",
+    "Summarize and present findings to varied audiences"
+  ],
+  "topic_tags": ["data mining", "seminar", "knowledge discovery"],
+  "level": "advanced",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar on advanced knowledge-mining and data-mining topics, training students to collect, compare, critically discuss and present scientific literature."
+ },
+ {
+  "id": "fin-120514",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": ["methods_skills", "robotics"],
+  "competencies": [
+    "Independently research complex sensor-network topics",
+    "Write clear scientific articles",
+    "Present informative scientific talks",
+    "Understand challenges and methods in sensor networks",
+    "Relate sensor-network methods to practical applications"
+  ],
+  "topic_tags": ["sensor networks", "seminar", "scientific writing"],
+  "level": "advanced",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar on sensor networks in which students research challenges and methods, write a scientific article, and present application-specific network designs."
+ },
+ {
+  "id": "fin-120460",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": [],
+  "competencies": [
+    "Understand software-defined networking concepts and architecture",
+    "Explain SDN concepts to others",
+    "Apply SDN concepts in theoretical and practical use cases",
+    "Work with network virtualization, slicing and NFV",
+    "Configure OpenFlow controllers and software switches"
+  ],
+  "topic_tags": ["software defined networking", "openflow", "nfv", "network virtualization"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on software-defined networking covering SDN architecture, interfaces, network and function virtualization, OpenFlow controllers, and SDN security."
+ },
+ {
+  "id": "fin-120273",
+  "primary_cluster": "robotics",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+    "Understand core problems in industrial robotics",
+    "Apply mathematical modeling principles to robot motion",
+    "Program industrial robots for varied tasks",
+    "Develop a robot controller in a simulation environment",
+    "Implement point-to-point and linear motion control"
+  ],
+  "topic_tags": ["industrial robotics", "robot programming", "motion control"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on software development for industrial robotics, emphasizing mathematical modeling and developing a robot controller with PTP and linear motion in simulation."
+ },
+ {
+  "id": "fin-102419",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["robotics"],
+  "competencies": [
+    "Understand swarm intelligence concepts and definitions",
+    "Develop swarm algorithms for aggregation, movement and tracking",
+    "Apply swarm methods to optimization problems",
+    "Understand collective decision-making foundations",
+    "Implement, analyze and evaluate swarm algorithms across applications"
+  ],
+  "topic_tags": ["swarm intelligence", "optimization", "swarm robotics"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on swarm intelligence in technical systems, covering swarm algorithms, collective decision-making, optimization, and applications including swarm robotics."
+ },
+ {
+  "id": "fin-103202",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": [],
+  "competencies": [
+    "Understand the theory of serializability",
+    "Apply transaction-management strategies for relational databases",
+    "Assess the performance of transaction protocols across use cases",
+    "Understand database backup and recovery mechanisms",
+    "Apply distributed and advanced transaction-processing principles"
+  ],
+  "topic_tags": ["transactions", "databases", "serializability", "recovery"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on transaction processing covering serializability theory, concurrency control, recovery, replication, and transactions in distributed database systems."
+ },
+ {
+  "id": "fin-120286",
+  "primary_cluster": "hci",
+  "secondary_clusters": ["viz"],
+  "competencies": [
+    "Understand challenges of advanced and future user interfaces",
+    "Analyze and evaluate interaction technologies and techniques",
+    "Select suitable technologies for 3D and Post-WIMP interfaces",
+    "Apply tangible, gestural and multitouch interaction techniques",
+    "Critically analyze scientific HCI literature and conduct own research"
+  ],
+  "topic_tags": ["3d interaction", "post-wimp", "gestural interaction", "augmented reality"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on three-dimensional and advanced Post-WIMP user interfaces, covering tangible, gestural, multitouch, pen-based and augmented-reality interaction techniques."
+ },
+ {
+  "id": "fin-120524",
+  "primary_cluster": "viz",
+  "secondary_clusters": ["ml_ai", "data_eng"],
+  "competencies": [
+    "Apply machine learning methods and visualize their results",
+    "Analyze financial and business data using visual analytics",
+    "Use statistical methods to improve visual analytics solutions",
+    "Assess and compare clustering methods",
+    "Design visual analytics with decision trees and association rules"
+  ],
+  "topic_tags": ["visual analytics", "clustering", "business data"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on visual analytics combining machine learning and visualization to analyze financial and business data via clustering, decision trees and association rules."
+ },
+ {
+  "id": "fin-120476",
+  "primary_cluster": "viz",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+    "Know visual analytics solutions used in public healthcare",
+    "Interpret and evaluate public healthcare data",
+    "Present and explain visual analytics solutions for healthcare scenarios",
+    "Apply visual analytics in epidemiology and clinical medicine"
+  ],
+  "topic_tags": ["visual analytics", "healthcare", "epidemiology"],
+  "level": "advanced",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar on applying visual analytics to public-health and clinical data, covering epidemiology, clinical medicine, and detection of adverse drug effects."
+ },
+ {
+  "id": "fin-102812",
+  "primary_cluster": "viz",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+    "Understand how visual perception affects visualization effectiveness",
+    "Apply basic visualization techniques and algorithms",
+    "Generate appropriate visualizations for business and statistical data",
+    "Visualize multi-dimensional and volume data",
+    "Design dashboards and information visualizations"
+  ],
+  "topic_tags": ["visualization", "visual perception", "information visualization", "dashboards"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on visualization fundamentals covering visual perception, basic algorithms, volume and information visualization, and dashboard design for data analysis."
+ },
+ {
+  "id": "fin-120478",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": [],
+  "competencies": [
+    "Work with UNIX operating systems",
+    "Use container-based virtualization such as Docker",
+    "Program in higher-level languages such as Python",
+    "Apply configuration and automation tools such as Ansible, Salt and Terraform",
+    "Implement CI/CD and design, test and support cloud IT systems"
+  ],
+  "topic_tags": ["cloud", "devops", "docker", "infrastructure as code"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on cloud and DevOps technologies, covering UNIX, Docker, Python automation with Ansible, Salt and Terraform, and continuous integration and delivery."
+ },
+ {
+  "id": "fin-120519",
+  "primary_cluster": "viz",
+  "secondary_clusters": ["hci"],
+  "competencies": [
+    "Understand modern surgical and interventional imaging technologies",
+    "Apply surgical tracking, calibration and registration methods",
+    "Design and develop surgical planning and navigation systems",
+    "Write a state-of-the-art report on computer-assisted surgery",
+    "Read, analyze and summarize scientific papers"
+  ],
+  "topic_tags": ["computer-assisted surgery", "medical imaging", "navigation", "registration"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on computer-assisted surgery covering interventional imaging, tracking, calibration and registration, and the design of surgical planning and navigation systems."
+ },
+ {
+  "id": "fin-120500",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": ["ml_ai", "methods_skills"],
+  "competencies": [
+    "Work in practice with data and knowledge engineering approaches",
+    "Perform a state-of-the-art literature review on a given topic",
+    "Apply machine learning techniques to a hands-on problem",
+    "Describe a data and knowledge engineering task as a scientific paper",
+    "Present and defend a practical project"
+  ],
+  "topic_tags": ["knowledge engineering", "information retrieval", "nlp"],
+  "level": "core",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar applying data and knowledge engineering and machine learning to a hands-on problem in information retrieval, NLP or human-AI interaction, resulting in a paper."
+ },
+ {
+  "id": "fin-120526",
+  "primary_cluster": "hci",
+  "secondary_clusters": ["viz"],
+  "competencies": [
+    "Understand embodied interfaces and contextualize them within HCI and immersive systems",
+    "Design and implement a spatial interaction prototype in an immersive environment",
+    "Justify interface decisions using perceptual, motor and cognitive principles",
+    "Empirically evaluate an immersive interaction system",
+    "Integrate design and engineering perspectives for embodied interfaces"
+  ],
+  "topic_tags": ["embodied interaction", "immersive systems", "xr", "spatial interaction"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on embodied interfaces in immersive XR spaces, covering embodiment and presence, multisensory paradigms, and prototyping and evaluating spatial interaction."
+ },
+ {
+  "id": "fin-102622",
+  "primary_cluster": "viz",
+  "secondary_clusters": [],
+  "competencies": [
+    "Apply methods for visualizing three-dimensional medical image data",
+    "Compare and evaluate medical volume-visualization methods",
+    "Use selected advanced medical visualization techniques",
+    "Apply interactive methods to medical image data"
+  ],
+  "topic_tags": ["medical visualization", "volume rendering", "medical imaging"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on medical visualization covering volume and surface visualization of 3D medical image data, virtual endoscopy, and vessel visualization."
+ },
+ {
+  "id": "fin-120504",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+    "Understand prevention, detection, attribution and reaction in IT security",
+    "Independently address selected IT-security research questions",
+    "Evaluate and creatively extend existing security approaches",
+    "Identify security needs for an application case and propose improvements",
+    "Implement, evaluate and assess a security solution and identify residual risks"
+  ],
+  "topic_tags": ["it security", "intrusion detection", "research project"],
+  "level": "advanced",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Project on IT-security covering prevention, detection, attribution and reaction, in which students investigate, implement and evaluate solutions for an application case."
+ },
+ {
+  "id": "fin-999808",
+  "primary_cluster": "viz",
+  "secondary_clusters": [],
+  "competencies": [
+    "Understand the basic concepts of computer graphics",
+    "Create a rendering program",
+    "Apply transformations, clipping, rasterization and anti-aliasing",
+    "Implement lighting, texturing and visibility",
+    "Apply ray tracing techniques"
+  ],
+  "topic_tags": ["computer graphics", "rendering", "ray tracing", "rasterization"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introductory course on computer graphics covering modeling, transformations, clipping, rasterization, lighting, texturing, visibility and ray tracing."
+ },
+ {
+  "id": "fin-120527",
+  "primary_cluster": "viz",
+  "secondary_clusters": ["hci"],
+  "competencies": [
+    "Understand human-computer interaction and perceptual aspects of VR/AR",
+    "Apply technical fundamentals of tracking, rendering and AR registration",
+    "Design, program and test a VR/AR system",
+    "Develop and evaluate a VR/AR tool in a team",
+    "Present project results and manage team conflicts"
+  ],
+  "topic_tags": ["virtual reality", "augmented reality", "tracking", "rendering"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on virtual and augmented reality covering perception, tracking, rendering and AR registration, with team development and evaluation of a VR/AR tool."
+ },
+ {
+  "id": "fmb-604117",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["robotics"],
+  "competencies": [
+    "Understand adaptronic systems and their application fields",
+    "Design structure-integrated sensors and actuators",
+    "Apply active vibration and noise reduction techniques",
+    "Implement active shape adaptation through elastic deformation",
+    "Combine materials, mechanical, electrical and control engineering knowledge in the lab"
+  ],
+  "topic_tags": ["adaptronics", "smart structures", "actuators", "vibration control"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on adaptronics and adaptive structures, covering structure-integrated sensors and actuators for active shape adaptation, vibration and noise control."
+ },
+ {
+  "id": "fmb-603053",
+  "primary_cluster": "industry40",
+  "secondary_clusters": ["logistics", "innovation_mgmt"],
+  "competencies": [
+    "Understand application fields of Industry 4.0 technologies in production, logistics and mobility",
+    "Evaluate the impact of global trends on production, retail and logistics companies",
+    "Identify application fields and assess potentials and risks",
+    "Manage phases of digitalization projects",
+    "Apply frameworks and tools to develop and optimize business models"
+  ],
+  "topic_tags": ["industry 4.0", "digitalization", "business models", "production"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced course on applying Industry 4.0 technologies in production, logistics and mobility, analyzing application fields, trends and emerging business models."
+ }
+]

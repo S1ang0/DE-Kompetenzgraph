@@ -1,0 +1,530 @@
+[
+  {
+    "id": "fmb-604165-2",
+    "primary_cluster": "methods_skills",
+    "secondary_clusters": [],
+    "competencies": [
+      "Plan and execute an engineering project in a goal-directed way",
+      "Establish the contacts and resources required for project work",
+      "Document project results in a written report",
+      "Present and defend project outcomes"
+    ],
+    "topic_tags": ["project work", "scientific project", "teamwork"],
+    "level": "core",
+    "kind": "project",
+    "language": "de",
+    "description_en": "An individual or team project in which students independently plan, execute, document, and defend an engineering project linked to institute research or teaching."
+  },
+  {
+    "id": "fmb-601401",
+    "primary_cluster": "industry40",
+    "secondary_clusters": ["software_sys", "ml_ai"],
+    "competencies": [
+      "Implement data-driven engineering activities for production systems",
+      "Write object-oriented software in Python",
+      "Apply graph theory and graph-based optimization methods",
+      "Model production systems using PAN modelling"
+    ],
+    "topic_tags": ["python", "production systems", "graph optimization"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A blended intensive course teaching Python-based object-oriented software engineering and graph-based optimization for data-driven production system engineering."
+  },
+  {
+    "id": "fmb-601417",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["manufacturing"],
+    "competencies": [
+      "Understand microstructure-property relations of emerging materials",
+      "Interpret complex phase diagrams of metallic and high-temperature materials",
+      "Apply materials analysis methods such as XRD, DFT, and APT",
+      "Assess innovative processing and mechanical testing techniques for materials selection"
+    ],
+    "topic_tags": ["materials science", "microstructure", "high-temperature materials"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A lecture series on recent materials science developments, covering new materials, microstructure-property relations, processing, testing, and analytical methods."
+  },
+  {
+    "id": "fmb-604161",
+    "primary_cluster": "design_plm",
+    "secondary_clusters": ["viz"],
+    "competencies": [
+      "Apply computer-aided design methods to product design tasks",
+      "Use industrial-design-typical design tools and methods",
+      "Manage interfaces between CAID, CAD, and ergonomic software systems",
+      "Create complex visualizations of products"
+    ],
+    "topic_tags": ["cad", "industrial design", "product visualization"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A practice-oriented course on computer-aided industrial design, focusing on CAID/CAD tools, software interfaces, and complex product visualization."
+  },
+  {
+    "id": "fmb-601411",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["manufacturing"],
+    "competencies": [
+      "Assess resource availability, flow, and supply conflicts",
+      "Describe recycling processes and their energy demand",
+      "Evaluate sustainable and efficient use of resources",
+      "Reintegrate recycled materials into manufacturing processes"
+    ],
+    "topic_tags": ["recycling", "resources", "sustainability"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on resource availability, sustainability, and recycling technologies, enabling students to describe recycling processes and return recycled materials to production."
+  },
+  {
+    "id": "fmb-601406",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["manufacturing"],
+    "competencies": [
+      "Understand the interaction of material, design, and loading for safe component design",
+      "Detect, analyze, and prevent damage in metallic components",
+      "Identify fracture and corrosion damage types and topographies",
+      "Apply standards and regulations in failure detection"
+    ],
+    "topic_tags": ["failure analysis", "fatigue", "corrosion"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on failure analysis of metallic components, covering damage mechanisms, fracture and corrosion types, and damage-preventing component design."
+  },
+  {
+    "id": "fmb-604111",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": ["mech_mat"],
+    "competencies": [
+      "Select appropriate welding processes for a given application",
+      "Design quality-oriented welding technologies",
+      "Apply arc, laser, electron-beam, and pressure welding processes",
+      "Implement mechanization, automation, and quality assurance of welding"
+    ],
+    "topic_tags": ["welding", "joining", "manufacturing"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "An advanced course on welding manufacturing processes, teaching process selection, quality-oriented welding technology, and automation of welded joint production."
+  },
+  {
+    "id": "fmb-601325",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": ["design_plm", "mech_mat"],
+    "competencies": [
+      "Design weld-appropriate and requirement-driven welded constructions",
+      "Dimension welded joints and provide conformity proof",
+      "Assess strength and crack avoidance in high-strength welded joints",
+      "Apply standards, codes, and IIW recommendations to welded structures"
+    ],
+    "topic_tags": ["welded construction", "joining design", "weld strength"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on the design of welded structures, covering weld-appropriate detailing, joint dimensioning, fatigue strength, and relevant standards and codes."
+  },
+  {
+    "id": "fmb-603028",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["mobility"],
+    "competencies": [
+      "Apply 1D and 3D simulation tools in powertrain development",
+      "Design and model engine concepts including turbocharging and injection systems",
+      "Model combustion, mixture formation, and pollutant formation",
+      "Simulate full vehicle systems and fuel-cell drive systems"
+    ],
+    "topic_tags": ["engine simulation", "cfd", "combustion"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on simulating internal combustion engine processes using 1D and 3D-CFD tools, covering engine design, combustion, and full powertrain modelling."
+  },
+  {
+    "id": "fmb-604279",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["mech_mat"],
+    "competencies": [
+      "Model linear and non-linear dynamic systems",
+      "Apply time integration and eigenvalue analysis methods",
+      "Set up rigid and flexible multibody dynamic models",
+      "Evaluate and analyze results of numerical dynamic simulations"
+    ],
+    "topic_tags": ["dynamics", "multibody", "numerical simulation"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on simulation methods for dynamical systems, covering vibration dynamics, time integration, eigenvalue analysis, multibody systems, and nonlinearities."
+  },
+  {
+    "id": "fmb-601409",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["innovation_mgmt"],
+    "competencies": [
+      "Describe how gravity affects cellular systems and the human organism",
+      "Evaluate R&D platforms and constraints for space research",
+      "Analyze the space economy and low-Earth-orbit applications",
+      "Understand startup creation and commercial spaceflight in the DACHL region"
+    ],
+    "topic_tags": ["space economy", "space biotechnology", "human spaceflight"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A cross-disciplinary course introducing space biotechnology, gravitational biology, human spaceflight, and the commercial space economy in low Earth orbit."
+  },
+  {
+    "id": "fmb-604147",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": ["mech_mat"],
+    "competencies": [
+      "Understand the generation and use of laser and electron beams for manufacturing",
+      "Apply beam processes for welding, cutting, drilling, and marking",
+      "Assess material suitability for beam welding",
+      "Design beam-welded joints and ensure their quality"
+    ],
+    "topic_tags": ["laser", "electron beam", "beam welding"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on laser and electron-beam technology as manufacturing tools for joining and cutting, covering beam systems, material effects, and joint quality."
+  },
+  {
+    "id": "fmb-601381",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Transfer structural-dynamic systems into mechanical substitute models",
+      "Solve vibration differential equations for single and multi-degree-of-freedom systems",
+      "Derive load spectra using classification methods",
+      "Estimate component service life via damage accumulation models"
+    ],
+    "topic_tags": ["structural dynamics", "fatigue life", "vibration"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on structural dynamics and durability analysis, covering vibration modelling, modal analysis, load spectra derivation, and service-life estimation."
+  },
+  {
+    "id": "fmb-604187-2",
+    "primary_cluster": "logistics",
+    "secondary_clusters": ["industry40"],
+    "competencies": [
+      "Classify ERP functionality within a company's information architecture",
+      "Understand the services and functionality of ERP systems",
+      "Master core ERP processes and their application limits",
+      "Apply production control methods in series and variant manufacturing"
+    ],
+    "topic_tags": ["erp", "supply chain", "production control"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A practice-oriented course on enterprise resource planning systems, covering ERP functionality, business processes, and production control in series manufacturing."
+  },
+  {
+    "id": "fmb-601403",
+    "primary_cluster": "logistics",
+    "secondary_clusters": [],
+    "competencies": [
+      "Analyze requirements and challenges in logistics networks",
+      "Optimize logistics networks holistically and scenario-based",
+      "Apply supply chain design, planning, execution, and controlling",
+      "Conduct data acquisition, SWOT analysis, and scenario evaluation"
+    ],
+    "topic_tags": ["supply network", "supply chain", "network planning"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on the design and optimization of logistics and supply networks, covering supply chain planning, scenario evaluation, and the logistics service market."
+  },
+  {
+    "id": "fmb-604185",
+    "primary_cluster": "logistics",
+    "secondary_clusters": [],
+    "competencies": [
+      "Analyze requirements and limits of logistics networks",
+      "Optimize logistics networks holistically and scenario-based",
+      "Apply supply chain design, planning, execution, and controlling",
+      "Evaluate the role of logistics service providers as network designers"
+    ],
+    "topic_tags": ["supply network", "logistics service provider", "supply chain"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on logistics networks and logistics service providers, covering supply chain design, scenario-based network optimization, and inventory management."
+  },
+  {
+    "id": "fmb-604179",
+    "primary_cluster": "design_plm",
+    "secondary_clusters": ["energy_sustain"],
+    "competencies": [
+      "Apply aesthetic design means of form, colour, and material for sustainability",
+      "Integrate sustainable design into integrated product development",
+      "Analyze sustainability potentials of object and usage aesthetics",
+      "Investigate perception and usage effects of aesthetic design choices"
+    ],
+    "topic_tags": ["sustainable design", "industrial design", "product development"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on sustainable product design through aesthetic means of form, colour, and material within integrated product development processes."
+  },
+  {
+    "id": "fmb-604292",
+    "primary_cluster": "industry40",
+    "secondary_clusters": ["robotics", "software_sys"],
+    "competencies": [
+      "Apply engineering methods for production and control system design",
+      "Engineer mechatronic units for production systems",
+      "Apply object-oriented methods and VDI guidelines to production engineering",
+      "Model production systems using UML, SysML, and the RAMI toolbox"
+    ],
+    "topic_tags": ["systems engineering", "production systems", "automationml"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on systems engineering for manufacturing systems, covering mechatronic design, VDI guidelines, object orientation, and SysML/RAMI modelling."
+  },
+  {
+    "id": "fmb-601157",
+    "primary_cluster": "innovation_mgmt",
+    "secondary_clusters": [],
+    "competencies": [
+      "Plan and control innovation processes in industrial organizations",
+      "Initiate product, technology, and process innovation decisions",
+      "Classify innovations and align innovation processes strategically",
+      "Evaluate the success and risk of innovations"
+    ],
+    "topic_tags": ["innovation management", "technology management", "strategy"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on technical innovation management, enabling students to plan, classify, steer, and evaluate product, process, and technology innovation processes."
+  },
+  {
+    "id": "fmb-601378",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": ["mech_mat"],
+    "competencies": [
+      "Assess possibilities and limits of joining, coating, and assembly technologies",
+      "Select application-optimized processes and technologies",
+      "Apply arc, electron-beam, laser, and hybrid joining technologies",
+      "Use thermal spraying and innovative coating processes"
+    ],
+    "topic_tags": ["joining", "coating", "assembly"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on technologies for joining, coating, and assembly, covering welding, thermal spraying, additive joining, and application-optimized process selection."
+  },
+  {
+    "id": "fmb-601377",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": [],
+    "competencies": [
+      "Name and describe primary shaping, forming, and machining processes",
+      "Assess possibilities and limits of these manufacturing technologies",
+      "Select manufacturing processes for exemplary applications",
+      "Apply casting, powder-metallurgical, additive, forming, and cutting methods"
+    ],
+    "topic_tags": ["forming", "machining", "manufacturing processes"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on technologies for primary shaping, forming, and machining, covering casting, powder metallurgy, additive, forming, and cutting processes."
+  },
+  {
+    "id": "fmb-601385",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["design_plm", "energy_sustain"],
+    "competencies": [
+      "Analyze and identify friction and wear problems and their mechanisms",
+      "Optimize tribologically loaded components and tribosystems",
+      "Assess conditions for energy-efficient and sustainable tribosystem design",
+      "Use software and testing equipment to evaluate tribosystems"
+    ],
+    "topic_tags": ["tribology", "friction and wear", "product optimization"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on tribological product optimization, covering friction, wear, lubrication, coatings, and energy-efficient design of tribosystems."
+  },
+  {
+    "id": "fmb-604162",
+    "primary_cluster": "innovation_mgmt",
+    "secondary_clusters": ["industry40"],
+    "competencies": [
+      "Apply strategic corporate management and planning methods",
+      "Analyze the strategic environment using SWOT, PESTEL, and scenario techniques",
+      "Develop existing and new business models",
+      "Create a detailed business plan from idea to implementation"
+    ],
+    "topic_tags": ["corporate management", "business planning", "strategy"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on strategic business planning and corporate management, covering strategy analysis, business model development, and Industry 4.0 project implementation."
+  },
+  {
+    "id": "fmb-601382",
+    "primary_cluster": "mobility",
+    "secondary_clusters": ["energy_sustain"],
+    "competencies": [
+      "Understand the fundamentals of internal combustion engine design",
+      "Analyze thermodynamics and working processes of reciprocating engines",
+      "Compare spark-ignition and diesel engines and their combustion",
+      "Assess exhaust emissions, aftertreatment, and future engine trends"
+    ],
+    "topic_tags": ["combustion engine", "powertrain", "thermodynamics"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on internal combustion engines, covering reciprocating machine fundamentals, thermodynamics, combustion, emissions, and future powertrain developments."
+  },
+  {
+    "id": "fmb-604171",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": ["mech_mat"],
+    "competencies": [
+      "Discuss gearing problems for involute spur gears using technical terminology",
+      "Understand the gear manufacturing process from roughing to finishing",
+      "Select and apply measuring devices for gear inspection",
+      "Interpret gear measurement and deviation results"
+    ],
+    "topic_tags": ["gear technology", "manufacturing", "metrology"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on gear technology, covering the geometry, manufacturing, and metrological inspection of involute spur gears and gear pairs."
+  },
+  {
+    "id": "fmb-601224",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Explain sound radiation and transmission of vibrating structures",
+      "Apply fundamentals of technical acoustics and wave propagation in solids",
+      "Measure vibro-acoustic phenomena experimentally",
+      "Apply methods to actively reduce radiated noise"
+    ],
+    "topic_tags": ["vibro-acoustics", "noise", "structural vibration"],
+    "level": "advanced",
+    "kind": "lab",
+    "language": "de",
+    "description_en": "A course with lab exercises on vibro-acoustics, covering sound radiation and transmission of structures, measurement methods, and active noise reduction."
+  },
+  {
+    "id": "fmb-601392",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["manufacturing"],
+    "competencies": [
+      "Understand and apply the fundamentals of heat treatment",
+      "Distinguish heat treatment processes and their application areas",
+      "Describe material microstructures and properties after heat treatment",
+      "Recognize and avoid defects and distortions during heat treatment"
+    ],
+    "topic_tags": ["heat treatment", "microstructure", "materials"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on thermal treatment of materials, covering hardening processes, phase transformations, microstructure-property effects, and defect avoidance."
+  },
+  {
+    "id": "fmb-603073",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["mobility"],
+    "competencies": [
+      "Analyze requirements of hydrogen as an alternative fuel",
+      "Assess sustainability potential and safety standards for hydrogen",
+      "Evaluate hydrogen production, storage, distribution, and infrastructure",
+      "Understand hydrogen combustion engines and fuel-cell drive systems"
+    ],
+    "topic_tags": ["hydrogen", "fuel cell", "energy transition"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on hydrogen technology and hydrogen drives, covering production, storage, safety, life-cycle assessment, combustion engines, and fuel-cell systems."
+  },
+  {
+    "id": "fmb-604104",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["manufacturing"],
+    "competencies": [
+      "Assess the weldability of ferrous and non-ferrous metals",
+      "Understand material changes in the heat-affected zone and weld metal",
+      "Select weld fillers and auxiliary materials for different materials",
+      "Determine pre- and post-weld heat treatment measures"
+    ],
+    "topic_tags": ["welding metallurgy", "weldability", "materials"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on materials and welding, covering the weldability of metals, heat-affected zone changes, weld fillers, and required heat treatments."
+  },
+  {
+    "id": "fmb-604123",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["mobility", "manufacturing"],
+    "competencies": [
+      "Survey materials and their processing for automotive applications",
+      "Use material characteristics for material selection",
+      "Explain manufacturing possibilities and limits for automotive materials",
+      "Assess lightweight, safety, and e-mobility material concepts"
+    ],
+    "topic_tags": ["automotive materials", "lightweight", "material selection"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on materials and processes in automotive production, covering steels, alloys, composites, lightweight concepts, and forming and joining technologies."
+  },
+  {
+    "id": "fmb-601379",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["manufacturing"],
+    "competencies": [
+      "Link forming, casting, and thermal processes to material properties",
+      "Understand metal synthesis via melting, casting, and powder metallurgy",
+      "Analyze microstructure-changing processes and phase transformations",
+      "Relate synthesis processes to properties of ceramics, polymers, and composites"
+    ],
+    "topic_tags": ["materials processing", "microstructure", "manufacturing"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on materials processing technology, linking primary shaping, forming, and thermal treatment to the microstructural and mechanical properties of materials."
+  },
+  {
+    "id": "fmb-601390",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Name and describe machine tool programming methods for machining",
+      "Explain and assess specifics of programming for machining processes",
+      "Design simple machine tool programs",
+      "Apply computer-based controls and manual and automated programming"
+    ],
+    "topic_tags": ["machine tool programming", "cnc", "machining"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on machine tool programming for machining processes, covering computer-based controls and manual and automated program creation."
+  },
+  {
+    "id": "fmb-601250",
+    "primary_cluster": "industry40",
+    "secondary_clusters": ["innovation_mgmt"],
+    "competencies": [
+      "Determine time data efficiently for industrial time management",
+      "Optimize production systems from a time-economy perspective",
+      "Analyze and synthesize work sequences using time-structuring schemes",
+      "Apply time-study methods such as predetermined motion time systems"
+    ],
+    "topic_tags": ["time management", "work study", "production optimization"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on time management and data collection, teaching efficient time-data acquisition and time-economy optimization of production systems."
+  }
+]

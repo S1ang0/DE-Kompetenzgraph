@@ -1,0 +1,532 @@
+[
+  {
+    "id": "etit-communication-systems",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": ["industry40"],
+    "competencies": [
+      "Analyze communication systems using the ISO/OSI reference model",
+      "Configure Ethernet/TCP/IP networks for industrial use",
+      "Explain operating principles of industrial bus systems and protocols",
+      "Assess security aspects of industrial communication systems",
+      "Integrate devices and controllers into communication networks"
+    ],
+    "topic_tags": ["industrial communication", "fieldbus", "tcp/ip", "iso/osi"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers industrial communication systems, protocols, bus systems and Ethernet/TCP/IP configuration based on the ISO/OSI reference model."
+  },
+  {
+    "id": "etit-human-machine-communication",
+    "primary_cluster": "hci",
+    "secondary_clusters": ["ml_ai"],
+    "competencies": [
+      "Design natural-language dialogue systems",
+      "Evaluate linguistic resources such as lexica and parsers",
+      "Handle ambiguity and productivity in natural language processing",
+      "Build emotion-aware human-machine communication systems"
+    ],
+    "topic_tags": ["natural language processing", "dialogue systems", "human-machine interaction", "semantics"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Introduces natural-language processing and the design of dialogue and emotion-aware human-machine communication systems."
+  },
+  {
+    "id": "etit-computer-based-controller-design",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Design and implement controllers in Matlab/Simulink",
+      "Auto-tune PI/PID controllers",
+      "Synthesize robust multivariable controllers using H-infinity and mu-synthesis",
+      "Apply linear matrix inequalities to controller design",
+      "Implement controllers for real-time operation"
+    ],
+    "topic_tags": ["control design", "matlab/simulink", "robust control", "real-time implementation"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches computer-aided design and real-time implementation of robust control systems using Matlab/Simulink and modern synthesis methods."
+  },
+  {
+    "id": "etit-power-systems-1-steady-state-analysis",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Model electrical equipment for steady-state power system analysis",
+      "Perform load-flow and short-circuit calculations",
+      "Apply state estimation to power networks",
+      "Compute power network behaviour using MATLAB"
+    ],
+    "topic_tags": ["power systems", "load flow", "state estimation", "grid modeling"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers steady-state analysis of electrical power networks including equipment modeling, load-flow and short-circuit calculation in MATLAB."
+  },
+  {
+    "id": "etit-renewable-electricity-sources-system-analysis",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": [],
+    "competencies": [
+      "Assess the impact of renewable sources on the energy supply system",
+      "Evaluate photovoltaic, wind and hydro power generation",
+      "Analyze grid integration of decentralized renewable generators",
+      "Incorporate storage and fuel cells into smart grid concepts"
+    ],
+    "topic_tags": ["renewable energy", "smart grid", "grid integration", "energy storage"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Examines electricity generation from renewable sources and its integration into the overall energy system and smart grids."
+  },
+  {
+    "id": "etit-power-electronic-circuits",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Develop complex power-electronic circuits from basic topologies",
+      "Explain operation of self-commutated and line-commutated converters",
+      "Dimension power-electronic circuits for specific applications",
+      "Model control strategies for power-electronic circuits"
+    ],
+    "topic_tags": ["power electronics", "converters", "circuit design", "control"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches the design, dimensioning and control of complex power-electronic circuits including resonant and bridge converter topologies."
+  },
+  {
+    "id": "etit-power-electronic-systems",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["mobility"],
+    "competencies": [
+      "Apply power-electronic circuits within complex systems",
+      "Design power-electronic systems for renewable energy feed-in",
+      "Engineer power electronics for electric vehicles and drives",
+      "Dimension HVDC and storage interface systems"
+    ],
+    "topic_tags": ["power electronics", "renewable energy", "electromobility", "hvdc"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers power-electronic systems for renewable energy supply and electromobility, including drives, chargers, HVDC and storage."
+  },
+  {
+    "id": "etit-electromechanical-actuators",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Explain operation and dynamics of unconventional electrical machines",
+      "Model electromechanical actuators within mechanical systems",
+      "Design control for reluctance, stepper and linear motors",
+      "Project the integration of actuators into mechatronic systems"
+    ],
+    "topic_tags": ["electrical machines", "actuators", "electromechanical systems", "drive control"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Provides advanced knowledge of electrical machines and actuators as components of electromechanical and mechatronic systems."
+  },
+  {
+    "id": "etit-image-processing",
+    "primary_cluster": "viz",
+    "secondary_clusters": ["ml_ai"],
+    "competencies": [
+      "Apply point operations and filtering to digital images",
+      "Implement image segmentation and the Hough transform",
+      "Perform texture analysis and 3D measurement from images",
+      "Select and adapt algorithms for image recognition problems"
+    ],
+    "topic_tags": ["image processing", "segmentation", "computer vision", "feature extraction"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Introduces digital image acquisition, representation, filtering, segmentation and analysis for information extraction from images."
+  },
+  {
+    "id": "etit-high-frequency-components-and-systems",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Analyze high-frequency transmission line structures",
+      "Select and dimension waveguides for a given application",
+      "Solve Bessel differential equations for cylindrical structures",
+      "Apply tools to analyze complex line structures and discontinuities"
+    ],
+    "topic_tags": ["high-frequency technology", "waveguides", "transmission lines", "electromagnetics"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers analysis and dimensioning of high-frequency waveguide and transmission line structures using analytical electromagnetic methods."
+  },
+  {
+    "id": "etit-integrative-neuroscience-ii",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Apply theoretical neuroscience models to neural networks",
+      "Implement supervised, unsupervised and reinforcement learning rules",
+      "Analyze recurrent networks and associative memory",
+      "Write computational neural applications with visualization in Matlab"
+    ],
+    "topic_tags": ["computational neuroscience", "neural networks", "machine learning", "matlab"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Covers theoretical neuroscience models of feedforward, recurrent and learning networks with computational Matlab implementations."
+  },
+  {
+    "id": "etit-voice-user-interfaces",
+    "primary_cluster": "hci",
+    "secondary_clusters": ["ml_ai"],
+    "competencies": [
+      "Explain concepts and methods of automatic dialogue systems",
+      "Represent knowledge in speech grammars",
+      "Build voice dialogues in VXML and Amazon Alexa skills",
+      "Evaluate strengths and weaknesses of voice user interfaces"
+    ],
+    "topic_tags": ["voice user interfaces", "dialogue systems", "vxml", "speech assistants"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches design and implementation of voice user interfaces and dialogue systems using VXML and modern speech assistants."
+  },
+  {
+    "id": "etit-technical-cognitive-systems",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["hci"],
+    "competencies": [
+      "Explain principles of cognitive intelligence and their computer transfer",
+      "Work with cognitive model architectures",
+      "Implement meaning assignment and data handling in assistive systems",
+      "Realize cognitive system concepts in practical programs"
+    ],
+    "topic_tags": ["cognitive systems", "artificial intelligence", "cognitive modeling", "intelligent systems"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Conveys advanced concepts of technical cognitive intelligent systems and their practical realization in engineering applications."
+  },
+  {
+    "id": "etit-nonlinear-systems",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Describe and analyze nonlinear dynamic systems in state space",
+      "Investigate stability using direct and indirect Lyapunov methods",
+      "Interpret energy- and passivity-based system descriptions",
+      "Design nonlinear controllers via backstepping and input-output linearization"
+    ],
+    "topic_tags": ["nonlinear systems", "control theory", "lyapunov stability", "state space"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches analysis and control of nonlinear dynamic systems in state space using Lyapunov methods and nonlinear controller design."
+  },
+  {
+    "id": "etit-electromagnetic-compatibility-of-regenerative-el",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Describe generation, propagation and effects of electromagnetic disturbances in grids",
+      "Assess the impact of renewable sources on grid power quality",
+      "Select analytical and numerical methods to predict EMC",
+      "Apply shielding concepts and mitigation measures for EMC problems"
+    ],
+    "topic_tags": ["electromagnetic compatibility", "power quality", "renewable energy", "shielding"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers electromagnetic compatibility of regenerative electrical systems, including disturbance analysis, prediction methods and mitigation."
+  },
+  {
+    "id": "etit-emc-measurement-techniques",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["manufacturing"],
+    "competencies": [
+      "Use measurement instruments and probes for EMC assessment",
+      "Analyze measurement limits and errors in time and frequency domains",
+      "Select suitable measurement methods for EMC problems",
+      "Evaluate emission and immunity measurement results"
+    ],
+    "topic_tags": ["emc measurement", "metrology", "spectrum analysis", "emissions"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches instruments, probes and standardized methods for measuring and assessing electromagnetic compatibility of electrical systems."
+  },
+  {
+    "id": "etit-generator-systems-for-renewable-energy",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": [],
+    "competencies": [
+      "Assess boundary conditions of renewable energy generation",
+      "Dimension electrical machines for generator operation",
+      "Design control for maximum power point tracking",
+      "Optimize energy yield in variable-speed generator systems"
+    ],
+    "topic_tags": ["renewable energy", "generators", "electrical machines", "mppt"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers electrical machines and control of generator systems for renewable energy generation, including maximum power point tracking."
+  },
+  {
+    "id": "etit-microcontroller-based-drive-controls",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Implement control methods for electrical drives on microcontrollers",
+      "Manage real-time tasks, interrupts and communication",
+      "Discretize controllers and handle fixed-point arithmetic",
+      "Realize current control for converter-fed machines"
+    ],
+    "topic_tags": ["drive control", "microcontrollers", "real-time systems", "power electronics"],
+    "level": "core",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "Teaches implementation of electrical drive control on microcontrollers including real-time task management and fixed-point arithmetic."
+  },
+  {
+    "id": "etit-power-network-planning-and-operation",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["innovation_mgmt"],
+    "competencies": [
+      "Explain operational mechanisms of power network system management",
+      "Identify actors and interactions in technical and market domains",
+      "Apply regulatory frameworks to network operator tasks",
+      "Manage congestion, voltage control and grid restoration processes"
+    ],
+    "topic_tags": ["power networks", "grid operation", "system management", "energy markets"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers operational system management of electrical power networks including regulatory frameworks, grid operation and planning processes."
+  },
+  {
+    "id": "etit-emc-measurement-technology-seminar",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["methods_skills"],
+    "competencies": [
+      "Apply EMC measurement methods to analyze EMC problems",
+      "Conduct EMC investigations in time and frequency domains",
+      "Measure scattering and transfer impedance matrices experimentally",
+      "Evaluate experimental EMC results critically"
+    ],
+    "topic_tags": ["emc measurement", "experiments", "metrology", "emissions"],
+    "level": "advanced",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "A seminar applying electromagnetic compatibility measurement methods through experiments to analyze and evaluate EMC problems."
+  },
+  {
+    "id": "etit-system-integration-of-power-electronics",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Address system integration questions for power electronics",
+      "Quantify interactions between power electronics and the surrounding system",
+      "Apply modeling, simulation and hardware-in-the-loop methods",
+      "Represent a complete system including power-electronic assemblies and control"
+    ],
+    "topic_tags": ["power electronics", "system integration", "hardware-in-the-loop", "simulation"],
+    "level": "advanced",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "A seminar on system integration of power electronics using modeling, simulation and hardware-in-the-loop for renewable energy and electromobility."
+  },
+  {
+    "id": "etit-wind-energy",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Explain the physics and conversion principles of wind energy",
+      "Design wind turbines using aerofoil theory",
+      "Calculate power curves and part-load behaviour of wind turbines",
+      "Assess grid integration and economics of wind power plants"
+    ],
+    "topic_tags": ["wind energy", "wind turbines", "renewable energy", "grid integration"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers conversion, design and grid integration of wind turbines for electricity generation including aerodynamics and economics."
+  },
+  {
+    "id": "etit-advanced-pcb-design",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": ["design_plm"],
+    "competencies": [
+      "Develop and implement electrical circuits on printed circuit boards",
+      "Select components and materials for PCB design",
+      "Place and route components considering layout constraints",
+      "Apply strategies for error detection and correction in manufactured boards"
+    ],
+    "topic_tags": ["pcb design", "layout", "electronics manufacturing", "circuit implementation"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches the design and manufacturing of printed circuit boards from conceptualization through component placement to error correction."
+  },
+  {
+    "id": "etit-analog-and-mixed-signal-systems",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Design and analyze analog and mixed-signal electronic systems",
+      "Characterize noise and nonlinearities in analog circuits",
+      "Design frequency-conversion systems, oscillators and PLLs",
+      "Analyze amplifiers at transistor level using analytical and simulation methods"
+    ],
+    "topic_tags": ["analog circuits", "mixed-signal", "noise analysis", "data converters"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Provides design and analysis of analog and mixed-signal systems including noise, amplifiers, oscillators, PLLs and data converters."
+  },
+  {
+    "id": "etit-applied-image-processing-and-understanding",
+    "primary_cluster": "viz",
+    "secondary_clusters": ["ml_ai"],
+    "competencies": [
+      "Design complex image processing and understanding systems",
+      "Apply algorithms for 3D measurement, motion analysis and object tracking",
+      "Implement biometric and face analysis recognition techniques",
+      "Develop image evaluation systems for current research applications"
+    ],
+    "topic_tags": ["image understanding", "computer vision", "object tracking", "biometrics"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Applies advanced image processing and understanding to research topics such as 3D measurement, motion analysis, tracking and biometrics."
+  },
+  {
+    "id": "etit-antennas-and-antenna-systems",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Select and dimension antennas for specific applications",
+      "Optimize antennas using perturbation and variational calculus",
+      "Apply near-field to far-field transformation",
+      "Analyze microwave circuits using three-dimensional modal analysis"
+    ],
+    "topic_tags": ["antennas", "high-frequency technology", "electromagnetics", "microwave"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers selection, dimensioning and optimization of antennas using variational and perturbation methods and modal analysis."
+  },
+  {
+    "id": "etit-chip-design",
+    "primary_cluster": "manufacturing",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Apply the main steps of digital chip design",
+      "Create manufacturable chip layouts with industrial tools",
+      "Perform floorplanning, placement, clock tree synthesis and routing",
+      "Design for testability using BIST, boundary scan and ATPG"
+    ],
+    "topic_tags": ["chip design", "vlsi", "asic layout", "design for testability"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches the fundamentals of digital chip design from partitioning and placement to routing, verification and design for testability."
+  },
+  {
+    "id": "etit-architectures-of-sensor-fusion-multimodal-patter",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["ml_ai"],
+    "competencies": [
+      "Describe multimodal signals and their information content",
+      "Compare early and late sensor fusion architectures",
+      "Apply Markov fusion networks for multimodal pattern recognition",
+      "Handle uncertainty in sensor fusion systems"
+    ],
+    "topic_tags": ["sensor fusion", "multimodal", "pattern recognition", "human-machine interaction"],
+    "level": "advanced",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "A seminar on sensor fusion architectures and multimodal pattern recognition for human-machine interaction under uncertainty."
+  },
+  {
+    "id": "etit-genetic-algorithms",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": [],
+    "competencies": [
+      "Apply genetic and evolutionary algorithms for global optimization",
+      "Select and implement suitable algorithm structures for a task",
+      "Design fitness functions and application-specific components",
+      "Validate optimization results in engineering and biomedical problems"
+    ],
+    "topic_tags": ["genetic algorithms", "evolutionary optimization", "global optimization", "metaheuristics"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches the application and implementation of genetic and evolutionary algorithms for global optimization in engineering and biomedicine."
+  },
+  {
+    "id": "etit-laboratory-high-frequency-technology-ii",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Use a three-dimensional field simulator for high-frequency structures",
+      "Model structures with a CAD system and optimize meshing",
+      "Choose meshing strategies and solver parameters for efficient solutions",
+      "Automate parameter scans in field simulation"
+    ],
+    "topic_tags": ["high-frequency technology", "field simulation", "meshing", "electromagnetics"],
+    "level": "advanced",
+    "kind": "lab",
+    "language": "de",
+    "description_en": "A laboratory using a 3D field simulator to numerically analyze typical high-frequency structures with optimized meshing and solver settings."
+  },
+  {
+    "id": "etit-pattern-recognition",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["data_eng"],
+    "competencies": [
+      "Carry out a complete pattern recognition task from data to interpretation",
+      "Apply linear and nonlinear classifiers and Bayes classification",
+      "Use clustering, self-organizing maps and information fusion",
+      "Apply deep learning and transfer learning to recognition problems"
+    ],
+    "topic_tags": ["pattern recognition", "machine learning", "deep learning", "classification"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches machine learning, deep learning and information fusion to carry out complete pattern recognition tasks in industrial and medical applications."
+  },
+  {
+    "id": "etit-radar-technology",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["mobility"],
+    "competencies": [
+      "Explain concepts for object detection, ranging and angular positioning",
+      "Describe the operation of primary and secondary radar systems",
+      "Apply signal processing methods for radar",
+      "Assess physical propagation effects in radar systems"
+    ],
+    "topic_tags": ["radar", "object detection", "signal processing", "sensing"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers radar concepts and systems for object detection, ranging and positioning including the required signal processing and propagation effects."
+  },
+  {
+    "id": "etit-seminar-cognitive-systems",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["hci"],
+    "competencies": [
+      "Apply principles of cognitive intelligence in practical programs",
+      "Build models of acoustic and written language as representation models",
+      "Implement cognitive systems in engineering applications",
+      "Handle meaning assignment and data in cognitive systems"
+    ],
+    "topic_tags": ["cognitive systems", "artificial intelligence", "language modeling", "intelligent systems"],
+    "level": "core",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "A seminar on the practical application of cognitive intelligent systems including language modeling and realization in engineering systems."
+  }
+]

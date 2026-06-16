@@ -1,0 +1,299 @@
+[
+ {
+  "id": "fmb-103805",
+  "title_en": null,
+  "title_de": "Advanced Database Models",
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Name des Moduls Advanced Database Models  Prüfungsnummer \n103805 Englischer Titel Advanced Database Models  \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nInhalte: \nLehrformen/Sprache Vorlesungen, Übungen Englisch \nLiteratur  \nTeilnahmevoraussetzungen  keine \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nExamination requirements: Klausur \nLeistungspunkte und Noten 5 CP \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand  \nHäufigkeit des Angebots Sommersemester \nDauer des Moduls ein Semester \nModulverantwortlich Dr. E. Schallehn, FIN-ITI \nWeitere Lehrende:  \n \n118 Computer Aided Geometric Design"
+ },
+ {
+  "id": "fmb-102809",
+  "title_en": null,
+  "title_de": "Computer Aided Geometric Design",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Computer Aided Geometric Design  Prüfungsnummer \n102809 Englischer Titel Computer Aided Geometric Design  \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nInhalte \nLehrformen/Sprache  Deutsch \nLiteratur  \nTeilnahmevoraussetzungen    \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: wird bekanntgegeben,  \nPrüfung: mündliche Prüfung  \nLeistungspunkte und Noten 5 CP, Notenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: Vorlesung 3 SWS, Übungen 1 SWS,  \nSelbststudium: Vor- und Nachbereitung der Vorlesungen und Übungen, Lösen der \nÜbungsaufgaben \nHäufigkeit des Angebots jedes Wintersemester \nDauer des Moduls ein Semester \nModulverantwortlich Prof. Dr.-Ing. habil H. Theisel, FIN-ISG \n  \nInformatik \n\n\n \n  \n119 Data Warehouse-Technologien"
+ },
+ {
+  "id": "fmb-102808",
+  "title_en": null,
+  "title_de": "Data Warehouse-Technologies",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Data Warehouse-Technologies  Prüfungsnummer \n102808 Englischer Titel Data Warehouse-Technologies \nQualifikationsziele und Inhalt \ndes  \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nInhalte \nLehrformen/Sprache  Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: \nPrüfung: K120 \nLeistungspunkte und Noten 5 CP, Notenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: Vorlesung 2 SWS, Übungen 2 SWS,  \nSelbststudium: Vor- und Nachbereitung der Vorlesungen und Übungen, Literaturstu-\ndium \nHäufigkeit des Angebots jedes Wintersemester \nDauer des Moduls ein Semester \nModulverantwortlich Dr. David Broneske, FIN \n \n \n120 Datenmanagement"
+ },
+ {
+  "id": "fmb-100302",
+  "title_en": null,
+  "title_de": "Datenmanagement",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Datenmanagement  Prüfungsnummer \n100302 Englischer Titel Data Management \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen: \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nInhalte:  \nLehrformen/Sprache Vorlesungen, Übungen (incl. praktischer SQL-Übungen) Deutsch \nLiteratur  \nTeilnahmevoraussetzungen  \nVerwendbarkeit des Moduls Entsprechend Modulbeschreibung \nVoraussetzungen für die \nVergabe von Leistungspunkten \nPrüfungsvorleistung: wird bekanntgegeben  \nPrüfung: Klausur K120 \nLeistungspunkte und Noten 5 CP \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: 2 SWS Vorlesung, 2 SWS Übung \nSelbstständiges Arbeiten: Vor- und Nacharbeiten der Vorlesung, Lösung der Übungs-\naufgaben, Prüfungsvorbereitung \nHäufigkeit des Angebots jedes Sommersemester \nDauer des Moduls ein Semester \nModulverantwortlicher Dr. Eike Schallehn, FIN-ITI \n \n \n  \nInformatik Informatik \n\n\n \n  \n121 Evolutionary Multi-Objective Optimization"
+ },
+ {
+  "id": "fmb-120469",
+  "title_en": "Evolutionary Multi-Objective Optimization",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Evolutionary Multi-Objective Optimization Exam number: \n120469 German title Evolutionary Multi-Objective Optimization \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained:  \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nContents: \nType of lecture | language Lecture and lecture accompanying exercises english \nLiterature  \nPreconditions for attending  \nUsability of module according to module handbook \nPrerequisites for the provision \nof credit points \nWritten exams K120 \n \ncredit points and marks 5 CP, Marks following Study and Examination Regulations  \nworkload Presence times: 2 SWS lecture, 2 SWS exercises \nSelf-reliant work: pre- and post-preparation of lectures, study of literature, execu-\ntion of exercises \nFrequency of provision every summer semester  \nDuration of module one semester \nResponsible lecturer Prof. Dr.-Ing. Sanaz Mostaghim, FIN-IKS \n \n \n122 Idea Engineering"
+ },
+ {
+  "id": "fmb-901129",
+  "title_en": null,
+  "title_de": "Idea Engineering",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Idea Engineering  Prüfungsnummer \n901129 Englischer Titel Idea Engineering  \nQualifikationsziele und Inhalt des \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nInhalte \nLehrformen/Sprache Vorlesungen, Übungen Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch begrenzte \nTeilnahme \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: Hausarbeit \nPrüfung: benotete Hausarbeit \nLeistungspunkte und Noten 5 CP, Notenskala gemäß Prüfungsordnung \nArbeitsaufwand   \nHäufigkeit des Angebots jedes Sommersemester \nDauer des Moduls ein Semester \nModulverantwortlich Professur für Simulation \nWeitere Lehrende: Prof. Dr.-Ing. habil. G. Horton, FIN-ISG \n \n  \nInformatik Informatik Informatik \n\n\n \n  \n123 Interaktive Systeme"
+ },
+ {
+  "id": "fmb-100393",
+  "title_en": null,
+  "title_de": "Interaktive Systeme",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Interaktive Systeme  Prüfungsnummer \n100393 Englischer Titel Interactive Systems \nQualifikationsziele und Inhalt des  \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nInhalte: \nLehrformen/Sprache Vorlesungen, Übungen Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: \nPrüfung: Klausur K120  \nLeistungspunkte und Noten 5 CP, Notenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: Vorlesung 2 SWS, Übungen 2 SWS,  \nSelbststudium: Nachbereiten der Vorlesungen, Vorbereiten der Übungen, Lösung \nvon Übungsaufgaben, Projektentwicklung \nHäufigkeit des Angebots jedes Sommersemester \nDauer des Moduls ein Semester \nModulverantwortlich Prof. Dr. Christian Hansen, FIN-ISG \n \n \n124 Parallel Programming"
+ },
+ {
+  "id": "fmb-110463",
+  "title_en": "Parallel Programming",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Parallel Programming Exam number: \n110463 German name Parallele Programmierung \nTeaching aims and content of the \nmodule \nTeaching aims and competences to be gained: \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nContents: \nTeaching forms Lecture and exercises english \nLiterature Will be specified in the first lecture \nPreconditions for attending Basic skills in programming \nUsability of module according to module handbook \nPrerequisites for the provision of \nECTS \nWritten exam K120 \nECTS and marks 5 CP, Grading following Study and Examination Regulations \nEfforts 2 SWS lecture, 2 SWS exercise, self-study \nFrequency of provision every summer semester \nDuration of module one semester \nResponsible lecturer Prof. Dr. Michael Kuhn; FIN-IKS \n \n  \nInformatik Informatik \n\n\n \n  \n125 Startup-Engineering II"
+ },
+ {
+  "id": "fmb-120442",
+  "title_en": null,
+  "title_de": "Startup-Engineering II",
+  "faculty": "FMB",
+  "language_guess": "both",
+  "cp": 5,
+  "text": "Name des Moduls Startup-Engineering II  Prüfungsnummer \n120442 Englischer Titel Startup-Engineering II \nQualifikationsziele und Inhalt des  \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN. \nInhalte \nLehrformen/Sprache Projekt Deutsch/englisch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen wird zu Beginn der Veranstaltung bekanntgegeben \nPrüfung: Benotete Hausarbeit \nLeistungspunkte und Noten 6 CP (5 CP Abschlussnotenrelevant), Notenskala gemäß Prüfungsordnung \nArbeitsaufwand  \nHäufigkeit des Angebots jedes Wintersemester \nDauer des Moduls ein Semester \nModulverantwortlich Lehrstuhl für Simulation FIN-IGS \nWeitere Lehrende: Prof. Dr.-Ing. habil. Graham Horton \n \n \n126 Decision Support Projekt (ehemals Startup-Engineering III)"
+ },
+ {
+  "id": "fmb-120501",
+  "title_en": null,
+  "title_de": "Decision Support Projekt (ehemals Startup-Engineering III)",
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Name des Moduls Decision Support Projekt (ehemals Startup-Engineering III)  Prüfungsnummer \n120501 Englischer Titel Decision Support Projekt  \nQualifikationsziele und Inhalt des \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN. \nInhalte: \nLehrformen/Sprache  englisch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch begrenzte \nTeilnahme \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: \nPrüfung: Benotete Hausarbeit \nLeistungspunkte und Noten 6 CP (5 CP Abschlussnotenrelevant), Notenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten:  \nSelbststudium:  \nHäufigkeit des Angebots jedes Sommersemester und Wintersemester \nDauer des Moduls ein Semester \nModulverantwortlich Prof. Dr.-Ing. habil. Graham Horton \n \n  \nInformatik Informatik \n\n\n \n  \n127 Visualization"
+ },
+ {
+  "id": "fmb-102812",
+  "title_en": null,
+  "title_de": "Visualisierung",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Visualisierung Prüfungsnummer \n102812 Englischer Titel Visualization \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nContents: \nLehrformen/Sprache Vorlesungen und Übungen Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistung-\nspunktvergabe \nSchriftliche Prüfung K120 \nLeistungspunkte und Noten 5 CP, Grading following Study and Examination Regulations \nArbeitsaufwand 2 SWS lecture, 2 SWS exercise, self-study \nHäufigkeit des Angebots Jedes Wintersemester \nDauer des Moduls Ein Semester \nModulverantwortlich Prof. Dr. Bernhard Preim; FIN \n \n  \nInformatik \n\n\n \n  \nModulangebot der Fakultät für Humanwissenschaften \n128 Global Sustainability Governance \nSeminarmodul aus dem Gebiet: Sustainability Conflicts and Governance of Natural Resources \n(Modul 7 gemäß Modulhandbuch zum Master Peace and Conflict Studies)"
+ },
+ {
+  "id": "fmb-909099",
+  "title_en": "Sustainability Conflicts and Governance of Natural Resources",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Course name Sustainability Conflicts and Governance of Natural Resources Exam number \n909099: German name  \nTeaching aims and content of the \nmodule \nTeaching aims and competences to be gained: \nStudents will be able to discuss and critically evaluate the boundaries of quantitative \ngrowth, global warming and various controversial approaches on sustainability. \nThereby, they acquire analytical capabilities in regard to com- plex conflict constel-\nlations, as well as the ability to critically reflect the paradigm of sustainable devel-\nopment as a key problem solving strate-gy. Students will learn to argue with the \nlogics and semantics of different disciplines and apply and compare their ap-\nproaches. \n \nContents: \nThe aim of this module is to convey knowledge on the anthropogenically caused en-\nvironmental ramifications of global change, scenarios regarding the limits of growth \nand global warming in connection with resource scarcity and the resulting distribu-\ntional conflicts which not only aggravate the longexisting global North-South- con-\nstellation, but also generate new types of conflict situations (i. a. North-North, \nSouth-South). The module compares different strategies of sustainability to change \nthe economical and societal system and assesses them with regard to their radical-\nism and range. Sustainability should therefore be contemplated through a national \nand regional perspective on the one side, and through a global perspective on the \nother side. Additionally, the module should examine the possibilities of resource \ngovernance and different policy fields o"
+ },
+ {
+  "id": "fmb-908730",
+  "title_en": null,
+  "title_de": "Politik und Nachhaltigkeit",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Politik und Nachhaltigkeit Prüfungsnummer \n908730 Englischer Titel Sutainability Politics \nQualifikationsziele und Inhalt \ndes Moduls \n \nDie Studierenden sollen sich grundlegende Kenntnisse über die politischen Rahmen-\nbedingungen und individuelle Handlungsmöglichkeiten einer gesellschaftlichen \nTransformation zur Nachhaltigkeit aneignen. Dazu gehören Kenntnisse über Akteure, \npolitische Machtverhältnisse, Instrumente, institutionelle Rahmenbedingungen und \nProblemstrukturen der Nachhaltigkeit. Zudem werden Kenntnisse über Möglichkeiten \nund Grenzen wissenschaftlicher Einflussnahme zur Gestaltung von Nachhaltigkeit er-\nlangt. Vermittelt werden zentrale Begriffe und Theorien ebenso wie empirische Her-\nangehensweisen und Befunde praxisorientierter Forschung. \n \nAls Kompetenzen sollen entwickelt werden: Eigenständige Aneignung und Anwen-\ndung von Theorien, Modellen und empirischen Daten in schriftlicher Form; Denk- \nund Arbeitsweisen der sozialwissenschaftlichen Nachhaltigkeitsforschung; Diskussi-\nonsfähigkeit in einer Gruppe; mündliche und schriftliche Auseinandersetzung mit \nden Themen in Form von Kurz-Statements und einer schriftlichen Prüfung. \n \nDie Vorlesung führt in Konzepte, Steuerungsinstrumente, Akteure, Interessen und \nKonflikte der Nachhaltigkeitspolitik ein. Dabei sollen konkrete Beispiele der deut-\nschen Umweltpolitik zur Illustration dienen. Alle Konzepte werden zunächst auf der \nBasis des aktuellen politikwissenschaftlichen Forschungsstandes erläutert. Anschlie-\nßend wird deren Praxisrelevanz anhand ausgewählter „Policies“ (z.B. Klimapolitik, \n„"
+ },
+ {
+  "id": "fmb-906030",
+  "title_en": null,
+  "title_de": "Technologien im Sport I (ehemals Sportgerätetechnik I)",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Technologien im Sport I (ehemals Sportgerätetechnik I)  Prüfungsnummer \n906030??? Englischer Titel  \nQualifikationsziele und Inhalt des \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://www.bekanntmachungen.ovgu.de/Modulhandb%C3%BCcher-media_id-\n2652.html \n \nInhalte \nLehrformen/Sprache Seminar Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: \nPrüfung: Leistungsnachweis \nLeistungspunkte und Noten 5 CP, Notenskala gemäß Prüfungsordnung \nArbeitsaufwand  \nHäufigkeit des Angebots jedes Sommersemester \nDauer des Moduls ein Semester \nModulverantwortlich Prof. Dr. J. Edelmann-Nusser, FHW-ISPW \nWeitere Lehrende:  \n \nBitte informieren Sie sich über das Modulhandbuch des Masterstudiengangs Sportwissenschaft in der jeweils aktuellen Fassung unter \nhttps://www.bekanntmachungen.ovgu.de/Modulhandb%C3%BCcher-media_id-2652.html \n \n  \nHumanwissenschaften \n\n\n \n  \n132 Technologien im Sport II (ehemals Sportgerätetechnik II)"
+ },
+ {
+  "id": "fmb-technologien-im-sport-ii-ehemals-sportgeratetech",
+  "title_en": null,
+  "title_de": "Technologien im Sport II (ehemals Sportgerätetechnik II)",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Technologien im Sport II (ehemals Sportgerätetechnik II)  Prüfungsnummer \n Englischer Titel  \nQualifikationsziele und Inhalt des \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://www.bekanntmachungen.ovgu.de/Modulhandb%C3%BCcher-media_id-\n2652.html \n \nInhalte \nLehrformen/Sprache Seminar Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: \nPrüfung: Leistungsnachweis \nLeistungspunkte und Noten 5 CP, Notenskala gemäß Prüfungsordnung \nArbeitsaufwand  \nHäufigkeit des Angebots jedes Wintersemester \nDauer des Moduls ein Semester \nModulverantwortlich Prof. Dr. J. Edelmann-Nusser, FHW-ISPW \nWeitere Lehrende:  \n \n \nBitte informieren Sie sich über das Modulhandbuch des Masterstudiengangs Sportwissenschaft in der jeweils aktuellen Fassung unter \nhttps://www.bekanntmachungen.ovgu.de/Modulhandb%C3%BCcher-media_id-2652.html \n \n \n \n \n \n \n  \nHumanwissenschaften \n\n\n \n  \n133  Technologien im Sport III (ehemals Technologien im Sport)"
+ },
+ {
+  "id": "fmb-920011",
+  "title_en": null,
+  "title_de": "Technologien im Sport III (ehemals Technologien im Sport)",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Technologien im Sport III (ehemals Technologien im Sport)  Prüfungsnummer \n920011??? Englischer Titel  \nQualifikationsziele und Inhalt des \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://www.bekanntmachungen.ovgu.de/Modulhandb%C3%BCcher-media_id-\n2652.html \n \nInhalte \nLehrformen/Sprache Seminar Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: \nPrüfung: Leistungsnachweis \nLeistungspunkte und Noten 5 CP, Notenskala gemäß Prüfungsordnung \nArbeitsaufwand  \nHäufigkeit des Angebots jedes Wintersemester \nDauer des Moduls ein Semester \nModulverantwortlich Prof. Dr. J. Edelmann-Nusser, FHW-ISPW \nWeitere Lehrende:  \n \n \nBitte informieren Sie sich über das Modulhandbuch des Masterstudiengangs Sportwissenschaft in der jeweils aktuellen Fassung unter \nhttps://www.bekanntmachungen.ovgu.de/Modulhandb%C3%BCcher-media_id-2652.html \n \n  \nHumanwissenschaften \n\n\n \n  \n134 Technologien im Sport IV (ehemals Technologien im Sport)"
+ },
+ {
+  "id": "fmb-technologien-im-sport-iv-ehemals-technologien-im",
+  "title_en": null,
+  "title_de": "Technologien im Sport IV (ehemals Technologien im Sport)",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Technologien im Sport IV (ehemals Technologien im Sport)  Prüfungsnummer \n??? Englischer Titel  \nQualifikationsziele und Inhalt des \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nhttps://www.bekanntmachungen.ovgu.de/Modulhandb%C3%BCcher-media_id-\n2652.html \n \nInhalte \nLehrformen/Sprache Seminar Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvoraussetzungen: \nPrüfung: Leistungsnachweis \nLeistungspunkte und Noten 5 CP, Notenskala gemäß Prüfungsordnung \nArbeitsaufwand  \nHäufigkeit des Angebots jedes Wintersemester \nDauer des Moduls ein Semester \nModulverantwortlich Prof. Dr. J. Edelmann-Nusser, FHW-ISPW \nWeitere Lehrende:  \n \nBitte informieren Sie sich über das Modulhandbuch des Masterstudiengangs Sportwissenschaft in der jeweils aktuellen Fassung unter \nhttps://www.bekanntmachungen.ovgu.de/Modulhandb%C3%BCcher-media_id-2652.html \n \n \n  \nHumanwissenschaften \n\n\n \n  \nModulangebot der Fakultät für Naturwissenschaften (FNW) \n135 Grundlagenmodul zum Schwerpunkt Umweltpsychologie/ Mensch-Technik-Interaktion \nName des Moduls Grundlagenmodul zum Schwerpunkt  \nUmweltpsychologie/Mensch-Technik-Interaktion Prüfungsnummer \n202043 \nEnglischer Titel  \nQualifikationsziele und Inhalt \ndes Moduls \n \nZiele des Moduls: \nTeilmodul O1 beschäftigt sich mit Theorien und Methoden grundlegender Bereiche \nder Mensch -Umwelt-Interaktion sowie mit Ansätzen der menschenzentrierten \nGestaltung. Neben den Themen Umwelt wahrnehmung, Erleben und Ve rhalten in \ngebauten Umwelten, Umwelt a"
+ },
+ {
+  "id": "fmb-702112",
+  "title_en": "Advanced Fluid Dynamics",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Advanced Fluid Dynamics Exam number: \n702112 German name Erweiterte Strömungsdynamik \nTeaching aims and content of the \nmodule \nTeaching aims and competences to be gained: \nDuring this Module the students will acquire competences concerning all basic issues \nrelated to Fluid Dynamics. In particular, they will learn when and how to use different \nforms of the Bernoulli equation to solve realistic flows, possibly involving losses and \nenergy exchange. They will furthermore be able to distinguish between simple and \nsemi-complex incompressible and compressible flows and to obtain solutions for \nsuch flows in an autonomous manner. \nContents: \nIntroduction and basic concepts \nImportant mathematical relations, material derivative \nControl volumes, transport theorem, Reynolds theorem \nEuler equations for ideal fluid \nHydrostatics and Aerostatics \nBernoulli relation for ideal flows \nBernoulli relation for viscous flows involving work exchange \nForce and torque induced by a flow \nKinematics, tensors, Navier-Stokes equations for viscous flows \nSimilarity theory \nIntroduction to compressible flows, Laval nozzle \nIntroduction to turbulent flows \nIntroduction to Computational Fluid Dynamics \n \nTeaching forms | Language Lecture with exercises english \nLiterature Will be specified in the first lecture \nPreconditions for attending Basic knowledge in Mathematics \nUsability of module according to module handbook \nPrerequisites for the provision of \nECTS \nWritten exam (120 minutes) \nECTS and marks 5 CP \nGrading following Study and Examination Regulations \nEfforts 2 SWS lecture, 2 "
+ },
+ {
+  "id": "fmb-702073",
+  "title_en": "Computational Fluid Dynamics",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Computational Fluid Dynamics Exam number: \n702073 German name Computergestützte Strömungsdynamik \nTeaching aims and content of the \nmodule \nTeaching aims and competences to be gained: \nNumerical flow simulation (usually called Computational Fluid Dynamics or CFD) is \nplaying an essential role in many modern industrial projects. Knowing the basics of \nfluid dynamics is very important but insufficient to be able to learn CFD on its own. \nIn fact the best way of learning CFD is by relying to a large extent on “learning by \ndoing” on the PC. This is the purpose of this Module, in which theoretical aspects are \ncombined with many hands-on and exercises on the PC. \nBy doing this, students are able to use autonomously, efficiently and target-oriented \nCFD-programs in order to solve complex fluid dynamical problems. They also are \nable to analyse critically CFD-results. \nContents: \n• Introduction and organization. Historical development of CFD. Importance of CFD. \nMain methods (finite differences, volumes, elements) for discretization. \n• Vector and parallel computing. How to use supercomputers, optimal computing \nloop, validation procedure, Best Practice Guidelines. \n• Linear systems of equations. Iterative solution methods. Examples and applica-\ntions. Tridiagonal systems. Realization of a Matlab-Script for the solution of a \nsimple flow in a cavity (Poisson equation), with Dirichlet-Neumann boundary con-\nditions. \n• Choice of convergence criteria and tests. Grid independency. Impact on the solu-\ntion. \n• Introduction to finite elements on the basis of COMSOL. Introdu"
+ },
+ {
+  "id": "fmb-702268",
+  "title_en": "Simulations of Mechanical Processes",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Simulations of Mechanical Processes Exam number: \n702268 German name Simulationen mechanischer Prozesse \nTeaching aims and content of \nthe module \nTeaching aims and competences to be gained: \nThe students \n• learn the theoretical foundations relevant to the mathematical description and \nmodelling of mechanical processes (statistical analysis, numerical solution of differ-\nential equations, stochastic solution methods), \n• develop and analyse small computer programs (in Matlab or a programming lan-\nguage of their choice) for the simulation of simple sample problems of mechanical \nprocesses, \n• consolidate their understanding of the physics of the principal dynamic processes \nin particle technology and mechanical process engineering, \n• develop and consolidate their knowledge and skills with regards to the development \nand application on numerical methods for the analysis and design of mechanical \nprocesses. \nContents: \n1. Statistical methods for the modelling of mechanical systems \n• Summary and recap of relevant statistical values for the evaluation and design \nof mechanical processes. \n2. Numerical solution of differential equations \n• Introduction of standard method for the numerical solution of ordinary differ-\nential equations (Euler methods, predictor-corrector methods), focusing on \nmethods that are widely used for the simulation of particles. \n• Solution of systems of multiple ordinary differential equations. \n• Evaluating the quality of a numerical solution and the quantifying the associ-\nated errors. \n3. Stochastic solution methods (Monte-Carlo methods)"
+ },
+ {
+  "id": "fmb-702262",
+  "title_en": "Sustainability Assessment for Biofuels",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Sustainability Assessment for Biofuels  Exam number: \n702262 German name Nachhaltigkeitsbewertung für Biokraftstoffe \nTeaching aims and content of \nthe module \nThe students will get an overview of the sustainability assessment methodologies. \nThey will learn the theoretical background and the standardized procedures to carry \nout a life cycle assessment (LCA). The phases (goal and scope, inventory analysis, im-\npact assessment and interpretation and evaluation) in a life cycle assessment will be \ndeclared in detail. The importance of product system definition and functional unit will \nbe worked out. With the help of examples. The students will acquire skills to define the \nsystem boundaries, to apply the cut-off rules. Furthermore, the students will learn the \nprinciples how to allocate the interventions or expenditures in a case of a multiproduct \nsystem and how to use the credit method. The use of flow sheet simulation tools will \nbe taught to quantify the energy and mass flows for chemical production processes. \nThe impact categories will explained and the students will learn to how to select ap-\npropriate and relevant impact categories in different types of product systems. The \nevaluation of the results and the differences between attributional and consequential \nLCA will be learned.  \nThe thermochemical and biotechnological production processes for renewable fuels \nand chemicals will be elucidated as case examples for LCA. Beyond the sustainability \naspects the students will learn the process limitations and technical challenges for var-\nious raw materials"
+ },
+ {
+  "id": "fmb-502294",
+  "title_en": "Advanced Topics in Numerical Linear Algebra",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Advanced Topics in Numerical Linear Algebra Exam number: \n502294 German name Fortgeschrittene Themen der Numerischen Linearen Algebra \nTeaching aims and content of \nthe module \n• Brief recapitulation of important concepts from (numerical) linear algebra, espe-\ncially regarding linear systems of equations and linear eigenvalue problems. \n• Matrix equations \no Theory, applications \no Methods for small / dense linear and quadratic equations \n• Matrix functions \no Theory, applications \no Computing functions of small, dense matrices \no Approximating matrix function times a vector \n• Randomized Algorithms \n• Brief Outlook to Multilinear (Numerical) Algebra \nTeaching forms| Language Lecture and exercises english \nLiterature Will be specified in the first lecture \nPreconditions for attending  \nUsability of module according to module handbook \nPrerequisites for the provision \nof ECTS \nOral exam \nECTS and marks 5 CP \nGrading following Study and Examination Regulations \nEfforts 2 SWS lecture, 1 SWS exercises and self-study \nFrequency of provision every summer semester \nDuration of module one semester \nResponsible lecturer Prof. Dr. Peter Benner; FMA-IAN \n \n  \nMathematik \n\n\n \n  \n141 Introduction to Numerical Ordinary and Partial Differential Equations and their Applications  \nCourse name Introduction to Numerical Ordinary and Partial Differential Equa-\ntions and their Applications Exam number: \n502339 German name Einführung in numerische gewöhnliche und partielle Differential-\ngleichungen und ihre Anwendungen \nTeaching aims and content of the \nmodule \nTeaching aims and comp"
+ },
+ {
+  "id": "fmb-501317",
+  "title_en": "Modeling, Simulation and Optimization",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Modeling, Simulation and Optimization Exam number: \n501317 German name Modellierung, Simulation und Optimierung \nTeaching aims and content of the \nmodule \nTeaching aims and competences to be gained: \nThe students acquire professional skills with regard to algorithmic optimization for \ndynamic systems, as well as with regard to optimality conditions and algorithms for \nnon-linear, derivation-based optimal control, i.e. optimization with underlying dif-\nferential equations. A rigorous investigation of runtimes and implementation aspects \nof different methods will be part of the lecture. \nIn accompanying exercises, students deepen their understanding of this and learn \nhow to implement algorithms efficiently on the computer and apply them to concrete \nproblems. \nContents: \nThe main focus lies on modeling with differential equations, parameter estimation, \noptimal control and test planning. \nTeaching forms | Language Lectures and exercises english \nLiterature Will be specified in the first lecture \nPreconditions for attending Basic knowledge of Mathematics \nUsability of module according to module handbook \nPrerequisites for the provision of \nECTS \nOral exam \nECTS and marks 5 CP \nGrading following Study and Examination Regulations \nEfforts 2 SWS lecture, 2 SWS exercise and self-study \nFrequency of provision every summer semester \nDuration of module one semester \nResponsible lecturer Prof. Dr. Sebastian Sager; FMA-IMO \n \n  \nMathematik \n\n\n \n  \n143 Optimization Methods for Machine Learning"
+ },
+ {
+  "id": "fmb-502301",
+  "title_en": "Optimization Methods for Machine Learning",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 10,
+  "text": "Course name Optimization Methods for Machine Learning Exam number: \n502301 German name Optimierungsverfahren für maschinelles Lernen \nTeaching aims and content of the \nmodule \nTeaching aims and competences to be gained: \nThe students acquire specialized competencies in modeling and algorithmic solving \nof optimization problems based on modern methods of Machine Learning. A rigorous \nexamination of runtime and implementation aspects of different approaches is a re-\ncurring theme throughout the lecture. \nIn accompanying exercises, students deepen their understanding in this regard and \nlearn to efficiently implement algorithms on computers and apply them to concrete \nproblem scenarios. \nContents: \nThe topics covered include an introduction to classification and regression, a unified \nmodeling of optimization problems as encountered in Support Vector Machines or \nNeural Networks, stochastic and deterministic gradient methods, as well as penaliza-\ntion techniques. \nTeaching forms | Language Lectures and exercises english \nLiterature Will be specified in the first lecture \nPreconditions for attending Basic knowledge of Mathematics \nUsability of module according to module handbook \nPrerequisites for the provision of \nECTS \nOral exam \nECTS and marks 10 CP \nGrading following Study and Examination Regulations \nEfforts 4 SWS lecture, 2 SWS exercise and self-study \nFrequency of provision every winter semester  \nDuration of module one semester \nResponsible lecturer Prof. Dr. Sebastian Sager; FMA-IMO \n \n  \nMathematik \n\n\n \n  \n144 Scientific Computing"
+ },
+ {
+  "id": "fmb-501265",
+  "title_en": "Scientific Computing",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Scientific Computing Exam number: \n501265 German name Wissenschaftliche Datenverarbeitung \nTeaching aims and content of \nthe module \nTeaching aims and competences to be gained: \nThe lecture will show the practical implementation of standard numerical algorithms. \nThe focus is on the special properties of the float-pointing arithmetic and difficulties \non reformulating the algorithms in a highlevel programming language such as C. \nUtilities for searching errors and post processing of results will be explained, too. \nAdditionally, existing software packages that should be used in own implementations \nwill be introduced. \nContents: \n• Shell scripting \n• Revision control \n• Introduction to C \n• Error Analysis and Machine Numbers \n• Memory Architecture and Management \n• Basic Operations, Formats and Matrix-Norms \n• Solving Linear Systems \nTeaching forms | Language Lecture and exercises english \nLiterature Will be specified in the first lecture \nPreconditions for attending Basic skills in programming  \nUsability of module according to module handbook \nPrerequisites for the provision \nof ECTS \nOral exam \nECTS and marks 5 CP \nGrading following Study and Examination Regulations \nEfforts 2 SWS lecture, 2 SWS exercises and self-study \nFrequency of provision every winter semester \nDuration of module one semester \nResponsible lecturer Dr. rer. nat. Jens Saak; FMA \n \n  \nMathematik \n\n\n \n  \nModulangebot der Fakultät für Elektro- und Informationstechnik (FEIT) \n145 Analyse und Berechnung elektrischer Systeme"
+ },
+ {
+  "id": "fmb-800461",
+  "title_en": null,
+  "title_de": "Analyse und Berechnung elektrischer Systeme",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Analyse und Berechnung elektrischer Systeme Prüfungsnummer \n800461 Englischer Titel Analysis and Calculation of electromechanical Systems \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \nVermittlung fundierter Kenntnisse von nutzbaren Verfahren zur Analyse und Berech-\nnung elektrischer Systeme. Es werden analytische und numerische Methoden vermittelt, \nmit denen die Eigenschaften elektrischer Netzwerke und magnetischer Kreise simuliert \nund analysiert werden können. Dabei werden auch Modelle behandelt, mit denen me-\nchanische Vorgänge in äquivalente elektrische Netzwerke überführt werden können. \nDie Übung trägt zur Veranschaulichung physikalischer Zusammenhänge bei und befä-\nhigt zum Arbeiten mit den Analyseverfahren \nInhalte \n• Einführung, Begriffe \n• Simulation elektrischer Netzwerke \n• Anwendung numerischer Verfahren zur Analyse im Frequenz- und Zeitbereich \n• Modellierung mechanischer Systeme als äquivalente elektrische Netzwerke \n• Berechnung magnetischer Kreise \n• Simulation magnetischer Felder \n• Kombination von Netzwerk- und Feldberechnungsverfahren \n• Zusammenwirken von Leistungselektronik und elektrischen Maschinen \nLehrformen/Sprache Vorlesung, Übung Deutsch \nLiteratur siehe Vorlesungsunterlagen \nTeilnahmevoraussetzungen  Empfohlen: Grundlagen der Elektrotechnik \n \nModulverwendbarkeit Entsprechend Modulhandbuch \nEs gibt keine Wechselwirkungen mit anderen Modulen \nVoraussetzungen für Leis-\ntungspunktvergabe \nPrüfung: Klausur K90 \nLeistungspunkte und  \nNoten \n5 CP \nNotenskala gemäß Prüfungsordnung \nArbeitsaufw"
+ },
+ {
+  "id": "fmb-800441",
+  "title_en": "Computed Tomography I",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Computed Tomography I Exam number: \n800441 German name Computertomographie I \nTeaching aims and content of \nthe module \nTeaching aims and competences to be gained: \nThe student will: \n- understand the system theory of imaging systems  \n- learn the functional principle of the computed tomography \n- understand the mathematical principle of tomographic reconstruction  \n- have an overview about the current research work in the area of tomo-\ngraphic imaging \nContents: \nStarting with the system theory of imaging systems, the first part of the module is \nfocused on the physical properties of x-rays and their interaction with matter. The \nsecond part deals with X-ray based standard radiography. The third and final part \nbrings the mathematical methods of tomographic image reconstruction into focus. \nThe particular content is:  \n- System theory of imaging systems \n- Basic principle of underlying physics \n- X-ray tubes and detectors \n- Radiography \n- Reconstruction: Fourier-based principle, Filtered back projection, Alge-\nbraic approach, statistical methods  \n- Beam-geometry: Parallel-, Fan- and Cone beam  \n- Implementation  \n- Artefacts and Adjustment \nTeaching forms | Language Lecture and exercises english \nLiterature Kak, Slaney: Principles of computerized tomographic imaging; Kalender: Computed \nTomography \nPreconditions for attending  \nUsability of module according to module handbook \nPrerequisites for the provision \nof ECTS \nWritten exam (60 minutes) \nECTS and marks 5 CP \nGrading following Study and Examination Regulations \nEfforts 2 SWS lecture, 1 SWS exercises and"
+ },
+ {
+  "id": "fmb-800376",
+  "title_en": null,
+  "title_de": "Regelung von Drehstrommaschinen",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Regelung von Drehstrommaschinen Prüfungsnummer \n800376 Englischer Titel Control of AC Drives \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \nDie Studierenden werden durch das Modul in die Lage versetzt, die Modelle \nder einzelnen Drehstrommaschinen und die damit verbundene Raumzeigerdarstellung \nnachzuvollziehen. Sie sind befähigt die Methoden zur Regelung von Drehstrommaschi-\nnen anzuwenden und die entsprechenden Regelkreise auszulegen. Sie können Vor- und \nNachteile der unterschiedlichen Maschinentypen und Regelungsmethoden je nach An-\nwendung bewerten. \nInhalte \n• Optimierung von Regelkreisen \n• Wechselrichter als Stellglied \n• Raumzeigerdarstellung \n• Modell der Synchronmaschine: permanenterregt, reluktanbasiert und hybrid \n• Feldorientierte Regelung der Synchronmaschine \n• Modell der Asynchronmaschine \n• Feldorientierte Regelung der Asynchronmaschine \n• Direct Torque Control (DTC) \n• Feldschwächung \n \nLehrformen/Sprache Vorlesung, Übung Deutsch \nLiteratur Dierk Schröder: Elektrische Antriebe – Regelung von Antriebssystemen.  \n5. Aufl. Springer Vieweg Berlin, Heidelberg, 2021, https://doi.org/10.1007/978-3-\n662-62700-6 \nTeilnahmevoraussetzungen  keine \nEmpfohlen: Grundlagen Elektrotechnik, Grundlagen der Regelungstechnik \nModulverwendbarkeit Entsprechend Modulhandbuch \nEs gibt keine Wechselwirkungen mit anderen Modulen \nVoraussetzungen für Leis-\ntungspunktvergabe \nPrüfung: Klausur K90 \nLeistungspunkte und  \nNoten \n5 CP \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: 2 SWS Vorlesung, 1 SWS Übung \nSe"
+ },
+ {
+  "id": "fmb-800302",
+  "title_en": null,
+  "title_de": "Sensorapplikationen",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 10,
+  "text": "Name des Moduls Sensorapplikationen Prüfungsnummer \n800302 Englischer Titel Sensor Applications \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \nDie Studierenden erwerben Kenntnisse über die Konzeption, den Entwurf und den Auf-\nbau von Sensorsystemen und die Erfassung sowie (Mikrocontroller -basierte) Auswer-\ntung von Messdaten. Bei dieser Veranstaltung handelt es sich um ein zwei-semestriges \npraktisches Projekt. Die Studierenden werden zu einer gegebenen Aufgabenstellung \neine geeignete Sensor -basierte Lösung entwerfen, aufbauen  und testen. Eine Doku-\nmentation während und eine Präsentation nach dem Projekt ist verpflichtender Bestand-\nteil. Es werden regelmäßige Treffen stattfinden, auf denen die Lösungsansätze und \nFortschritte diskutiert werden. Die Studierenden sind mit erfolgreicher Beendigung des \nModuls in der Lage, geeignete Sensoren und Sensorsysteme aufgrund ihres Funktions-\nprinzips für gewählte Anwendungsbereiche (z.B. der Automobiltechnik, Prozesstechnik \noder Medizintechnik) auszuwählen, zu bewerten, zu entwerfen und praktisch zu evalu-\nieren. \nInhalte \n• Grundlagen komplexer Sensoren \n• Entwurfsmethoden und Design von Sensorsystemen \n• physikalische oder (bio)chemische Charakterisierungsmethoden und Analysetech-\nniken mit engem Bezug zu laufenden Forschungsaktivitäten \n \nLehrformen/Sprache Vorlesung, Übung, Seminar (eigenständige Recherchen, Selbst-\nstudium und praktische Erprobung im Labor) \nDeutsch \nLiteratur  \nTeilnahmevoraussetzungen  wünschenswert: Kenntnisse zu Messtechnik/Sensorik \n \nModulverwendbarkeit Entspr"
+ },
+ {
+  "id": "etit-digital-communication-systems",
+  "title_en": "Digital Communication Systems",
+  "title_de": "Digital Communication Systems",
+  "faculty": "ETIT",
+  "language_guess": "en",
+  "cp": 3,
+  "text": "English title Digital Communication Systems\nQualification goals and\ncontents of the module\nLearning objectives and acquired competences:\nThe Student will\n•gain knowledge about the functions and properties of digital communica-\ntion systems.\n•understand the physical principles underlying digital communication.\n•gain knowledge about the modern wired and wireless digital communica-\ntion standards.\nContents:\n•Introduction\n•Signal representation\n•Stochastic processes and noise\n•Sampling, quantization, and coding\n•Transmission bandwidth, data rate, and channel capacity\n•Calculation of error rates\n•PCM, ASK, PSK, and FSK modulation techniques\n•OFDM and CDMA\n•Modeling of wireless channels\nLiterature [1] Jerry D. Gibson: Principles of Digital and Analog Communications. Macmil-\nlian Publishing Company, 1989, ISBN 0-02-341780-3\nLanguage English\nForms of teaching Lecture, Exercise\nRequirements\nfor participation\nBachelor in Electrical Engineering or related studies\nUsability of the module Compulsory module for the Master Course “Electrical Engineering and Informa-\ntion Technology”.\nExaminations prerequisite None\nExam performance Written exam 120 minutes at the end of the module\nCredit points and grades 3 SWS / 5 CP = 150 h (42 h time of attendance + 108 h autonomous work)\nGrading scale as per examination regulations\nWork effort Time of attendance: 2 SWS Lecture, 1 SWS Exercise\nAutonomous work: Post processing of lectures, solving of exercises, research\nreport and preparation of exam\nAvailability Every year in the summer semester\nDuration of the module One Semester\nResponsible lecturer N"
+ },
+ {
+  "id": "etit-digital-information-processing",
+  "title_en": "Digital Information Processing",
+  "title_de": "Digital Information Processing",
+  "faculty": "ETIT",
+  "language_guess": "en",
+  "cp": 3,
+  "text": "English title Digital Information Processing\nQualification goals and\ncontents of the module\nLearning objectives and acquired competences:\n•The participant has an overview of basic problems and methods of digital\nsignal processing.\n•The participant understands the functionality of a digital signal processing\nsystem and can mathematically explain the modus of operation.\n•The participant can assess applications in terms of stability and other\nmarkers. He / She can calculate the frequency response and reconstruction\nof analogue signals.\n•The participant can perform these calculations and assessments as well on\nstochastically excited digital systems.\n•The participant can apply this knowledge in a field of specialization, e.g.\nMedical Signal Analysis.\nContents:\n•Digital Signals and Digital LTI Systems\n•Z-Transform and Calculations of Inverse Z-Transforms\n•System Analysis by Difference Equations\n•Sampling and Reconstruction\n•Synthesis and analysis of such systems\n•Discrete and Fast Fourier Transformations\n•Processing of Stochastic Signals by LTI-Systems: Correlation Techniques\nand Model-Based Systems (ARMA). Selected Specialization Topics, e.g.\nMedical Signal Analysis\nLiterature [1] Oppenheim, A; Schafer R (2013): \"Discrete Time Signal Processing\", 1056\npages, Pearson, ISBN: 978-1292025728\n[2] Lathi, B P; Green, R A (2014) “Essentials of Digital Signal Processing”, 748\npages, Cambridge University Press, ISBN: 978-1-107-05932-0\nLanguage English\nForms of teaching Lecture, Exercise\nRequirements\nfor participation\nBachelor in Electrical Engineering or related studies\nKnowledge of signa"
+ },
+ {
+  "id": "etit-electromagnetic-field-theory",
+  "title_en": "Electromagnetic Field Theory",
+  "title_de": "Electromagnetic Field Theory",
+  "faculty": "ETIT",
+  "language_guess": "en",
+  "cp": 3,
+  "text": "English title Electromagnetic Field Theory\nQualification goals and\ncontents of the module\nLearning objectives and acquired competences:\nThe Student\n•will know mathematical basics (vector analysis, operators and integral the-\norems).\n•know and understand fundamental laws of electromagnetics, constituting\nthe system of Maxwell’s field equations and the boundary conditions for\nthe different fields.\n•learn how to solve basic problems for static and dynamic fields.\nContents:\n•Mathematical fundamentals\n•Static electric fields\n•Stationary currents and the static magnetic field\n•Time-varying electromagnetic\nLiterature [1] J.A. Edminster, Schaum’s Outline of Electromagnetics - (Schaum’s Outline\nSeries), McGraw-Hill Book Company\nLanguage English\nForms of teaching Lecture, Exercise\nRequirements\nfor participation\nBachelor in Electrical Engineering or related studies\nUsability of the module Compulsory module for the Master Course “Electrical Engineering and Informa-\ntion Technology”.\nExaminations prerequisite None\nExam performance Written exam 120 minutes at the end of the module\nCredit points and grades 3 SWS / 5 CP = 150 h (42 h time of attendance + 108 h autonomous work)\nGrading scale as per examination regulations\nWork effort Time of attendance: 2 SWS Lecture, 1 SWS Exercise\nAutonomous work: Post processing of lectures, solving of exercises and prepara-\ntion of exam\nAvailability Every year in the winter semester\nDuration of the module One Semester\nResponsible lecturer Prof. Dr.-Ing. Marco Leone (FEIT-IMT)\n▲Contents▲\nMaster Electrical Engineering and Information Technology - Modul Ha"
+ },
+ {
+  "id": "etit-electronic-circuits",
+  "title_en": "Electronic Circuits",
+  "title_de": "Electronic Circuits",
+  "faculty": "ETIT",
+  "language_guess": "en",
+  "cp": 3,
+  "text": "English title Electronic Circuits\nQualification goals and\ncontents of the module\nLearning objectives and acquired competences:\nThe Student will\n•understand the main function principles on the interface between analog\nand digital circuit design.\n•have an overview about the realization of some complex function blocks.\nContents:\n•digital analog converters: methods, characteristics, errors, applications\n•analog digital converters: classification, methods, characteristics, errors,\napplications\n•phase locked loops: principle, linear model, circuit design of the function\nblocks, applications\n•characteristics, circuit design of some function blocks, design process, in-\ntroduction VHDL\n•design and test of digital circuits with programmable logic devices\nLiterature [1] U. Tietze, C. Schenk, D. Gamm: Electronic Circuits: Handbook for Design\nand Applications\n[2] Springer R. Best: Phase-Locked Loops: Design, Simulation and Applications\nLanguage English\nForms of teaching Lecture, Exercise/Laboratory Internship\nRequirements\nfor participation\nBachelor in Electrical Engineering or related studies\nUsability of the module Compulsory module in the Master Course “Electrical Engineering and Information\nTechnology”.\nExaminations prerequisites None\nExam performance Written exam 120 minutes at the end of the module\nCredit points and grades 3 SWS / 5 CP = 150 h (42 h time of attendance + 108 h autonomous work)\nGrading scale as per examination regulations\nWork effort Time of attendance: 2 SWS Lecture, 1 SWS Exercise/Laboratory Internship\nAutonomous work: Post processing of lectures, solving of exerci"
+ }
+]

@@ -1,0 +1,530 @@
+[
+  {
+    "id": "fmb-103805",
+    "primary_cluster": "data_eng",
+    "secondary_clusters": [],
+    "competencies": [
+      "Apply advanced and non-relational database models",
+      "Compare data models for specialized application domains",
+      "Select appropriate database technologies for given workloads",
+      "Reason about modern data management concepts"
+    ],
+    "topic_tags": ["databases", "data models", "data management"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "An advanced course on database models and modern data management concepts taught through lectures and exercises."
+  },
+  {
+    "id": "fmb-102809",
+    "primary_cluster": "design_plm",
+    "secondary_clusters": ["viz"],
+    "competencies": [
+      "Model curves and surfaces using parametric representations",
+      "Apply Bezier, B-spline and NURBS techniques for geometric design",
+      "Implement computer-aided geometric design algorithms",
+      "Construct and manipulate free-form geometry for CAD"
+    ],
+    "topic_tags": ["cagd", "geometric modeling", "splines", "cad"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on computer-aided geometric design covering curve and surface modeling for CAD applications."
+  },
+  {
+    "id": "fmb-102808",
+    "primary_cluster": "data_eng",
+    "secondary_clusters": [],
+    "competencies": [
+      "Design and build data warehouse architectures",
+      "Model multidimensional schemas for analytical workloads",
+      "Implement ETL processes and OLAP operations",
+      "Apply data warehousing technologies for business intelligence"
+    ],
+    "topic_tags": ["data warehouse", "olap", "etl", "business intelligence"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on data warehouse technologies covering multidimensional modeling, ETL and analytical query processing."
+  },
+  {
+    "id": "fmb-100302",
+    "primary_cluster": "data_eng",
+    "secondary_clusters": [],
+    "competencies": [
+      "Design relational database schemas",
+      "Write and optimize SQL queries",
+      "Apply data modeling and normalization principles",
+      "Manage data with relational database systems"
+    ],
+    "topic_tags": ["databases", "sql", "data modeling", "relational"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A core course on data management covering relational databases, data modeling and practical SQL exercises."
+  },
+  {
+    "id": "fmb-120469",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Formulate multi-objective optimization problems",
+      "Apply evolutionary algorithms to find Pareto-optimal solutions",
+      "Evaluate and compare evolutionary optimization methods",
+      "Solve complex optimization tasks with metaheuristics"
+    ],
+    "topic_tags": ["evolutionary optimization", "multi-objective", "metaheuristics"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on evolutionary algorithms for solving multi-objective optimization problems and finding Pareto-optimal solutions."
+  },
+  {
+    "id": "fmb-901129",
+    "primary_cluster": "innovation_mgmt",
+    "secondary_clusters": ["methods_skills"],
+    "competencies": [
+      "Apply structured creativity techniques to generate ideas",
+      "Develop and refine innovative concepts systematically",
+      "Evaluate and select promising ideas",
+      "Document idea development in a written assignment"
+    ],
+    "topic_tags": ["idea engineering", "creativity", "innovation"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course teaching structured creativity and idea-generation techniques to systematically develop innovative concepts."
+  },
+  {
+    "id": "fmb-100393",
+    "primary_cluster": "hci",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Design interactive user interfaces",
+      "Apply interaction design principles and techniques",
+      "Develop and prototype interactive systems",
+      "Evaluate usability of interactive applications"
+    ],
+    "topic_tags": ["interactive systems", "interaction design", "usability"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on the design and development of interactive systems, covering interaction techniques and user interface concepts."
+  },
+  {
+    "id": "fmb-110463",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Develop parallel programs using established paradigms",
+      "Apply shared-memory and distributed parallelization techniques",
+      "Analyze and optimize performance of parallel code",
+      "Implement concurrent algorithms on multicore and HPC systems"
+    ],
+    "topic_tags": ["parallel programming", "concurrency", "hpc"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on parallel programming covering parallelization paradigms and performance optimization for multicore and HPC systems."
+  },
+  {
+    "id": "fmb-120442",
+    "primary_cluster": "innovation_mgmt",
+    "secondary_clusters": ["methods_skills"],
+    "competencies": [
+      "Develop a start-up concept within a team project",
+      "Apply entrepreneurship methods to validate business ideas",
+      "Plan and execute early-stage venture activities",
+      "Document and present a start-up project"
+    ],
+    "topic_tags": ["startup", "entrepreneurship", "project"],
+    "level": "advanced",
+    "kind": "project",
+    "language": "both",
+    "description_en": "A project module where students develop and advance a start-up concept applying entrepreneurship and venture-building methods."
+  },
+  {
+    "id": "fmb-120501",
+    "primary_cluster": "innovation_mgmt",
+    "secondary_clusters": ["methods_skills"],
+    "competencies": [
+      "Build decision support solutions in a project setting",
+      "Apply decision analysis and modeling methods",
+      "Translate business problems into decision support concepts",
+      "Document and present project results"
+    ],
+    "topic_tags": ["decision support", "entrepreneurship", "project"],
+    "level": "advanced",
+    "kind": "project",
+    "language": "en",
+    "description_en": "A project module in which students develop a decision-support solution, applying decision analysis and venture methods."
+  },
+  {
+    "id": "fmb-102812",
+    "primary_cluster": "viz",
+    "secondary_clusters": [],
+    "competencies": [
+      "Apply scientific and information visualization techniques",
+      "Design effective visual representations of data",
+      "Implement visualization pipelines and rendering methods",
+      "Evaluate and interpret visualizations critically"
+    ],
+    "topic_tags": ["visualization", "scientific visualization", "rendering"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on data and scientific visualization covering techniques for creating effective visual representations of data."
+  },
+  {
+    "id": "fmb-909099",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["innovation_mgmt"],
+    "competencies": [
+      "Critically evaluate the limits of quantitative growth and sustainability paradigms",
+      "Analyze resource-related distributional conflicts",
+      "Compare sustainability strategies across regional and global scales",
+      "Assess governance approaches for natural resources"
+    ],
+    "topic_tags": ["sustainability", "resource governance", "conflict"],
+    "level": "core",
+    "kind": "seminar",
+    "language": "en",
+    "description_en": "A seminar examining sustainability conflicts, the limits of growth and governance approaches for natural resources."
+  },
+  {
+    "id": "fmb-908730",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["innovation_mgmt"],
+    "competencies": [
+      "Analyze political frameworks and actors shaping sustainability transitions",
+      "Apply theories and empirical data of sustainability research",
+      "Evaluate environmental policy instruments and their relevance",
+      "Discuss sustainability policy in written and oral form"
+    ],
+    "topic_tags": ["sustainability", "environmental policy", "governance"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on the political frameworks, actors and instruments of sustainability policy, illustrated by German environmental policy."
+  },
+  {
+    "id": "fmb-906030",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["design_plm"],
+    "competencies": [
+      "Analyze the design and function of sports equipment",
+      "Evaluate materials and technologies used in sports devices",
+      "Assess performance characteristics of sports technology",
+      "Present technical sports-equipment topics in a seminar"
+    ],
+    "topic_tags": ["sports technology", "sports equipment", "materials"],
+    "level": "introductory",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "A seminar introducing the technologies and materials used in sports equipment and their performance characteristics."
+  },
+  {
+    "id": "fmb-technologien-im-sport-ii-ehemals-sportgeratetech",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["design_plm"],
+    "competencies": [
+      "Analyze advanced sports-equipment technologies",
+      "Evaluate materials and construction of sports devices",
+      "Assess performance and biomechanical aspects of sports technology",
+      "Present technical sports topics in a seminar"
+    ],
+    "topic_tags": ["sports technology", "sports equipment", "materials"],
+    "level": "core",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "A seminar on sports-equipment technology, continuing the study of materials, construction and performance of sports devices."
+  },
+  {
+    "id": "fmb-920011",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["design_plm"],
+    "competencies": [
+      "Analyze specialized sports-technology topics in depth",
+      "Evaluate materials and engineering of advanced sports devices",
+      "Assess technological developments in sports equipment",
+      "Present technical sports topics in a seminar"
+    ],
+    "topic_tags": ["sports technology", "sports equipment", "materials"],
+    "level": "advanced",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "An advanced seminar exploring specialized topics in sports technology and the engineering of sports equipment."
+  },
+  {
+    "id": "fmb-technologien-im-sport-iv-ehemals-technologien-im",
+    "primary_cluster": "mech_mat",
+    "secondary_clusters": ["design_plm"],
+    "competencies": [
+      "Investigate advanced sports-technology research topics",
+      "Evaluate cutting-edge materials and methods in sports equipment",
+      "Assess innovations in sports technology critically",
+      "Present specialized sports topics in a seminar"
+    ],
+    "topic_tags": ["sports technology", "sports equipment", "materials"],
+    "level": "advanced",
+    "kind": "seminar",
+    "language": "de",
+    "description_en": "An advanced seminar on selected research topics in sports technology and the engineering of sports devices."
+  },
+  {
+    "id": "fmb-702112",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["mech_mat"],
+    "competencies": [
+      "Apply different forms of the Bernoulli equation to realistic flows",
+      "Distinguish and solve incompressible and compressible flows",
+      "Apply Navier-Stokes equations and similarity theory",
+      "Compute forces and torques induced by fluid flows"
+    ],
+    "topic_tags": ["fluid dynamics", "navier-stokes", "compressible flow"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "An advanced course on fluid dynamics covering Bernoulli relations, Navier-Stokes equations and compressible and turbulent flows."
+  },
+  {
+    "id": "fmb-702073",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Set up and run CFD simulations of complex flow problems",
+      "Apply finite difference, volume and element discretization methods",
+      "Critically analyze and validate CFD results",
+      "Use CFD software and supercomputing resources effectively"
+    ],
+    "topic_tags": ["cfd", "flow simulation", "discretization", "numerical methods"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A hands-on course on computational fluid dynamics covering discretization methods, solvers and validation of flow simulations."
+  },
+  {
+    "id": "fmb-702268",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["manufacturing"],
+    "competencies": [
+      "Model mechanical processes mathematically using statistical methods",
+      "Numerically solve ordinary differential equations for particle systems",
+      "Implement Monte-Carlo and stochastic solution methods",
+      "Develop and validate simulation programs for mechanical processes"
+    ],
+    "topic_tags": ["simulation", "mechanical processes", "monte carlo", "particle technology"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on simulating mechanical processes using statistical methods, numerical ODE solvers and Monte-Carlo techniques."
+  },
+  {
+    "id": "fmb-702262",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Carry out a life cycle assessment for biofuels",
+      "Define system boundaries and apply cut-off and allocation rules",
+      "Select relevant impact categories for product systems",
+      "Use flow-sheet simulation to quantify energy and mass flows"
+    ],
+    "topic_tags": ["life cycle assessment", "biofuels", "sustainability"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on sustainability and life cycle assessment of biofuels, covering LCA methodology and renewable fuel production processes."
+  },
+  {
+    "id": "fmb-502294",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["ml_ai"],
+    "competencies": [
+      "Solve matrix equations for linear and quadratic systems",
+      "Compute and approximate matrix functions",
+      "Apply randomized algorithms in numerical linear algebra",
+      "Select numerical methods for dense and structured problems"
+    ],
+    "topic_tags": ["numerical linear algebra", "matrix functions", "randomized algorithms"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "An advanced course on numerical linear algebra covering matrix equations, matrix functions and randomized algorithms."
+  },
+  {
+    "id": "fmb-501317",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["ml_ai"],
+    "competencies": [
+      "Model dynamic systems with differential equations",
+      "Formulate and solve optimal control problems",
+      "Apply parameter estimation and test planning methods",
+      "Implement optimization algorithms efficiently"
+    ],
+    "topic_tags": ["modeling", "simulation", "optimization", "optimal control"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on modeling, simulation and optimization of dynamic systems, covering optimal control and parameter estimation."
+  },
+  {
+    "id": "fmb-502301",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Formulate machine learning problems as optimization tasks",
+      "Apply stochastic and deterministic gradient methods",
+      "Use penalization and regularization techniques",
+      "Implement optimization algorithms for SVMs and neural networks"
+    ],
+    "topic_tags": ["optimization", "machine learning", "gradient methods"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "An advanced course on optimization methods for machine learning, covering gradient methods and models such as SVMs and neural networks."
+  },
+  {
+    "id": "fmb-501265",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Implement numerical algorithms in a high-level language such as C",
+      "Analyze floating-point arithmetic and machine number errors",
+      "Use shell scripting and revision control for scientific software",
+      "Apply existing software packages in own numerical implementations"
+    ],
+    "topic_tags": ["scientific computing", "numerical algorithms", "c programming"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on the practical implementation of numerical algorithms, covering floating-point arithmetic, C programming and scientific software tools."
+  },
+  {
+    "id": "fmb-800461",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["energy_sustain"],
+    "competencies": [
+      "Simulate and analyze electrical networks in time and frequency domain",
+      "Apply analytical and numerical methods to magnetic circuits",
+      "Model mechanical systems as equivalent electrical networks",
+      "Simulate magnetic fields and combine network and field methods"
+    ],
+    "topic_tags": ["electrical networks", "magnetic circuits", "simulation"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on analytical and numerical methods for simulating and analyzing electrical networks and magnetic circuits."
+  },
+  {
+    "id": "fmb-800441",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["viz"],
+    "competencies": [
+      "Explain the system theory of imaging systems",
+      "Describe the physics of X-rays and computed tomography",
+      "Apply tomographic image reconstruction methods",
+      "Implement and correct reconstruction algorithms and artefacts"
+    ],
+    "topic_tags": ["computed tomography", "image reconstruction", "imaging"],
+    "level": "introductory",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on computed tomography covering imaging system theory, X-ray physics and tomographic image reconstruction methods."
+  },
+  {
+    "id": "fmb-800376",
+    "primary_cluster": "mobility",
+    "secondary_clusters": ["energy_sustain"],
+    "competencies": [
+      "Model AC machines using space-vector representation",
+      "Design control loops for synchronous and asynchronous machines",
+      "Apply field-oriented control and direct torque control",
+      "Evaluate machine types and control methods for applications"
+    ],
+    "topic_tags": ["ac drives", "field-oriented control", "electric machines"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "A course on the control of AC drives covering space-vector modeling, field-oriented control and direct torque control."
+  },
+  {
+    "id": "fmb-800302",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["methods_skills"],
+    "competencies": [
+      "Design and build sensor systems for a given application",
+      "Select sensors based on their functional principles",
+      "Acquire and microcontroller-based evaluation of measurement data",
+      "Test, document and present a sensor-based solution"
+    ],
+    "topic_tags": ["sensors", "measurement", "embedded systems"],
+    "level": "advanced",
+    "kind": "project",
+    "language": "de",
+    "description_en": "A two-semester practical project in which students design, build and test sensor systems for selected application domains."
+  },
+  {
+    "id": "etit-digital-communication-systems",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": [],
+    "competencies": [
+      "Explain functions and properties of digital communication systems",
+      "Apply modulation techniques such as ASK, PSK, FSK and OFDM",
+      "Calculate transmission bandwidth, data rate and error rates",
+      "Model wired and wireless digital communication channels"
+    ],
+    "topic_tags": ["digital communication", "modulation", "wireless"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on digital communication systems covering modulation techniques, channel capacity and modern wired and wireless standards."
+  },
+  {
+    "id": "etit-digital-information-processing",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": [],
+    "competencies": [
+      "Analyze digital LTI systems using the Z-transform",
+      "Apply discrete and fast Fourier transforms to signals",
+      "Assess system stability and frequency response",
+      "Process stochastic signals using correlation and ARMA models"
+    ],
+    "topic_tags": ["digital signal processing", "z-transform", "fourier transform"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on digital signal processing covering Z-transforms, Fourier analysis and processing of deterministic and stochastic signals."
+  },
+  {
+    "id": "etit-electromagnetic-field-theory",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["energy_sustain"],
+    "competencies": [
+      "Apply vector analysis and integral theorems to field problems",
+      "Use Maxwell's equations and boundary conditions",
+      "Solve problems for static electric and magnetic fields",
+      "Analyze time-varying electromagnetic fields"
+    ],
+    "topic_tags": ["electromagnetics", "maxwell equations", "field theory"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on electromagnetic field theory covering Maxwell's equations, boundary conditions and static and time-varying fields."
+  },
+  {
+    "id": "etit-electronic-circuits",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": [],
+    "competencies": [
+      "Design analog-to-digital and digital-to-analog converters",
+      "Analyze phase-locked loops using linear models",
+      "Design and test digital circuits with programmable logic",
+      "Apply VHDL for digital circuit design"
+    ],
+    "topic_tags": ["electronic circuits", "adc dac", "vhdl", "pll"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "A course on electronic circuits covering data converters, phase-locked loops and the design and testing of digital circuits with VHDL."
+  }
+]

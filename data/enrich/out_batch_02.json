@@ -1,0 +1,563 @@
+[
+ {
+  "id": "fmb-601470",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["sim_num", "ml_ai"],
+  "competencies": [
+    "Formulate and apply constitutive material models",
+    "Analyze anisotropic elasticity and inelastic material behavior",
+    "Evaluate fracture mechanics and fatigue under complex loading",
+    "Apply non-local and peridynamic modeling approaches",
+    "Use AI-supported and data-driven methods for material modeling"
+  ],
+  "topic_tags": ["material modeling", "fracture mechanics", "plasticity", "fatigue"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced study of mechanical material behavior, constitutive modeling, fracture and fatigue, including non-local and AI-supported data-driven approaches."
+ },
+ {
+  "id": "fmb-601376",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat", "design_plm"],
+  "competencies": [
+    "Apply the finite element method to strength and structural analysis",
+    "Select appropriate meshing methods and material models",
+    "Evaluate simulation results and assess solution accuracy",
+    "Model contact problems and perform model reduction",
+    "Conduct eigenvalue, harmonic and transient structural dynamics analyses"
+  ],
+  "topic_tags": ["fem", "structural analysis", "simulation", "structural dynamics"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Applied finite element analysis for product strength and structural simulation, covering meshing, material models, contact and structural dynamics."
+ },
+ {
+  "id": "fmb-601170",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+    "Apply systematic product development processes",
+    "Use systems engineering approaches across disciplines",
+    "Carry out methodical conceptual and detailed design",
+    "Manage interdisciplinary design projects in teams",
+    "Apply quality-oriented product development methods"
+  ],
+  "topic_tags": ["engineering design", "systems engineering", "product development"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Methodical engineering design covering the product development process, systems engineering, interdisciplinary information flows and team-based project work."
+ },
+ {
+  "id": "fmb-601400",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+    "Systematically develop, calculate and design products",
+    "Apply methodical design from idea generation to final product",
+    "Generate and evaluate alternative solution concepts",
+    "Establish function structures and clarify design tasks",
+    "Collaborate in interdisciplinary engineering design teams"
+  ],
+  "topic_tags": ["engineering design", "product development", "design methodology"],
+  "level": "core",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Systematic product development from idea to final design, reinforced by an interdisciplinary engineering design group project."
+ },
+ {
+  "id": "fmb-603019",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["hci", "industry40"],
+  "competencies": [
+    "Analyze and synthesize work systems holistically",
+    "Plan and design ergonomic, human-centred workplaces",
+    "Apply assessment methods for work environment factors",
+    "Prepare and use planning-relevant data for factory planning",
+    "Optimize human-machine task allocation"
+  ],
+  "topic_tags": ["work system planning", "ergonomics", "factory planning"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Methods for planning and designing ergonomic work systems within factory planning, focusing on human-centred work conditions and human-machine allocation."
+ },
+ {
+  "id": "fmb-601229",
+  "primary_cluster": "logistics",
+  "secondary_clusters": ["manufacturing", "innovation_mgmt"],
+  "competencies": [
+    "Plan and control industrial production processes",
+    "Derive organizational structures from corporate strategy",
+    "Apply ERP-supported production planning methods",
+    "Plan resource deployment and material provision",
+    "Evaluate production systems using logistic key figures"
+  ],
+  "topic_tags": ["production planning", "erp", "factory organisation"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Planning and control of industrial production, covering organizational structures, order processing, ERP-based resource planning and production system evaluation."
+ },
+ {
+  "id": "fmb-601166",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["sim_num", "manufacturing"],
+  "competencies": [
+    "Apply CAx tools across the product lifecycle",
+    "Build 3D CAD models using B-Rep, CSG and parametric methods",
+    "Use CAE simulation including FEM, CFD and multibody systems",
+    "Apply topology and shape optimization techniques",
+    "Integrate CAP and CAM in the digital process chain"
+  ],
+  "topic_tags": ["cax", "cad", "cae", "product lifecycle"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Overview of CAx applications across the product lifecycle, covering CAD modeling, CAE simulation, optimization, and CAP/CAM process integration."
+ },
+ {
+  "id": "fmb-604299",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+    "Use computer-aided tools in product development",
+    "Build product models and apply 3D modelling procedures",
+    "Familiarize quickly with CAx systems",
+    "Manage product data, interfaces and archiving",
+    "Apply Product Lifecycle Management (PLM) fundamentals"
+  ],
+  "topic_tags": ["cax", "cad", "plm", "3d modelling"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Foundational computer-aided design course covering CAx systems, product models, 3D modelling procedures, product data management and PLM basics."
+ },
+ {
+  "id": "fmb-601167",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+    "Plan introduction and migration of CAx systems",
+    "Assess the economic efficiency of CAx systems",
+    "Apply cost methods to predict product costs across the lifecycle",
+    "Manage CAx systems and applications",
+    "Evaluate new technologies using the BAPM method"
+  ],
+  "topic_tags": ["cax management", "plm", "product lifecycle costing"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Management of CAx systems, covering system introduction and migration, economic efficiency assessment, lifecycle costing and technology evaluation."
+ },
+ {
+  "id": "fmb-601402",
+  "primary_cluster": "logistics",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+    "Identify information and coordination deficiencies in supply networks",
+    "Apply approaches and rules for collaborative management",
+    "Conduct solution-oriented negotiations and contracts",
+    "Use collaborative IT tools to control supply networks",
+    "Design and apply key performance indicator systems"
+  ],
+  "topic_tags": ["supply chain", "collaboration", "logistics networks"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Collaborative management of supply networks, addressing coordination deficiencies, trust-based partnerships, negotiation, and collaborative IT control tools."
+ },
+ {
+  "id": "fmb-601328",
+  "primary_cluster": "logistics",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+    "Identify information and coordination deficiencies in logistics networks",
+    "Apply rules of behavior for collaborative management",
+    "Conduct solution-oriented negotiations and contract talks",
+    "Use collaborative IT tools to control supply networks",
+    "Design key performance indicator systems"
+  ],
+  "topic_tags": ["supply chain", "collaboration", "logistics networks"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Collaborative management in logistics networks, covering coordination deficiencies, win-win partnerships, negotiation and collaborative IT control tools."
+ },
+ {
+  "id": "fmb-601393",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+    "Apply tensor algebra to mechanical field problems",
+    "Describe kinematics of deformable bodies in space and time",
+    "Perform stress analysis of continua",
+    "Formulate balance equations for mechanical and thermodynamic problems",
+    "Apply principles of material theory"
+  ],
+  "topic_tags": ["continuum mechanics", "tensor algebra", "stress analysis"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to continuum mechanics field theories, covering tensor algebra, deformation kinematics, stress analysis, balance equations and material theory."
+ },
+ {
+  "id": "fmb-601467",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["sim_num", "robotics"],
+  "competencies": [
+    "Apply data-driven methods to dynamic mechatronic systems",
+    "Use supervised and unsupervised learning techniques",
+    "Build and apply perceptrons and neural networks",
+    "Apply data-driven control and reinforcement learning",
+    "Use physics-informed machine learning and assess its limitations"
+  ],
+  "topic_tags": ["machine learning", "neural networks", "physics-informed ml"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Introduction to data-driven and machine learning methods for the development, analysis and optimization of dynamic mechatronic systems."
+ },
+ {
+  "id": "fmb-601391",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["design_plm", "mech_mat"],
+  "competencies": [
+    "Explain operating principles and limits of additive manufacturing techniques",
+    "Apply design rules and optimization strategies for AM",
+    "Specify powder requirements for different AM processes",
+    "Relate processing methods to AM build properties",
+    "Apply nondestructive inspection methods and AM standards"
+  ],
+  "topic_tags": ["additive manufacturing", "design for am", "powder", "ndt"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Additive manufacturing technologies covering process principles, design rules, powder requirements, process-property relationships, and nondestructive testing."
+ },
+ {
+  "id": "fmb-601394",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat", "logistics"],
+  "competencies": [
+    "Create idealised discrete element method (DEM) models",
+    "Calibrate DEM contact model parameters",
+    "Run DEM simulations using LIGGGHTS software",
+    "Analyse and interpret DEM simulation results",
+    "Couple DEM with FEM, CFD and multibody dynamics"
+  ],
+  "topic_tags": ["discrete element method", "granular systems", "simulation"],
+  "level": "core",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Discrete element method for simulating granular and particulate systems, covering modelling, calibration, LIGGGHTS simulation projects, and coupling with FEM/CFD."
+ },
+ {
+  "id": "fmb-606592",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat", "robotics"],
+  "competencies": [
+    "Model and simulate dynamic multibody systems",
+    "Apply numerical methods to solve differential equations of motion",
+    "Analyse motion under acting forces in biomechanical contexts",
+    "Solve forward dynamics using time integration and muscle models",
+    "Solve inverse kinematics and dynamics from measured data"
+  ],
+  "topic_tags": ["multibody dynamics", "biomechanics", "motion analysis"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Modelling and simulation of multibody motion dynamics with a biomechanical focus on exoprostheses, including forward and inverse kinematics and dynamics."
+ },
+ {
+  "id": "fmb-800037",
+  "primary_cluster": "mobility",
+  "secondary_clusters": ["energy_sustain"],
+  "competencies": [
+    "Explain the structure and functions of electric drive systems",
+    "Select electrical drive systems for traction applications",
+    "Assess steady-state and dynamic drive characteristics",
+    "Analyse speed-torque behavior of electrical machines",
+    "Apply control strategies for variable-speed drives"
+  ],
+  "topic_tags": ["electric drives", "traction", "drive control"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Controlled and regulated electrical drive systems with a focus on traction drives, covering structure, machine characteristics and speed control strategies."
+ },
+ {
+  "id": "fmb-601384",
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": ["mobility"],
+  "competencies": [
+    "Select energy sources and storage technologies for applications",
+    "Assess fuels by availability, sustainability and economics",
+    "Explain electrochemical principles of primary and secondary cells",
+    "Evaluate kinetic and electrical energy storage systems",
+    "Apply battery management and scaling for mobile systems"
+  ],
+  "topic_tags": ["energy storage", "fuels", "batteries", "sustainability"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Energy sources and storage technologies for vehicles, covering fossil and biogenic fuels, hydrogen, kinetic and electrochemical storage, and battery management."
+ },
+ {
+  "id": "fmb-604297",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+    "Engineer and design complete technical systems",
+    "Apply engineering design approaches across disciplines",
+    "Evaluate requirements and boundary conditions for design tasks",
+    "Generate and assess alternative solutions",
+    "Lead and collaborate in interdisciplinary engineering teams"
+  ],
+  "topic_tags": ["engineering design", "machine elements", "design methodology"],
+  "level": "core",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Engineering design of complete systems covering development, calculation and machine elements, reinforced by homework and a semester design project."
+ },
+ {
+  "id": "fmb-601416",
+  "primary_cluster": "industry40",
+  "secondary_clusters": ["design_plm", "software_sys"],
+  "competencies": [
+    "Implement engineering tool chains for production systems",
+    "Apply model-based systems engineering practices",
+    "Model engineering data using AutomationML",
+    "Design engineering tool interfaces using common concepts",
+    "Solve bilateral and multilateral data exchange problems"
+  ],
+  "topic_tags": ["automationml", "model-based systems engineering", "data exchange"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Engineering data logistics for production systems using AutomationML and model-based systems engineering to build integrated engineering tool chains."
+ },
+ {
+  "id": "fmb-601468",
+  "primary_cluster": "industry40",
+  "secondary_clusters": ["software_sys", "manufacturing"],
+  "competencies": [
+    "Analyse and model complex production systems from a systems engineering view",
+    "Apply PPR and PQRS modelling frameworks",
+    "Integrate quality, reliability and security into engineering decisions",
+    "Perform trade-off analysis between competing system objectives",
+    "Apply requirements, reliability and security engineering for resilient design"
+  ],
+  "topic_tags": ["production systems", "resilience", "systems engineering", "reliability"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Integrated systems engineering of resilient production systems, covering PPR/PQRS modelling and the integration of quality, reliability and security aspects."
+ },
+ {
+  "id": "fmb-604187",
+  "primary_cluster": "logistics",
+  "secondary_clusters": ["industry40"],
+  "competencies": [
+    "Apply operation management and ERP fundamentals",
+    "Perform demand forecasting and demand modeling",
+    "Plan inventory, capacity and aggregate production",
+    "Apply material requirements planning (MRP) and ERP",
+    "Use network optimization and decision-making tools"
+  ],
+  "topic_tags": ["erp", "supply chain", "production planning", "forecasting"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to operations management and enterprise resource planning, covering forecasting, inventory, MRP/ERP, capacity planning and network optimization."
+ },
+ {
+  "id": "fmb-601387",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["sim_num", "logistics"],
+  "competencies": [
+    "Determine load assumptions for working and conveying machines",
+    "Calculate forces and moments for drive and component sizing",
+    "Derive load spectra for dimensioning machine drive units",
+    "Design and conceptualize complex machine assemblies",
+    "Apply multibody simulation to size complex machines"
+  ],
+  "topic_tags": ["machine design", "load assumptions", "multibody simulation", "cranes"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Design of working and conveying machines, focusing on deriving load assumptions and spectra and applying multibody simulation to size complex assemblies."
+ },
+ {
+  "id": "fmb-601124",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+    "Select appropriate experimental measurement methods independently",
+    "Measure deformations, stresses and vibrations in solids",
+    "Apply strain gauges, photoelasticity and frequency analysis",
+    "Acquire and process measurement data",
+    "Conduct experiments and correctly evaluate results"
+  ],
+  "topic_tags": ["experimental mechanics", "strain measurement", "vibration analysis"],
+  "level": "core",
+  "kind": "lab",
+  "language": "de",
+  "description_en": "Experimental mechanics linking theory and application through laboratory measurement of deformations, stresses and vibrations using strain gauges and photoelasticity."
+ },
+ {
+  "id": "fmb-603055",
+  "primary_cluster": "robotics",
+  "secondary_clusters": ["industry40", "manufacturing"],
+  "competencies": [
+    "Engineer and implement automated production processes",
+    "Assess capabilities and limits of automation systems",
+    "Program programmable logic controllers using IEC 61131-3",
+    "Program industrial robots",
+    "Model technical systems using event-discrete models"
+  ],
+  "topic_tags": ["factory automation", "industrial robotics", "plc", "iec 61131-3"],
+  "level": "core",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Factory automation and industrial robotics covering automated production engineering, PLC programming with IEC 61131-3, and industrial robot programming."
+ },
+ {
+  "id": "fmb-604167",
+  "primary_cluster": "mobility",
+  "secondary_clusters": ["robotics", "sim_num"],
+  "competencies": [
+    "Explain the structure and function of driver assistance systems",
+    "Apply development methodology for driver assistance systems",
+    "Model vehicle dynamics for assistance functions",
+    "Select sensors and actuators for assistance systems",
+    "Assess stabilization and navigation-level assistance systems"
+  ],
+  "topic_tags": ["driver assistance", "autonomous driving", "vehicle dynamics"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Driver assistance systems and autonomous driving, covering vehicle dynamics, sensors and actuators, and stabilization- and navigation-level assistance functions."
+ },
+ {
+  "id": "fmb-601383",
+  "primary_cluster": "mobility",
+  "secondary_clusters": ["energy_sustain"],
+  "competencies": [
+    "Analyse types of vehicle emissions and their effects",
+    "Distinguish emissions from immissions",
+    "Apply legal regulations on vehicle emissions",
+    "Evaluate emission formation and reduction measures",
+    "Compare emissions across vehicle and powertrain concepts"
+  ],
+  "topic_tags": ["vehicle emissions", "exhaust aftertreatment", "sustainability"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Vehicle emissions covering emission types and effects, legal regulations, formation and reduction measures, and exhaust aftertreatment across powertrain concepts."
+ },
+ {
+  "id": "fmb-601351",
+  "primary_cluster": "mobility",
+  "secondary_clusters": ["design_plm", "energy_sustain"],
+  "competencies": [
+    "Analyse requirements in vehicle development",
+    "Design vehicle architectures and platforms",
+    "Apply the product development process to vehicles",
+    "Compare BEV, HEV, FCEV and conventional architectures",
+    "Consider recycling and life-cycle assessment in design"
+  ],
+  "topic_tags": ["vehicle architecture", "vehicle development", "powertrain concepts"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Vehicle system design covering the development process, platforms, requirements management, electrified and conventional architectures, and life-cycle assessment."
+ },
+ {
+  "id": "fmb-601423",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat"],
+  "competencies": [
+    "Model thin-walled structures using the finite element method",
+    "Formulate finite element equations for bars, beams, plates and shells",
+    "Perform deformation analysis of practical applications",
+    "Compute dynamic response in time and frequency domains",
+    "Solve eigenvalue and buckling problems"
+  ],
+  "topic_tags": ["fem", "thin-walled structures", "shells", "buckling"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Finite element modelling of thin-walled structures, covering element formulations for plates and shells, dynamic response, eigenvalue and buckling analysis."
+ },
+ {
+  "id": "fmb-601375",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["design_plm"],
+  "competencies": [
+    "Apply design-for-manufacturing principles",
+    "Apply design-for-assembly methods",
+    "Adapt component design to specific manufacturing processes",
+    "Address disassembly and recycling in design",
+    "Apply conformity assessment and CE marking procedures"
+  ],
+  "topic_tags": ["design for manufacturing", "design for assembly", "ce marking"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Manufacturing- and assembly-appropriate product design, covering design-for-manufacturing and design-for-assembly principles, recycling and conformity assessment."
+ },
+ {
+  "id": "fmb-601247",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": [],
+  "competencies": [
+    "Design measurement setups from drawing specifications",
+    "Select appropriate measuring instruments and gauges",
+    "Apply measuring devices to inspect geometric elements",
+    "Assess measurement deviations and uncertainties",
+    "Statistically analyse and process measurement data"
+  ],
+  "topic_tags": ["metrology", "measurement technology", "quality control"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Manufacturing metrology covering measurement setup design, instrument selection, geometric inspection, measurement uncertainty and statistical data analysis."
+ },
+ {
+  "id": "fmb-601317",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["energy_sustain"],
+  "competencies": [
+    "Plan manufacturing steps for typical mechanical components",
+    "Select blanks and define technological datums",
+    "Schedule assembly and disassembly operations",
+    "Estimate required production resources",
+    "Apply production control, monitoring and quality planning"
+  ],
+  "topic_tags": ["manufacturing planning", "process planning", "production control"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Manufacturing planning covering blank selection, process sequencing, assembly operations, resource estimation, production control and quality planning."
+ },
+ {
+  "id": "fmb-601373",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["mech_mat"],
+  "competencies": [
+    "Select application-optimized manufacturing processes",
+    "Assess possibilities and limits of forming and casting technologies",
+    "Apply cutting processes with defined and undefined edges",
+    "Use thermal and electrochemical removal technologies",
+    "Apply thermal and mechanical joining processes"
+  ],
+  "topic_tags": ["manufacturing processes", "forming", "machining", "joining"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Manufacturing technologies across casting, forming, cutting, removal and joining, enabling application-optimized selection of processes and technologies."
+ }
+]

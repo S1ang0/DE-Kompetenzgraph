@@ -1,0 +1,534 @@
+[
+  {
+    "id": "etit-power-electronics",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Analyze power electronic converter circuits",
+      "Design choppers, rectifiers and self-commutated bridges",
+      "Understand DC-link and H-bridge converter topologies",
+      "Apply power electronics to electrical drive and supply systems"
+    ],
+    "topic_tags": ["power electronics", "converters", "rectifiers"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Covers fundamental power electronic circuits including choppers, bridges and rectifiers with methods and applications in electrical engineering."
+  },
+  {
+    "id": "etit-power-system-analysis",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Model power grid topology and equipment in modal components",
+      "Perform power flow and short-circuit calculations",
+      "Carry out state estimation for power systems",
+      "Analyze small-signal and transient grid stability",
+      "Model power grids with MATLAB"
+    ],
+    "topic_tags": ["power systems", "power flow", "grid stability"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches steady-state and quasi-steady-state algorithms to model power grids for planning, including power flow, stability and state estimation."
+  },
+  {
+    "id": "etit-project",
+    "primary_cluster": "methods_skills",
+    "secondary_clusters": [],
+    "competencies": [
+      "Analyze the state of science and technology",
+      "Develop scientific project ideas and specifications",
+      "Perform a market analysis",
+      "Write and structure a scientific project report",
+      "Defend project results in oral presentations"
+    ],
+    "topic_tags": ["scientific writing", "project work", "literature survey"],
+    "level": "core",
+    "kind": "project",
+    "language": "en",
+    "description_en": "Project seminar teaching scientific working methods, literature survey, good citation practice and scientific report writing in electrical engineering."
+  },
+  {
+    "id": "etit-systems-and-control",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Mathematically describe and analyze dynamic systems",
+      "Design feedback control systems in time and frequency domain",
+      "Apply the root locus and frequency response methods",
+      "Design state variable feedback and observers"
+    ],
+    "topic_tags": ["control systems", "feedback control", "state feedback"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Introduces analysis of dynamic systems and design of feedback control using frequency-domain, time-domain and state-space techniques."
+  },
+  {
+    "id": "etit-advanced-linear-control",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Analyze MIMO LTI systems for stability, controllability and observability",
+      "Use canonical state representations and Kalman decomposition",
+      "Design state feedback controllers via eigenvalue assignment and LQR",
+      "Design state observers to reconstruct unmeasured states"
+    ],
+    "topic_tags": ["state-space control", "mimo systems", "lqr"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Advanced state-space methods for analysis and control of continuous- and discrete-time MIMO LTI systems with feedback and observer design."
+  },
+  {
+    "id": "etit-automation-lab",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["industry40"],
+    "competencies": [
+      "Apply control and automation theory to practical systems",
+      "Conduct laboratory automation experiments",
+      "Implement distributed control systems in practice",
+      "Evaluate experimental automation results"
+    ],
+    "topic_tags": ["process automation", "control lab", "distributed control"],
+    "level": "core",
+    "kind": "lab",
+    "language": "en",
+    "description_en": "Laboratory applying knowledge from Systems and Control and Distributed Control Systems to practical process automation experiments."
+  },
+  {
+    "id": "etit-digital-automation-systems",
+    "primary_cluster": "industry40",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Design distributed digital automation systems",
+      "Plan integration of automation components",
+      "Apply automation and information models such as OPC UA",
+      "Interpret abstract automation and information technology models"
+    ],
+    "topic_tags": ["automation systems", "opc ua", "system integration"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Covers design and construction of distributed digital automation systems, integration technologies and information models like OPC UA."
+  },
+  {
+    "id": "etit-dynamics-of-distributed-parameter-systems",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Model distributed parameter systems with partial differential equations",
+      "Solve linear PDEs with constant coefficients",
+      "Analyze stability of infinite-dimensional systems",
+      "Design flatness-based and backstepping controllers for PDE systems"
+    ],
+    "topic_tags": ["distributed parameter systems", "pde control", "backstepping"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Modeling, analysis and control of distributed parameter systems described by partial differential equations using flatness-based and backstepping methods."
+  },
+  {
+    "id": "etit-machine-learning-dynamical-systems-and-control",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Apply machine learning approaches to dynamical systems and control",
+      "Analyze ML algorithms for solving dynamical problems",
+      "Design classifiers for dynamical data",
+      "Use reinforcement learning and Koopman theory for control",
+      "Implement learning-based control in MATLAB/Python"
+    ],
+    "topic_tags": ["machine learning", "reinforcement learning", "data-driven control"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Connects machine learning with systems theory to design learning-based modelling and control approaches for dynamical systems."
+  },
+  {
+    "id": "etit-nonlinear-control",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Describe and model nonlinear systems",
+      "Analyze nonlinear system dynamics and stability",
+      "Apply Lyapunov, BIBO stability and passivity concepts",
+      "Design controllers for nonlinear systems via input-output linearization"
+    ],
+    "topic_tags": ["nonlinear control", "lyapunov stability", "passivity"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches modeling, stability analysis and controller design for nonlinear systems using Lyapunov theory, passivity and input-output linearization."
+  },
+  {
+    "id": "etit-optimal-control",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Formulate and analyze constrained optimal control problems",
+      "Apply dynamic programming and the Hamilton-Jacobi-Bellman equation",
+      "Use variational calculus and Pontryagin's maximum principle",
+      "Derive numerical solutions for optimal control problems"
+    ],
+    "topic_tags": ["optimal control", "dynamic programming", "model predictive control"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Introduces formulation, theory and numerical solution of constrained optimal control problems for dynamic systems across many applications."
+  },
+  {
+    "id": "etit-process-control",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Apply multivariable and decentralized process control methods",
+      "Tune and implement PID controllers",
+      "Select control configurations for multi-unit processes",
+      "Use MATLAB for computer-aided control system design"
+    ],
+    "topic_tags": ["process control", "pid tuning", "multivariable control"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Covers multivariable process control with emphasis on decentralized control, PID tuning and plantwide control via simulation case studies."
+  },
+  {
+    "id": "etit-seminar-systems-theory-and-control-engineering",
+    "primary_cluster": "methods_skills",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Analyze advanced systems theory and control concepts mathematically",
+      "Research and synthesize scientific literature on a special topic",
+      "Develop proofs and theoretical arguments independently",
+      "Communicate results and give constructive peer feedback"
+    ],
+    "topic_tags": ["control theory", "seminar", "scientific literature"],
+    "level": "advanced",
+    "kind": "seminar",
+    "language": "both",
+    "description_en": "Seminar on advanced systems theory and control engineering topics requiring literature research, mathematical analysis and scientific presentation."
+  },
+  {
+    "id": "etit-state-estimation",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Assess observability of process models",
+      "Design Luenberger observers for LTI systems",
+      "Implement Kalman, extended and unscented Kalman filters",
+      "Tune state estimation algorithms for linear and nonlinear systems"
+    ],
+    "topic_tags": ["state estimation", "kalman filter", "observers"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Introduces model-based state estimation and measurement systems with emphasis on Luenberger observers and Kalman filter variants."
+  },
+  {
+    "id": "etit-automatic-speech-recognition-systems",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["hci"],
+    "competencies": [
+      "Explain methods of automatic speech recognition with Hidden Markov Models",
+      "Apply feature extraction and classification techniques to speech",
+      "Use DTW, Viterbi and Baum-Welch algorithms",
+      "Design robust practical speech recognition systems"
+    ],
+    "topic_tags": ["speech recognition", "hidden markov models", "feature extraction"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches methods of automatic speech recognition using Hidden Markov Models, feature extraction, language models and robust system design."
+  },
+  {
+    "id": "etit-chatbot-challenge",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["hci"],
+    "competencies": [
+      "Build chatbot systems with the Rasa framework",
+      "Train and evaluate natural language understanding models",
+      "Collect and prepare classification training data",
+      "Conduct UX user tests and derive improvements",
+      "Manage an AI project from idea to productive deployment"
+    ],
+    "topic_tags": ["chatbots", "natural language understanding", "user experience"],
+    "level": "core",
+    "kind": "project",
+    "language": "de",
+    "description_en": "Project building an AI-driven Rasa chatbot for an escape-room game, covering NLU model training, evaluation and UX user testing."
+  },
+  {
+    "id": "etit-computed-tomography-i-methods-on-ct",
+    "primary_cluster": "viz",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Understand the system theory of imaging systems",
+      "Explain the functional principle of computed tomography",
+      "Apply mathematical methods of tomographic image reconstruction",
+      "Handle beam geometries and reconstruction artefacts"
+    ],
+    "topic_tags": ["computed tomography", "image reconstruction", "medical imaging"],
+    "level": "introductory",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Introduces system theory of imaging, X-ray physics and mathematical methods of tomographic image reconstruction in computed tomography."
+  },
+  {
+    "id": "etit-digital-information-processing-laboratory",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Apply digital signal processing methods in practice",
+      "Implement digital filters and Fourier transforms",
+      "Use feature space transformations for signals",
+      "Estimate Gaussian models under maximum-likelihood assumptions"
+    ],
+    "topic_tags": ["digital signal processing", "digital filters", "fourier transform"],
+    "level": "core",
+    "kind": "lab",
+    "language": "en",
+    "description_en": "Laboratory applying digital signal processing methods including digital filters, Fourier transforms and feature space transformations to speech."
+  },
+  {
+    "id": "etit-heterogeneous-computing",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": ["ml_ai"],
+    "competencies": [
+      "Explain architectures of GPU, FPGA and AI accelerators",
+      "Select suitable accelerators for given applications",
+      "Design and implement parallel programs for heterogeneous systems",
+      "Evaluate performance, energy and scalability of heterogeneous systems"
+    ],
+    "topic_tags": ["heterogeneous computing", "gpu", "fpga"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Teaches architecture, programming and integration of hardware accelerators like GPUs, FPGAs and AI accelerators into CPU-based systems."
+  },
+  {
+    "id": "etit-image-coding",
+    "primary_cluster": "viz",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Apply fundamental methods of image and video coding",
+      "Estimate the information content of images",
+      "Develop encoders for image and video compression",
+      "Evaluate coding methods for still and moving images"
+    ],
+    "topic_tags": ["image coding", "video compression", "transform coding"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches fundamental methods of image and video coding from information-theoretical to semantic techniques for compression and communication."
+  },
+  {
+    "id": "etit-seminar-system-on-chip",
+    "primary_cluster": "methods_skills",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Search and classify scientific literature on SoC topics",
+      "Develop research questions from the state of the art",
+      "Present acquired knowledge systematically",
+      "Gain insight into current System-on-Chip research"
+    ],
+    "topic_tags": ["system-on-chip", "seminar", "literature search"],
+    "level": "advanced",
+    "kind": "seminar",
+    "language": "en",
+    "description_en": "Seminar where students survey the state of the art of a System-on-Chip research topic and present it through scientific literature work."
+  },
+  {
+    "id": "etit-system-on-chip",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": [],
+    "competencies": [
+      "Define the structure of application-specific SoCs",
+      "Evaluate hardware architecture design alternatives",
+      "Perform design space exploration with simulation tools",
+      "Select and parameterize optimization methods for chip design"
+    ],
+    "topic_tags": ["system-on-chip", "network-on-chip", "design space exploration"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Covers structure and hardware architecture of System-on-Chips, on-chip communication networks and design space exploration with optimization."
+  },
+  {
+    "id": "etit-control-of-ac-drives",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Model AC electric machines using space vector representation",
+      "Apply field-oriented control to PMSM and induction machines",
+      "Tune control loops for AC drives",
+      "Assess drive types and control algorithms for applications"
+    ],
+    "topic_tags": ["ac drives", "field-oriented control", "electric machines"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches dynamic models of AC electric machines and field-oriented and direct torque control algorithms for adjustable-speed AC drives."
+  },
+  {
+    "id": "etit-digital-protection-of-power-networks",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Apply power system protection concepts to network elements",
+      "Configure protection settings for lines, transformers and generators",
+      "Implement digital signal processing for protection",
+      "Design adaptive and intelligent protection systems"
+    ],
+    "topic_tags": ["power system protection", "digital relays", "wide-area protection"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches power system protection concepts and digital signal processing algorithms for protecting lines, transformers, generators and busbars."
+  },
+  {
+    "id": "etit-electromagnetic-compatibility",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": [],
+    "competencies": [
+      "Understand EMC concepts, principles and regulations",
+      "Apply shielding, filtering and coupling reduction measures",
+      "Analyze the EMC of electrical and electronic systems",
+      "Use EMC measurement techniques"
+    ],
+    "topic_tags": ["electromagnetic compatibility", "shielding", "emc measurement"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Covers concepts, measurement techniques and design measures to analyze and improve the electromagnetic compatibility of electronic systems."
+  },
+  {
+    "id": "etit-model-predictive-control-for-three-phase-convert",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Explain operation of two-level and multilevel three-phase converters",
+      "Design finite and continuous control set MPC strategies",
+      "Formulate and solve constrained optimization for real-time control",
+      "Apply MPC to electric drives and grid-connected converters"
+    ],
+    "topic_tags": ["model predictive control", "power converters", "electric drives"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches model predictive control techniques for three-phase power converters with applications to electric drives and grid-connected resources."
+  },
+  {
+    "id": "etit-photovoltaic-systems",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": [],
+    "competencies": [
+      "Assess solar resources for electrical power generation",
+      "Understand solar-electrical energy conversion principles",
+      "Design photovoltaic systems",
+      "Address grid connection and storage integration requirements"
+    ],
+    "topic_tags": ["photovoltaics", "solar energy", "grid integration"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Teaches assessment of solar resources, working principles of PV systems and design of photovoltaic systems including grid and storage integration."
+  },
+  {
+    "id": "etit-power-electronic-components-and-systems",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["mech_mat"],
+    "competencies": [
+      "Characterize power semiconductor components such as IGBT, MOSFET and diodes",
+      "Understand packaging and assembly of power components",
+      "Dimension component stress in power supply and drive systems",
+      "Assess reliability in power electronic systems"
+    ],
+    "topic_tags": ["power semiconductors", "igbt", "reliability"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Covers power semiconductor components and their interaction with power supply and drive systems, including dimensioning and reliability."
+  },
+  {
+    "id": "etit-renewable-energy-sources",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": [],
+    "competencies": [
+      "Explain energy conversion of renewable energy sources",
+      "Understand the regulatory framework for renewables",
+      "Address grid integration challenges of renewable energy",
+      "Evaluate energy storage possibilities and limitations"
+    ],
+    "topic_tags": ["renewable energy", "energy storage", "grid integration"],
+    "level": "introductory",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Introduces energy conversion of wind, photovoltaic, biomass and fuel cells with their regulatory framework and grid integration challenges."
+  },
+  {
+    "id": "etit-basics-of-medical-image-science",
+    "primary_cluster": "viz",
+    "secondary_clusters": [],
+    "competencies": [
+      "Describe radiation principles and types of ionizing radiation",
+      "Distinguish active and passive medical imaging methods",
+      "Apply system theory to medical imaging systems",
+      "Describe image quality using observer models and ROC curves"
+    ],
+    "topic_tags": ["medical imaging", "radiation physics", "image quality"],
+    "level": "introductory",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Introduces radiation physics, medical imaging system theory and Fourier- and task-based image quality description using observer models."
+  },
+  {
+    "id": "etit-integrated-project",
+    "primary_cluster": "methods_skills",
+    "secondary_clusters": [],
+    "competencies": [
+      "Work on a research-related topic under supervision",
+      "Perform research including literature review",
+      "Develop an independent research project",
+      "Apply and deepen knowledge in a scientific context"
+    ],
+    "topic_tags": ["research project", "scientific work", "supervised project"],
+    "level": "core",
+    "kind": "project",
+    "language": "en",
+    "description_en": "Supervised research project where students apply their knowledge, perform literature research and develop an independent scientific project."
+  },
+  {
+    "id": "etit-master-thesis",
+    "primary_cluster": "methods_skills",
+    "secondary_clusters": [],
+    "competencies": [
+      "Work scientifically on a delimited research problem",
+      "Select and apply suitable scientific methods",
+      "Critically evaluate and contextualize results",
+      "Write and defend a research-oriented master's thesis"
+    ],
+    "topic_tags": ["master thesis", "scientific work", "research"],
+    "level": "advanced",
+    "kind": "thesis",
+    "language": "both",
+    "description_en": "Master's thesis in which students independently solve a research problem with scientific methods and present and defend the results."
+  },
+  {
+    "id": "etit-automation-systems",
+    "primary_cluster": "industry40",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Design distributed digital automation systems",
+      "Plan integration of automation components",
+      "Interpret abstract automation and information technology models",
+      "Apply IT and automation technologies to integrate components"
+    ],
+    "topic_tags": ["automation systems", "system integration", "information models"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Covers design and construction of distributed digital automation systems including component integration via IT and automation technologies."
+  }
+]

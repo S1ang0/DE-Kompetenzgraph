@@ -1,0 +1,563 @@
+[
+  {
+    "id": "etit-combustion-engineering",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Compute energy and mass balances for combustion firings",
+      "Calculate fuel consumption and flue gas composition for a heat demand",
+      "Assess ignition stability, flash-back and blow-off criteria of flames",
+      "Design firings for energy efficiency and reduced emissions",
+      "Evaluate explosion and detonation conditions for safety"
+    ],
+    "topic_tags": ["combustion", "fuels", "energy efficiency", "emissions"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Combustion fundamentals covering fuels, flame stability, balances and the design of energy-efficient, low-emission firings."
+  },
+  {
+    "id": "etit-fluidenergiemaschinen",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Explain working principles and construction of turbomachines",
+      "Select and dimension pumps, turbines and compressors",
+      "Analyse operating behaviour and control for optimal energy conversion",
+      "Apply affinity laws and dimensionless characteristic numbers",
+      "Assess energy transfer in fluid-flow machines"
+    ],
+    "topic_tags": ["turbomachinery", "pumps", "turbines", "energy conversion"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Fundamentals, design, operation and control of fluid-energy machines such as pumps, turbines and compressors for efficient energy conversion."
+  },
+  {
+    "id": "etit-biofuels-sustainable-production-and-utilisation",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["methods_skills"],
+    "competencies": [
+      "Compare biomass feedstocks and biofuels with fossil alternatives",
+      "Distinguish thermochemical and biotechnological conversion processes",
+      "Apply reaction-engineering models to biomass conversion",
+      "Conduct life-cycle assessment for biofuel production and use",
+      "Search and critically review scientific literature via Scopus"
+    ],
+    "topic_tags": ["biofuels", "biomass conversion", "life cycle assessment", "sustainability"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Conversion of biomass to fuels, process modelling and life-cycle assessment for sustainable biofuel production and utilisation."
+  },
+  {
+    "id": "etit-brennstoffzellen",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Explain principles of electrochemical energy conversion",
+      "Analyse steady-state behaviour and current-voltage curves of fuel cells",
+      "Design and optimise fuel cell systems",
+      "Apply Nernst equation and reaction kinetics to fuel cells",
+      "Assess hydrogen handling, storage and fuel processing"
+    ],
+    "topic_tags": ["fuel cells", "electrochemistry", "hydrogen", "energy conversion"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Principles, steady-state behaviour, design and optimisation of fuel cell systems including hydrogen handling and fuel processing."
+  },
+  {
+    "id": "etit-power-systems-control-and-optimization",
+    "primary_cluster": "energy_sustain",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Explain fundamentals of automatic power system operation",
+      "Perform stability analysis and design power system control laws",
+      "Formulate and solve power system optimization problems",
+      "Solve economic dispatch and unit commitment problems",
+      "Compute optimal power flow and frequency/voltage control"
+    ],
+    "topic_tags": ["power systems", "optimal power flow", "control", "optimization"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Automatic operation, stability control and optimization of electrical power systems, including economic dispatch and optimal power flow."
+  },
+  {
+    "id": "etit-bioverfahrenstechnik-i",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["energy_sustain"],
+    "competencies": [
+      "Explain microbiological and metabolic fundamentals for engineers",
+      "Operate bioreactors and cultivate microorganisms",
+      "Apply measurement techniques used in bioprocess engineering",
+      "Plan, conduct and evaluate fermentation and purification experiments",
+      "Document experimental results in written protocols"
+    ],
+    "topic_tags": ["bioprocess engineering", "bioreactors", "fermentation", "microbiology"],
+    "level": "core",
+    "kind": "lab",
+    "language": "de",
+    "description_en": "Microbiological and engineering fundamentals of biotechnological processes with hands-on cultivation, bioreactor operation and product purification."
+  },
+  {
+    "id": "etit-modellierung-von-bioprozessen",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["energy_sustain"],
+    "competencies": [
+      "Build mathematical models of biotechnological processes",
+      "Formulate mass balances and reaction-kinetic equations for bioreactors",
+      "Solve differential model equations using numerical integration",
+      "Estimate model parameters from experimental data",
+      "Implement bioprocess models in Matlab programs"
+    ],
+    "topic_tags": ["process modeling", "bioprocesses", "matlab", "numerical integration"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Mathematical modelling of biotechnological processes with mass balances, reaction kinetics and Matlab-based numerical solution and parameter estimation."
+  },
+  {
+    "id": "etit-computational-neuroscience-ii",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Explain architectures and learning rules of neural network models",
+      "Analyse stability and asymptotic behaviour of feedforward and recurrent networks",
+      "Model associative memory and excitatory-inhibitory networks",
+      "Apply reinforcement and actor-critic learning concepts",
+      "Implement and visualise neural models in small programs"
+    ],
+    "topic_tags": ["neural networks", "computational neuroscience", "reinforcement learning", "learning rules"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Theoretical foundations of neural network architectures and learning rules, including recurrent networks, associative memory and reinforcement learning."
+  },
+  {
+    "id": "etit-computational-neuroscience-i",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Describe biophysical generation of neuronal activity mathematically",
+      "Model neurons with RC, LIF and Hodgkin-Huxley equations",
+      "Analyse encoding and decoding of sensory information",
+      "Apply Bayesian estimation and information-theoretic measures",
+      "Simulate dynamical neural systems in self-written programs"
+    ],
+    "topic_tags": ["computational neuroscience", "neural coding", "bayesian inference", "simulation"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Biophysical foundations of neuronal activity and neural coding, with mathematical models, Bayesian decoding and information theory."
+  },
+  {
+    "id": "etit-strukturelle-und-funktionale-analyse-von-zellula",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["data_eng"],
+    "competencies": [
+      "Model cellular networks using graph and hypergraph theory",
+      "Perform metabolic network analysis with elementary modes and cut sets",
+      "Model regulatory and signalling networks with Boolean networks",
+      "Compute structural and statistical network measures",
+      "Apply software tools for computational analysis of biochemical networks"
+    ],
+    "topic_tags": ["network analysis", "graph theory", "systems biology", "boolean networks"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Structural and qualitative modelling and analysis of cellular networks using graph theory, Boolean networks and metabolic network methods."
+  },
+  {
+    "id": "etit-simulation-und-steuerung-regelung-der-biol-abwas",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": ["energy_sustain"],
+    "competencies": [
+      "Build dynamic simulation models of wastewater treatment plants",
+      "Apply activated sludge models (ASM3) to biological treatment",
+      "Calibrate and verify plant models with simulation software",
+      "Design measurement and oxygen control concepts for treatment plants",
+      "Combine steady-state design with dynamic simulation"
+    ],
+    "topic_tags": ["dynamic simulation", "wastewater treatment", "activated sludge model", "process control"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Dynamic simulation and control of biological wastewater treatment using activated sludge models for reliable, economic plant operation."
+  },
+  {
+    "id": "etit-computer-tomographie-theorie-und-anwendung",
+    "primary_cluster": "viz",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Explain the physics and operation of computed tomography",
+      "Apply system theory of imaging systems",
+      "Implement tomographic reconstruction algorithms",
+      "Use Fourier, filtered back-projection and algebraic methods",
+      "Identify and correct image artefacts in CT"
+    ],
+    "topic_tags": ["computed tomography", "image reconstruction", "medical imaging", "back-projection"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Theory and application of computed tomography, covering imaging physics and mathematical reconstruction methods with artefact correction."
+  },
+  {
+    "id": "etit-einfuhrung-in-die-medizinische-bildgebung",
+    "primary_cluster": "viz",
+    "secondary_clusters": [],
+    "competencies": [
+      "Describe modalities of modern medical imaging",
+      "Explain principles of X-ray, CT, PET/SPECT, ultrasound and MRI",
+      "Assess image quality and patient risks of imaging methods",
+      "Outline data processing steps for medical images",
+      "Apply basic image processing in laboratory exercises"
+    ],
+    "topic_tags": ["medical imaging", "ct", "mri", "ultrasound"],
+    "level": "introductory",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Introductory overview of modern medical imaging modalities, their principles, image quality, risks and required data processing."
+  },
+  {
+    "id": "etit-unsicheres-wissen",
+    "primary_cluster": "ml_ai",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Apply concepts for handling uncertain knowledge in modelling and decisions",
+      "Develop and parametrise Bayesian networks",
+      "Perform inference over Bayesian networks",
+      "Apply stochastic estimation theory",
+      "Use Wiener and Kalman filters for state estimation"
+    ],
+    "topic_tags": ["bayesian networks", "estimation", "kalman filter", "uncertainty"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Concepts and methods for reasoning under uncertainty, covering Bayesian networks, stochastic estimation and Wiener/Kalman filtering."
+  },
+  {
+    "id": "etit-anwendung-stochastischer-modelle-in-der-elektrom",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Apply stochastic models to electromagnetic compatibility problems",
+      "Model electromagnetic cable coupling in random structures",
+      "Describe reverberation chambers as stochastic test environments",
+      "Use plane-wave field descriptions and correlation functions",
+      "Interpret and evaluate EMC measurement results"
+    ],
+    "topic_tags": ["stochastic models", "electromagnetic compatibility", "cable coupling", "measurement"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Application of stochastic models to electromagnetic compatibility, modelling cable coupling and reverberation-chamber test environments."
+  },
+  {
+    "id": "etit-mathematische-modellierung-physiologischer-syste",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Build mathematical models of physiological systems from physical laws",
+      "Model the cardiovascular system and cell electrical properties",
+      "Model signal transmission and processing in nerve cells and senses",
+      "Simulate physiological systems with computer tools",
+      "Transfer modelling methods to related research questions"
+    ],
+    "topic_tags": ["mathematical modeling", "physiological systems", "simulation", "biophysics"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Mathematical modelling and computer simulation of selected physiological systems based on physical-chemical laws."
+  },
+  {
+    "id": "etit-grundlagen-stochastischer-prozesse-in-biophysika",
+    "primary_cluster": "sim_num",
+    "secondary_clusters": [],
+    "competencies": [
+      "Characterise properties of stochastic processes",
+      "Derive and approximate master equations via Fokker-Planck equations",
+      "Relate stochastic differential equations to Fokker-Planck descriptions",
+      "Simulate stochastic processes with the Gillespie algorithm",
+      "Model biophysical non-equilibrium systems stochastically"
+    ],
+    "topic_tags": ["stochastic processes", "master equation", "gillespie algorithm", "biophysics"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Introduction to stochastic modelling of random processes in biophysical non-equilibrium systems, with analysis and numerical simulation."
+  },
+  {
+    "id": "etit-eingebettete-mechatronische-systeme-i",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Explain structure and function of embedded systems in mechatronics",
+      "Design analog solutions based on operational amplifiers",
+      "Design digital solutions based on microcontrollers",
+      "Specify and generate real-time software",
+      "Implement functions on programmable logic"
+    ],
+    "topic_tags": ["embedded systems", "mechatronics", "microcontrollers", "real-time"],
+    "level": "introductory",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Fundamentals of embedded mechatronic systems covering analog and digital solutions, signal processing and real-time behaviour."
+  },
+  {
+    "id": "etit-eingebettete-mechatronische-systeme-ii",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": ["mobility"],
+    "competencies": [
+      "Develop hardware and software for embedded mechatronic systems",
+      "Program 8-bit and 32-bit microcontrollers with real-time operating systems",
+      "Specify functions with Matlab/Simulink and ASCET and generate code",
+      "Apply AUTOSAR and ECU architectures for automotive control units",
+      "Implement real-time control on industrial PCs and mobile devices"
+    ],
+    "topic_tags": ["embedded systems", "automotive ecu", "real-time os", "autosar"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Advanced development of embedded mechatronic hardware and software for automotive ECUs, industrial PCs and mobile devices using modern tools."
+  },
+  {
+    "id": "etit-mechatronik-ii-entwurf-mechatronischer-systeme",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["design_plm"],
+    "competencies": [
+      "Formulate mechatronic design problems",
+      "Apply the V-model of systems development",
+      "Design open and feedback-controlled action chains",
+      "Analyse parameter sensitivity of mechatronic systems",
+      "Apply optimization to mechatronic system design"
+    ],
+    "topic_tags": ["mechatronics", "system design", "v-model", "optimization"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Methodical design of mechatronic systems using the V-model, functional design, design tools and system optimization."
+  },
+  {
+    "id": "etit-mechatronik-ii-mechatronische-sensor-aktor-syste",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["design_plm"],
+    "competencies": [
+      "Formulate mechatronic design problems for sensor-actuator systems",
+      "Apply the V-model with hierarchical, component-based design",
+      "Perform integrated mechatronic system design",
+      "Assess parameter sensitivity and robustness",
+      "Apply fundamentals of system optimization"
+    ],
+    "topic_tags": ["mechatronics", "sensor-actuator systems", "system design", "robustness"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Advanced integrated design of mechatronic sensor-actuator systems using component-based methods, robustness analysis and optimization."
+  },
+  {
+    "id": "etit-dynamics-of-robotic-systems",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Describe kinematics of serial robotic manipulators",
+      "Analyse rigid-body and instantaneous kinematics",
+      "Derive the dynamics of robotic systems",
+      "Simulate robotic systems on a computer",
+      "Model and analyse robot manipulators mathematically"
+    ],
+    "topic_tags": ["robotics", "kinematics", "dynamics", "manipulators"],
+    "level": "core",
+    "kind": "course",
+    "language": "en",
+    "description_en": "Foundations of kinematics, dynamics and computer simulation of robotic manipulators and serial robot systems."
+  },
+  {
+    "id": "etit-elektromechanische-aktorsysteme",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["mech_mat"],
+    "competencies": [
+      "Model electromechanical systems using Lagrange equations",
+      "Explain construction and behaviour of piezo and magnetostrictive actuators",
+      "Design power amplifiers and control for piezo actuators",
+      "Integrate electric actuators into complex mechanical systems",
+      "Apply actuators to vibration damping and positioning"
+    ],
+    "topic_tags": ["actuators", "piezo", "smart materials", "mechatronics"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Construction, behaviour and control of electromechanical actuators such as piezo and magnetostrictive actuators and their system integration."
+  },
+  {
+    "id": "etit-speicherprogrammierbare-steuerungen",
+    "primary_cluster": "industry40",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Explain tasks and application fields of programmable logic controllers",
+      "Design binary control circuits for asynchronous machines",
+      "Program PLC-controlled drive systems",
+      "Implement machine and plant control with PLCs",
+      "Control motion-control systems with stored-program drive control"
+    ],
+    "topic_tags": ["plc", "automation", "motion control", "drive control"],
+    "level": "core",
+    "kind": "lab",
+    "language": "de",
+    "description_en": "Structure and programming of programmable logic controllers for binary control and drive automation, with hands-on programming exercises."
+  },
+  {
+    "id": "etit-robotersysteme",
+    "primary_cluster": "robotics",
+    "secondary_clusters": ["sim_num"],
+    "competencies": [
+      "Design, model and control robot drive systems",
+      "Describe spatial robot motion with Denavit-Hartenberg coordinates",
+      "Build dynamic models of robotic systems",
+      "Program robot controllers and cascade drive control",
+      "Conduct experimental investigations on robot systems"
+    ],
+    "topic_tags": ["robotics", "robot control", "drive systems", "kinematics"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Design, modelling, control and programming of robot drive systems, including dynamic models and experimental robot investigations."
+  },
+  {
+    "id": "etit-prozessleittechnik-ii",
+    "primary_cluster": "industry40",
+    "secondary_clusters": ["software_sys"],
+    "competencies": [
+      "Design and build distributed digital automation systems",
+      "Plan integration of diverse automation components",
+      "Apply automation and information technologies in process control",
+      "Interpret abstract automation and information models",
+      "Develop functional automation systems"
+    ],
+    "topic_tags": ["process control", "distributed automation", "automation systems", "integration"],
+    "level": "advanced",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Design and construction of distributed digital automation systems, integrating automation and information technologies for process control."
+  },
+  {
+    "id": "etit-kommunikationssysteme",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": ["industry40"],
+    "competencies": [
+      "Analyse industrial communication systems using the ISO/OSI model",
+      "Explain principles of industrial communication protocols and services",
+      "Configure Ethernet/TCP/IP systems",
+      "Describe industrial bus systems such as PROFIBUS and CAN",
+      "Classify security aspects of industrial communication"
+    ],
+    "topic_tags": ["industrial networks", "fieldbus", "tcp/ip", "communication protocols"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Industrial communication systems based on the ISO/OSI model, covering protocols, Ethernet/TCP/IP, fieldbuses and security."
+  },
+  {
+    "id": "etit-automatisierungsgerate",
+    "primary_cluster": "industry40",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Explain construction and operation of automation devices",
+      "Describe working principles of digital measurement and actuating devices",
+      "Explain pneumatic and hydraulic actuating devices",
+      "Apply automation devices in practical exercises",
+      "Interpret realisation forms with different signal and energy carriers"
+    ],
+    "topic_tags": ["automation devices", "actuators", "sensors", "automation technology"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Construction, operation and interconnection of automation devices, including electrical, pneumatic and hydraulic sensors and actuators."
+  },
+  {
+    "id": "etit-eingebettete-systeme",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": ["robotics"],
+    "competencies": [
+      "Design hardware and software platforms for embedded systems",
+      "Model embedded systems with extended finite state machines",
+      "Apply object-oriented design to embedded software development",
+      "Realise functions on FPGA and DSP platforms",
+      "Validate embedded systems through testing"
+    ],
+    "topic_tags": ["embedded systems", "fpga", "dsp", "state machines"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Architectures, design and implementation of computer-controlled embedded systems on hardware and software platforms, with formal methods and testing."
+  },
+  {
+    "id": "etit-bildcodierung",
+    "primary_cluster": "viz",
+    "secondary_clusters": ["data_eng"],
+    "competencies": [
+      "Explain methods and techniques of image and video coding",
+      "Assess existing coding schemes for still and moving images",
+      "Estimate the information content of images",
+      "Develop encoders for image and video compression",
+      "Apply transform and semantic coding techniques"
+    ],
+    "topic_tags": ["image coding", "video compression", "information theory", "encoders"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Methods and techniques of image and video coding, from signal-theoretic to semantic approaches, for compression and communication."
+  },
+  {
+    "id": "etit-informations-und-codierungstheorie",
+    "primary_cluster": "software_sys",
+    "secondary_clusters": ["data_eng"],
+    "competencies": [
+      "Explain information content, entropy and redundancy",
+      "Apply source coding with Shannon-Fano and Huffman methods",
+      "Compute channel capacity and channel entropies",
+      "Design linear block and cyclic codes for channel coding",
+      "Apply syndrome decoding and error-correcting methods"
+    ],
+    "topic_tags": ["information theory", "coding theory", "entropy", "error-correcting codes"],
+    "level": "core",
+    "kind": "course",
+    "language": "de",
+    "description_en": "Foundations of information and coding theory covering entropy, channel capacity, source coding and error-correcting channel codes."
+  },
+  {
+    "id": "etit-research-project-interdisciplinary-team-project",
+    "primary_cluster": "methods_skills",
+    "secondary_clusters": [],
+    "competencies": [
+      "Solve a research problem independently as an individual or team",
+      "Acquire subject-specific skills needed to tackle a problem",
+      "Decompose a problem into manageable sub-problems",
+      "Derive and document a suitable scientific solution",
+      "Present and defend results in a colloquium"
+    ],
+    "topic_tags": ["research project", "teamwork", "scientific work", "presentation"],
+    "level": "core",
+    "kind": "project",
+    "language": "en",
+    "description_en": "Team or individual research project in which students independently solve a scientific problem and present the results in a colloquium."
+  },
+  {
+    "id": "etit-master-thesis-project",
+    "primary_cluster": "methods_skills",
+    "secondary_clusters": [],
+    "competencies": [
+      "Conduct independent scientific research on a current topic",
+      "Apply modern research methods to plan and execute studies",
+      "Evaluate experimental or theoretical results",
+      "Document results in a scientific written thesis",
+      "Present and defend the thesis before an expert audience"
+    ],
+    "topic_tags": ["master thesis", "scientific work", "research methods", "academic writing"],
+    "level": "advanced",
+    "kind": "thesis",
+    "language": "de",
+    "description_en": "Independent master's thesis applying modern research methods to a current scientific topic, documented and defended in scientific form."
+  }
+]

@@ -1,0 +1,299 @@
+[
+ {
+  "id": "fmb-604298",
+  "title_en": "Finite Element Method",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Finite Element Method Exam number \n604298 German name Finite-Elemente-Methode \nTeaching aims and content of the \nmodule \nTeaching aims and competences to be gained:  \nThe participants will gain experience in the use of the finite element method (FEM) as \na computational method for solving complex systems of differential equations, which \nare essential in engineering problems.  \nThe students will be taught in the proceeding of assembling the structure problem, \nits discretization and solving within the FEM.  \nThe students experience the exposure to commercial and academic software like An-\nsys or Matlab. \nContents: \n• Fundamentals of the boundary value problem in solid mechanics \n• Variational calculus and weak form \n• FE discretization and shape functions \n• Isoparametric truss elements \n• Plane finite elements \n• Volume elements \n• Extended element technology \nTeaching forms | Language Lectures and exercises with computer lab English \nLiterature Will be specified in the first lecture \nPreconditions for attending  \nUsability of module  \nPrerequisites for the provision of \nECTS \nPreparation and presentation of a seminar paper \nECTS and marks 5 CP \nGrading following Study and Examination Regulations \nEfforts 2 SWS lecture, 2 SWS exercise \nFrequency of provision Each summer semester \nDuration of module One semester \nResponsible lecturer Prof. Juhre; FMB \n \n  \nMaschinenbau \n\n\n \n  \n41 Form, Farbe, Material"
+ },
+ {
+  "id": "fmb-604178",
+  "title_en": null,
+  "title_de": "Form, Farbe, Material",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Form, Farbe, Material Prüfungsnummer \n604178 Englischer Titel Form, Colour, Material \nQualifikationsziele und Inhalt des \nModuls \n \nLernziele und zu erwerbende Kompetenzen \n• Sensibilisierung für formalästhetische Qualitäten und Schulung gestalterischer \nFähigkeiten zum plastischen Gestalten von komplexen Gestaltungsproblemen in \nder Einheit von Form, Farbe und Material \n• Erkennen von gestalterischen Wirkungszusammenhängen formalästhetischer, \nergonomischer und technischer Anforderungen. \nInhalte \n• Vertiefende Übungen zum plastischen Gestalten in der Einheit von Form, Farbe \nund Material von funktionalen Objekten (Skizzieren und Modellieren) durch das \nVerknüpfen formalästhetischer, ergonomischer und technischer Gestaltanforde-\nrungen \n• Eigenes Herstellen von Modellen zur Überprüfung der wahrnehmungsgerechten \nQualität der Objekte \nLehrformen/Sprache Übungen Deutsch \nLiteratur  \nTeilnahmevoraussetzungen  Grundlegende Wissensvermittlung im Modul Produktdesign und Entwurf \nVerwendbarkeit des Moduls Entsprechend Modulhandbuch \n \nVoraussetzungen für Ver-gabe \nder Leistungspunkte \nPrüfungsvoraussetzungen: \nPrüfung: Erfolgreiche Bewertung der Übungsaufgaben \nLeistungspunkte und Noten 5 CP \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: Übungen 2 SWS,  \nSelbstständiges Arbeiten: Modellbau  \nHäufigkeit des Angebots jedes Sommersemester \nDauer des Moduls ein Semester \nModulverantwortlich Dipl.-Designer Matthias Trott, FMB \nWeitere Lehrende:  \n \n  \nMaschinenbau \n\n\n \n  \n42 Fundamentals of Artificial Intelligence in Production and Logistics \nName of "
+ },
+ {
+  "id": "fmb-601324",
+  "title_en": null,
+  "title_de": "Grundlagen der visuellen Gestaltung",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Grundlagen der visuellen Gestaltung Prüfungsnummer \n601324 Englischer Titel Basics of Visual Design \nQualifikationsziele und Inhalt des \nModuls \n \nLernziele und zu erwerbende Kompetenzen \nFormalästhetischer Grundkurs im Bereich der Flächengestaltung: \n \nInhalte \n• Entwicklung und Förderung einer individuellen künstlerischen Bildsprache \n• Schaffung einer bild-ästhetischen Kompetenz auf der Fläche \n• Schaffung elementar-ästhetischer Grundlagen für alle Bereiche der visuellen \nGestaltung \n• Untersuchung allgemeiner Gestaltungsprinzipien und Aktivierung der Vorstel-\nlungskraft \n• Entwickeln gestalterischer Kreativität unabhängig von technischen, technologi-\nschen und materialen Möglichkeiten \n \nLehrformen| Sprache Vorlesungen, Seminare/Übungen Deutsch \nLiteratur  \nTeilnahmevoraussetzungen   \nVerwendbarkeit des Moduls Entsprechend Modulhandbuch \nVoraussetzungen für Ver-gabe \nder Leistungspunkte \nPrüfungsvoraussetzungen: \nPrüfung: benoteter Leistungsnachweis (Bestehen der Übungsaufgaben) \nLeistungspunkte und Noten 5 CP \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: Seminar/Übung: 2 SWS mit Vorlesungsanteilen \nbegleitendes Selbststudium zur Vorbereitung auf Übungsaufgaben \nHäufigkeit des Angebots jedes Wintersemester \nDauer des Moduls ein Semester \nModulverantwortlich Dipl.-Designer Matthias Trott, FMB \n \n  \nMaschinenbau \n\n\n \n  \n44 Grundlagen mobiler und autonomer Roboter"
+ },
+ {
+  "id": "fmb-800337",
+  "title_en": null,
+  "title_de": "Grundlagen mobiler und autonomer Roboter",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Grundlagen mobiler und autonomer Roboter Prüfungsnummer \n800337 Englischer Titel Basics of mobile and autonomous robots \nInhalt und  \nQualifikationsziele des Moduls \nLernziele und zu erwerbende Kompetenzen: \n• Den Studenten werden Grundlagen zu Anforderungen und Einsatzfällen mobiler \nRoboter vermittelt. Sie werden befähigt, ausgehend von den Anforderungen kine-\nmatische und dynamische Analysen sowie Synthesen von Bewegungssystemen \nmobiler Roboter vorzunehmen (radgetriebene Systeme und Schreitroboter). Es \nwerden die wichtigsten Komponenten mobiler Roboter behandelt (Aktorik, Sen-\nsorik, Grundlagen der Bildverarbeitung).  Weiterhin werden Verfahren der Lokali-\nsation, Navigation, Wegplanung und Hindernisvermeidung sowie Steuerungsar-\nchitekturen mobiler Roboter ausführlich behandelt. \n• Im anschließenden Praktikumssemester sind in kleinen Teams mobile Roboter zu \nentwickeln, die vorgegebene Aufgaben zu realisieren haben, wobei die erworbe-\nnen theoretischen Kenntnisse praktisch anzuwenden und umzusetzen sind \nInhalt: \n• Kinematik rollender Plattformen: Rädertypen, constraints, Bewegungsgleichun-\ngen, Regelung \n• Laufmaschinen: Grundlagen, Typen, Kinematik, DKT, IKT, Laufmuster, Bewe-\ngungsplanung, Kraftregelung \n• Sensoren und Aktoren für mobile Roboter \n• Machine Vision: Merkmalsextraktion, Sensordatenfusion. \n• Lokalisation, Wegplanung, Navigation, Hindernisvermeidung \n• Steuerungssysteme: planend, reaktiv \n• Serviceroboter: Anwendungen, Ausblick \nLehrformen/Sprache Vorlesungen (Wintersemester); Praktikum (Sommersemester) Deutsch \nLiteratur  \nTeilnahmevor"
+ },
+ {
+  "id": "fmb-601368",
+  "title_en": "Handling and Logistics of Bulk Materials",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Handling and Logistics of Bulk Materials Exam number \n601368 German title Transport und Logistik von Schüttgütern \nTeaching aims and content of the \nmodule \nTeaching aims and competencies to be gained: \n• Understanding of the economic importance of bulk materials as primary re-\nsources for manufacturing, chemical and agricultural industry as well as en-\nergy production \n• Understanding of typical supply chains of bulk materials, the technological de-\nmands of bulk materials logistics and the complexity of handling plants. \n• Understanding of the basic physics of bulk materials which made the handling \nof bulk materials much more difficult in comparison to general cargo. \n• Ability to identify and understand the function of the most important storage \nand continuous conveying systems for bulk materials.  \n• Ability to calculate the throughput and power consumption of important con-\ntinuous conveying systems for bulk materials  \n• Ability to identify critical zones in complex bulk material handling plants \nregarding throughput bottle necks, blockage, wear and dust with DEM \nsimulations. \nContents: \n• Introduction to the bulk material logistics and complex handling plants from \nan international perspective \n• Mechanics of bulk materials \n• Storage of bulk materials \n• Design, function and calculation of important continuous conveyors \n• Introduction to the Discrete Element Method (DEM) for the simulation of \ncritical zones in bulk material handling plants \nType of lecture/language lectures, exercises english \nLiterature See first lecture  \nPreconditions for attendi"
+ },
+ {
+  "id": "fmb-601430",
+  "title_en": "Human-Technology Interaction",
+  "title_de": "Hörakustik",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Hörakustik Prüfungsnummer \n601336 Englischer Titel Psychoacoustics \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \n• Kenntnisse der hörakustischen Grundgrößen  \n• Grundkenntnisse der Messverfahren zur Hörakustik  \n• Grundkenntnisse für die perzeptive Charakterisierung von Umweltgeräuschen  \nInhalt \n• Grundlagen und Grundbegriffe der Hörakustik, Empfindungsgrößen und ihre Re-\nlation zu physikalischen Parametern \n• Differentielle Wahrnehmung, Verdeckung \n• Berechnungsverfahren zur Bestimmung der Lautheit als eine grundlegende Emp-\nfindungsgröße der Hörakustik \n• Wahrnehmung von Pegelschwankungen und ihre Bedeutung bei der Bewertung \nvon technischen Geräuschen, z.B. Rauigkeit \n• Charakterisierung der Wahrnehmung tonaler Schalle, d.h., Tonhöhe, Tonhaltig-\nkeit, Klangfarbe, Anwendung auf Motorschalle  \n• Beidohrige Hörwahrnehmung \n \nLehrformen/Sprache Vorlesungen, Seminar Deutsch \nLiteratur Fastl and Zwicker, „Psychoacoustics, Facts and Models“, 3rd Ed., Springer Berlin, ISBN \n978-3-642-51765-5 \nTeilnahmevoraussetzungen  Keine  \nModulverwendbarkeit Entsprechend Modulhandbuch  \nWechselwirkungen mit Modulen „Motor- und Fahrzeugakustik“ und „Vibroakustik“. \nVoraussetzungen für Leis-\ntungspunktvergabe \n \nPrüfung: mündliche Prüfung \nLeistungspunkte und Noten 5 CP \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: Vorlesung 2 SWS, Übung 2 SWS \nSelbstständiges Arbeiten: Nachbereitung der Vorlesung, Belegarbeiten zur Übungsvor-\nbereitung \nHäufigkeit des Angebots jedes Wintersemester \nDauer des Moduls ein Semester \nMod"
+ },
+ {
+  "id": "fmb-601307",
+  "title_en": null,
+  "title_de": "Industrielles Projektmanagement",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Industrielles Projektmanagement Prüfungsnummer \n601307 Englischer Titel Industrial project management \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen: \nDer Student ist nach erfolgreich belegter Lehrveranstaltung in der Lage über eine fun-\ndierte Analyse thematische Veränderungsbedarfe für industrielle Prozesses und Or-\nganisation zu erfassen und auszuweisen. Auf deren Grundlage ist er befähigt, eine \nProjektstrukturierung und Projektorganisationen auf der Basis analytisch, zielorien-\ntierter Gliederung der Projektaufgabe zu erstellen und zu managen. Darüber hinaus \nist der Student mit den erworbenen Kompetenzen in der Lage, mit Hilfe von Kennzah-\nlen ein effektives Projektcontrolling anzuwenden. \nInhalte: \n• Aufbau und Ablauf industrieller Projekte (vom Auslöser zur industriellen Leis-\ntung, Arten und typische Branchenspezifika, Abgrenzung zur klassischen Leis-\ntungserstellung  \n• Analysemethoden und Umsetzung der Erkenntnisse in Projektstrukturen \n• Verfahren der Ablaufoptimierung und Engpassbetrachtung \n• Ressourcenauswahl und -beschaffung \n• Organisatorische Kompetenzen zur Projektdurchführung und Methoden der Or-\nganisationsgestaltung \n• Verfahren der Wissenssicherung  \nLehrformen/Sprache Vorlesung, Übung Deutsch \nLiteratur vgl. Angaben in der Einführungsvorlesung \nTeilnahmevoraussetzungen  Empfohlen: Grundlagen der Arbeitswissenschaft und Fabrikplanung \nModulverwendbarkeit Entsprechend Modulhandbuch  \nWechselwirkung: Auf die Charakterisierung technisch-organisatorischer Systeme der \nModule Arbeits- und Produktionss"
+ },
+ {
+  "id": "fmb-601405",
+  "title_en": "Inelastic Structural Analysis",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Inelastic Structural Analysis Exam number \n601405 German name Inelastische Strukturmechanik \nTeaching aims and content of \nthe module \nTeaching aims and competences to be gained: \nApproaches to the analysis of components by considering inelastic material re-\nsponses including plasticity, creep and stress relaxation will be presented. The \nlearning competence is the use of powerful computational methods to evaluate the \nmechanical behavior of components in the inelastic regime. \nContents: \nInelastic Material Behavior \nConstitutive Laws for Plasticity and Creep \nAnalysis of Elementary Structures \nFinite Element Analysis of Components \nTeaching forms Lecture and exercises english \nLiterature K. Naumenko, H. Altenbach, Modeling High Temperature Materials Behavior for \nStructural Analysis: Part II. Solution Procedures and Structural Analysis Examples. \nSpringer Nature Switzerland, 2019 \nPreconditions for attending  \nUsability of module  \nPrerequisites for the provision \nof ECTS \nAttending of exercises  \nExamination: oral \nECTS and marks 5 CP \nGrading according to the examination regulations \nEfforts 2 hours per week lecture, 2 hours per week exercises and self-study \nFrequency of provision every summer semester \nDuration of module one semester \nResponsible lecturer apl. Prof. Naumenko, FMB \n \n  \nMaschinenbau \n\n\n \n  \n53 Integrated Design Engineering"
+ },
+ {
+  "id": "fmb-604163",
+  "title_en": null,
+  "title_de": "Integrated Design Engineering",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Integrated Design Engineering  Prüfungsnummer \n604163 Englischer Titel Integrated Design Engineering \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \n• Gegenseitige Beeinflussungen von Funktionserfüllung, Formgestaltung, Si-\ncherheit, Qualität, Ergonomie, Herstellbarkeit, Nachhaltigkeit, Geschlech-\ntergerechtigkeit, Termintreue und Kostenbegrenzung verstehen und für \nProdukte synergetisch nutzen können \n• Unterschiedliche aber miteinander vernetzte Sichten auf ein Produkt verste-\nhen und anwenden können \n• Kenntnisse in der Prozessbeschreibung und in der Projektarbeit auf inter-\ndisziplinäre Projekte anwenden können \n• Werkzeuge der IDE (primär Autoren-, Simulations- und Verwaltungssys-\nteme) kennen und anwenden können \nInhalte \n• Vertiefte Einführung in das IDE und die dazugehörende Projektarbeit  \n• Ganzheitliche Betrachtung der Produkteigenschaften \n• Barrierefreie Produkte \n• Gendergerechte Produktentwicklung \n• Projekt- und Prozessmanagement \n• Werkzeuge für eine integrierte Bearbeitung und Unterstützung \n• Neue Denkansätze in der Produktentwicklung \nLehrformen/Sprache Vorlesungen, Übungen Deutsch \nLiteratur Vajna, S.: Integrated Design Engineering: Interdisciplinary and Holistic Product \nDevelopment, Springer, 2020. \nRothkötter, St.; Vajna, S. (Hrsg.): Produkte entwickeln mit IDE, Springer, 2024. \nVajna, S.: Integrated Design Engineering: Interdisziplinäre und ganzheitliche \nProduktentwicklung, 2. Auflage, 2022. \nEhrlenspiel: Integrierte Produktentwicklung. Hanser-Verlag München 2009. \nTeilnahmevoraussetzungen  ke"
+ },
+ {
+  "id": "fmb-601431",
+  "title_en": null,
+  "title_de": "Intelligente Verkehrssysteme (IVS)",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Intelligente Verkehrssysteme (IVS) Prüfungsnummer \n601431 Englischer Titel Intelligent Transport Systems (ITS) \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen: \nIntelligente Verkehrssysteme (IVS) sind eine Kombination aus Informationstechnolo-\ngie, Kommunikationstechnologie und Verkehrstechnik, die eingesetzt werden, um \nden Verkehr sicherer, effizienter und umweltfreundlicher zu gestalten. IVS zielen da-\nrauf ab, den Verkehrsfluss zu verbessern, Staus zu reduzieren, Unfälle zu vermeiden \nund die Umweltbelastung durch den Verkehr zu verringern. Ziele des Lehrmoduls \nsind: \n• Überblick zu Elementen der Verkehrsinfrastruktur, Verkehrsteilnehmer \n• Verständnis zur Relevanz intelligenter Verkehrssysteme \n• Einsatzmöglichkeiten intelligenter Verkehrssysteme zur Verkehrssteuerung, Stei-\ngerung der Verkehrssicherheit und im Rahmen des Autonomen Fahrens \n• Beitrag zur Verkehrswende \nInhalte \n• Einführung in Intelligente Verkehrssysteme \n• Verkehrsdatenerfassung und -analyse \n• Verkehrsinformationssysteme mit Echtzeitinformationen \n• Systeme zur Verkehrsüberwachung, regelung und -lenkung \n• Verkehrssteuerungsstrategien und Verkehrsleitzentralen \n• Intelligente Fahrzeugtechnologien (Assistenzsysteme, OBU) \n• Intelligente Verkehrsinfrastruktur (RSU, V2X) \n• Vernetztes und Autonomes Fahren und Transportieren \n• Intermodale Verkehrslösungen \n• Mobility as a Service \n• TF Urban \n• V2x-Kommunikation in der Anwendung \n• Autonomes Fahren zum Anfassen \n• Vernetztes Fahren erleben \nLehrformen/Sprache Integrierte Veranstaltung Deutsch \nLit"
+ },
+ {
+  "id": "fmb-601428",
+  "title_en": "Lightweight and composite materials",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Lightweight and composite materials Exam number \n601428 German title Leichtbau- und Verbundwerkstoffe \nTeaching aims and content of \nthe module \nTeaching aims and competencies to be gained: \nAim of the course is to generate a deeper understanding of composite materials based \non theoretical aspects, concepts and selected samples of composite materials. An in-\nsight into composite mechanics, relevant manufacturing processes and resulting ap-\nplications will be part of the course. \nThe students acquire strategies how to bring together different material classes for \ncomposite formation, and they are able to estimate mechanical properties, thermal \nstability and potential applications. \n \nContent  \n• classification and basics of composite materials; \n• changes of properties from single components to composite materials; \n• most relevant properties of composite materials with a link to their applica-\ntions/light weight materials; \n• aspects of manufacturing/most relevant manufacturing processes \n• examples for applications  \nType of lecture/language lectures, exercises, self-study english \nLiterature will be given in the first lecture \nPreconditions for attending basic knowledge in materials technology; knowledge of material classes or knowledge \nin basics of chemistry and physics of materials \nUsability of module according to module handbook \nPrerequisites for the provision \nof credit points \nwritten exam over 90 min \ncredit points and marks 5 CP \nmarks according to study and examination regulations \nWorkload presence times: 2 SWS lectures, 1 SWS exercises  \nself-s"
+ },
+ {
+  "id": "fmb-604148",
+  "title_en": null,
+  "title_de": "Logistikstrategien und –methoden",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Logistikstrategien und –methoden Prüfungsnummer \n604148 Englischer Titel Logistics Strategies and Methods \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen: \n• Überblickswissen über aktuelle Trends und Strategien der Logistik erwerben \n• Grundlegende Kenntnisse zu Methoden, Werkzeugen und Verfahren in der Logistik \naneignen \n• Entwicklung praktischer Fähigkeiten und Fertigkeiten durch Anwendung einer Aus-\nwahl der wichtigsten Methoden \n• An Teambelegen (Use-Cases) grundlegende Zusammenhänge erkennen, struktu-\nrieren und in Maßnahmen überführen \nInhalte: \n• Begriffe, logistisches Denken, Modell Intelligenter Logistikraum, aktuelle Entwick-\nlungstrends \n• Qualitätsmanagement und Logistik \n• Six-Sigma-Tools, Bewertungs- und Analysemethoden \n• Supply Chain Design \n• Modellierung und Simulation \n• Systemzuverlässigkeit und Risikomanagement in Materialflusssystemen \n• Strategie und Geschäftsfeldplanung \nLehrformen/Sprache Vorlesungen, Seminare  Deutsch \nLiteratur Scripte zu den Modulveranstaltungen;  \nIllés, Glistau, Coello: Logistik und Qualitätsmanagement. ISBN 978-963-87738-1-4 \nBaumgarten, Darkow, Zadek: Supply Chain Steuerung und Services, Springer \nVoraussetzungen für die Teil-\nnahme \n \nVerwendbarkeit des Moduls Entsprechend Modulhandbuch \nVoraussetzungen für die \nVergabe von Leistungspunkten \nPrüfungsvorleistung: Belege, Teilnahme Gastvortragsreihe \nPrüfung: Wissenschaftliches Projekt \nLeistungspunkte und Noten 5 CP  \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: 2 SWS Vorlesung, 1 SWS Hauptseminar,  \nS"
+ },
+ {
+  "id": "fmb-604202",
+  "title_en": null,
+  "title_de": "Marketing, Vertrieb, Betriebsverfassung, Personalwesen",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Marketing, Vertrieb, Betriebsverfassung, Personalwesen \nPrüfungsnummer \n604202 Englischer Titel Marketing, Distribution, Labour Management Regulation, \nHuman Resource Management \nQualifikationsziele und Inhalt \ndes Moduls \nLernziele und zu erwerbende Kompetenzen: \nDie Studierenden  \n• erlangen grundlegende Kenntnisse der Funktion von Marketing und Vertrieb in \nUnternehmen und der Analyse von Märkten,  \n• lernen die Instrumente des Marketings und des Vertriebes kennen,  \n• entwickeln Fähigkeiten zu der Erstellung eines Marketingplans und eines Ver-\ntriebsplans sowie zur Lösung von Problemstellungen in Marketing und Vertrieb \nunter Anwendung geeigneter Methoden. \n• erlangen grundlegende Kenntnisse über Inhalte und Auswirkungen einer Be-\ntriebsverfassung und ihrer gesetzlichen Grundlagen,  \n• lernen die Instrumente der Personalwirtschaft, der Personalplanung und der \nPersonalführung kennen,  \n• entwickeln Fähigkeiten zur Personalführung.  \nInhalte: \n• Marketing- und Vertriebskonzepte  \n• Marktstrukturen und Käuferverhalten  \n• Marketing- und Vertriebsplanung, Marktforschung, Marketing- und Vertriebs-\norganisationen \n• Grundlagen & Auswirkungen der Betriebsverfassung / des Betriebsverfassungs-\ngesetzes \n• Personalwirtschaftliche Grundlagen  \n• Personalplanung (Akquise und Auswahl von Mitarbeitern) \n• Ermittlungs- und Entscheidungsmodelle  \n• Personalführung: Grundlagen, Verhaltenslenkung, Verhaltensbeurteilung, Ver-\nhaltensabgeltung  \nLehrformen/Sprache Vorlesungen und Übungen Deutsch \nTeilnahmevoraussetzungen  keine \nModulverwendbarkeit Entsprechend Modulhandbu"
+ },
+ {
+  "id": "fmb-604293",
+  "title_en": "Material Handling Systems",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Material Handling Systems Exam number \n604293 German title Materialflusssysteme \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained: \n• Understanding of complex material handling systems and its parts of continu-\nous and non-continuous conveyor units \n• Ability to calculate working cycles and through put rates for the arbitrary ma-\nterial handling systems \n• Ability to identify through put bottle necks of material handling systems with \ndifferent arrival times.  \n• Understanding of prediction possibilities for the availability and reliability of \nmaterial handling systems \nContents: \n• Introduction to the basic elements of material handling systems  \n• Working cycle calculation for non-continuous conveyors \n• Through put calculation for systems with deterministic and stochastic arrival \ntimes \n• Availability and reliability calculation \nType of lecture | language Lectures and tutorials english \nLiterature See first lecture \nPreconditions for attending  \nUsability of module according to module handbook \nPrerequisites for the provision \nof credit points \nAnnouncement at the beginning of the course  \nWritten exam 120 min \ncredit points and marks 5 CP \nMarks following Study and Examination Regulations \nworkload Presence times: 2 SWS lecture, 1 SWS exercises \nSelf-reliant work: pre- and post-preparation of lectures, study of literature, execu-\ntion of exercises \nFrequency of provision each winter semester  \nDuration of module one Semester \nResponsible lecturer Prof. Katterfeld, FMB  \nAdditional lecturers: Lisa Wonner, M.Sc. FMB \n  "
+ },
+ {
+  "id": "fmb-601408",
+  "title_en": "Material Modeling",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Material Modeling Exam number: \n601408 German title Werkstoffmodellierung \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained:  \n• Overview of methods of computational materials science at different scales \n• Prediction of material properties using physically-based models \n• Application of different programs to carry out simulations \nContents:  \n• Basics of modeling, with a focus on material science and engineering \n• Scale dependence and applicability of various physical models; selection of \nmethods appropriate for engineering tasks \n• Introduction to: \no Density functional theory (quantum chemistry) \no Atomistic simulation \no Dislocation modelling \no Phase field modeling \no Monte Carlo Methods \no Cellular Automata \no Heat Treatment Simulation for Steels \n• Bridging the scales by combination of different techniques \n• Lectures are complemented by computer simulations in exercises and demon-\nstrations \nType of lecture Lectures; Computer Lab english \nLiterature The Simulation of Materials, Microstructures and Properties, Wiley 2004 \nCrystals, Defects and Microstructures, Cambridge Univ. Press 2004 \nPreconditions for attending Bachelor’s level understanding of materials science \nUsability of the module according to module handbook \nPrerequisites for the provision \nof ECTS \nWritten exam 90 min \ncredit points and marks 5 CP \nGrading according to the examination regulations \nworkload 2 hours per week lecture, 1 hour per week seminar, Self-Study \nFrequency of provision each summer semester \nDuration of module one semester  \nRespons"
+ },
+ {
+  "id": "fmb-601469",
+  "title_en": "Materials Science",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Materials Science Exam number: \n601469 German title Werkstoffwissenschaften \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained: \n• Deeper understanding of physical and mechanical phenomena in metals and al-\nloys \n• Gain deeper knowledge of the mechanical properties at high temperatures \n• Ability to combine microstructural relationships with macroscopic properties of \nmetallic materials and alloys \nContents:  \n• Crystal structures and symmetry classes \n• General theory of dislocations and dislocation reactions \no Perfect dislocations \no Partial dislocations \no Defects in dislocations \n• Grain boundary theory \no Tilt and twist grain boundaries \no Twin and large angle grain boundaries \no Dislocation network in grain boundaries \n• Elastic and plastic deformation \no Plastic behavior of single crystals \no Plastic deformation at high temperatures - creep \n• Strengthening mechanisms in metallic materials and alloys \n• Introduction into thermodynamics of phase transformations and complex phase \ndiagrams \nType of lecture Lectures; Seminars for special topics  \nLiterature See first lecture \nPreconditions for attending Master’s level understanding of metals, alloys and materials science \nUsability of the module according to module handbook \nPrerequisites for the provision \nof ECTS \nWritten examination K90 \nECTS and marks 5 CP \nGrading according to the examination regulations \nEfforts 2 hours per week lecture, 1 hour per week seminar, self-study of lectures and semi-\nnars \nFrequency of provision Each summer semester \nDuration of module 1"
+ },
+ {
+  "id": "fmb-601347",
+  "title_en": "Mechanics of Lightweight Structures",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Mechanics of Lightweight Structures Exam number \n601347 German title Mechanik der Leichtbaustrukturen \nTeaching aims and content of \nthe module  \nLearning objectives and skills acquired: \nThe learning objective is the competence to formulate and use suitable calculation \nmethods for lightweight structures made, for example, of composite materials. The \naim is to convey the basics required for practical application in engineering. The fo-\ncus is on long fiber composites, short fiber reinforced plastics and foams. Starting \nfrom the basics of structural mechanics, the influence of inhomogeneity and anisot-\nropy of the used materials will be discussed. The possibilities and limits of numerical \nsimulation are presented. \nContent \n• Introduction to the theory of elastic plates and shells \n• Consideration of anisotropies in the elastic material law \n• Large deformations of plates and shells \n• Direct variation methods \n• Fiber types, matrix materials as well as interfaces and coatings \n• Micromechanics for long fiber composites \n• Behavior of a single layer \n• Laminate calculation: Classical layer theory \n• Higher order laminate theories \n• Short fiber reinforced plastics \n• Foams for sandwich structures \nType of lecture | language Lectures, exercises on selected issues and lectures on  \nspecial topics \nenglish \nLiterature Altenbach, H., Altenbach, J., Kissing, W., Mechanics of composite structural elements. \nSpringer, Heidelberg, 2018 \nPreconditions for attending Mechanics of Materials or BSc from the Mechanical Engineering Faculty \nUsability of the module according"
+ },
+ {
+  "id": "fmb-604291",
+  "title_en": "Mechanics of Materials",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Mechanics of Materials Exam number \n604291 German title Werkstoffmechanik \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained: \nThe course is devoted to the basics of material behavior modeling. The starting point \nis the experiment. In addition, the main features from materials science will be pre-\nsented. Finally, the experimental observations and the materials science feature will \nbe “translated” into mathematical equations. \nContents: \n• Elastic behavior of isotropic and anisotropic materials \n• Inelastic behavior: plasticity, creep, stress relaxation  \n• Damage \n• Fracture \nType of lecture | language Lectures; Seminars english \nLiterature J. Rösler, H. Harders, M. Bäker: Mechanical Behaviour of Engineering Materials, \nTeubner, Springer, 2003 \nD. Gross, Th. Seelig: Fracture Mechanics, Springer, Berlin, 2011 \nJ. Lemaitre, J.-L. Chaboche: Mechanics of Solid Materials, Cambridge University, \nPress, Cambridge, 1994 \nPreconditions for attending Engineering Mechanics, Materials Science \nUsability of module according to module handbook \nPrerequisites for the provision \nof credit points \nAttending of exercises \nExamination: written (90 min) \ncredit points and marks 5 CP \nGrading according to the examination regulations \nworkload presence times: 2 SWS (hours per week) lecture, 2 SWS exercises \nFrequency of provision each winter semester \nDuration of module one semester  \nResponsible lecturer apl. Prof. Naumenko, FMB \n  \nMaschinenbau \n\n\n \n  \n63 Medical Technology from a Corporate Perspective"
+ },
+ {
+  "id": "fmb-601372",
+  "title_en": "Medical Technology from a Corporate Perspective",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Medical Technology from a Corporate Perspective Exam number \n601372 German title Medizintechnik aus Unternehmensperspektive \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained: \n• Lectures are provided by various companies to provide real world insights  \n• Weekly changing content dependent on the presenting company \n• Topics covered are product development, manufacturing, testing, sterilization, \nregulatory approval of medical devices from various application areas \n• Students will learn about medical devices developed and produced by small \nand medium-sized medical technology companies in Saxony-Anhalt \n• \nStudents apply knowledge on consequences and requirements for medical de-\nvices in a problem-based approach \nContents: Presentations and product demonstrations of \n• Plastic tubing \n• Injection molding technology \n• Sterilization service provider for medical devices \n• Diagnostic point-of-care analyzers \n• Digital health apps \n• Product development  \n• Clinical evaluation \n• Being a Start up in Med Tec \n \nType of lecture/language Lectures and project work (documentation of the project re-\nsults and presentation) \nenglish \nLiterature - \nPreconditions for attending None \nUsability of the module According to module handbook \nPrerequisites for the provision \nof credit points \nExamination: 50% marked coursework,  \n                     50% presentation \ncredit points and marks 5 CP \nGrading according to the study and examination regulations \nWorkload 2 semester hours per week lecture as well as project work,  \nself-study (lectur"
+ },
+ {
+  "id": "fmb-601389",
+  "title_en": null,
+  "title_de": "Mikro- und Ultrapräzisionsbearbeitung",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Mikro- und Ultrapräzisionsbearbeitung Prüfungsnummer \n601389 Englischer Titel Micro and ultra precision machining \nQualifikationsziele und Inhalt \ndes Moduls \nLernziele und zu erwerbende Kompetenzen: \nNach erfolgreicher Teilnahme am Modul können die Studierenden: \n• Die Mikro- und Ultrapräzisionsbearbeitung in das Fachgebiet der  \nProduktionstechnik einordnen sowie Besonderheiten nennen. \n• Eigenschaften, Verfahren und Anwendungen des Abtragens und des Spanens in \nder Mikrobearbeitung nennen und beschreiben. \n• Besonderheiten der abtragenden Fertigungsverfahren und der  \nspanenden Fertigungsverfahren für die Mikrobearbeitung erklären. \n• Für die Mikro- und Ultrapräzisionsbearbeitung geeignete  \nFertigungsverfahren erläutern.  \n• Besonderheiten bei der Prozesskettengestaltung in der Mikro- und Ultrapräzisi-\nonsbearbeitung darstellen und Prozessketten exemplarisch entwerfen. \n• Anforderungen der Ultrapräzisionsbearbeitung an die Prozess- und Werkzeug-\ngestaltung sowie die Maschinen nennen und beschreiben. \nInhalte: \n• Einführung in die Mikro- und Ultrapräzisionsbearbeitung: Einordnung, Prozess-\nketten und Skalierungseffekte \n• Abtragende Verfahren: Einordnung, Elektrochemisches Abtragen, Funkenero-\nsion, Lasermaterialbearbeitung \n• Gestaltung von Abtragprozessen durch Multiphysiksimulation \n• Spanende Verfahren: Einordnung, allgemeine Grundlagen und Grundlagen der \nMikrozerspanung, Mikrozerspanung mit geometrisch bestimmten Schneiden \n• Ultrapräzisionsbearbeitung: Ultrapräzisionsdrehen, Ultrapräzisionsfräsen und \nFlycutting \nLehrformen/Sprache Vorlesung, Übung"
+ },
+ {
+  "id": "fmb-604154",
+  "title_en": "Modeling and Simulation in Logistics Planning",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Modeling and Simulation in Logistics Planning Exam number: \n604154 German name Modellierung und Simulation in der Logistikplanung \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained:  \n• Provide students with knowledge and skills for applying appropriate simulation \nconcepts and simulation-based optimization to solve planning and decision \nproblems in production and logistics \n• Identify problems in production and logistics where simulation and simulation-\nbased optimization can be successfully applied \n• Enable students to apply the role of a competent principal in all phases of simula-\ntion studies \n• Enable students to work with different simulation tools like Plant Simulation, \nAnyLogic, ExtendSim \nContents: \n• Typical problems in production and logistics planning where simulation and sim-\nulation-based optimization can be applied \n• Phases of a simulation study: Goal description, task specification, conceptual \nmodeling, data acquisition, model implementation, validation and verification, \nexperiments \n• Three simulation paradigms: Discrete-event simulation, discrete-rate simulation, \nsystem dynamics simulation \n• Simulation-based optimization \n• Further topics: Agent-based simulation, machine learning, visualization, auto-\nmated model creation, simulation in cyber physical systems in industry 4.0, sup-\nply chain simulation \nTeaching forms | language Lectures and exercises with related scripts and exercise guidelines english \nLiterature Own script and further reading provided during the semester \nPreconditions for attendi"
+ },
+ {
+  "id": "fmb-601380",
+  "title_en": null,
+  "title_de": "Modellierung von Antriebssystemen",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Modellierung von Antriebssystemen Prüfungsnummer \n601380 Englischer Titel Modeling and Simulation of Powertrains \nQualifikationsziele und Inhalt \ndes Moduls \n \nLehrziele und zu erreichende Kompetenzen: \n• Erweiterte Kenntnisse zu Komponenten in Elektro- und Hybridantriebssträngen. \n• Grundlegende Kenntnisse zur Prozessführung von einzelnen Antriebskompo-\nnenten bzw. gesamten Antriebssystemen. \n• Grundkenntnisse zur Modellierung von Antriebskomponenten und Antriebssys-\ntemen. \n• Nutzung modellbasierter Entwicklungsmethoden (Konzeption, Bewertung) von \nAntriebskomponenten sowie Antriebssystemen. \n• Fähigkeit zur Analyse des Betriebsverhaltens bestehender Antriebssysteme. \nInhalte: \n• Antriebskomponenten für Elektro- und Hybridantriebe. \n• Antriebssysteme, vorrangig Elektro- und Hybridantriebe. \n• Modellbildung und Simulation von Antriebskomponenten und Antriebssystemen. \n• Betriebsstrategien für Antriebssysteme. \n• Anwendungsbeispiele zur modellgestützten Entwicklung von Antriebssystemen. \n• Ansätze zur Optimierung von Antriebskomponenten und -systemen \nLehrformen/Sprache Vorlesungen/Übungen/selbständige Arbeit Deutsch \nTeilnahmevoraussetzungen  Grundlagen der Fahrzeugtechnik und/oder Antriebssystemen sowie Modellbildung \nund Simulation (mechatronischer Systeme) \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfungsvorleistung: Bekanntgabe zu Beginn der Lehrveranstaltung \nPrüfung: Klausur K90 \nLeistungspunkte und Noten 5 CP  \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeiten: 2 SWS Vorlesungen, 1 SWS"
+ },
+ {
+  "id": "fmb-601345",
+  "title_en": null,
+  "title_de": "Montagesysteme",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Montagesysteme  Prüfungsnummer \n601345 Englischer Titel Assembly Systems \nQualifikationsziele und  \nInhalt des Moduls \n \nLehrziele und zu erreichende Kompetenzen: \nDas Modul befähigt die Studierenden zur Planung und konzeptionellen Auslegung \nkomplexer Montagesysteme als Folge der Charakterisierung der Montageaufgabe in \nKombination mit wirtschaftlich-organisatorischen An-forderungen an die Systemkonfi-\ngurationen.  \nÜber die analytisch-deskriptive Aufbereitung der Montageanforderungen werden die \nStudierenden in die Lage versetzt, technisch/organisatorische Systemlösungen zu ent-\nwerfen, die Funktionsfähigkeit von Montagesystemen unter wirtschaftlichen Aspekten \nzu bewerten und deren industrielle Anwendung sicherzustellen.  \nInhalte:  \nnend mit grundlegenden Sachzusammenhängen der Montage liegt ein wesentlicher \nSchwerpunkt in der systematischen Analyse notwendiger Montagevorgänge bis hin zur \nzeitlich-räumlichen Ausgestaltung komplexer Montagesysteme. Behandelt werden \nhierbei: \n• Identifizieren montagespezifischer Anforderungskriterien (resultierend aus der Pro-\nduktgestaltung und notwendiger Fügetechnologien) \n• Ermittlung möglicher Organisationsformen der Montage (Montagestrukturtypen) \n• Vorgehensweise bei der Montagesystemplanung (Planung und Konfiguration) \n• Bewertung von Montagevorgängen (Leistungsabstimmung) \n• Konzeptionelle Auslegung und Systementwurf (Montagekonzepte)  \nLehrformen/Sprache Vorlesung, Übung  Deutsch \nTeilnahmevoraussetzungen Empfohlen: Grundkenntnisse der Arbeitswissenschaft und Fabrikplanung \nVerwendbarkeit des Moduls Entspreche"
+ },
+ {
+  "id": "fmb-601189",
+  "title_en": null,
+  "title_de": "Motor- und Fahrzeugakustik",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Motor- und Fahrzeugakustik Prüfungsnummer \n601189 Englischer Titel Engine and Vehicle Acoustics \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen: \n• Vermittlung der Grundlagen der Akustik \n• Bedeutung von Schall (Lärm) für Umwelt und Produktkomfort \n• Kennenlernen von Methoden der Schallmessung und Schallbewertung \n• Ableitung von Maßnahmen zur Minderung von Geräuschen \n• Anwendungen in der Motor- und Fahrzeugakustik  \nInhalte: \n• Grundlagen der Akustik, Luft- und Körperschall \n• Lärm (Grenz- und Richtwerte, Lärmwirkung) \n• Psychoakustik \n• Raumakustik, akustische Messräume \n• Akustische Messtechnik, Mess- und Auswerteverfahren \n• Motor- und Fahrzeugakustik \n• Methoden und Maßnahmen zur Geräuschminderung \n \nLehrformen/Sprache Vorlesung, Übung; Praktikum Deutsch \nTeilnahmevoraussetzungen   \nModulverwendbarkeit Entsprechend Modulhandbuch \nVoraussetzungen für Leistungs-\npunktvergabe \nPrüfung: mündlich \nLeistungspunkte und Noten 5 CP \nNotenskala gemäß Prüfungsordnung \nArbeitsaufwand Präsenzzeit: 2 SWS Vorlesung, 2 SWS Übung \nselbständige Arbeiten, Literatur, Prüfungsvorbereitung \nHäufigkeit des Angebots jedes Sommersemester  \nDauer des Moduls ein Semester \nModulverantwortlich Dr. Luft, FMB \n \n  \nMaschinenbau \n\n\n \n  \n70 Multibody Dynamics"
+ },
+ {
+  "id": "fmb-601388",
+  "title_en": "Multibody Dynamics",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Multibody Dynamics Exam number \n601388 German title Mehrkörperdynamik \nTeaching aims and content \nof the module \nTeaching aims and competences to be gained: \nIn the module, the students gain knowledge on the basics of multibody dynamics \n(MBS), which is an effective tool for analysis of complex dynamical systems. \nIn that context different modelling strategies for real world problems, methods for \nnumerical time integration and model order reduction techniques are discussed and \nclassified concerning their advantages and disadvantages. \nAs a result the participants are able to consider nonlinearities in dynamic systems \nand to estimate their influence as well as to understand basic differences between \nlinear and nonlinear dynamic systems based on analyzing and evaluating results of \nnumerical simulations. \nAfter completion of this module, the students have an overview of the relevant con-\ntents for multibody dynamics. They have implemented the basics programmatically \nin their own MBS as well as used commercial representations and are thus able to \nwork on corresponding tasks independently. \nContents \n- Modeling strategies of dynamic systems in mechanics  \n- Time integration methods for solution of dynamic systems (equations of motion) \n- Spatial dynamics of rigid bodies (including orientation) \n- Extension to multibody systems (MBS) (including marker-concept) \n- Implementation of constraints (e.g. joints) \n- Spatial dynamics of elastic multibody systems (E-MBS) \n- Representation of general elastic bodies (using the example of FE beams) \n- Reduction methods (Gu"
+ },
+ {
+  "id": "fmb-601352",
+  "title_en": null,
+  "title_de": "Nachhaltige Mobilität",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Nachhaltige Mobilität Prüfungsnummer \n601352 Englischer Titel Sustainable Mobility \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen: \nVermittlung eines ganzheitlichen, systemischen Ansatzes zur nachhaltigen Mobilität. \nDie Studierenden sollen in die Lage versetzt werden, das Thema Mobilität und im \nSpeziellen auch Elektromobilität im Zusammenhang mit Fragen der Lebensqualität, \ndes Infrastrukturausbaus, des Ressourcenverbrauchs und der Umweltbelastung, der \nKosten und Steuerungselemente, der neuen Mobilitätsformen und Technologien in \neinen größeren Rahmen des Themas nachhaltige Mobilität zu setzen. \nInhalte (eine Auswahl aus den nachfolgenden Themenfeldern): \n• Einführung Nachhaltige Mobilität, Herausforderungen der Mobilität \n• Lebensqualität in der Stadt und räumliche Gestaltung als Rahmen \n• Last-Mile-Distribution: Wenn die Postfrau dreimal klingelt …  \n• Mobilität im ländlichen Raum: Regionen auf dem Abstellgleis? \n• Intermodaler Personenfernverkehr in der CO2-Falle? \n• Güterfernverkehr: Alles Straße oder was? \n• Fehlende Kostenwahrheit: Mobilität kostet & keiner will zahlen! \n• Politikinstrumente und Maßnahmenakzeptanz \n• Soziotechnische Innovationen im Verkehr \n• Verkehrsmittelwahlentscheidungen \n• Mensch-Technik-Interaktion: Verkehrssicherheit, automat. Fahren \n• Smart Urban Mobility: Sanfte Mobilität & Mobility as a Service (MaaS) \n• Zukunft d. Mobilität: Wo geht die Reise hin & wie reisen wir zukünftig? \nLehrformen/Sprache Integrierte Veranstaltung Deutsch \nLiteratur (Auswahl) • Vester, Frederic: Crashtest Mobi"
+ },
+ {
+  "id": "fmb-601374",
+  "title_en": null,
+  "title_de": "Neue Werkstoffe",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Neue Werkstoffe Prüfungsnummer \n601374 Englischer Titel New materials \nQualifikationsziele und Inhalt \ndes Moduls \nLernziele und zu erwerbende Kompetenzen: \nVermittlung von Kenntnissen über \n• Grundlegende Kenntnisse zur Auswahl und wichtigen Eigenschaften von metalli-\nschen und intermetallischen Werkstoffen, insbesondere Nichteisenmetalle und \nderen Legierungen sowie metallische Werkstoffe für besondere Anwendungen \n(z.B. oxidative oder korrosive Umgebungsbedingungen, wechselnde Temperatu-\nren, etc.) \n• Grundlegendes Verständnis von Polymer- und polymerbasierten Verbundwerk-\nstoffen, Keramiken und Gläsern; Zusammenhänge zwischen Struktur und Eigen-\nschaften; Auswahl von Werkstoffen \nInhalt: \n• Aufbau und Struktur von Nichteisenmetallen und -legierungen, typische Eigen-\nschaften, Werkstoffauswahl für spezielle Anwendungen \n• Aspekte der Herstellung von mehrphasigen Legierungen in Verbindung mit re-\nsultierenden Eigenschaften   \n• Herstellung, Aufbau und Eigenschaften von Polymerwerkstoffen, Struktur -Ei-\ngenschaftsbeziehungen bei Polymeren \n• Klassen von Verbundwerkstoffen, Schwerpunkt auf faserverstärkten Verbund-\nwerkstoffen mit Polymermatrix; Herstellung, Aufbau und Eigenschaften, Struk-\ntur-Eigenschaftsbeziehungen \n• Anorganisch-nichtmetallische Funktionswerkstoffe: Keramiken und Gläser \nLehrformen | Sprache Vorlesungen/Übungen, Selbständige Arbeit Deutsch \nLiteratur Callister, Materialwissenschaften und Werkstofftechnik, Wiley-VCH, ISBN: 978-3-\n527-33007-2 \nHornbogen, Werkstoffe, Springer, eBook ISBN: 978-3-642-22561-1 \nAskeland, Materialwissenschaften,"
+ },
+ {
+  "id": "fmb-601436",
+  "title_en": "Nonlinear FEM",
+  "title_de": "Non-local structural mechanics and peridynamics",
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Nonlinear FEM Exam number \n601422 German title Nichtlineare FEM \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained: \nIn the lecture, students are enabled to recognize the necessity of nonlinear calcula-\ntions, to carry out appropriate model formulation for problem-solving, to solve the \nmodel problem using Finite Element Method (FEM), and to critically evaluate the ob-\ntained results. In addition to the theoretical foundations, practical problems are solved \nand discussed in exercises as examples. \nContents:  \n• Overview of geometrically and physically nonlinear problems \n• Continuum mechanics fundamentals (strain and stress measures, weak form \nof equilibrium, linearizations) \n• Geometrically nonlinear finite elements \n• Solution methods for nonlinear equation systems \n• Overview of material models and their utilization in FEM \n• Contact problems \nType of lecture | language Lectures, exercises english \nLiterature See first lecture \nPreconditions for attending  \nUsability of module  \nPrerequisites for the provision \nof credit points \nOral exam \ncredit points and marks 5 CP \nGrading according to the examination regulations \nEfforts 2 hours per week lecture, 2 hours per week exercises \nFrequency of provision each winter semester \nDuration of module one semester \nResponsible lecturer Prof. Juhre, FMB \n \n  \nMaschinenbau \n\n\n \n  \n74 Nonlinear vibrations \nName of Module Nonlinear vibrations Exam number \n601404 German title Nichtlineare Schwingungen \nTeaching aims and content \nof the module \nTeaching aims and competences to be gained"
+ },
+ {
+  "id": "fmb-604152",
+  "title_en": null,
+  "title_de": "Planung logistischer Systeme (PLS)",
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Name des Moduls Planung logistischer Systeme (PLS) Prüfungsnummer: \n604152 Englischer Titel Planning of Logistics Systems \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen: \n• Vertiefen der Vorgehensweise zur Planung logistischer Systeme an verschiedenen \npraktischen Beispielen \n• Studierende können eigenständig Planungslösungen für typische Aufgabenstel-\nlungen in Produktion und Logistik erarbeiten und Lösungsvarianten kontextge-\nrecht bewerten \n• Studierende können Projektergebnisse zielgruppengerecht dokumentieren, an-\nschaulich präsentieren und verteidigen \nInhalte: \n• Exemplarisches Kennenlernen und Bearbeiten typischer Analyse- und Planungs-\naufgaben in Produktion und Logistik in Praxisseminaren bei Logistik- und Indust-\nrieunternehmen \n- Logistikprozesse in einem Verteilzentrum am Beispiel der Amazon Delivery \nStation in Magdeburg-Rothensee \n- Logistikprozesse in einem Logistikzentrum am Beispiel des Hermes Fulfilment \nCenters in Haldensleben \n- Logistikprozesse in der Produktion und Instandhaltung am Beispiel von In-\ndustrieunternehmen \n• Best Practices aus der Planung von Produktions- und Logistiksystemen (Gastvor-\ntragsreihe) \n• Analyse und Steuerung von Supply Chains (Planspiel) \n• Kennenlernen und Anwenden einer Software zur Planung von Produktions- und \nLogistiksystemen \nLehrformen Vorlesung (Gastvortragsreihe), Seminare (Planspiel; Praxis-\nseminare mit Unternehmen, in denen die Studierenden eine \nLösung für eine Analyse-/Planungsaufgabe erarbeiten und \npräsentieren), Selbständige Arbeit (Gruppen-Projektarbeit)  \nDeutsch \nLi"
+ },
+ {
+  "id": "fmb-601410",
+  "title_en": "Precision and Micro Manufacturing Technologies",
+  "title_de": null,
+  "faculty": "FMB",
+  "language_guess": "en",
+  "cp": 5,
+  "text": "Course name Precision and Micro Manufacturing Technologies Exam number: \n601410 German name Präzisions- und Mikrofertigungstechnologien \nTeaching aims and content of the \nmodule \nAfter successful participation students will be able to: \n• Classify precision and micro manufacturing technologies within the field of man-\nufacturing technologies and describe special challenges of precision manufactur-\ning and micro manufacturing \n• Describe properties, methods and applications of ablating technologies and cut-\nting technologies \n• Explain and evaluate particularities of machining technologies for precision man-\nufacturing and micro manufacturing \n• Describe ablating technologies and cutting technologies applicable in precision \nmanufacturing and micro manufacturing  \n• Describe particularities of process chain design in precision manufacturing and \nmicro manufacturing technologies and design process chains exemplary \n  Contents: \n• Introduction in precision and micro manufacturing technologies: classification, \nprocess chains, scaling effects \n• Ablating technologies: classification, electrochemical machining, electrical dis-\ncharge machining, laser beam machining \n• Cutting technologies: classification, general basics and basics of micro cutting, \ncutting with geometrically determined cutting edges, cutting with geometrically \nundetermined cutting edges \nTeaching forms | language Lectures and exercises with appropriate notes and instructions english \nLiterature Rembold, U.; Fatikow, S.: Microsystem Technology and Microrobotics, Springer Berlin \nHeidelberg 2010 \nPrecision Engin"
+ },
+ {
+  "id": "fmb-604124",
+  "title_en": null,
+  "title_de": "Produktdesign und Entwurf",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Produktdesign und Entwurf  Prüfungsnummer \n604124 Englischer Titel Product Design and Drawing \nQualifikationsziele und  \nInhalt des Moduls \n \nLernziele und zu erwerbende Kompetenzen: \nDie Lehrveranstaltung soll das Verständnis für die Rolle des Produktdesigns in Inte-\ngrierten Produktentwicklungsprozessen fördern und zum integrativen Vorgehen mo-\ntivieren. Der Mensch als Nutzer und Besitzer von Produkten ist dabei der Maßstab. \nSich daraus ableitende ästhetisch-ergonomische Anforderungen werden besonders \nbeleuchtet und in ihrer Relation zu anderen Anforderungsaspekten betrachtet. Kern-\nziel ist die exemplarische Befähigung zum designorientierten und integrativen Ent-\nwurf von Produkten. \n• Sensibilisierung für formalästhetische Qualitäten und Schulung gestalterischer \nFähigkeiten zum plastischen Gestalten von komplexen Formgestaltungsproble-\nmen \n• Erkennen von formalen Qualitäten wie Formbildung, Formqualität, Formausdruck \nim Zusammenhang mit Gebrauchsanforderungen und deren Formproblemen wie \nGebrauchsform, Gebrauchserkennung und ergonomischer Dimensionierung der \nFormgebung \n• Erkennen von gestalterischen Zusammenhängen formalästhetischer, ergonomi-\nscher und technischer Anforderungen \nInhalte \n• Der Mensch als Nutzer und Besitzer von produktgebrauchsorientierten De-\nsignstrategien und Entwurfsmethoden \n• Humanzentrierte Gestaltungsanforderungen und Gebrauchsprozesse (Ästhe-\ntik/Wahrnehmung und Ergonomie) \n• Methodische Vorgehensweisen, analoge und digitale Entwurfswerkzeuge \n• Integratives Vorgehensmodell und Schnittstellengestaltung zu Entwurfsdiszipl"
+ },
+ {
+  "id": "fmb-603020",
+  "title_en": null,
+  "title_de": "Produktionssystemplanung",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Produktionssystemplanung Prüfungsnummer \n603020 Englischer Titel production system planning \nQualifikationsziele und Inhalt \ndes Moduls \n \nLernziele und zu erwerbende Kompetenzen \n• Methodisches Fachwissen zur Planung und Gestaltung von Fabrik- und Produk-\ntionssystemen \n• Grundlegende Vorgehensweise, Modelle und spezifische Methoden zur Planung \nvon Fabrik- und Produktionssystemen \n• Fähigkeit zur Analyse, Aufarbeitung und Verdichtung planungsrelevanter Daten \nfür die Gestaltung von Fabrik- und Produktionssystemen \nInhalte \n• Methoden zur Analyse und Zielausrichtung von Fabrik- und Produktionssyste-\nmen (Ziele, Absatzplanung, Produktprogramm) \n• Verfahren und Methoden zur Aufbereitung von Produktionsprogrammen \n• Mathematische Auswahl und Dimensionierung zuvor spezifizierter Ressourcen \n• Typologien der Vernetzung und Strukturierung nach zeitlich-räumlichen Prinzi-\npien \n• Optimierung der Maschinenaufstellung unter Berücksichtigung gegebener Rest-\nriktionen und Vorschriften \n• Masterplan zur Ausgestaltung eines funktionsfähiges Gesamtsystem \nLehrformen/Sprache Vorlesung, Übung Deutsch \nLiteratur Vgl. Angaben in der Einführungsvorlesung \nTeilnahmevoraussetzungen  Empfohlen: Grundkenntnisse der Arbeitswissenschaft und Fabrik-/Industriebe-\ntriebslehre \nModulverwendbarkeit Entsprechend Modulhandbuch  \nVoraussetzungen für Leis-\ntungspunktvergabe \nPrüfungsvorleistung: selbstständiges Bearbeiten einer Planungsaufgabe \nPrüfung: Klausur K90 \nLeistungspunkte und Noten 5 CP (Notenskala gemäß Prüfungsordnung) \nArbeitsaufwand Präsenzzeiten: Vorlesung 2 SWS, Übung 1 SWS "
+ },
+ {
+  "id": "fmb-604165",
+  "title_en": "Project module (FMB)",
+  "title_de": "Projektmodul (FMB)",
+  "faculty": "FMB",
+  "language_guess": "de",
+  "cp": 5,
+  "text": "Name des Moduls Projekt 5 CP1) Prüfungsnummer \n604165 Project 5 CP \nInhalt und  \nQualifikationsziele des Mo-\nduls \nLernziele und zu erwerbende Kompetenzen: \nNach absolvieren der Veranstaltung soll der Student in der Lage sein, ein Projekt ziel-\ngerichtet und effektiv zu bearbeiten, die dazu erforderlichen Verbindungen zu knüpfen \nund das Ergebnis des Projektes zu dokumentieren und zu verteidigen.  \nInhalte: \nDie Inhalte sollten sich an aktuellen Projekten, Forschungsthemen oder Lehrinhalten \nder Institute anlehnen und möglichst so gestaltet sein, dass Sie direkt in die zugeord-\nneten Arbeiten einfließen können. \nLehrformen Projektarbeit  \nVoraussetzungen für die \nTeilnahme \nGrundkenntnisse in den dem Projekt zugeordneten Fachgebieten \nVerwendbarkeit des Moduls Entsprechend Modulhandbuch  \n \nVergabe von Leistungs-\npunkten \nWissenschaftliches Projekt \n(Belegarbeit, Präsentation mit Verteidigung) \nLeistungspunkte und Noten 5 CP  \nNotenskala gemäß Prüfungsordnung4) \nArbeitsaufwand selbständige Projektbearbeitung \nAngebotshäufigkeit jedes Semester \nDauer des Moduls ein Semester \nModulverantwortlich Projektbetreuer aus allen Instituten der FMB \n \n1) Das Projekt kann als Einzel oder Teamprojekt ausgeführt werden. Teamprojekte werden bevorzugt. Bei Teamprojekten sollte die \nAnzahl der Mitarbeiter maximal 6 betragen.  \nEs kann auch eine Projektarbeit aus dem Angebot des IDE -Masterstudiengangs der FMB gewählt werden. Es werden aber immer nur 5 \nCP angerechnet. \n \n  \nMaschinenbau \n\n\n \n  \n83 Projekt 10 CP"
+ }
+]

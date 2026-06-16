@@ -1,0 +1,530 @@
+[
+ {
+  "id": "etit-applied-microsystems-engineering-innovation-labo",
+  "primary_cluster": "innovation_mgmt",
+  "secondary_clusters": ["design_plm"],
+  "competencies": [
+    "Coordinate and run a simplified start-up team project to a product demonstrator",
+    "Develop a microsystems-based product idea and build a prototype",
+    "Conduct market analysis and assess business-plan feasibility",
+    "Prepare a marketing pitch, project portfolio and presentation"
+  ],
+  "topic_tags": ["entrepreneurship", "mems", "prototyping", "project"],
+  "level": "advanced",
+  "kind": "project",
+  "language": "de",
+  "description_en": "Team project realizing a microsystems-based product idea as a start-up demonstrator with market analysis, prototype, pitch and portfolio."
+ },
+ {
+  "id": "etit-applications-of-micro-systems-engineering",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["robotics"],
+  "competencies": [
+    "Analyze application-specific working principles of micro systems",
+    "Evaluate design aspects and fabrication of MEMS devices",
+    "Independently research and present a chosen micro-systems topic",
+    "Discuss and critique design choices for specific micro-system examples"
+  ],
+  "topic_tags": ["mems", "microsystems", "sensors", "seminar"],
+  "level": "advanced",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar exploring real-world applications, design and fabrication of micro systems through student-led topic presentations and discussion."
+ },
+ {
+  "id": "etit-emc-analysis-of-electronic-systems",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+    "Perform worst-case electromagnetic compatibility analyses of electronic systems",
+    "Select and quantitatively evaluate interference-suppression measures",
+    "Apply numerical electromagnetic field computation methods",
+    "Assess signal and power integrity in interconnect structures"
+  ],
+  "topic_tags": ["emc", "electromagnetic fields", "signal integrity"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on analyzing electromagnetic compatibility of electronic systems using field theory, numerical methods and signal/power integrity."
+ },
+ {
+  "id": "etit-micro-optics",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": [],
+  "competencies": [
+    "Derive and apply the working principles of micro-optical devices",
+    "Assess limitations of micro-optical imaging and beam-shaping elements",
+    "Explain fiber-optic and meta-optical device concepts",
+    "Apply geometric, wave and Fourier optics to micro-optics"
+  ],
+  "topic_tags": ["micro-optics", "photonics", "mems", "optics"],
+  "level": "core",
+  "kind": "course",
+  "language": "both",
+  "description_en": "Course on the working principles, design and limitations of common micro-optical devices for imaging, beam shaping and fiber optics."
+ },
+ {
+  "id": "etit-micromechanics",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["design_plm"],
+  "competencies": [
+    "Estimate mechanical response of MEMS components from first principles",
+    "Analyze solid-mechanics behavior of cantilever and spring systems",
+    "Model micro-fluidic flow and surface-tension effects",
+    "Select micro-actuator principles for MEMS solutions"
+  ],
+  "topic_tags": ["micromechanics", "mems", "solid mechanics", "actuators"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on the mechanical engineering of MEMS, covering solid mechanics, micro-fluidics and actuator principles at the micro scale."
+ },
+ {
+  "id": "etit-microsystems-processes-and-technologies",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["design_plm"],
+  "competencies": [
+    "Plan additive and subtractive fabrication routes for micro systems",
+    "Select cleanroom and rapid-prototyping processes for MEMS",
+    "Choose suitable materials for micro-system fabrication",
+    "Apply structural, chemical and dynamic MEMS characterization techniques"
+  ],
+  "topic_tags": ["microfabrication", "mems", "lithography", "cleanroom"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on fabrication processes, materials and characterization techniques for micro-electromechanical systems and microelectronics."
+ },
+ {
+  "id": "etit-sensor-applications",
+  "primary_cluster": "robotics",
+  "secondary_clusters": ["design_plm"],
+  "competencies": [
+    "Design, build and test sensor-based systems for given tasks",
+    "Acquire and process measurement data with microcontrollers",
+    "Select and evaluate sensors by working principle for application domains",
+    "Document and present a two-semester practical sensor project"
+  ],
+  "topic_tags": ["sensors", "measurement", "microcontroller", "project"],
+  "level": "advanced",
+  "kind": "project",
+  "language": "de",
+  "description_en": "Two-semester practical project designing, building and testing sensor systems with microcontroller-based data acquisition and evaluation."
+ },
+ {
+  "id": "etit-research-project",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": [],
+  "competencies": [
+    "Independently work on and solve a scientific research problem",
+    "Recognize scientific relationships within a research question",
+    "Document results in a scientific final report",
+    "Present and defend findings in a colloquium"
+  ],
+  "topic_tags": ["research project", "scientific work", "colloquium"],
+  "level": "advanced",
+  "kind": "project",
+  "language": "both",
+  "description_en": "Scientific research project in which students independently address a research question and document and defend results in a colloquium."
+ },
+ {
+  "id": "etit-analysis-and-calculation-of-electrical-systems",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+    "Apply analytical and numerical methods to analyze electrical networks",
+    "Simulate electromagnetic field problems with finite-difference methods",
+    "Map mechanical systems onto equivalent electrical networks",
+    "Use MATLAB, Octave, Python or SPICE for system simulation"
+  ],
+  "topic_tags": ["circuit simulation", "numerical methods", "electrical networks"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on analytical and numerical methods for simulating electrical networks and electromagnetic field problems using computational tools."
+ },
+ {
+  "id": "etit-mechatronics-iii",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+    "Formulate and structure mechatronic design problems",
+    "Apply the V-model of systems development",
+    "Use hierarchical and component-based design procedures",
+    "Evaluate parameter sensitivity, robustness and system optimization"
+  ],
+  "topic_tags": ["mechatronics", "systems design", "v-model"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Advanced course on integrated mechatronic system design using the V-model, component-based methods, robustness and optimization."
+ },
+ {
+  "id": "etit-mechatronic-systems-ii",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mobility"],
+  "competencies": [
+    "Model and simulate multi-domain mechatronic systems",
+    "Couple mechanical, electrical, thermal and hydraulic components in one model",
+    "Use Matlab/Simulink and toolboxes for mechatronic simulation",
+    "Build vehicle models capturing drive, steering, braking and driving dynamics"
+  ],
+  "topic_tags": ["modeling and simulation", "mechatronics", "simulink", "vehicle dynamics"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on modeling and simulating multi-domain mechatronic systems, including vehicle models, with Matlab/Simulink tools."
+ },
+ {
+  "id": "etit-qualifikationsziele-und",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": [],
+  "competencies": [
+    "Work on a guided scientific research task at a chair",
+    "Acquire subject expertise and recognize relationships",
+    "Develop solutions through independent scientific work",
+    "Present results in a final report and colloquium"
+  ],
+  "topic_tags": ["research project", "scientific work", "colloquium"],
+  "level": "advanced",
+  "kind": "project",
+  "language": "both",
+  "description_en": "Supervised research project in the Mechatronics master where students address a scientific task and present results in a colloquium."
+ },
+ {
+  "id": "etit-complex-systems",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+    "Identify complex systems across engineering and biological domains",
+    "Mathematically describe complex systems and evaluate their complexity",
+    "Assess stability and fragility of complex systems",
+    "Apply numerical tools and control methods to complex systems"
+  ],
+  "topic_tags": ["complex systems", "control", "stability", "modeling"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to modeling, analyzing and controlling complex systems, including their stability, fragility and numerical treatment."
+ },
+ {
+  "id": "etit-advanced-process-systems-engineering",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["energy_sustain"],
+  "competencies": [
+    "Derive multiscale mathematical models of chemical and biochemical production systems",
+    "Model multiphase systems with interfacial transport phenomena",
+    "Apply advanced model-reduction techniques",
+    "Analyze and design complex continuum process systems"
+  ],
+  "topic_tags": ["process systems engineering", "modeling", "model reduction", "multiphase"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "both",
+  "description_en": "Advanced course on multiscale mathematical modeling, multiphase systems and model reduction for chemical and biochemical production systems."
+ },
+ {
+  "id": "etit-hybride-discrete-event-systems",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+    "Model systems combining continuous, discrete and event-driven dynamics",
+    "Describe hybrid dynamical systems with automata and Petri nets",
+    "Analyze stability, reachability and accessibility of hybrid systems",
+    "Design control and observation methods for hybrid systems"
+  ],
+  "topic_tags": ["hybrid systems", "discrete event systems", "petri nets", "control"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to modeling, analyzing and controlling hybrid dynamical systems that combine continuous, discrete and event-driven behavior."
+ },
+ {
+  "id": "etit-application-of-discrete-event-systems",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["industry40"],
+  "competencies": [
+    "Apply discrete-event system methods to real application domains",
+    "Model and analyze processes with advanced discrete-event concepts",
+    "Formulate and solve scheduling problems using genetic algorithms",
+    "Verify complex flexible production systems via discrete-event models"
+  ],
+  "topic_tags": ["discrete event systems", "scheduling", "production systems", "simulation"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course applying discrete-event system methods to scheduling and flexible production, including simulation, analysis and verification."
+ },
+ {
+  "id": "etit-rechnerbasierter-reglerentwurf",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+    "Design and implement controllers computationally in Matlab/Simulink",
+    "Auto-tune centralized and decentralized PI/PID controllers",
+    "Design robust multivariable controllers via H-infinity and mu-synthesis",
+    "Synthesize controllers using linear matrix inequalities and real-time implementation"
+  ],
+  "topic_tags": ["control design", "robust control", "matlab", "lmi"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on computer-aided control design and implementation in Matlab/Simulink, covering robust multivariable and real-time controllers."
+ },
+ {
+  "id": "etit-stromungsmechanik-ii",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+    "Analyze and compute complex flows in process engineering apparatus",
+    "Treat compressible flows with friction, heat transfer and shock waves",
+    "Model laminar and turbulent boundary layers and turbulence",
+    "Analyze multiphase and non-Newtonian fluid flows"
+  ],
+  "topic_tags": ["fluid mechanics", "turbulence", "multiphase flow", "compressible flow"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Advanced fluid mechanics course on complex flows including compressible, turbulent, multiphase and non-Newtonian flow phenomena."
+ },
+ {
+  "id": "etit-computational-fluid-dynamics",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+    "Simulate complex flow processes using numerical flow simulation",
+    "Generate high-quality grids and choose appropriate discretization",
+    "Assess convergence, residuals and validate CFD results critically",
+    "Simulate turbulent, multiphase and non-Newtonian flows"
+  ],
+  "topic_tags": ["cfd", "fluid dynamics", "simulation", "turbulence"],
+  "level": "core",
+  "kind": "course",
+  "language": "both",
+  "description_en": "Course on computational fluid dynamics covering grid generation, discretization, validation and simulation of turbulent and multiphase flows."
+ },
+ {
+  "id": "etit-chemical-reaction-engineering",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["energy_sustain"],
+  "competencies": [
+    "Quantitatively assess chemical reactions and their kinetics",
+    "Select suitable reactor types and design chemical reactors",
+    "Apply stoichiometry and chemical thermodynamics to reactor design",
+    "Compute mass transfer in heterogeneous catalysis and reactor heat balances"
+  ],
+  "topic_tags": ["reaction engineering", "reactor design", "kinetics", "catalysis"],
+  "level": "core",
+  "kind": "course",
+  "language": "both",
+  "description_en": "Course on quantitative assessment of chemical reactions, reactor selection and design including kinetics, mass transfer and heat balances."
+ },
+ {
+  "id": "etit-adsorption-und-heterogene-katalyse",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+    "Characterize adsorbents and quantify adsorption equilibria of mixtures",
+    "Design fixed-bed adsorbers for separation processes",
+    "Identify effective reaction rates of heterogeneous catalysts",
+    "Apply transient reactor operating modes and industrial chromatography concepts"
+  ],
+  "topic_tags": ["adsorption", "catalysis", "reactor design", "separation"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on adsorption equilibria, fixed-bed adsorber design, heterogeneous catalysis kinetics and industrial chromatography processes."
+ },
+ {
+  "id": "etit-modellierung-mit-populationsbilanzen",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+    "Recognize population-dynamic mechanisms in disperse systems",
+    "Formulate and analyze population-balance models mathematically",
+    "Solve population balances with specialized numerical methods",
+    "Apply population-balance results to process design and operation"
+  ],
+  "topic_tags": ["population balance", "modeling", "disperse systems", "numerical methods"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on formulating, analyzing and numerically solving population-balance models for disperse systems in particle and bioprocess engineering."
+ },
+ {
+  "id": "etit-disperse-systeme-der-verfahrenstechnik-polymere",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat"],
+  "competencies": [
+    "Model disperse systems using mass, energy and population balances",
+    "Analyze crystallization, polymerization and emulsion systems",
+    "Quantify kinetics and thermodynamics of dispersed-phase mechanisms",
+    "Model, optimize and design processes involving a dispersed phase"
+  ],
+  "topic_tags": ["disperse systems", "population balance", "crystallization", "polymerization"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on modeling disperse systems via balance equations, covering crystallization, polymerization and emulsion process design."
+ },
+ {
+  "id": "etit-statistische-planung-und-auswertung-von-versuche",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+    "Evaluate experimental production data with statistical methods",
+    "Perform regression and correlation analysis for linear and nonlinear models",
+    "Determine confidence intervals of model parameters",
+    "Set up factorial and central composite designs of experiments"
+  ],
+  "topic_tags": ["design of experiments", "statistics", "regression"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on statistical evaluation of experimental data, regression analysis and design of experiments for first- and second-order models."
+ },
+ {
+  "id": "etit-molekulares-modellieren",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat"],
+  "competencies": [
+    "Apply molecular modeling tools across spatial and temporal scales",
+    "Use Monte-Carlo methods for equilibrium and dynamic simulations",
+    "Run molecular-dynamics simulations of diffusion and nucleation",
+    "Match process-engineering problems to adequate models and numerical methods"
+  ],
+  "topic_tags": ["molecular modeling", "molecular dynamics", "monte carlo", "simulation"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course teaching molecular modeling and simulation as an engineering tool using Monte-Carlo, molecular-dynamics and quantum-mechanical methods."
+ },
+ {
+  "id": "etit-prozesssimulation",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+    "Perform steady-state and dynamic process simulation in Aspen Plus/Dynamics",
+    "Model unit operations such as reactors, columns and heat exchangers",
+    "Configure recycle streams and overall process flowsheets",
+    "Evaluate alternative process variants for conceptual process design"
+  ],
+  "topic_tags": ["process simulation", "aspen plus", "flowsheet", "process design"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on conceptual process design via steady-state and dynamic simulation of chemical processes using Aspen Plus and Aspen Dynamics."
+ },
+ {
+  "id": "etit-simulation-of-mechanical-processes",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["manufacturing"],
+  "competencies": [
+    "Characterize disperse particle systems with statistical material properties",
+    "Analyze stochastic and dynamic particle conversion processes",
+    "Apply multiscale modeling and population balances to comminution and separation",
+    "Evaluate and design particle-processing process systems"
+  ],
+  "topic_tags": ["particle technology", "simulation", "population balance", "comminution"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced course on multiscale modeling and simulation of stochastic, dynamic mechanical particle processes such as comminution and separation."
+ },
+ {
+  "id": "etit-elektrische-energienetze-ii-energieversorgung",
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": [],
+  "competencies": [
+    "Plan and operate electrical power transmission and distribution grids",
+    "Derive measures to develop intelligent smart-grid structures",
+    "Assess grid security, dynamic security and black-out prevention",
+    "Integrate decentralized generators and model wind farms in grids"
+  ],
+  "topic_tags": ["power grids", "smart grid", "energy supply", "grid integration"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Advanced course on planning and operating electrical power grids, smart-grid development, grid security and integration of decentralized generation."
+ },
+ {
+  "id": "etit-alternative-energien-regenerative-energiequellen",
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": [],
+  "competencies": [
+    "Assess effects of renewable electricity on the power supply system",
+    "Evaluate photovoltaic, wind and hydropower generation potentials",
+    "Analyze fuel cells and electrical energy storage options",
+    "Understand grid integration of decentralized renewable generators"
+  ],
+  "topic_tags": ["renewable energy", "photovoltaics", "energy storage", "smart grid"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on generating electricity from renewable sources and integrating photovoltaics, wind, fuel cells and storage into the energy system."
+ },
+ {
+  "id": "etit-windenergie",
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": [],
+  "competencies": [
+    "Explain the physics and conversion principles of wind energy",
+    "Design wind turbines using airfoil theory and performance curves",
+    "Compute partial-load behavior and power characteristics of turbines",
+    "Analyze grid integration and economic viability of wind farms"
+  ],
+  "topic_tags": ["wind energy", "wind turbines", "renewable energy", "grid integration"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on wind energy conversion, wind turbine design and components, and the technical and economic aspects of grid integration."
+ },
+ {
+  "id": "etit-modellierung-und-expertensysteme-in-der-elektris",
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": ["ml_ai"],
+  "competencies": [
+    "Build physical models for power-grid calculations and simulations",
+    "Model switching devices and travelling-wave phenomena in grids",
+    "Develop expert systems for power-supply problem solving",
+    "Apply fuzzy techniques and neural networks in knowledge-based systems"
+  ],
+  "topic_tags": ["expert systems", "power grids", "modeling", "fuzzy logic"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on modeling electrical power grids and building knowledge-based expert systems using fuzzy techniques and neural networks."
+ },
+ {
+  "id": "etit-leistungselektronische-systeme",
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": [],
+  "competencies": [
+    "Develop complex power-electronic circuits from basic topologies",
+    "Explain control and regulation methods for power-electronic circuits",
+    "Dimension circuits application-specifically and model them for control",
+    "Apply power electronics to feed renewable energy into the grid"
+  ],
+  "topic_tags": ["power electronics", "converters", "renewable energy", "circuits"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on developing, dimensioning and controlling power-electronic circuits, with applications in feeding renewable energy into the grid."
+ },
+ {
+  "id": "etit-stromversorgungstechnik",
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": ["mobility"],
+  "competencies": [
+    "Implement power-electronic circuits in complex power-supply systems",
+    "Design power supplies for renewable generation and electric vehicles",
+    "Dimension power-electronic systems application-specifically",
+    "Apply HVDC, storage and charging-system concepts in electromobility"
+  ],
+  "topic_tags": ["power supply", "power electronics", "electromobility", "renewable energy"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Course on power-electronic systems for power supply, covering renewable generation, HVDC, storage and electric-vehicle charging."
+ }
+]

@@ -1,0 +1,531 @@
+[
+ {
+  "id": "fmb-604298",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat"],
+  "competencies": [
+   "Formulate boundary value problems in solid mechanics for FE analysis",
+   "Derive weak forms and apply variational calculus",
+   "Build FE discretizations using shape functions and isoparametric elements",
+   "Solve engineering structural problems with commercial FE software (Ansys, Matlab)"
+  ],
+  "topic_tags": ["fem", "finite element method", "solid mechanics"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduces the finite element method for solving solid-mechanics boundary value problems, covering discretization, shape functions and commercial FE software."
+ },
+ {
+  "id": "fmb-604178",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["hci"],
+  "competencies": [
+   "Develop sculptural designs uniting form, colour and material",
+   "Balance aesthetic, ergonomic and technical design requirements",
+   "Sketch and model functional objects to evaluate perceptual quality",
+   "Build physical models to validate design solutions"
+  ],
+  "topic_tags": ["industrial design", "form colour material", "product aesthetics"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Trains sculptural design skills uniting form, colour and material for functional objects through sketching, modelling and physical model-making."
+ },
+ {
+  "id": "fmb-601324",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["viz"],
+  "competencies": [
+   "Develop an individual artistic visual language",
+   "Apply fundamental principles of two-dimensional visual design",
+   "Build aesthetic competence in surface composition",
+   "Foster creative design thinking independent of technical constraints"
+  ],
+  "topic_tags": ["visual design", "composition", "aesthetics"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "de",
+  "description_en": "A foundational course in visual design developing artistic visual language and aesthetic competence in two-dimensional surface composition."
+ },
+ {
+  "id": "fmb-800337",
+  "primary_cluster": "robotics",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Perform kinematic and dynamic analysis of mobile robots",
+   "Design wheeled and legged locomotion systems",
+   "Apply localization, path planning and obstacle avoidance methods",
+   "Implement machine vision with feature extraction and sensor data fusion",
+   "Develop mobile robots in teams to accomplish defined tasks"
+  ],
+  "topic_tags": ["mobile robots", "autonomous robots", "path planning"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Covers fundamentals of mobile and autonomous robots including kinematics, sensors, localization and navigation, with a hands-on robot-development lab."
+ },
+ {
+  "id": "fmb-601368",
+  "primary_cluster": "logistics",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Analyze supply chains and handling plants for bulk materials",
+   "Apply the mechanics and physics of bulk materials",
+   "Calculate throughput and power consumption of continuous conveyors",
+   "Identify critical zones using Discrete Element Method (DEM) simulations"
+  ],
+  "topic_tags": ["bulk materials", "supply chain", "dem", "conveying"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Covers logistics and handling of bulk materials, including conveyor design, throughput calculation and DEM simulation of critical handling zones."
+ },
+ {
+  "id": "fmb-601430",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["mobility"],
+  "competencies": [
+   "Describe fundamental psychoacoustic quantities and their physical correlates",
+   "Apply measurement methods for hearing acoustics",
+   "Calculate loudness as a basic perceptual quantity",
+   "Characterize perception of noise, tonal sounds and binaural hearing"
+  ],
+  "topic_tags": ["psychoacoustics", "acoustics", "noise perception"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Teaches the fundamentals of psychoacoustics, including loudness calculation, sound measurement and perceptual characterization of technical and environmental noise."
+ },
+ {
+  "id": "fmb-601307",
+  "primary_cluster": "innovation_mgmt",
+  "secondary_clusters": [],
+  "competencies": [
+   "Analyze industrial processes to identify change requirements",
+   "Structure and organize industrial projects from analytical task breakdown",
+   "Manage projects using goal-oriented project structures",
+   "Apply key-figure-based project controlling"
+  ],
+  "topic_tags": ["project management", "project controlling", "industrial projects"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Teaches structuring, organizing and controlling of industrial projects through analytical task breakdown and key-figure-based project management."
+ },
+ {
+  "id": "fmb-601405",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Analyze components under inelastic material response (plasticity, creep, relaxation)",
+   "Apply constitutive laws for plasticity and creep",
+   "Evaluate mechanical behavior of structures in the inelastic regime",
+   "Perform finite element analysis of inelastic components"
+  ],
+  "topic_tags": ["inelastic analysis", "plasticity", "creep", "structural mechanics"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Covers analysis of components with inelastic material behavior such as plasticity and creep using constitutive laws and finite element methods."
+ },
+ {
+  "id": "fmb-604163",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+   "Apply holistic, integrated product development across multiple product views",
+   "Balance function, form, safety, quality, ergonomics and sustainability synergistically",
+   "Use IDE authoring, simulation and management tools",
+   "Manage interdisciplinary design projects and processes"
+  ],
+  "topic_tags": ["integrated design", "product development", "design methodology"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Teaches integrated, holistic product development balancing function, form and sustainability across interdisciplinary projects using IDE tools."
+ },
+ {
+  "id": "fmb-601431",
+  "primary_cluster": "mobility",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+   "Explain elements of transport infrastructure and intelligent transport systems",
+   "Apply traffic data acquisition, analysis and information systems",
+   "Design traffic control and management strategies",
+   "Apply V2X communication for connected and autonomous driving"
+  ],
+  "topic_tags": ["intelligent transport systems", "v2x", "autonomous driving", "traffic management"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Introduces intelligent transport systems combining IT, communication and traffic engineering for safer, more efficient mobility and connected autonomous driving."
+ },
+ {
+  "id": "fmb-601428",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["manufacturing"],
+  "competencies": [
+   "Classify composite materials and their property changes from constituents",
+   "Estimate mechanical properties, thermal stability and applications of composites",
+   "Combine different material classes for composite formation",
+   "Relate manufacturing processes to composite material properties"
+  ],
+  "topic_tags": ["composite materials", "lightweight materials", "materials science"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Provides a deeper understanding of lightweight and composite materials, their mechanics, manufacturing processes and resulting applications."
+ },
+ {
+  "id": "fmb-604148",
+  "primary_cluster": "logistics",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Apply current logistics strategies, methods and tools",
+   "Use Six-Sigma and quality-management tools in logistics",
+   "Design supply chains and model material-flow systems",
+   "Assess system reliability and risk in material-flow systems"
+  ],
+  "topic_tags": ["logistics", "supply chain design", "six sigma", "material flow"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Surveys logistics strategies and methods including supply chain design, Six-Sigma tools, simulation and reliability of material-flow systems."
+ },
+ {
+  "id": "fmb-604202",
+  "primary_cluster": "innovation_mgmt",
+  "secondary_clusters": [],
+  "competencies": [
+   "Analyze markets and buyer behaviour",
+   "Develop marketing and sales plans using suitable methods",
+   "Apply labour-management regulation and works-constitution law",
+   "Apply human-resource planning, acquisition and staff leadership"
+  ],
+  "topic_tags": ["marketing", "sales", "human resources", "business organization"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Covers marketing, sales, labour-management regulation and human-resource management, including market analysis and staff planning and leadership."
+ },
+ {
+  "id": "fmb-604293",
+  "primary_cluster": "logistics",
+  "secondary_clusters": [],
+  "competencies": [
+   "Analyze complex material-handling systems with continuous and non-continuous conveyors",
+   "Calculate working cycles and throughput rates of handling systems",
+   "Identify throughput bottlenecks under deterministic and stochastic arrivals",
+   "Assess availability and reliability of material-handling systems"
+  ],
+  "topic_tags": ["material handling", "conveyors", "throughput", "logistics"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Teaches analysis of material-handling systems including throughput, working-cycle calculation and availability and reliability assessment."
+ },
+ {
+  "id": "fmb-601408",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Apply computational materials science methods across multiple scales",
+   "Predict material properties using physically-based models",
+   "Use DFT, atomistic, dislocation and phase-field modelling techniques",
+   "Run material simulations bridging scales with appropriate software"
+  ],
+  "topic_tags": ["material modeling", "computational materials science", "multiscale simulation"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduces computational materials science across scales, from DFT and atomistic to phase-field modelling, with hands-on simulation exercises."
+ },
+ {
+  "id": "fmb-601469",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": [],
+  "competencies": [
+   "Analyze crystal structures, symmetry and dislocation theory",
+   "Relate microstructure to macroscopic properties of metals and alloys",
+   "Explain elastic and plastic deformation including high-temperature creep",
+   "Apply strengthening mechanisms and phase-transformation thermodynamics"
+  ],
+  "topic_tags": ["materials science", "metals and alloys", "dislocations", "microstructure"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Provides advanced understanding of metallic materials, linking crystal structure, dislocations and microstructure to mechanical and high-temperature properties."
+ },
+ {
+  "id": "fmb-601347",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Formulate calculation methods for lightweight composite structures",
+   "Apply plate and shell theory considering anisotropy and large deformations",
+   "Perform laminate calculations using classical and higher-order layer theory",
+   "Assess possibilities and limits of numerical simulation for lightweight structures"
+  ],
+  "topic_tags": ["lightweight structures", "composites", "laminate theory", "plates and shells"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Teaches calculation methods for lightweight composite structures, covering plate and shell theory, anisotropy and laminate calculation."
+ },
+ {
+  "id": "fmb-604291",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": [],
+  "competencies": [
+   "Model elastic behavior of isotropic and anisotropic materials",
+   "Describe inelastic behavior including plasticity, creep and stress relaxation",
+   "Translate experimental observations into mathematical material equations",
+   "Apply concepts of material damage and fracture"
+  ],
+  "topic_tags": ["mechanics of materials", "material modeling", "plasticity", "fracture"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Covers the basics of material behavior modeling, from experiment to mathematical equations for elastic, inelastic, damage and fracture behavior."
+ },
+ {
+  "id": "fmb-601372",
+  "primary_cluster": "innovation_mgmt",
+  "secondary_clusters": ["manufacturing"],
+  "competencies": [
+   "Understand product development and manufacturing of medical devices",
+   "Apply regulatory approval and clinical evaluation requirements for medical devices",
+   "Analyze corporate perspectives on medical technology from industry talks",
+   "Document and present project results on medical-device requirements"
+  ],
+  "topic_tags": ["medical technology", "medical devices", "regulatory approval"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Company-led lectures giving real-world insight into development, manufacturing, testing and regulatory approval of medical devices, with project work."
+ },
+ {
+  "id": "fmb-601389",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Classify micro and ultra-precision machining within production technology",
+   "Describe ablative and cutting processes for micro-machining",
+   "Design process chains for micro and ultra-precision manufacturing",
+   "Specify process, tool and machine requirements for ultra-precision machining"
+  ],
+  "topic_tags": ["micro machining", "ultra-precision machining", "manufacturing"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Covers micro and ultra-precision machining, including ablative and cutting processes, process-chain design and ultra-precision turning and milling."
+ },
+ {
+  "id": "fmb-604154",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["logistics"],
+  "competencies": [
+   "Apply simulation concepts and simulation-based optimization to production and logistics",
+   "Conduct all phases of a simulation study from goal description to experiments",
+   "Use discrete-event, discrete-rate and system-dynamics simulation paradigms",
+   "Work with simulation tools such as Plant Simulation, AnyLogic and ExtendSim"
+  ],
+  "topic_tags": ["simulation", "logistics planning", "discrete-event simulation", "optimization"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Teaches simulation and simulation-based optimization for production and logistics planning across multiple paradigms and industry simulation tools."
+ },
+ {
+  "id": "fmb-601380",
+  "primary_cluster": "mobility",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Describe components of electric and hybrid powertrains",
+   "Model and simulate drive components and drivetrain systems",
+   "Apply model-based development methods for powertrains",
+   "Analyze operating behavior and optimization of drive systems"
+  ],
+  "topic_tags": ["powertrains", "electric drives", "modeling and simulation", "hybrid drives"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Teaches modelling and simulation of electric and hybrid powertrains and model-based development and optimization of drive components and systems."
+ },
+ {
+  "id": "fmb-601345",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["industry40"],
+  "competencies": [
+   "Plan and configure complex assembly systems",
+   "Characterize assembly tasks and identify assembly-specific requirements",
+   "Design technical-organizational assembly system solutions",
+   "Evaluate assembly operations under economic and performance aspects"
+  ],
+  "topic_tags": ["assembly systems", "assembly planning", "production"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Teaches planning and conceptual design of complex assembly systems from task characterization to layout, configuration and economic evaluation."
+ },
+ {
+  "id": "fmb-601189",
+  "primary_cluster": "mobility",
+  "secondary_clusters": ["mech_mat"],
+  "competencies": [
+   "Apply fundamentals of airborne and structure-borne acoustics",
+   "Use sound measurement and evaluation methods",
+   "Assess noise effects and regulatory limits",
+   "Derive noise-reduction measures for engines and vehicles"
+  ],
+  "topic_tags": ["vehicle acoustics", "engine acoustics", "noise reduction", "acoustics"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Covers engine and vehicle acoustics, including sound measurement, noise assessment and methods for reducing engine and vehicle noise."
+ },
+ {
+  "id": "fmb-601388",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat"],
+  "competencies": [
+   "Model dynamic mechanical systems as multibody systems",
+   "Apply time-integration methods to solve equations of motion",
+   "Handle constraints, joints and elastic multibody systems",
+   "Implement multibody dynamics programmatically and with commercial tools"
+  ],
+  "topic_tags": ["multibody dynamics", "system dynamics", "numerical simulation"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Teaches multibody dynamics for analyzing complex dynamical systems, covering modelling strategies, time integration, constraints and elastic bodies."
+ },
+ {
+  "id": "fmb-601352",
+  "primary_cluster": "mobility",
+  "secondary_clusters": ["energy_sustain"],
+  "competencies": [
+   "Apply a holistic systemic approach to sustainable mobility",
+   "Relate mobility to quality of life, resources and environmental impact",
+   "Evaluate electromobility, new mobility forms and Mobility-as-a-Service",
+   "Assess policy instruments and acceptance of mobility measures"
+  ],
+  "topic_tags": ["sustainable mobility", "electromobility", "maas", "transport"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Provides a holistic systemic view of sustainable mobility, covering electromobility, resources, environmental impact and policy instruments."
+ },
+ {
+  "id": "fmb-601374",
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": [],
+  "competencies": [
+   "Select non-ferrous metals and alloys for special applications",
+   "Relate structure to properties for polymers and composite materials",
+   "Characterize ceramics, glasses and inorganic functional materials",
+   "Apply structure-property relationships for material selection"
+  ],
+  "topic_tags": ["new materials", "non-ferrous metals", "polymers", "composites"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Surveys new materials including non-ferrous metals, polymers, composites and ceramics, focusing on structure-property relationships and material selection."
+ },
+ {
+  "id": "fmb-601436",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["mech_mat"],
+  "competencies": [
+   "Recognize the need for geometrically and physically nonlinear analysis",
+   "Formulate continuum-mechanics fundamentals for nonlinear FEM",
+   "Build geometrically nonlinear finite elements and solve nonlinear systems",
+   "Handle contact problems and nonlinear material models in FEM"
+  ],
+  "topic_tags": ["nonlinear fem", "finite element method", "continuum mechanics", "contact"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Teaches nonlinear finite element analysis, covering geometric and material nonlinearity, solution methods for nonlinear systems and contact problems."
+ },
+ {
+  "id": "fmb-604152",
+  "primary_cluster": "logistics",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+   "Develop planning solutions for production and logistics systems",
+   "Analyze logistics processes in distribution and fulfilment centres",
+   "Evaluate solution variants and analyze and control supply chains",
+   "Document, present and defend project results to target audiences"
+  ],
+  "topic_tags": ["logistics planning", "supply chain", "distribution centre", "project work"],
+  "level": "core",
+  "kind": "project",
+  "language": "de",
+  "description_en": "A practice-oriented project module developing planning solutions for production and logistics systems through company case studies and team project work."
+ },
+ {
+  "id": "fmb-601410",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": [],
+  "competencies": [
+   "Classify precision and micro-manufacturing technologies",
+   "Describe ablative technologies such as ECM, EDM and laser machining",
+   "Explain cutting technologies for precision and micro-manufacturing",
+   "Design process chains for precision and micro-manufacturing"
+  ],
+  "topic_tags": ["precision manufacturing", "micro manufacturing", "edm", "machining"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Covers precision and micro-manufacturing technologies, including ablative and cutting processes and process-chain design for micro-scale parts."
+ },
+ {
+  "id": "fmb-604124",
+  "primary_cluster": "design_plm",
+  "secondary_clusters": ["hci"],
+  "competencies": [
+   "Apply design-oriented and integrative approaches to product design",
+   "Balance aesthetic, ergonomic and technical product requirements",
+   "Use analog and digital design and drawing tools",
+   "Account for human-centred usage processes in product form-giving"
+  ],
+  "topic_tags": ["product design", "industrial design", "ergonomics", "form-giving"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Teaches the role of product design in integrated development, training design-oriented form-giving that balances aesthetic, ergonomic and technical needs."
+ },
+ {
+  "id": "fmb-603020",
+  "primary_cluster": "manufacturing",
+  "secondary_clusters": ["industry40"],
+  "competencies": [
+   "Apply methods for planning and designing factory and production systems",
+   "Analyze and condense planning-relevant data for production systems",
+   "Dimension resources and optimize machine layout under constraints",
+   "Develop a master plan for a functional overall production system"
+  ],
+  "topic_tags": ["production system planning", "factory planning", "production"],
+  "level": "core",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Teaches methodical planning and design of factory and production systems, including data analysis, resource dimensioning and machine-layout optimization."
+ },
+ {
+  "id": "fmb-604165",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": [],
+  "competencies": [
+   "Work on a project in a goal-oriented and effective manner",
+   "Establish the connections needed to deliver a project",
+   "Document project results",
+   "Present and defend project outcomes"
+  ],
+  "topic_tags": ["project work", "scientific project", "team project"],
+  "level": "core",
+  "kind": "project",
+  "language": "de",
+  "description_en": "An individual or team project module in which students work on, document, present and defend a research- or teaching-related engineering project."
+ }
+]

@@ -1,0 +1,551 @@
+[
+ {
+  "id": "fin-103805",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": [],
+  "competencies": [
+   "Distinguish relational and non-relational database models",
+   "Design databases using object-oriented and semi-structured models",
+   "Apply non-relational DBMS capabilities to applications",
+   "Formulate queries with OQL, XPath/XQuery and SQL:2003",
+   "Develop applications on non-relational databases"
+  ],
+  "topic_tags": ["databases", "nosql", "data modeling", "query processing"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced study of non-relational database models, their concepts, query languages and application development on non-relational DBMS."
+ },
+ {
+  "id": "fin-120491",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": ["hci", "methods_skills"],
+  "competencies": [
+   "Apply IR, NLP and HCI approaches in practice",
+   "Conduct a state-of-the-art literature review",
+   "Write a scientific paper on an information-organization topic",
+   "Present and defend a hands-on research project"
+  ],
+  "topic_tags": ["information retrieval", "nlp", "scientific writing"],
+  "level": "advanced",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar where students write a scientific paper and present a hands-on project in information retrieval, NLP or HCI."
+ },
+ {
+  "id": "fin-120277",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": [],
+  "competencies": [
+   "Assess state-of-the-art solutions in database research",
+   "Apply advanced database implementation techniques",
+   "Work with main-memory database algorithms",
+   "Apply storage and indexing techniques for NoSQL systems"
+  ],
+  "topic_tags": ["databases", "main-memory", "indexing", "nosql"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced, research-driven course on current database topics such as main-memory algorithms, heterogeneous processing and NoSQL storage techniques."
+ },
+ {
+  "id": "fin-120496",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+   "Read and analyze current deep learning research papers",
+   "Apply deep learning to a specific application domain",
+   "Build domain-specific deep learning pipelines",
+   "Work on server infrastructure in a research team",
+   "Present scientific results in written and oral form"
+  ],
+  "topic_tags": ["deep learning", "research", "ml pipelines"],
+  "level": "advanced",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Advanced seminar applying current deep learning research to build domain-specific pipelines and present scientific results in teams."
+ },
+ {
+  "id": "fin-120518",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": [],
+  "competencies": [
+   "Explain advanced networking concepts to others",
+   "Apply overlay and peer-to-peer networking techniques",
+   "Understand distributed hash tables and blockchains",
+   "Reason about congestion control protocols like QUIC",
+   "Analyze secure network architectures"
+  ],
+  "topic_tags": ["networking", "blockchain", "overlay networks", "congestion control"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced networking course covering overlay networks, distributed hash tables, blockchains, smart contracts and modern congestion control."
+ },
+ {
+  "id": "fin-120503",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": ["robotics", "ml_ai"],
+  "competencies": [
+   "Collaborate in teams to solve technical challenges",
+   "Manage a project and define goals and milestones",
+   "Acquire domain knowledge to derive solutions",
+   "Document and present project work and achievements"
+  ],
+  "topic_tags": ["team project", "robotics", "sensor processing"],
+  "level": "core",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Team and individual lab projects on research topics such as robotics, sensor data processing, navigation and industrial machine learning."
+ },
+ {
+  "id": "fin-120279",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+   "Model and simulate Markov and non-Markovian stochastic processes",
+   "Apply solution methods for Markov chains",
+   "Work with hidden Markovian and non-Markovian models",
+   "Implement and program stochastic model classes",
+   "Solve modelling problems from medicine and engineering"
+  ],
+  "topic_tags": ["stochastic modeling", "markov chains", "simulation"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on discrete stochastic modelling with Markov chains, hidden models and proxel simulation applied to medicine and engineering problems."
+ },
+ {
+  "id": "fin-120432",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+   "Apply Clean Code Development principles and practices",
+   "Select and adapt suitable software concepts for a project",
+   "Use modern software engineering tools and techniques",
+   "Distribute tasks and collaborate in a development team"
+  ],
+  "topic_tags": ["clean code", "software engineering", "best practices"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced software engineering course teaching Clean Code Development principles, modern tools and collaborative development practices."
+ },
+ {
+  "id": "fin-110472",
+  "primary_cluster": "viz",
+  "secondary_clusters": [],
+  "competencies": [
+   "Explain core concepts of computer graphics",
+   "Implement a simple rendering program",
+   "Apply transformations, clipping and rasterization",
+   "Implement lighting, texturing and ray tracing techniques"
+  ],
+  "topic_tags": ["computer graphics", "rendering", "ray tracing"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introductory computer graphics course covering modeling, transformations, rasterization, lighting, texturing and ray tracing with programming tasks."
+ },
+ {
+  "id": "fin-120326",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": ["design_plm"],
+  "competencies": [
+   "Design relational and non-relational databases for engineering",
+   "Assess engineering data management requirements",
+   "Apply product data management with database systems",
+   "Support workflows, interoperability and product lifecycle management"
+  ],
+  "topic_tags": ["data management", "engineering data", "plm"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on database-backed data management for engineering applications, covering product data management, interoperability and product lifecycle support."
+ },
+ {
+  "id": "fin-120454",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+   "Apply supervised classification algorithms to tabular data",
+   "Apply unsupervised clustering algorithms",
+   "Evaluate and compare data mining models",
+   "Perform data engineering to prepare data for mining",
+   "Build workflows for model evaluation"
+  ],
+  "topic_tags": ["data mining", "classification", "clustering", "model evaluation"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to data mining covering supervised classification, unsupervised clustering, model evaluation and data engineering fundamentals."
+ },
+ {
+  "id": "fin-120455",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["data_eng"],
+  "competencies": [
+   "Design learning algorithms for temporal data and data streams",
+   "Apply supervised and unsupervised stream learning methods",
+   "Detect and handle concept drift",
+   "Perform continuous evaluation of temporal models",
+   "Interpret models induced from temporal data"
+  ],
+  "topic_tags": ["data mining", "data streams", "temporal learning", "concept drift"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced data mining course on temporal data and streams, covering stream clustering, classification, concept drift and continuous evaluation."
+ },
+ {
+  "id": "fin-120513",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": ["ml_ai"],
+  "competencies": [
+   "Import and preprocess raw data from files, databases and web APIs",
+   "Transform data for modelling in Python",
+   "Perform exploratory data analysis with statistics and visualization",
+   "Build and evaluate predictive models in Python"
+  ],
+  "topic_tags": ["data science", "python", "data analysis"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Hands-on course teaching data science with Python: importing, transforming, exploring and modelling real-world data for prediction and insight."
+ },
+ {
+  "id": "fin-120529",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": [],
+  "competencies": [
+   "Model relational databases from practical scenarios",
+   "Map ER schemas to relational models",
+   "Use relational algebra and SQL",
+   "Apply normalization and formal design criteria",
+   "Develop database applications with views and triggers"
+  ],
+  "topic_tags": ["databases", "relational model", "sql", "normalization"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Foundational database course covering relational modelling, ER mapping, SQL, normalization and database application programming."
+ },
+ {
+  "id": "fin-120463",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": ["innovation_mgmt"],
+  "competencies": [
+   "Work collaboratively in interdisciplinary project teams",
+   "Carry out scientific work and contribute to publications",
+   "Plan and manage an innovative engineering task",
+   "Document and present project results"
+  ],
+  "topic_tags": ["team project", "interdisciplinary", "scientific work"],
+  "level": "core",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Interdisciplinary team project where students collaborate on an innovative digital engineering task and produce a report and presentation."
+ },
+ {
+  "id": "fin-102404",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+   "Implement distributed and parallel databases",
+   "Design data distribution across nodes",
+   "Process queries and transactions in distributed systems",
+   "Optimize runtime performance, reliability and availability",
+   "Apply transactional replication techniques"
+  ],
+  "topic_tags": ["distributed databases", "parallel dbms", "transactions"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on distributed and parallel data management covering distribution design, distributed query and transaction processing, and replication."
+ },
+ {
+  "id": "fin-120485",
+  "primary_cluster": "robotics",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Develop kinematic and discrete-time prediction models for mobile robots",
+   "Apply least-squares methods for localization and tracking",
+   "Design and apply Kalman filters and nonlinear generalizations",
+   "Perform dynamic state estimation for mobile systems"
+  ],
+  "topic_tags": ["mobile robots", "state estimation", "kalman filter", "localization"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on state estimation for autonomous mobile robots, covering kinematic models, least-squares localization, tracking and Kalman filtering."
+ },
+ {
+  "id": "fin-120498",
+  "primary_cluster": "hci",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+   "Organize scientific projects in human-computer interaction",
+   "Apply eudaimonic and hedonic design principles",
+   "Evaluate ethical issues and dark patterns in interface design",
+   "Conduct well-being-focused system development",
+   "Write and review scientific papers"
+  ],
+  "topic_tags": ["interaction design", "well-being", "ethics", "hci"],
+  "level": "core",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar on eudaimonic, well-being-focused interaction design covering ethical interface design, dark patterns and scientific writing in HCI."
+ },
+ {
+  "id": "fin-120261",
+  "primary_cluster": "viz",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Apply mathematical principles of vector and tensor fields",
+   "Acquire and process flow data",
+   "Create direct, texture-based and geometry-based flow visualizations",
+   "Apply feature-based and topological flow visualization methods"
+  ],
+  "topic_tags": ["flow visualization", "vector fields", "scientific visualization"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on flow visualization covering vector and tensor fields and direct, texture-based, geometry-based, feature-based and topological methods."
+ },
+ {
+  "id": "fin-102206",
+  "primary_cluster": "viz",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+   "Design data structures for geometric problems",
+   "Apply balanced and self-organizing search trees",
+   "Perform amortized analysis of data structures",
+   "Use interval, range, segment and quad-trees",
+   "Build point-location and persistent data structures"
+  ],
+  "topic_tags": ["geometric data structures", "algorithms", "computational geometry"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on designing, analyzing and applying geometric data structures such as range trees, quad-trees and point-location structures."
+ },
+ {
+  "id": "fin-120490",
+  "primary_cluster": "hci",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+   "Conduct systematic research literature reviews",
+   "Write and review scientific papers",
+   "Apply human-centred approaches and technologies",
+   "Evaluate research papers and peer work",
+   "Deliver a conference-style presentation"
+  ],
+  "topic_tags": ["human-centred", "scientific writing", "literature review"],
+  "level": "core",
+  "kind": "seminar",
+  "language": "en",
+  "description_en": "Seminar/project on human-centred approaches and technologies emphasizing scientific writing, literature reviews and the paper review process."
+ },
+ {
+  "id": "fin-120512",
+  "primary_cluster": "hci",
+  "secondary_clusters": ["industry40", "manufacturing"],
+  "competencies": [
+   "Design safe, efficient and human-centred work environments",
+   "Apply Human-Centred Design and Manufacturing principles",
+   "Analyze physical and cognitive ergonomics",
+   "Apply risk assessment methodologies",
+   "Evaluate human-robot collaboration in Industry 4.0"
+  ],
+  "topic_tags": ["human-centred manufacturing", "usability", "ergonomics", "industry 4.0"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on human-centred manufacturing and usability covering ergonomics, risk assessment and human integration into Industry 4.0 processes."
+ },
+ {
+  "id": "fin-120494",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["hci"],
+  "competencies": [
+   "Critically evaluate state-of-the-art language models",
+   "Explain language representation, tokenization and transformers",
+   "Design human-centred NLP approaches",
+   "Build NLP solutions using large language models",
+   "Work with multimodal AI architectures"
+  ],
+  "topic_tags": ["nlp", "transformers", "large language models", "human-centred"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Course on human-centred natural language processing covering tokenization, transformers, large language models and multimodal AI architectures."
+ },
+ {
+  "id": "fin-120506",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+   "Apply in-memory data management technologies",
+   "Understand cloud computing technologies for enterprise systems",
+   "Adapt data science methods to novel problems",
+   "Contribute digitalization solutions in interdisciplinary projects"
+  ],
+  "topic_tags": ["in-memory", "cloud", "enterprise systems"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Two-semester course on in-memory and cloud technologies for enterprise and information systems, bridging computer science and engineering domains."
+ },
+ {
+  "id": "fin-120301",
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": [],
+  "competencies": [
+   "Work independently on a scientific question",
+   "Acquire in-depth knowledge in a specialized field",
+   "Present and interpret results in oral and written form",
+   "Assess the significance of research results"
+  ],
+  "topic_tags": ["scientific project", "independent research"],
+  "level": "core",
+  "kind": "project",
+  "language": "en",
+  "description_en": "Individual scientific project where a student independently investigates an agreed research question under supervision and presents the results."
+ },
+ {
+  "id": "fin-120440",
+  "primary_cluster": "software_sys",
+  "secondary_clusters": ["methods_skills"],
+  "competencies": [
+   "Program in an imperative, object-oriented language",
+   "Reason about algorithm design and runtime",
+   "Apply fundamental data structures such as trees and hash tables",
+   "Implement sorting and searching algorithms",
+   "Analyze algorithm complexity with Big-O notation"
+  ],
+  "topic_tags": ["programming", "data structures", "algorithms"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introductory computer science course for engineers covering programming, fundamental data structures, algorithms and complexity analysis."
+ },
+ {
+  "id": "fin-120497",
+  "primary_cluster": "robotics",
+  "secondary_clusters": ["sim_num"],
+  "competencies": [
+   "Design distributed sensor systems and networks",
+   "Process data across networks of sensors",
+   "Model measurement noise and errors",
+   "Apply distributed sensor data fusion methods",
+   "Compare and evaluate information-processing approaches"
+  ],
+  "topic_tags": ["sensor data fusion", "distributed sensors", "estimation"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to distributed sensor data fusion covering networked sensor systems, error modelling and methods for fusing sensor information."
+ },
+ {
+  "id": "fin-102808",
+  "primary_cluster": "data_eng",
+  "secondary_clusters": [],
+  "competencies": [
+   "Design and develop data warehouse applications",
+   "Apply the Extract-Transform-Load process",
+   "Build OLAP and multidimensional data models",
+   "Use data-warehouse-specific DBMS functionality",
+   "Optimize query execution for data warehouses"
+  ],
+  "topic_tags": ["data warehouse", "etl", "olap", "business intelligence"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to data warehousing covering ETL, OLAP, the multidimensional model, indexing structures and business intelligence applications."
+ },
+ {
+  "id": "fin-120521",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": [],
+  "competencies": [
+   "Apply deep learning techniques to solve given problems",
+   "Build network architectures such as CNNs, RNNs and Transformers",
+   "Apply regularization and optimization techniques",
+   "Design and conduct deep learning experiments",
+   "Document work for reproducibility and transparency"
+  ],
+  "topic_tags": ["deep learning", "neural networks", "transformers"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to deep learning covering neural network fundamentals, CNNs, RNNs, Transformers, regularization and experiment design."
+ },
+ {
+  "id": "fin-120345",
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "competencies": [
+   "Analyze discrete, continuous and hybrid systems with simulation tools",
+   "Integrate initial value problems numerically",
+   "Carry out input and output analysis for stochastic models",
+   "Select an appropriate modelling paradigm",
+   "Perform and interpret a simulation study"
+  ],
+  "topic_tags": ["simulation", "discrete-event", "stochastic modeling"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Introduction to simulation covering discrete-event, continuous and hybrid systems, numerical integration, stochastic models and simulation studies."
+ },
+ {
+  "id": "fin-120522",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": [],
+  "competencies": [
+   "Apply generative models to solve given problems",
+   "Train energy-based and autoregressive models",
+   "Build GANs and variational learning models",
+   "Apply flow-based and diffusion models",
+   "Design and conduct experiments with generative models"
+  ],
+  "topic_tags": ["generative models", "gans", "diffusion models", "deep learning"],
+  "level": "advanced",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Advanced course on learning generative models including energy-based models, autoregressive models, GANs, flow-based and diffusion models."
+ },
+ {
+  "id": "fin-120532",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": ["software_sys"],
+  "competencies": [
+   "Analyze typical failure modes of ML systems",
+   "Select test and evaluation methods for safety-critical ML",
+   "Assess uncertainty estimation, anomaly detection and robustness",
+   "Understand adversarial threat models and defenses",
+   "Reflect on regulatory and ethical conditions for ML deployment"
+  ],
+  "topic_tags": ["ml safety", "robustness", "adversarial", "uncertainty"],
+  "level": "introductory",
+  "kind": "course",
+  "language": "de",
+  "description_en": "Introduction to machine learning safety covering failure modes, uncertainty, anomaly detection, adversarial threats and regulatory considerations."
+ },
+ {
+  "id": "fin-120517",
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": [],
+  "competencies": [
+   "Create machine learning pipelines and algorithms",
+   "Implement decision trees, perceptrons and KNN classifiers",
+   "Apply Bayesian and instance-based learning",
+   "Perform cluster analysis and association learning",
+   "Evaluate predictive performance of classifiers"
+  ],
+  "topic_tags": ["machine learning", "classification", "decision trees", "neural networks"],
+  "level": "core",
+  "kind": "course",
+  "language": "en",
+  "description_en": "Core machine learning course covering concept learning, decision trees, Bayesian and neural methods, clustering and hypothesis evaluation."
+ }
+]

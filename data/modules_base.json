@@ -2171,7 +2171,7 @@
   "title_de": null,
   "language": "en",
   "faculty": "FMB",
-  "cp": 90,
+  "cp": 5,
   "level": "Master",
   "module_code": "601469",
   "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
@@ -2181,7 +2181,7 @@
   "topic_tags": [],
   "primary_cluster": null,
   "secondary_clusters": [],
-  "notes": "",
+  "notes": "CP-Originalwert '90' unplausibel→5 (FMB-Standard).",
   "_text": "Course name Materials Science Exam number: \n601469 German title Werkstoffwissenschaften \nTeaching aims and content of \nthe module \n \nTeaching aims and competences to be gained: \n• Deeper understanding of physical and mechanical phenomena in metals and al-\nloys \n• Gain deeper knowledge of the mechanical properties at high temperatures \n• Ability to combine microstructural relationships with macroscopic properties of \nmetallic materials and alloys \nContents:  \n• Crystal structures and symmetry classes \n• General theory of dislocations and dislocation reactions \no Perfect dislocations \no Partial dislocations \no Defects in dislocations \n• Grain boundary theory \no Tilt and twist grain boundaries \no Twin and large angle grain boundaries \no Dislocation network in grain boundaries \n• Elastic and plastic deformation \no Plastic behavior of single crystals \no Plastic deformation at high temperatures - creep \n• Strengthening mechanisms in metallic materials and alloys \n• Introduction into thermodynamics of phase transformations and complex phase \ndiagrams \nType of lecture Lectures; Seminars for special topics  \nLiterature See first lecture \nPreconditions for attending Master’s level understanding of metals, alloys and materials science \nUsability of the module according to module handbook \nPrerequisites for the provision \nof ECTS \nWritten examination K90 \nECTS and marks 5 CP \nGrading according to the examination regulations \nEfforts 2 hours per week lecture, 1 hour per week seminar, self-study of lectures and semi-\nnars \nFrequency of provision Each summer semester \nDuration of module 1 semester \nResponsible lecturer Dr.-Ing. Georg Hasemann, FMB-IWTM \nDr.-Ing. Sebastian Hütter, FMB-IWTM \n \n \n  \nMaschinenbau \n\n\n \n  \n61 Mechanics of Lightweight Structures \nLast offer for M-SEM SPO 2023 in the summer semester of 2025"
  },
  {
@@ -2490,8 +2490,8 @@
  },
  {
   "id": "fmb-604165",
-  "title_en": null,
-  "title_de": "Projekt 5 CP1)",
+  "title_en": "Project module (FMB)",
+  "title_de": "Projektmodul (FMB)",
   "language": "de",
   "faculty": "FMB",
   "cp": 5,
@@ -2504,16 +2504,16 @@
   "topic_tags": [],
   "primary_cluster": null,
   "secondary_clusters": [],
-  "notes": "",
+  "notes": "CP aus Titel abgeleitet.",
   "_text": "Name des Moduls Projekt 5 CP1) Prüfungsnummer \n604165 Project 5 CP \nInhalt und  \nQualifikationsziele des Mo-\nduls \nLernziele und zu erwerbende Kompetenzen: \nNach absolvieren der Veranstaltung soll der Student in der Lage sein, ein Projekt ziel-\ngerichtet und effektiv zu bearbeiten, die dazu erforderlichen Verbindungen zu knüpfen \nund das Ergebnis des Projektes zu dokumentieren und zu verteidigen.  \nInhalte: \nDie Inhalte sollten sich an aktuellen Projekten, Forschungsthemen oder Lehrinhalten \nder Institute anlehnen und möglichst so gestaltet sein, dass Sie direkt in die zugeord-\nneten Arbeiten einfließen können. \nLehrformen Projektarbeit  \nVoraussetzungen für die \nTeilnahme \nGrundkenntnisse in den dem Projekt zugeordneten Fachgebieten \nVerwendbarkeit des Moduls Entsprechend Modulhandbuch  \n \nVergabe von Leistungs-\npunkten \nWissenschaftliches Projekt \n(Belegarbeit, Präsentation mit Verteidigung) \nLeistungspunkte und Noten 5 CP  \nNotenskala gemäß Prüfungsordnung4) \nArbeitsaufwand selbständige Projektbearbeitung \nAngebotshäufigkeit jedes Semester \nDauer des Moduls ein Semester \nModulverantwortlich Projektbetreuer aus allen Instituten der FMB \n \n1) Das Projekt kann als Einzel oder Teamprojekt ausgeführt werden. Teamprojekte werden bevorzugt. Bei Teamprojekten sollte die \nAnzahl der Mitarbeiter maximal 6 betragen.  \nEs kann auch eine Projektarbeit aus dem Angebot des IDE -Masterstudiengangs der FMB gewählt werden. Es werden aber immer nur 5 \nCP angerechnet. \n \n  \nMaschinenbau \n\n\n \n  \n83 Projekt 10 CP"
  },
  {
   "id": "fmb-604165-2",
-  "title_en": null,
-  "title_de": "Projekt 10 CP1)",
+  "title_en": "Project module (FMB)",
+  "title_de": "Projektmodul (FMB)",
   "language": "de",
   "faculty": "FMB",
-  "cp": 0,
+  "cp": 10,
   "level": "Master",
   "module_code": "604165",
   "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
@@ -2523,7 +2523,7 @@
   "topic_tags": [],
   "primary_cluster": null,
   "secondary_clusters": [],
-  "notes": "",
+  "notes": "CP aus Titel abgeleitet.",
   "_text": "Name des Moduls Projekt 10 CP1) Prüfungsnummer \n604165 Project 10 CP \nInhalt und  \nQualifikationsziele des Mo-\nduls \nLernziele und zu erwerbende Kompetenzen: \nNach absolvieren der Veranstaltung soll der Student in der Lage sein, ein Projekt ziel-\ngerichtet und effektiv zu bearbeiten, die dazu erforderlichen Verbindungen zu knüpfen \nund das Ergebnis des Projektes zu dokumentieren und zu verteidigen.  \nInhalte: \nDie Inhalte sollten sich an aktuellen Projekten, Forschungsthemen oder Lehrinhalten \nder Institute anlehnen und möglichst so gestaltet sein, dass Sie direkt in die zugeord-\nneten Arbeiten einfließen können. \nLehrformen Projektarbeit  \nVoraussetzungen für die \nTeilnahme \nGrundkenntnisse in den dem Projekt zugeordneten Fachgebieten \nVerwendbarkeit des Moduls Entsprechend Modulhandbuch  \n \nVergabe von Leistungs-\npunkten \nWissenschaftliches Projekt \n(Belegarbeit, Präsentation mit Verteidigung)  \nLeistungspunkte und Noten 10 CP 2) \nNotenskala gemäß Prüfungsordnung4) \nArbeitsaufwand selbständige Projektbearbeitung \nAngebotshäufigkeit jedes Semester \nDauer des Moduls ein Semester \nModulverantwortlicher Projektbetreuer aus allen Instituten der FMB \n \n1) Das Projekt kann als Einzel oder Teamprojekt ausgeführt werden. Teamprojekte werden bevorzugt. Bei Teamprojekten sollte die \nAnzahl der Mitarbeiter maximal 6 betragen.  \n2) Das Projekt kann sich auch aus zwei 5 CP Projekten zusammensetzen.  Die Modulnote ergibt sich dann als arithmetischer Mittelwert \nder Einzelnoten der jeweiligen Person. \nEs kann auch eine Projektarbeit aus dem Angebot des IDE-Masterstudiengangs der FMB gewählt werden.  \n \n \n  \nMaschinenbau \n\n\n \n  \n84 Python in Production System Engineering"
  },
  {
@@ -3273,7 +3273,7 @@
   "title_de": null,
   "language": "en",
   "faculty": "FMB",
-  "cp": 120,
+  "cp": 5,
   "level": "Master",
   "module_code": "110463",
   "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
@@ -3283,7 +3283,7 @@
   "topic_tags": [],
   "primary_cluster": null,
   "secondary_clusters": [],
-  "notes": "",
+  "notes": "CP-Originalwert '120' unplausibel→5 (FMB-Standard).",
   "_text": "Course name Parallel Programming Exam number: \n110463 German name Parallele Programmierung \nTeaching aims and content of the \nmodule \nTeaching aims and competences to be gained: \nhttps://bookstack.cs.ovgu.de/books/modulkatalog-HmN \nContents: \nTeaching forms Lecture and exercises english \nLiterature Will be specified in the first lecture \nPreconditions for attending Basic skills in programming \nUsability of module according to module handbook \nPrerequisites for the provision of \nECTS \nWritten exam K120 \nECTS and marks 5 CP, Grading following Study and Examination Regulations \nEfforts 2 SWS lecture, 2 SWS exercise, self-study \nFrequency of provision every summer semester \nDuration of module one semester \nResponsible lecturer Prof. Dr. Michael Kuhn; FIN-IKS \n \n  \nInformatik Informatik \n\n\n \n  \n125 Startup-Engineering II"
  },
  {

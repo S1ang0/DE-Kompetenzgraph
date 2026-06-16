@@ -133,6 +133,23 @@ for m in etit:
         "_text": (m.get("text") or "")[:4000],
     })
 
+# ---- CP sanitization ----
+# FMB catalog modules are standardized at 5 CP (a few at 10). Parse artefacts (90,120,0,
+# program totals leaking from "Modulverwendbarkeit") get clamped. "Projekt N CP" titles
+# carry their CP in the name.
+for m in modules:
+    t = (m["title_de"] or m["title_en"] or "")
+    pm = re.search(r"Projekt\s+(\d+)\s*CP", t)
+    if pm:
+        m["cp"] = int(pm.group(1))
+        m["title_de"] = "Projektmodul (FMB)"
+        m["title_en"] = m["title_en"] or "Project module (FMB)"
+        m["notes"] = (m["notes"] + " CP aus Titel abgeleitet.").strip()
+    if m["faculty"] == "FMB":
+        if m["cp"] is None or not (3 <= (m["cp"] or 0) <= 15):
+            m["notes"] = (m["notes"] + f" CP-Originalwert '{m['cp']}' unplausibel→5 (FMB-Standard).").strip()
+            m["cp"] = 5
+
 # ---- de-dup ids ----
 seen = collections.Counter()
 for m in modules:
