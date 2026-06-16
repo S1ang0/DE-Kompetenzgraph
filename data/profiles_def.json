@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "threshold_cp": 30,
+    "core_min_cp": 18,
+    "rule": "Eine Profilierung wird vergeben, wenn ≥ threshold_cp CP aus den zugehörigen Clustern (Kern ∪ verbündet) erbracht werden, davon ≥ core_min_cp CP aus dem/den Kerncluster(n). Englische FIN+FMB-Module müssen ausreichen (C1+C2). Deutsche bzw. ETIT-Module sind ausschließlich optionale Substitute.",
+    "eligible_kinds": ["course", "lab", "seminar", "project"],
+    "note": "Namen englisch (Zeugnisvermerk). Beschreibungen deutsch (UI). Erfüllbarkeit wird maschinell geprüft (scripts/validate_profiles.py)."
+  },
+  "profiles": [
+    { "id": "ai_engineering", "name": "AI Engineering",
+      "tagline": "Lernende Systeme für technische Anwendungen",
+      "description": "Entwurf, Training und Betrieb maschineller Lernverfahren – von klassischem ML über Deep Learning und generative Modelle bis zu MLOps und Optimierung – mit Anwendung auf ingenieurnahe Daten.",
+      "core_clusters": ["ml_ai"], "allied_clusters": ["data_eng", "software_sys", "industry40"] },
+
+    { "id": "data_engineering", "name": "Data Engineering & Analytics",
+      "tagline": "Datenarchitektur, Datenbanken und Analyse",
+      "description": "Modellierung, Speicherung und Verarbeitung großer Datenbestände: Datenbanksysteme, Transaktionen, verteilte und In-Memory-Datenhaltung, Data Warehousing und datengetriebene Analyse-Pipelines.",
+      "core_clusters": ["data_eng"], "allied_clusters": ["ml_ai", "software_sys"] },
+
+    { "id": "comp_simulation", "name": "Computational Engineering & Simulation",
+      "tagline": "Numerische Simulation technischer Systeme",
+      "description": "Numerische Methoden und wissenschaftliches Rechnen: FEM, CFD, Mehrkörper- und Systemdynamik, Diskrete-Elemente-Methode sowie Modellierung, Simulation und Optimierung technischer Prozesse.",
+      "core_clusters": ["sim_num"], "allied_clusters": ["mech_mat", "design_plm", "ml_ai"] },
+
+    { "id": "comp_mechanics", "name": "Computational Mechanics & Materials",
+      "tagline": "Werkstoff- und Strukturmechanik rechnergestützt",
+      "description": "Kontinuums- und Strukturmechanik, Werkstoffmodellierung, Leichtbau- und Verbundwerkstoffe sowie inelastisches und schädigungsbasiertes Materialverhalten – verbunden mit numerischer Simulation.",
+      "core_clusters": ["mech_mat"], "allied_clusters": ["sim_num", "manufacturing"] },
+
+    { "id": "visual_computing", "name": "Visual Computing & Visualization",
+      "tagline": "Computergrafik, Visualisierung, VR/AR",
+      "description": "Computergrafik, wissenschaftliche und Informations-Visualisierung, Visual Analytics sowie immersive 3D-Interaktion (VR/AR) für die Analyse komplexer technischer und wissenschaftlicher Daten.",
+      "core_clusters": ["viz"], "allied_clusters": ["hci", "ml_ai"] },
+
+    { "id": "human_centred", "name": "Human-Centred Systems & Interaction",
+      "tagline": "Mensch-zentrierte interaktive Systeme",
+      "description": "Mensch-zentrierte Gestaltung interaktiver Systeme: Usability, Interaktionsdesign, Mensch-Technik-Interaktion und mensch-zentrierte Sprachverarbeitung – ergänzt um Visualisierung.",
+      "core_clusters": ["hci"], "allied_clusters": ["viz", "ml_ai", "software_sys"] },
+
+    { "id": "robotics_auto", "name": "Robotics & Autonomous Systems",
+      "tagline": "Robotik, Autonomie, Sensorfusion",
+      "description": "Mobile und industrielle Robotik, autonome Systeme, Zustandsschätzung und Sensordatenfusion – verbunden mit Software-Entwicklung und maschinellem Lernen für autonome Funktionen.",
+      "core_clusters": ["robotics"], "allied_clusters": ["software_sys", "ml_ai", "sim_num"] },
+
+    { "id": "software_systems", "name": "Software & Distributed Systems",
+      "tagline": "Software-, Netz- und sichere Systeme",
+      "description": "Software- und Systems-Engineering, verteilte Systeme, Rechnernetze, Cloud/DevOps und IT-Sicherheit – die Software-Grundlage digitaler Ingenieuranwendungen.",
+      "core_clusters": ["software_sys"], "allied_clusters": ["data_eng", "ml_ai"] },
+
+    { "id": "smart_production", "name": "Smart Production & Industry 4.0",
+      "tagline": "Digitalisierte, datengetriebene Produktion",
+      "description": "Digitalisierung der Produktion: Industrie-4.0-Technologien, cyber-physische und datengetriebene Produktionssysteme, AutomationML, Predictive Maintenance und KI in Produktion und Logistik.",
+      "core_clusters": ["industry40"], "allied_clusters": ["logistics", "manufacturing", "data_eng", "robotics"] },
+
+    { "id": "logistics_scm", "name": "Logistics & Supply Chain Engineering",
+      "tagline": "Logistiksysteme und Lieferketten",
+      "description": "Gestaltung und Optimierung von Logistiksystemen und Liefernetzwerken: Materialfluss, Supply-Chain-Planung, ERP-Systeme und logistische Simulation.",
+      "core_clusters": ["logistics"], "allied_clusters": ["industry40", "innovation_mgmt"] },
+
+    { "id": "digital_twin", "name": "Digital Twins & Cyber-Physical Systems",
+      "tagline": "FIN×FMB-Brücke: virtuelle Abbilder realer Systeme",
+      "description": "Brückenprofil aus Simulation und Datentechnik: virtuelle, mit Sensordaten synchronisierte Abbilder physischer Systeme – Modellierung, datengetriebene Verfahren und cyber-physische Integration.",
+      "core_clusters": ["sim_num", "industry40"], "allied_clusters": ["robotics", "software_sys", "data_eng"] }
+  ]
+}

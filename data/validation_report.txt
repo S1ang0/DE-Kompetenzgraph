@@ -1,0 +1,85 @@
+==============================================================================
+CONSTRAINT VALIDATION — M.Sc. Digital Engineering profilings
+threshold_cp = 30   core_min_cp = 18
+==============================================================================
+
+[PASS] AI Engineering
+    core=['ml_ai']  allied=['data_eng', 'software_sys', 'industry40']
+    C1 English-only required pool : OK  (59 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 34 CP total, 22 CP core (5 modules)
+    SUB optional-only             : OK  (61 substitutes)
+
+[PASS] Data Engineering & Analytics
+    core=['data_eng']  allied=['ml_ai', 'software_sys']
+    C1 English-only required pool : OK  (54 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 34 CP total, 18 CP core (5 modules)
+    SUB optional-only             : OK  (52 substitutes)
+
+[PASS] Computational Engineering & Simulation
+    core=['sim_num']  allied=['mech_mat', 'design_plm', 'ml_ai']
+    C1 English-only required pool : OK  (58 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 32 CP total, 22 CP core (5 modules)
+    SUB optional-only             : OK  (129 substitutes)
+
+[PASS] Computational Mechanics & Materials
+    core=['mech_mat']  allied=['sim_num', 'manufacturing']
+    C1 English-only required pool : OK  (41 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 30 CP total, 20 CP core (5 modules)
+    SUB optional-only             : OK  (106 substitutes)
+
+[PASS] Visual Computing & Visualization
+    core=['viz']  allied=['hci', 'ml_ai']
+    C1 English-only required pool : OK  (40 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 34 CP total, 18 CP core (5 modules)
+    SUB optional-only             : OK  (35 substitutes)
+
+[PASS] Human-Centred Systems & Interaction
+    core=['hci']  allied=['viz', 'ml_ai', 'software_sys']
+    C1 English-only required pool : OK  (57 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 34 CP total, 18 CP core (5 modules)
+    SUB optional-only             : OK  (59 substitutes)
+
+[PASS] Robotics & Autonomous Systems
+    core=['robotics']  allied=['software_sys', 'ml_ai', 'sim_num']
+    C1 English-only required pool : OK  (65 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 34 CP total, 18 CP core (5 modules)
+    SUB optional-only             : OK  (124 substitutes)
+
+[PASS] Software & Distributed Systems
+    core=['software_sys']  allied=['data_eng', 'ml_ai']
+    C1 English-only required pool : OK  (54 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 34 CP total, 18 CP core (5 modules)
+    SUB optional-only             : OK  (52 substitutes)
+
+[PASS] Smart Production & Industry 4.0
+    core=['industry40']  allied=['logistics', 'manufacturing', 'data_eng', 'robotics']
+    C1 English-only required pool : OK  (55 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 33 CP total, 21 CP core (6 modules)
+    SUB optional-only             : OK  (78 substitutes)
+
+[PASS] Logistics & Supply Chain Engineering
+    core=['logistics']  allied=['industry40', 'innovation_mgmt']
+    C1 English-only required pool : OK  (28 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 32 CP total, 20 CP core (5 modules)
+    SUB optional-only             : OK  (28 substitutes)
+
+[PASS] Digital Twins & Cyber-Physical Systems
+    core=['sim_num', 'industry40']  allied=['robotics', 'software_sys', 'data_eng']
+    C1 English-only required pool : OK  (76 modules)
+    C2 FIN+FMB-only required pool : OK
+    CP reachable (EN FIN+FMB)     : OK  -> example 34 CP total, 18 CP core (5 modules)
+    SUB optional-only             : OK  (123 substitutes)
+
+==============================================================================
+RESULT: 11 profiles checked — ALL PASS ✓
+==============================================================================
