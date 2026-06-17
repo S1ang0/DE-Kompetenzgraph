@@ -39,3 +39,11 @@ Harte Constraints, maschinell geprüft (`scripts/validate_profiles.py`, **11/11 
 - **`REPORT.md`** — Abschlussbericht (Architektur, Statistik, Cluster, Profilierungen, Validierung, Design, offene Fragen).
 - **`DECISIONS.md`** — Annahmen/Interpretationen (zur Prüfung markiert).
 - **`OPEN_ITEMS.md`** — Lücken/Übersprungenes. · **`PROGRESS.md`** — Verlaufsprotokoll.
+
+## Editor
+
+Header → **Bearbeiten**: Themencluster (umbenennen/Farbe/neu/löschen), Module (Cluster zuweisen/löschen)
+und Profilierungen (anlegen/bearbeiten/löschen mit **live** geprüfter C1/C2/CP-Erfüllbarkeit). Änderungen
+werden im **Browser (localStorage)** gespeichert; **Export/Import** als JSON und „Auf Original zurücksetzen"
+stehen bereit. Edits sind browser-lokal und verändern die Repo-Dateien nicht (für Dauerhaftigkeit: Export →
+in die Pipeline einpflegen).
