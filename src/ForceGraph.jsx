@@ -26,10 +26,13 @@ export default function ForceGraph({
   const selRef = useRef({});
   const zoomRef = useRef(null);
   const fitRef = useRef(null);
+  const introRef = useRef(null);         // intro animation timer
   const posRef = useRef(new Map());      // id -> {x,y,vx,vy}  (preserve layout across rebuilds)
   const firstRef = useRef(true);
+  const introPlayedRef = useRef(false);   // unfold intro plays once, ever
   const prevDimsRef = useRef({ w: 0, h: 0 });
-  const [dims, setDims] = useState({ w: 1000, h: 700 });
+  const sizeRef = useRef({ w: 0, h: 0 });             // last measured canvas size
+  const [resizeTick, setResizeTick] = useState(0);    // bumped on real size changes -> rebuild
   const [tip, setTip] = useState(null);
 
   const colorOf = useMemo(() => Object.fromEntries(dataset.clusters.map((c) => [c.key, c.color])), [dataset.clusters]);
@@ -66,17 +69,27 @@ export default function ForceGraph({
   useEffect(() => {
     const el = wrapRef.current;
     if (!el) return;
+    let tid;
     const ro = new ResizeObserver((entries) => {
       const { width, height } = entries[0].contentRect;
-      if (width > 0 && height > 0) setDims({ w: Math.round(width), h: Math.round(height) });
+      if (width <= 0 || height <= 0) return;
+      const w = Math.round(width), h = Math.round(height);
+      if (Math.abs(w - sizeRef.current.w) <= 3 && Math.abs(h - sizeRef.current.h) <= 3) return;
+      sizeRef.current = { w, h };
+      clearTimeout(tid);   // debounce so layout-settling doesn't rebuild mid-intro
+      tid = setTimeout(() => setResizeTick((t) => t + 1), 120);
     });
     ro.observe(el);
-    return () => ro.disconnect();
+    return () => { ro.disconnect(); clearTimeout(tid); };
   }, []);
 
   // ---- build simulation + DOM (on topology / size change; positions preserved) ----
   useEffect(() => {
-    const { w, h } = dims;
+    const rect = wrapRef.current?.getBoundingClientRect();
+    let w = Math.round(rect?.width || 0), h = Math.round(rect?.height || 0);
+    if (!w || !h) { w = sizeRef.current.w; h = sizeRef.current.h; }   // fall back to observer's size
+    if (!w || !h) { w = 1200; h = 720; }                              // last resort (size not measured yet)
+    sizeRef.current = { w, h };
     const svg = d3.select(svgRef.current).attr("viewBox", [0, 0, w, h]);
     const prevTransform = svgRef.current ? d3.zoomTransform(svgRef.current) : d3.zoomIdentity;
     svg.selectAll("*").remove();
@@ -167,13 +180,14 @@ export default function ForceGraph({
       });
     }
 
-    sim.on("tick", () => {
+    function render() {
       link.attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
       label.attr("x", (d) => d.x).attr("y", (d) => d.y);
       nodes.forEach((n) => saved.set(n.id, { x: n.x, y: n.y, vx: n.vx, vy: n.vy }));
       if (showHullsRef.current) drawHulls();
-    });
+    }
+    sim.on("tick", render);
 
     const zoom = d3.zoom().scaleExtent([0.2, 4]).on("zoom", (e) => {
       root.attr("transform", e.transform);
@@ -231,18 +245,31 @@ export default function ForceGraph({
     fitRef.current = (animate) => applyFit(computeFit(), animate);
     selRef.current = { node, link, label, byId, gHull, gHullLabel, gLabel, drawHulls };
 
-    const isFirst = firstRef.current;
     const dimsChanged = prevDimsRef.current.w !== w || prevDimsRef.current.h !== h;
-    if (isFirst) {
-      // intro: clusters bloom out from their anchors, then settle into a precise fit
-      const ax = present.map((k) => anchor[k]);
-      const exMinX = Math.min(...ax.map((a) => a.x)) - cellW * 0.7, exMaxX = Math.max(...ax.map((a) => a.x)) + cellW * 0.7;
-      const exMinY = Math.min(...ax.map((a) => a.y)) - cellH * 1.0, exMaxY = Math.max(...ax.map((a) => a.y)) + cellH * 0.7;
+    if (!introPlayedRef.current) {
+      introPlayedRef.current = true;
+      // intro: settle to the final layout, collapse nodes onto their cluster anchors, then
+      // animate them OUTWARD over ~2.2 s (time-based) so the unfold is clearly visible.
+      sim.alpha(1).alphaDecay(0.05).tick(260);
+      sim.stop();
+      nodes.forEach((n) => {
+        const a = anchor[n.cluster] || { x: LW / 2, y: LH / 2 };
+        n._tx = n.x; n._ty = n.y;
+        n._sx = a.x + (Math.random() - 0.5) * 18;
+        n._sy = a.y + (Math.random() - 0.5) * 18;
+      });
       drawHulls();
-      applyFit(fitFrom(exMinX, exMaxX, exMinY, exMaxY), false);
-      sim.alpha(0.9).alphaDecay(0.016);
-      let refit = false;
-      sim.on("end.fit", () => { if (!refit) { refit = true; applyFit(computeFit(), true); } });
+      const fitFinal = computeFit();                 // bounds from the settled (target) layout
+      nodes.forEach((n) => { n.x = n._sx; n.y = n._sy; n.vx = 0; n.vy = 0; });
+      drawHulls();
+      applyFit(fitFinal, false);
+      const DUR = 2200;
+      introRef.current = d3.timer((elapsed) => {
+        const u = Math.min(1, elapsed / DUR), k = d3.easeCubicOut(u);
+        nodes.forEach((n) => { n.x = n._sx + (n._tx - n._sx) * k; n.y = n._sy + (n._ty - n._sy) * k; });
+        render();
+        if (u >= 1) { introRef.current.stop(); nodes.forEach((n) => { n.x = n._tx; n.y = n._ty; }); sim.alphaDecay(0.0228); }
+      });
     } else {
       sim.alpha(0.45).alphaDecay(0.022);
       sim.tick(80);
@@ -256,9 +283,9 @@ export default function ForceGraph({
     firstRef.current = false;
     prevDimsRef.current = { w, h };
 
-    return () => sim.stop();
+    return () => { sim.stop(); introRef.current?.stop(); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [topoSig, dims.w, dims.h]);
+  }, [topoSig, resizeTick]);
 
   const showHullsRef = useRef(showHulls);
   useEffect(() => {
@@ -273,7 +300,7 @@ export default function ForceGraph({
   useEffect(() => {
     const s = selRef.current;
     if (s?.gLabel) s.gLabel.attr("display", showLabels ? null : "none");
-  }, [showLabels, topoSig, dims]);
+  }, [showLabels, topoSig, resizeTick]);
 
   // ---- restyle on selection / profile / filters / cluster colours (no sim restart) ----
   useEffect(() => {
@@ -338,7 +365,7 @@ export default function ForceGraph({
     }).attr("stroke", (d) => (selectedId && (d.source.id === selectedId || d.target.id === selectedId) ? "#2B3A55" : "#1C1B19"));
 
     label.attr("opacity", (d) => (!showLabels ? 0 : !visible(d) ? 0 : selectedId ? (emphasized(d) ? 1 : 0) : 1));
-  }, [selectedId, profSets, filters, adj, colorOf, showLabels, topoSig, dims.w, dims.h]);
+  }, [selectedId, profSets, filters, adj, colorOf, showLabels, topoSig, resizeTick]);
 
   const zoomBy = (k) => d3.select(svgRef.current).transition().duration(220).call(zoomRef.current.scaleBy, k);
   const resetZoom = () => fitRef.current?.(true);
