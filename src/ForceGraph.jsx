@@ -16,6 +16,23 @@ const FAC_COLOR = { FIN: "#2B3A55", FMB: "#6E5A3A" };
 const facStroke = (f) => FAC_COLOR[f] || "#9A968D";
 const nodeRadius = (d) => 4 + Math.sqrt(d.cp || 5) * 1.15;
 
+// Node glyph encodes the offering semester: snowflake = winter, sun = summer, circle = both.
+function starPath(n, R, k) {
+  const ri = R * k; let s = "";
+  for (let i = 0; i < 2 * n; i++) {
+    const r = i % 2 === 0 ? R : ri, a = -Math.PI / 2 + (i * Math.PI) / n;
+    s += (i ? "L" : "M") + (Math.cos(a) * r).toFixed(1) + "," + (Math.sin(a) * r).toFixed(1);
+  }
+  return s + "Z";
+}
+const circlePath = (r) => `M${-r},0A${r},${r} 0 1,0 ${r},0A${r},${r} 0 1,0 ${-r},0Z`;
+function glyphPath(d) {
+  const r = nodeRadius(d);
+  if (d.semester === "winter") return starPath(6, r * 1.8, 0.34);   // snowflake
+  if (d.semester === "summer") return starPath(8, r * 1.5, 0.62);   // sun
+  return circlePath(r);                                             // both / unknown
+}
+
 export default function ForceGraph({
   dataset, filters, selectedId, onSelect, activeProfile, showLabels, showHulls,
 }) {
@@ -90,7 +107,9 @@ export default function ForceGraph({
     // cluster anchors on a generous VIRTUAL canvas (viewport-independent); fit afterwards.
     const present = CLUSTER_ORDER.filter((k) => dataset.modules.some((n) => n.cluster === k))
       .concat(dataset.clusters.map((c) => c.key).filter((k) => !CLUSTER_ORDER.includes(k) && dataset.modules.some((n) => n.cluster === k)));
-    const cols = 4, cellW = 360, cellH = 300;
+    // columns adapt to the viewport aspect so the graph fills width AND height
+    const cols = Math.max(4, Math.min(7, Math.round(Math.sqrt(present.length * (w / Math.max(h, 1))))));
+    const cellW = 360, cellH = 320;
     const anchor = {};
     present.forEach((k, i) => { anchor[k] = { x: ((i % cols) + 0.5) * cellW, y: (Math.floor(i / cols) + 0.5) * cellH }; });
     const LW = cols * cellW, LH = Math.max(1, Math.ceil(present.length / cols)) * cellH;
@@ -106,29 +125,32 @@ export default function ForceGraph({
       .filter((l) => byId.has(typeof l.source === "object" ? l.source.id : l.source) && byId.has(typeof l.target === "object" ? l.target.id : l.target))
       .map((l) => ({ ...l }));
 
+    // strong cluster centering + weak links keep clusters as tight, mostly non-overlapping blobs
     const sim = d3.forceSimulation(nodes)
-      .force("link", d3.forceLink(links).id((d) => d.id).distance(46).strength(0.12))
-      .force("charge", d3.forceManyBody().strength(-150).distanceMax(520))
-      .force("x", d3.forceX((d) => (anchor[d.cluster] || { x: LW / 2 }).x).strength(0.14))
-      .force("y", d3.forceY((d) => (anchor[d.cluster] || { y: LH / 2 }).y).strength(0.14))
-      .force("collide", d3.forceCollide((d) => nodeRadius(d) + 5).strength(0.9));
+      .force("link", d3.forceLink(links).id((d) => d.id).distance(34).strength(0.05))
+      .force("charge", d3.forceManyBody().strength(-72).distanceMax(300))
+      .force("x", d3.forceX((d) => (anchor[d.cluster] || { x: LW / 2 }).x).strength(0.45))
+      .force("y", d3.forceY((d) => (anchor[d.cluster] || { y: LH / 2 }).y).strength(0.45))
+      .force("collide", d3.forceCollide((d) => nodeRadius(d) + 6).strength(0.92));
     simRef.current = sim;
 
     const link = gLink.selectAll("line").data(links).join("line")
       .attr("class", "link").attr("stroke-width", (d) => 0.6 + d.weight * 0.12);
 
-    const node = gNode.selectAll("circle").data(nodes, (d) => d.id).join("circle")
-      .attr("class", "node").attr("r", nodeRadius)
+    let dragging = false;
+    const node = gNode.selectAll("path").data(nodes, (d) => d.id).join("path")
+      .attr("class", "node").attr("d", glyphPath)
       .on("click", (e, d) => { e.stopPropagation(); onSelect(d.id); })
       .on("mouseenter", (e, d) => {
         const rect = wrapRef.current.getBoundingClientRect();
         setTip({ d, x: e.clientX - rect.left, y: e.clientY - rect.top });
+        if (!dragging) sim.alphaTarget(0.07).restart();   // gentle hover wobble
       })
-      .on("mouseleave", () => setTip(null))
+      .on("mouseleave", () => { setTip(null); if (!dragging) sim.alphaTarget(0); })
       .call(d3.drag()
-        .on("start", (e, d) => { if (!e.active) sim.alphaTarget(0.2).restart(); d.fx = d.x; d.fy = d.y; })
+        .on("start", (e, d) => { dragging = true; if (!e.active) sim.alphaTarget(0.28).restart(); d.fx = d.x; d.fy = d.y; })
         .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
-        .on("end", (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+        .on("end", (e, d) => { dragging = false; if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
 
     const label = gLabel.selectAll("text").data(nodes, (d) => d.id).join("text")
       .attr("class", "node-label").attr("text-anchor", "middle").attr("dy", (d) => -nodeRadius(d) - 4)
@@ -151,7 +173,7 @@ export default function ForceGraph({
         .attr("class", "hull")
         .attr("fill", (d) => colorOf[d.key]).attr("fill-opacity", 0.07)
         .attr("stroke", (d) => colorOf[d.key]).attr("stroke-opacity", 0.22).attr("stroke-width", 1)
-        .attr("d", (d) => hullLine(padded(d.pts, 22)));
+        .attr("d", (d) => hullLine(padded(d.pts, 14)));
       const lsel = gHullLabel.selectAll("g").data(data, (d) => d.key).join((enter) => {
         const g = enter.append("g"); g.append("text").attr("class", "hull-label").attr("text-anchor", "middle"); return g;
       });
@@ -164,7 +186,7 @@ export default function ForceGraph({
 
     sim.on("tick", () => {
       link.attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
-      node.attr("cx", (d) => d.x).attr("cy", (d) => d.y);
+      node.attr("transform", (d) => `translate(${d.x},${d.y})`);
       label.attr("x", (d) => d.x).attr("y", (d) => d.y);
       nodes.forEach((n) => saved.set(n.id, { x: n.x, y: n.y, vx: n.vx, vy: n.vy }));
       if (showHullsRef.current) drawHulls();
@@ -247,6 +269,7 @@ export default function ForceGraph({
         if (!langs.some((l) => filters.languages.has(l))) return false;
       }
       if (filters.clusters.size && !filters.clusters.has(d.cluster)) return false;
+      if (filters.semesters?.size && !filters.semesters.has(d.semester)) return false;
       if (filters.q) {
         const hay = `${d.label} ${d.title_de || ""} ${(d.topic_tags || []).join(" ")}`.toLowerCase();
         if (!hay.includes(filters.q)) return false;
@@ -259,11 +282,18 @@ export default function ForceGraph({
     const emphasized = (d) => (!selectedId ? null : d.id === selectedId || neigh?.has(d.id));
 
     node
-      .attr("opacity", (d) => { if (!visible(d)) return profSets ? 0.05 : 0.07; const e = emphasized(d); return e === null ? 1 : e ? 1 : 0.14; })
+      .attr("opacity", (d) => {
+        if (!visible(d)) return profSets ? 0.05 : 0.07;
+        const sub = profSets && profSets.sub.has(d.id);   // optional substitute: dimmed but still part of the profile
+        const e = emphasized(d);
+        if (sub) return e === null ? 0.5 : e ? 0.78 : 0.1;
+        return e === null ? 1 : e ? 1 : 0.14;
+      })
       .attr("fill", (d) => {
         if (profSets) {
-          if (profSets.core.has(d.id) || profSets.eligible.has(d.id)) return colorOf[d.cluster];
-          if (profSets.sub.has(d.id)) return "#FFFFFF";
+          // every in-scope module (core, eligible OR substitute) is coloured by its cluster;
+          // only out-of-scope modules go grey.
+          if (profSets.core.has(d.id) || profSets.eligible.has(d.id) || profSets.sub.has(d.id)) return colorOf[d.cluster];
           return "#D6D3CB";
         }
         return colorOf[d.cluster] || "#B9B5AC";
@@ -278,9 +308,8 @@ export default function ForceGraph({
         }
         return facStroke(d.faculty);
       })
-      .attr("stroke-width", (d) => (d.id === selectedId ? 2.6 : profSets?.core.has(d.id) ? 2 : 1.1))
-      .attr("stroke-dasharray", (d) => (profSets && profSets.sub.has(d.id) && !profSets.eligible.has(d.id) ? "2 2" : null))
-      .attr("r", (d) => nodeRadius(d) + (d.id === selectedId ? 2.5 : 0));
+      .attr("stroke-width", (d) => (d.id === selectedId ? 2.4 : profSets?.core.has(d.id) ? 1.8 : 1.1))
+      .attr("stroke-dasharray", (d) => (profSets && profSets.sub.has(d.id) ? "2 2" : null));
 
     link.attr("opacity", (d) => {
       const sv = visible(d.source), tv = visible(d.target);
@@ -306,7 +335,7 @@ export default function ForceGraph({
       {tip && (
         <div className="tooltip" style={{ left: tip.x, top: tip.y }} role="presentation">
           <b>{tip.d.label}</b>
-          <div className="tooltip__meta">{tip.d.faculty} · {tip.d.cp} CP · {tip.d.language.toUpperCase()} · {nameOf[tip.d.cluster]}</div>
+          <div className="tooltip__meta">{tip.d.faculty} · {tip.d.cp} CP · {tip.d.language.toUpperCase()} · {tip.d.semester === "winter" ? "❄ Winter" : tip.d.semester === "summer" ? "☀ Sommer" : "Winter + Sommer"} · {nameOf[tip.d.cluster]}</div>
         </div>
       )}
     </div>

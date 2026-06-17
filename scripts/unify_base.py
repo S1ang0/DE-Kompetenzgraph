@@ -58,6 +58,32 @@ def num_cp(cp):
 modules = []
 seen_titlekeys = {}
 
+def detect_semester(text):
+    """winter | summer | both  — from the offering-frequency / semester field."""
+    if not text:
+        return "both"
+    low = text.lower()
+    seg = None
+    m = re.search(r"(?:h.ufigkeit des angebots|turnus|angebotsh.ufigkeit)\s*[:\-]?\s*([a-zäöü0-9 ,./;:()'-]{0,70})", low)
+    if m:
+        seg = m.group(1)
+    if seg is None:
+        m = re.search(r"\bsemester\b\s*[:\-]?\s*(summer|winter|sommer|sommersemester|wintersemester)", low)
+        if m:
+            seg = m.group(1)
+    if seg is None:
+        seg = low
+    has_w = "winter" in seg
+    has_s = "sommer" in seg or "summer" in seg
+    if re.search(r"jedes semester|halbj.hrlich", seg) or (has_w and has_s):
+        return "both"
+    if has_w:
+        return "winter"
+    if has_s:
+        return "summer"
+    return "both"
+
+
 # ---------- FIN ----------
 fin = json.load(open("data/raw_web/fin_pages.json"))
 finmods = [m for m in fin if m["is_module"]]
@@ -77,6 +103,7 @@ for m in by.values():
         "title_en": title, "title_de": None,
         "language": lang or "en",
         "faculty": "FIN",
+        "semester": detect_semester(m["text"]),
         "cp": num_cp(m["cp"]),
         "level": "Master",
         "module_code": m["module_id"],
@@ -102,6 +129,7 @@ for m in fmb:
         "title_en": title_en or None, "title_de": title_de or None,
         "language": lang or "de",
         "faculty": m.get("faculty") or "FMB",
+        "semester": detect_semester(m.get("text") or ""),
         "cp": num_cp(m["cp"]),
         "level": "Master",
         "module_code": ex,
@@ -129,6 +157,7 @@ for m in etit:
         "title_en": title_en or None, "title_de": title_de or None,
         "language": lang or "de",
         "faculty": m.get("faculty") or "FEIT",
+        "semester": detect_semester(m.get("text") or ""),
         "cp": cpv,
         "level": "Master",
         "module_code": None,

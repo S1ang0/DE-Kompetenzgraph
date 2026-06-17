@@ -21,9 +21,10 @@ const I = {
 const LANG_LABEL = { en: "Englisch", de: "Deutsch", both: "Zweisprachig" };
 const KIND_LABEL = { course: "Vorlesung", seminar: "Seminar", project: "Projekt", lab: "Labor", thesis: "Abschlussarbeit", skills: "Schlüsselkompetenz" };
 const LEVEL_LABEL = { introductory: "Einführung", core: "Kern", advanced: "Vertiefung" };
+const SEM_LABEL = { winter: "❄ Wintersem.", summer: "☀ Sommersem.", both: "Winter + Sommer" };
 const NEW_COLORS = ["#5B7DB1", "#4E9C8B", "#9A6FA8", "#B07C57", "#6F8C4E", "#A86C86", "#557A9E", "#8C8C8C"];
 
-const LS_KEY = "de_workspace_v3";   // bumped after faculty re-attribution + FEIT cleanup
+const LS_KEY = "de_workspace_v4";   // bumped after adding the semester field
 const loadLS = () => { try { return JSON.parse(localStorage.getItem(LS_KEY)); } catch { return null; } };
 const uid = (p) => p + Math.random().toString(36).slice(2, 7);
 
@@ -31,7 +32,7 @@ export default function App() {
   const [base, setBase] = useState(null);
   const [err, setErr] = useState(null);
   const [ws, setWs] = useState(null);   // editable workspace: { clusters, modules, profileDefs }
-  const [filters, setFilters] = useState({ faculties: new Set(), languages: new Set(), clusters: new Set(), q: "" });
+  const [filters, setFilters] = useState({ faculties: new Set(), languages: new Set(), clusters: new Set(), semesters: new Set(), q: "" });
   const [selectedId, setSelectedId] = useState(null);
   const [profileId, setProfileId] = useState(null);
   const [dialogOpen, setDialogOpen] = useState(false);
@@ -75,8 +76,8 @@ export default function App() {
   const toggleSet = useCallback((key, val) => {
     setFilters((f) => { const s = new Set(f[key]); s.has(val) ? s.delete(val) : s.add(val); return { ...f, [key]: s }; });
   }, []);
-  const anyFilter = filters.faculties.size || filters.languages.size || filters.clusters.size || filters.q || profileId;
-  const resetAll = () => { setFilters({ faculties: new Set(), languages: new Set(), clusters: new Set(), q: "" }); setProfileId(null); setSelectedId(null); };
+  const anyFilter = filters.faculties.size || filters.languages.size || filters.clusters.size || filters.semesters.size || filters.q || profileId;
+  const resetAll = () => { setFilters({ faculties: new Set(), languages: new Set(), clusters: new Set(), semesters: new Set(), q: "" }); setProfileId(null); setSelectedId(null); };
 
   // ── editor operations ──
   const ops = useMemo(() => ({
@@ -204,6 +205,13 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
         <div className="seg" role="group" aria-label="Sprache filtern">
           {[["en", "Englisch"], ["de", "Deutsch"]].map(([k, l]) => (<button key={k} aria-pressed={filters.languages.has(k)} onClick={() => toggleSet("languages", k)}>{l}</button>))}
         </div>
+        <div style={{ height: 16 }} />
+        <div className="rail__head"><span className="eyebrow">Semester</span></div>
+        <div className="seg" role="group" aria-label="Semester filtern">
+          {[["winter", "❄ Winter"], ["summer", "☀ Sommer"], ["both", "Beide"]].map(([k, l]) => (
+            <button key={k} aria-pressed={filters.semesters.has(k)} onClick={() => toggleSet("semesters", k)}>{l}</button>
+          ))}
+        </div>
       </div>
       <div className="rail__section">
         <div className="rail__head"><span className="eyebrow">Themencluster</span>
@@ -234,9 +242,10 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
         <div className="rail__head"><span className="eyebrow">Legende</span></div>
         <p className="muted" style={{ fontSize: 11.5, lineHeight: 1.55 }}>
           <b style={{ color: "var(--ink-2)" }}>Knotenfarbe</b> = Themencluster ·{" "}
-          <b style={{ color: "var(--ink-2)" }}>Knotengröße</b> ∝ Creditpoints. Die Fakultät (FIN/FMB/FEIT)
-          steht im Tooltip &amp; Detailpanel und lässt sich oben filtern. Bei aktiver Profilierung erscheinen
-          anrechenbare englische FIN+FMB-Module farbig, Substitute (deutsch/FEIT) hohl-gestrichelt.
+          <b style={{ color: "var(--ink-2)" }}>Knotengröße</b> ∝ Creditpoints ·{" "}
+          <b style={{ color: "var(--ink-2)" }}>Form</b>: ❄ Schneeflocke = Wintersemester, ☀ Sonne = Sommersemester, ● Kreis = beide.
+          Die Fakultät steht im Tooltip &amp; Detailpanel und lässt sich oben filtern. Bei aktiver Profilierung sind
+          anrechenbare englische FIN+FMB-Module kräftig gefärbt, Substitute gedämpft &amp; gestrichelt.
         </p>
       </div>
     </div>
@@ -266,6 +275,7 @@ function DetailPanel({ module, clusterById, onClose, activeProfile }) {
               <span className={`badge badge--${module.faculty.toLowerCase()}`}>{module.faculty}</span>
               <span className={`badge badge--${module.language === "de" ? "de" : "en"}`}>{LANG_LABEL[module.language]}</span>
               <span className="badge">{module.cp} CP</span>
+              {module.semester && <span className="badge">{SEM_LABEL[module.semester] || module.semester}</span>}
               <span className="badge">{LEVEL_LABEL[module.level_band] || module.level_band}</span>
               {module.kind !== "course" && <span className="badge">{KIND_LABEL[module.kind] || module.kind}</span>}
             </div>

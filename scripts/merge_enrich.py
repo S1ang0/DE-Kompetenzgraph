@@ -50,7 +50,7 @@ modules.sort(key=lambda r: (r["faculty"], (r["title_en"] or r["title_de"] or "")
 json.dump(modules, open("data/modules.json", "w"), ensure_ascii=False, indent=1)
 
 # CSV
-cols = ["id","title_en","title_de","language","faculty","cp","level","level_band","kind",
+cols = ["id","title_en","title_de","language","faculty","semester","cp","level","level_band","kind",
         "primary_cluster","secondary_clusters","topic_tags","competencies","module_code","source","source_url","description_en","notes"]
 with open("data/modules.csv","w",newline="") as fh:
     w = csv.writer(fh)

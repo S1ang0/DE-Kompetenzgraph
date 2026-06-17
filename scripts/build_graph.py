@@ -18,7 +18,7 @@ for m in mods:
         "id": m["id"],
         "title_en": m["title_en"], "title_de": m["title_de"],
         "label": m["title_en"] or m["title_de"],
-        "faculty": m["faculty"], "language": m["language"], "cp": m["cp"],
+        "faculty": m["faculty"], "language": m["language"], "cp": m["cp"], "semester": m.get("semester", "both"),
         "level_band": m.get("level_band", "core"), "kind": m.get("kind", "course"),
         "cluster": m["primary_cluster"], "secondary_clusters": m.get("secondary_clusters", []),
         "competencies": m.get("competencies", []), "topic_tags": m.get("topic_tags", []),
