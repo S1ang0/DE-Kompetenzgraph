@@ -182,16 +182,25 @@ export default function ForceGraph({
     svg.call(zoom).on("dblclick.zoom", null);
     svg.on("click", () => onSelect(null));
 
-    // "strum" — moving the cursor over the graph nudges nearby nodes, like brushing strings
+    // "strum": sliding the cursor plucks each nearby node ONCE (it twangs and springs back),
+    // so the graph stays lively but nodes don't flee the cursor and stay grabbable. While a
+    // button is held (drag/pan) the strum pauses, so a click/drag always lands.
     let strumT = null;
     svg.on("pointermove.strum", (e) => {
-      const [mx, my] = d3.pointer(e, gNode.node());
+      if (e.buttons) return;                                    // button down -> grabbing/panning
+      const t = d3.zoomTransform(svgRef.current);
+      const [sx, sy] = d3.pointer(e, svgRef.current);
+      const mx = (sx - t.x) / t.k, my = (sy - t.y) / t.k;        // viewport -> layout coords
+      const now = (typeof performance !== "undefined" ? performance.now() : 0);
       let kicked = false;
       for (const n of nodes) {
         const dx = n.x - mx, dy = n.y - my, d2 = dx * dx + dy * dy;
-        if (d2 < 1100) { const dd = Math.sqrt(d2) || 1, f = (33 - dd) * 0.55; n.vx += (dx / dd) * f; n.vy += (dy / dd) * f; kicked = true; }
+        if (d2 < 520 && (!n._kt || now - n._kt > 380)) {        // ~23 units radius, once per node / 380ms
+          const dd = Math.sqrt(d2) || 1, f = (23 - dd) * 0.3;    // small pluck — springs back, no fleeing
+          n.vx += (dx / dd) * f; n.vy += (dy / dd) * f; n._kt = now; kicked = true;
+        }
       }
-      if (kicked) { sim.alphaTarget(0.1).restart(); clearTimeout(strumT); strumT = setTimeout(() => sim.alphaTarget(0), 220); }
+      if (kicked) { sim.alphaTarget(0.06).restart(); clearTimeout(strumT); strumT = setTimeout(() => sim.alphaTarget(0), 180); }
     });
 
     // Fit so the graph fills the viewport with ~2 cm breathing room on every side.
