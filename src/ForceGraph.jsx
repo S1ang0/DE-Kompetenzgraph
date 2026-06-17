@@ -107,9 +107,9 @@ export default function ForceGraph({
     // cluster anchors on a generous VIRTUAL canvas (viewport-independent); fit afterwards.
     const present = CLUSTER_ORDER.filter((k) => dataset.modules.some((n) => n.cluster === k))
       .concat(dataset.clusters.map((c) => c.key).filter((k) => !CLUSTER_ORDER.includes(k) && dataset.modules.some((n) => n.cluster === k)));
-    // columns adapt to the viewport aspect so the graph fills width AND height
-    const cols = Math.max(4, Math.min(7, Math.round(Math.sqrt(present.length * (w / Math.max(h, 1))))));
-    const cellW = 360, cellH = 320;
+    // columns adapt to the viewport aspect (a little less wide than the screen so labels fit)
+    const cols = Math.max(4, Math.min(6, Math.round(Math.sqrt(present.length * (w / Math.max(h, 1)) * 0.85))));
+    const cellW = 300, cellH = 290;
     const anchor = {};
     present.forEach((k, i) => { anchor[k] = { x: ((i % cols) + 0.5) * cellW, y: (Math.floor(i / cols) + 0.5) * cellH }; });
     const LW = cols * cellW, LH = Math.max(1, Math.ceil(present.length / cols)) * cellH;
@@ -118,39 +118,38 @@ export default function ForceGraph({
     const nodes = dataset.modules.map((d) => {
       const p = saved.get(d.id);
       const a = anchor[d.cluster] || { x: LW / 2, y: LH / 2 };
-      return { ...d, x: p?.x ?? a.x + (Math.random() - 0.5) * 80, y: p?.y ?? a.y + (Math.random() - 0.5) * 80, vx: p?.vx ?? 0, vy: p?.vy ?? 0 };
+      return { ...d, x: p?.x ?? a.x + (Math.random() - 0.5) * 12, y: p?.y ?? a.y + (Math.random() - 0.5) * 12, vx: p?.vx ?? 0, vy: p?.vy ?? 0 };
     });
     const byId = new Map(nodes.map((n) => [n.id, n]));
     const links = dataset.links
       .filter((l) => byId.has(typeof l.source === "object" ? l.source.id : l.source) && byId.has(typeof l.target === "object" ? l.target.id : l.target))
       .map((l) => ({ ...l }));
 
-    // strong cluster centering + weak links keep clusters as tight, mostly non-overlapping blobs
+    // moderate cluster centering + internal repulsion: clusters stay separated but spread
+    // to fill the area, with points heterogeneously distributed inside each cluster
     const sim = d3.forceSimulation(nodes)
-      .force("link", d3.forceLink(links).id((d) => d.id).distance(34).strength(0.05))
-      .force("charge", d3.forceManyBody().strength(-72).distanceMax(300))
-      .force("x", d3.forceX((d) => (anchor[d.cluster] || { x: LW / 2 }).x).strength(0.45))
-      .force("y", d3.forceY((d) => (anchor[d.cluster] || { y: LH / 2 }).y).strength(0.45))
-      .force("collide", d3.forceCollide((d) => nodeRadius(d) + 6).strength(0.92));
+      .force("link", d3.forceLink(links).id((d) => d.id).distance(26).strength(0.025))
+      .force("charge", d3.forceManyBody().strength(-62).distanceMax(240))
+      .force("x", d3.forceX((d) => (anchor[d.cluster] || { x: LW / 2 }).x).strength(0.16))
+      .force("y", d3.forceY((d) => (anchor[d.cluster] || { y: LH / 2 }).y).strength(0.16))
+      .force("collide", d3.forceCollide((d) => nodeRadius(d) + 9).strength(0.9));
     simRef.current = sim;
 
     const link = gLink.selectAll("line").data(links).join("line")
       .attr("class", "link").attr("stroke-width", (d) => 0.6 + d.weight * 0.12);
 
-    let dragging = false;
     const node = gNode.selectAll("path").data(nodes, (d) => d.id).join("path")
       .attr("class", "node").attr("d", glyphPath)
       .on("click", (e, d) => { e.stopPropagation(); onSelect(d.id); })
       .on("mouseenter", (e, d) => {
         const rect = wrapRef.current.getBoundingClientRect();
         setTip({ d, x: e.clientX - rect.left, y: e.clientY - rect.top });
-        if (!dragging) sim.alphaTarget(0.07).restart();   // gentle hover wobble
       })
-      .on("mouseleave", () => { setTip(null); if (!dragging) sim.alphaTarget(0); })
+      .on("mouseleave", () => setTip(null))
       .call(d3.drag()
-        .on("start", (e, d) => { dragging = true; if (!e.active) sim.alphaTarget(0.28).restart(); d.fx = d.x; d.fy = d.y; })
+        .on("start", (e, d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
         .on("drag", (e, d) => { d.fx = e.x; d.fy = e.y; })
-        .on("end", (e, d) => { dragging = false; if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+        .on("end", (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
 
     const label = gLabel.selectAll("text").data(nodes, (d) => d.id).join("text")
       .attr("class", "node-label").attr("text-anchor", "middle").attr("dy", (d) => -nodeRadius(d) - 4)
@@ -199,41 +198,68 @@ export default function ForceGraph({
     svg.call(zoom).on("dblclick.zoom", null);
     svg.on("click", () => onSelect(null));
 
-    // Fit the settled graph so it fills the viewport — height is the binding side,
-    // so the graph spans the full vertical height. This fit scale is ALSO the
-    // zoom-OUT floor, so you can never zoom out into empty space.
-    function computeFit() {
-      const xs = nodes.map((n) => n.x), ys = nodes.map((n) => n.y);
-      const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
-      const gw = Math.max(1, maxX - minX), gh = Math.max(1, maxY - minY);
-      const padX = 46, padY = 22;
-      const kFit = Math.min((w - 2 * padX) / gw, (h - 2 * padY) / gh);
-      return {
-        kFit,
-        tx: (w - kFit * (minX + maxX)) / 2,
-        ty: (h - kFit * (minY + maxY)) / 2,
-        ext: [[minX - 400, minY - 400], [maxX + 400, maxY + 400]],
-      };
+    // "strum" — moving the cursor over the graph nudges nearby nodes, like brushing strings
+    let strumT = null;
+    svg.on("pointermove.strum", (e) => {
+      const [mx, my] = d3.pointer(e, gNode.node());
+      let kicked = false;
+      for (const n of nodes) {
+        const dx = n.x - mx, dy = n.y - my, d2 = dx * dx + dy * dy;
+        if (d2 < 1100) { const dd = Math.sqrt(d2) || 1, f = (33 - dd) * 0.55; n.vx += (dx / dd) * f; n.vy += (dy / dd) * f; kicked = true; }
+      }
+      if (kicked) { sim.alphaTarget(0.1).restart(); clearTimeout(strumT); strumT = setTimeout(() => sim.alphaTarget(0), 220); }
+    });
+
+    // Fit so the graph fills the viewport with ~2 cm breathing room on every side.
+    // Bounds include the node glyphs AND the cluster labels (which extend beyond the
+    // nodes) so nothing gets clipped. The fit scale is also the zoom-OUT floor.
+    const MARGIN = 84;
+    function bounds() {
+      let a = Infinity, b = -Infinity, c = Infinity, e2 = -Infinity;
+      nodes.forEach((n) => { const r = nodeRadius(n) * 1.9; a = Math.min(a, n.x - r); b = Math.max(b, n.x + r); c = Math.min(c, n.y - r); e2 = Math.max(e2, n.y + r); });
+      gHullLabel.selectAll("text").each(function () {
+        const bb = this.getBBox ? this.getBBox() : null;
+        if (bb && bb.width) { a = Math.min(a, bb.x); b = Math.max(b, bb.x + bb.width); c = Math.min(c, bb.y); e2 = Math.max(e2, bb.y + bb.height); }
+      });
+      return [a, b, c, e2];
     }
+    function fitFrom(minX, maxX, minY, maxY) {
+      const gw = Math.max(1, maxX - minX), gh = Math.max(1, maxY - minY);
+      const kFit = Math.min((w - 2 * MARGIN) / gw, (h - 2 * MARGIN) / gh);
+      return { kFit, tx: (w - kFit * (minX + maxX)) / 2, ty: (h - kFit * (minY + maxY)) / 2, ext: [[minX - 300, minY - 300], [maxX + 300, maxY + 300]] };
+    }
+    const computeFit = () => fitFrom(...bounds());
     function applyFit(f, animate) {
       zoom.scaleExtent([f.kFit, Math.max(4, f.kFit * 8)]);
       zoom.translateExtent(f.ext);
       const t = d3.zoomIdentity.translate(f.tx, f.ty).scale(f.kFit);
-      (animate ? svg.transition().duration(420) : svg).call(zoom.transform, t);
+      (animate ? svg.transition().duration(animate === true ? 650 : 420) : svg).call(zoom.transform, t);
     }
     fitRef.current = (animate) => applyFit(computeFit(), animate);
     selRef.current = { node, link, label, byId, gHull, gHullLabel, gLabel, drawHulls };
 
     const isFirst = firstRef.current;
     const dimsChanged = prevDimsRef.current.w !== w || prevDimsRef.current.h !== h;
-    sim.alpha(isFirst ? 1 : 0.45).alphaDecay(0.022);
-    sim.tick(isFirst ? 280 : 80);
-    drawHulls();
-    const fit = computeFit();
-    zoom.scaleExtent([fit.kFit, Math.max(4, fit.kFit * 8)]);   // floor = "graph fills height"
-    zoom.translateExtent(fit.ext);
-    if (isFirst || dimsChanged) applyFit(fit, false);
-    else svg.call(zoom.transform, prevTransform.k >= fit.kFit ? prevTransform : d3.zoomIdentity.translate(fit.tx, fit.ty).scale(fit.kFit));
+    if (isFirst) {
+      // intro: clusters bloom out from their anchors, then settle into a precise fit
+      const ax = present.map((k) => anchor[k]);
+      const exMinX = Math.min(...ax.map((a) => a.x)) - cellW * 0.7, exMaxX = Math.max(...ax.map((a) => a.x)) + cellW * 0.7;
+      const exMinY = Math.min(...ax.map((a) => a.y)) - cellH * 1.0, exMaxY = Math.max(...ax.map((a) => a.y)) + cellH * 0.7;
+      drawHulls();
+      applyFit(fitFrom(exMinX, exMaxX, exMinY, exMaxY), false);
+      sim.alpha(0.9).alphaDecay(0.016);
+      let refit = false;
+      sim.on("end.fit", () => { if (!refit) { refit = true; applyFit(computeFit(), true); } });
+    } else {
+      sim.alpha(0.45).alphaDecay(0.022);
+      sim.tick(80);
+      drawHulls();
+      const fit = computeFit();
+      zoom.scaleExtent([fit.kFit, Math.max(4, fit.kFit * 8)]);
+      zoom.translateExtent(fit.ext);
+      if (dimsChanged) applyFit(fit, false);
+      else svg.call(zoom.transform, prevTransform.k >= fit.kFit ? prevTransform : d3.zoomIdentity.translate(fit.tx, fit.ty).scale(fit.kFit));
+    }
     firstRef.current = false;
     prevDimsRef.current = { w, h };
 
