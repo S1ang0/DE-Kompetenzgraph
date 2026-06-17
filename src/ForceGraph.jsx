@@ -167,24 +167,36 @@ export default function ForceGraph({
       if (showHullsRef.current) drawHulls();
     });
 
-    const zoom = d3.zoom().scaleExtent([0.35, 4]).on("zoom", (e) => {
+    const zoom = d3.zoom().scaleExtent([0.2, 4]).on("zoom", (e) => {
       root.attr("transform", e.transform);
-      gLabel.attr("display", e.transform.k < 1.0 ? "none" : null);
     });
     zoomRef.current = zoom;
     svg.call(zoom).on("dblclick.zoom", null);
     svg.on("click", () => onSelect(null));
 
-    function fitView(animate) {
+    // Fit the settled graph so it fills the viewport — height is the binding side,
+    // so the graph spans the full vertical height. This fit scale is ALSO the
+    // zoom-OUT floor, so you can never zoom out into empty space.
+    function computeFit() {
       const xs = nodes.map((n) => n.x), ys = nodes.map((n) => n.y);
       const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
-      const gw = Math.max(1, maxX - minX), gh = Math.max(1, maxY - minY), pad = 70;
-      const k = Math.max(0.35, Math.min(2, Math.min((w - 2 * pad) / gw, (h - 2 * pad) / gh)));
-      const tx = (w - k * (minX + maxX)) / 2, ty = (h - k * (minY + maxY)) / 2;
-      zoom.translateExtent([[minX - 500, minY - 500], [maxX + 500, maxY + 500]]);
-      (animate ? svg.transition().duration(420) : svg).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+      const gw = Math.max(1, maxX - minX), gh = Math.max(1, maxY - minY);
+      const padX = 46, padY = 22;
+      const kFit = Math.min((w - 2 * padX) / gw, (h - 2 * padY) / gh);
+      return {
+        kFit,
+        tx: (w - kFit * (minX + maxX)) / 2,
+        ty: (h - kFit * (minY + maxY)) / 2,
+        ext: [[minX - 400, minY - 400], [maxX + 400, maxY + 400]],
+      };
     }
-    fitRef.current = fitView;
+    function applyFit(f, animate) {
+      zoom.scaleExtent([f.kFit, Math.max(4, f.kFit * 8)]);
+      zoom.translateExtent(f.ext);
+      const t = d3.zoomIdentity.translate(f.tx, f.ty).scale(f.kFit);
+      (animate ? svg.transition().duration(420) : svg).call(zoom.transform, t);
+    }
+    fitRef.current = (animate) => applyFit(computeFit(), animate);
     selRef.current = { node, link, label, byId, gHull, gHullLabel, gLabel, drawHulls };
 
     const isFirst = firstRef.current;
@@ -192,8 +204,11 @@ export default function ForceGraph({
     sim.alpha(isFirst ? 1 : 0.45).alphaDecay(0.022);
     sim.tick(isFirst ? 280 : 80);
     drawHulls();
-    if (isFirst || dimsChanged) fitView(false);
-    else svg.call(zoom.transform, prevTransform);   // preserve the user's view across an edit
+    const fit = computeFit();
+    zoom.scaleExtent([fit.kFit, Math.max(4, fit.kFit * 8)]);   // floor = "graph fills height"
+    zoom.translateExtent(fit.ext);
+    if (isFirst || dimsChanged) applyFit(fit, false);
+    else svg.call(zoom.transform, prevTransform.k >= fit.kFit ? prevTransform : d3.zoomIdentity.translate(fit.tx, fit.ty).scale(fit.kFit));
     firstRef.current = false;
     prevDimsRef.current = { w, h };
 
@@ -213,7 +228,7 @@ export default function ForceGraph({
 
   useEffect(() => {
     const s = selRef.current;
-    if (s?.gLabel) s.gLabel.attr("opacity", showLabels ? 1 : 0);
+    if (s?.gLabel) s.gLabel.attr("display", showLabels ? null : "none");
   }, [showLabels, topoSig, dims]);
 
   // ---- restyle on selection / profile / filters / cluster colours (no sim restart) ----

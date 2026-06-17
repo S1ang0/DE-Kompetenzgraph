@@ -224,14 +224,11 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
       </div>
       <div className="rail__section" style={{ borderBottom: "none" }}>
         <div className="rail__head"><span className="eyebrow">Legende</span></div>
-        <div className="legend">
-          <span className="legend__item"><span className="swatch" style={{ borderRadius: "50%", border: "1.5px solid var(--fin)", background: "transparent" }} />FIN</span>
-          <span className="legend__item"><span className="swatch" style={{ borderRadius: "50%", border: "1.5px solid var(--fmb)", background: "transparent" }} />FMB</span>
-          <span className="legend__item"><span className="swatch" style={{ borderRadius: "50%", border: "1.5px solid var(--feit)", background: "transparent" }} />FEIT</span>
-        </div>
-        <p className="muted" style={{ fontSize: 11.5, marginTop: 8, lineHeight: 1.45 }}>
-          Knotengröße ∝ Creditpoints. Bei aktiver Profilierung erscheinen anrechenbare englische
-          FIN+FMB-Module farbig, Substitute (deutsch/FEIT) hohl-gestrichelt.
+        <p className="muted" style={{ fontSize: 11.5, lineHeight: 1.55 }}>
+          <b style={{ color: "var(--ink-2)" }}>Knotenfarbe</b> = Themencluster ·{" "}
+          <b style={{ color: "var(--ink-2)" }}>Knotengröße</b> ∝ Creditpoints. Die Fakultät (FIN/FMB/FEIT)
+          steht im Tooltip &amp; Detailpanel und lässt sich oben filtern. Bei aktiver Profilierung erscheinen
+          anrechenbare englische FIN+FMB-Module farbig, Substitute (deutsch/FEIT) hohl-gestrichelt.
         </p>
       </div>
     </div>
