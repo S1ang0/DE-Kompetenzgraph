@@ -34,12 +34,6 @@ Harte Constraints, maschinell geprüft (`scripts/validate_profiles.py`, **11/11 
 `merge_enrich` (**`data/modules.json`** = Quelle der Wahrheit, + CSV) → `build_profiles` →
 `validate_profiles` → `build_graph` (**`public/de_dataset.json`**). Integrität: `check_dataset`.
 
-## Dokumentation
-
-- **`REPORT.md`** — Abschlussbericht (Architektur, Statistik, Cluster, Profilierungen, Validierung, Design, offene Fragen).
-- **`DECISIONS.md`** — Annahmen/Interpretationen (zur Prüfung markiert).
-- **`OPEN_ITEMS.md`** — Lücken/Übersprungenes. · **`PROGRESS.md`** — Verlaufsprotokoll.
-
 ## Editor
 
 Header → **Bearbeiten**: Themencluster (umbenennen/Farbe/neu/löschen), Module (Cluster zuweisen/löschen)
