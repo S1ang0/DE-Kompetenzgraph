@@ -96,39 +96,6 @@
   "description_en": "Teaches the design and manufacturing of printed circuit boards from conceptualization through component placement to error correction."
  },
  {
-  "id": "etit-advanced-process-systems-engineering",
-  "title_en": null,
-  "title_de": "Advanced Process Systems Engineering",
-  "language": "both",
-  "faculty": "FEIT",
-  "cp": 120,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Derive multiscale mathematical models of chemical and biochemical production systems",
-   "Model multiphase systems with interfacial transport phenomena",
-   "Apply advanced model-reduction techniques",
-   "Analyze and design complex continuum process systems"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "process systems engineering",
-   "modeling",
-   "model reduction",
-   "multiphase"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "energy_sustain"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Advanced course on multiscale mathematical modeling, multiphase systems and model reduction for chemical and biochemical production systems."
- },
- {
   "id": "etit-alternative-energien-regenerative-energiequellen",
   "title_en": null,
   "title_de": "Alternative Energien / Regenerative Energiequellen",
@@ -191,6 +158,38 @@
   "description_en": "Provides design and analysis of analog and mixed-signal systems including noise, amplifiers, oscillators, PLLs and data converters."
  },
  {
+  "id": "fmb-800461",
+  "title_en": null,
+  "title_de": "Analyse und Berechnung elektrischer Systeme",
+  "language": "de",
+  "faculty": "FEIT",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "800461",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Simulate and analyze electrical networks in time and frequency domain",
+   "Apply analytical and numerical methods to magnetic circuits",
+   "Model mechanical systems as equivalent electrical networks",
+   "Simulate magnetic fields and combine network and field methods"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "electrical networks",
+   "magnetic circuits",
+   "simulation"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "energy_sustain"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on analytical and numerical methods for simulating and analyzing electrical networks and magnetic circuits."
+ },
+ {
   "id": "etit-analysis-and-calculation-of-electrical-systems",
   "title_en": "Analysis and Calculation of Electrical Systems",
   "title_de": "Analyse und Berechnung elektrischer Systeme",
@@ -250,38 +249,6 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Covers selection, dimensioning and optimization of antennas using variational and perturbation methods and modal analysis."
- },
- {
-  "id": "etit-anwendung-stochastischer-modelle-in-der-elektrom",
-  "title_en": null,
-  "title_de": "Anwendung Stochastischer Modelle in der Elektromagnetischen",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 90,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Apply stochastic models to electromagnetic compatibility problems",
-   "Model electromagnetic cable coupling in random structures",
-   "Describe reverberation chambers as stochastic test environments",
-   "Use plane-wave field descriptions and correlation functions",
-   "Interpret and evaluate EMC measurement results"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "stochastic models",
-   "electromagnetic compatibility",
-   "cable coupling",
-   "measurement"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Application of stochastic models to electromagnetic compatibility, modelling cable coupling and reverberation-chamber test environments."
  },
  {
   "id": "etit-application-of-discrete-event-systems",
@@ -677,40 +644,6 @@
   "description_en": "Conversion of biomass to fuels, process modelling and life-cycle assessment for sustainable biofuel production and utilisation."
  },
  {
-  "id": "etit-bioverfahrenstechnik-i",
-  "title_en": null,
-  "title_de": "Bioverfahrenstechnik I",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 90,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Explain microbiological and metabolic fundamentals for engineers",
-   "Operate bioreactors and cultivate microorganisms",
-   "Apply measurement techniques used in bioprocess engineering",
-   "Plan, conduct and evaluate fermentation and purification experiments",
-   "Document experimental results in written protocols"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "bioprocess engineering",
-   "bioreactors",
-   "fermentation",
-   "microbiology"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "energy_sustain"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "lab",
-  "description_en": "Microbiological and engineering fundamentals of biotechnological processes with hands-on cultivation, bioreactor operation and product purification."
- },
- {
   "id": "etit-brennstoffzellen",
   "title_en": null,
   "title_de": "Brennstoffzellen",
@@ -778,39 +711,6 @@
   "description_en": "Project building an AI-driven Rasa chatbot for an escape-room game, covering NLU model training, evaluation and UX user testing."
  },
  {
-  "id": "etit-chemical-reaction-engineering",
-  "title_en": null,
-  "title_de": "Chemical Reaction Engineering",
-  "language": "both",
-  "faculty": "FEIT",
-  "cp": 120,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Quantitatively assess chemical reactions and their kinetics",
-   "Select suitable reactor types and design chemical reactors",
-   "Apply stoichiometry and chemical thermodynamics to reactor design",
-   "Compute mass transfer in heterogeneous catalysis and reactor heat balances"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "reaction engineering",
-   "reactor design",
-   "kinetics",
-   "catalysis"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "energy_sustain"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Course on quantitative assessment of chemical reactions, reactor selection and design including kinetics, mass transfer and heat balances."
- },
- {
   "id": "etit-chip-design",
   "title_en": "Chip Design",
   "title_de": "Chip Design",
@@ -842,40 +742,6 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Teaches the fundamentals of digital chip design from partitioning and placement to routing, verification and design for testability."
- },
- {
-  "id": "etit-combustion-engineering",
-  "title_en": null,
-  "title_de": "Combustion Engineering",
-  "language": "en",
-  "faculty": "FEIT",
-  "cp": 90,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Compute energy and mass balances for combustion firings",
-   "Calculate fuel consumption and flue gas composition for a heat demand",
-   "Assess ignition stability, flash-back and blow-off criteria of flames",
-   "Design firings for energy efficiency and reduced emissions",
-   "Evaluate explosion and detonation conditions for safety"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "combustion",
-   "fuels",
-   "energy efficiency",
-   "emissions"
-  ],
-  "primary_cluster": "energy_sustain",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Combustion fundamentals covering fuels, flame stability, balances and the design of energy-efficient, low-emission firings."
  },
  {
   "id": "etit-communication-systems",
@@ -912,104 +778,6 @@
   "description_en": "Covers industrial communication systems, protocols, bus systems and Ethernet/TCP/IP configuration based on the ISO/OSI reference model."
  },
  {
-  "id": "etit-complex-systems",
-  "title_en": null,
-  "title_de": "Complex Systems",
-  "language": "en",
-  "faculty": "FEIT",
-  "cp": 90,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Identify complex systems across engineering and biological domains",
-   "Mathematically describe complex systems and evaluate their complexity",
-   "Assess stability and fragility of complex systems",
-   "Apply numerical tools and control methods to complex systems"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "complex systems",
-   "control",
-   "stability",
-   "modeling"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "software_sys"
-  ],
-  "notes": "",
-  "level_band": "introductory",
-  "kind": "course",
-  "description_en": "Introduction to modeling, analyzing and controlling complex systems, including their stability, fragility and numerical treatment."
- },
- {
-  "id": "etit-computational-fluid-dynamics",
-  "title_en": null,
-  "title_de": "Computational Fluid Dynamics",
-  "language": "both",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Simulate complex flow processes using numerical flow simulation",
-   "Generate high-quality grids and choose appropriate discretization",
-   "Assess convergence, residuals and validate CFD results critically",
-   "Simulate turbulent, multiphase and non-Newtonian flows"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "cfd",
-   "fluid dynamics",
-   "simulation",
-   "turbulence"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Course on computational fluid dynamics covering grid generation, discretization, validation and simulation of turbulent and multiphase flows."
- },
- {
-  "id": "etit-computational-neuroscience-i",
-  "title_en": null,
-  "title_de": "Computational Neuroscience I",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Describe biophysical generation of neuronal activity mathematically",
-   "Model neurons with RC, LIF and Hodgkin-Huxley equations",
-   "Analyse encoding and decoding of sensory information",
-   "Apply Bayesian estimation and information-theoretic measures",
-   "Simulate dynamical neural systems in self-written programs"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "computational neuroscience",
-   "neural coding",
-   "bayesian inference",
-   "simulation"
-  ],
-  "primary_cluster": "ml_ai",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Biophysical foundations of neuronal activity and neural coding, with mathematical models, Bayesian decoding and information theory."
- },
- {
   "id": "etit-computational-neuroscience-ii",
   "title_en": null,
   "title_de": "Computational Neuroscience II",
@@ -1042,6 +810,38 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Theoretical foundations of neural network architectures and learning rules, including recurrent networks, associative memory and reinforcement learning."
+ },
+ {
+  "id": "fmb-800441",
+  "title_en": "Computed Tomography I",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FEIT",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "800441",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Explain the system theory of imaging systems",
+   "Describe the physics of X-rays and computed tomography",
+   "Apply tomographic image reconstruction methods",
+   "Implement and correct reconstruction algorithms and artefacts"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "computed tomography",
+   "image reconstruction",
+   "imaging"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "viz"
+  ],
+  "notes": "",
+  "level_band": "introductory",
+  "kind": "course",
+  "description_en": "A course on computed tomography covering imaging system theory, X-ray physics and tomographic image reconstruction methods."
  },
  {
   "id": "etit-computed-tomography-i-methods-on-ct",
@@ -1332,39 +1132,6 @@
   "description_en": "Teaches power system protection concepts and digital signal processing algorithms for protecting lines, transformers, generators and busbars."
  },
  {
-  "id": "etit-disperse-systeme-der-verfahrenstechnik-polymere",
-  "title_en": null,
-  "title_de": "Disperse Systeme der Verfahrenstechnik: Polymere, Kristalle,",
-  "language": "en",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Model disperse systems using mass, energy and population balances",
-   "Analyze crystallization, polymerization and emulsion systems",
-   "Quantify kinetics and thermodynamics of dispersed-phase mechanisms",
-   "Model, optimize and design processes involving a dispersed phase"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "disperse systems",
-   "population balance",
-   "crystallization",
-   "polymerization"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "mech_mat"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Course on modeling disperse systems via balance equations, covering crystallization, polymerization and emulsion process design."
- },
- {
   "id": "etit-dynamics-of-distributed-parameter-systems",
   "title_en": "Dynamics of Distributed Parameter Systems",
   "title_de": "Dynamics of Distributed Parameter Systems",
@@ -1395,40 +1162,6 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Modeling, analysis and control of distributed parameter systems described by partial differential equations using flatness-based and backstepping methods."
- },
- {
-  "id": "etit-dynamics-of-robotic-systems",
-  "title_en": null,
-  "title_de": "Dynamics of Robotic Systems",
-  "language": "en",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Describe kinematics of serial robotic manipulators",
-   "Analyse rigid-body and instantaneous kinematics",
-   "Derive the dynamics of robotic systems",
-   "Simulate robotic systems on a computer",
-   "Model and analyse robot manipulators mathematically"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "robotics",
-   "kinematics",
-   "dynamics",
-   "manipulators"
-  ],
-  "primary_cluster": "robotics",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Foundations of kinematics, dynamics and computer simulation of robotic manipulators and serial robot systems."
  },
  {
   "id": "etit-einfuhrung-in-die-medizinische-bildgebung",
@@ -1497,72 +1230,37 @@
   "description_en": "Fundamentals of embedded mechatronic systems covering analog and digital solutions, signal processing and real-time behaviour."
  },
  {
-  "id": "etit-eingebettete-mechatronische-systeme-ii",
-  "title_en": null,
-  "title_de": "Eingebettete Mechatronische Systeme II",
+  "id": "fmb-800037",
+  "title_en": "Electrical Traction Drives",
+  "title_de": "Elektrische Antriebssysteme",
   "language": "de",
   "faculty": "FEIT",
-  "cp": 3,
+  "cp": 5,
   "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "module_code": "800037",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
   "source_url": null,
   "competencies": [
-   "Develop hardware and software for embedded mechatronic systems",
-   "Program 8-bit and 32-bit microcontrollers with real-time operating systems",
-   "Specify functions with Matlab/Simulink and ASCET and generate code",
-   "Apply AUTOSAR and ECU architectures for automotive control units",
-   "Implement real-time control on industrial PCs and mobile devices"
+   "Explain the structure and functions of electric drive systems",
+   "Select electrical drive systems for traction applications",
+   "Assess steady-state and dynamic drive characteristics",
+   "Analyse speed-torque behavior of electrical machines",
+   "Apply control strategies for variable-speed drives"
   ],
   "prerequisites": [],
   "topic_tags": [
-   "embedded systems",
-   "automotive ecu",
-   "real-time os",
-   "autosar"
+   "electric drives",
+   "traction",
+   "drive control"
   ],
-  "primary_cluster": "software_sys",
+  "primary_cluster": "mobility",
   "secondary_clusters": [
-   "mobility"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Advanced development of embedded mechatronic hardware and software for automotive ECUs, industrial PCs and mobile devices using modern tools."
- },
- {
-  "id": "etit-eingebettete-systeme",
-  "title_en": null,
-  "title_de": "Eingebettete Systeme",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Design hardware and software platforms for embedded systems",
-   "Model embedded systems with extended finite state machines",
-   "Apply object-oriented design to embedded software development",
-   "Realise functions on FPGA and DSP platforms",
-   "Validate embedded systems through testing"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "embedded systems",
-   "fpga",
-   "dsp",
-   "state machines"
-  ],
-  "primary_cluster": "software_sys",
-  "secondary_clusters": [
-   "robotics"
+   "energy_sustain"
   ],
   "notes": "",
   "level_band": "core",
   "kind": "course",
-  "description_en": "Architectures, design and implementation of computer-controlled embedded systems on hardware and software platforms, with formal methods and testing."
+  "description_en": "Controlled and regulated electrical drive systems with a focus on traction drives, covering structure, machine characteristics and speed control strategies."
  },
  {
   "id": "etit-electromagnetic-compatibility",
@@ -1885,40 +1583,6 @@
   "description_en": "Course on analyzing electromagnetic compatibility of electronic systems using field theory, numerical methods and signal/power integrity."
  },
  {
-  "id": "etit-fluidenergiemaschinen",
-  "title_en": null,
-  "title_de": "Fluidenergiemaschinen",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Explain working principles and construction of turbomachines",
-   "Select and dimension pumps, turbines and compressors",
-   "Analyse operating behaviour and control for optimal energy conversion",
-   "Apply affinity laws and dimensionless characteristic numbers",
-   "Assess energy transfer in fluid-flow machines"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "turbomachinery",
-   "pumps",
-   "turbines",
-   "energy conversion"
-  ],
-  "primary_cluster": "energy_sustain",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Fundamentals, design, operation and control of fluid-energy machines such as pumps, turbines and compressors for efficient energy conversion."
- },
- {
   "id": "etit-generator-systems-for-renewable-energy",
   "title_en": "Generator Systems for Renewable Energy",
   "title_de": "Generatorsysteme zur regenerativen Energieerzeugung",
@@ -2207,40 +1871,6 @@
   "description_en": "Introduces digital image acquisition, representation, filtering, segmentation and analysis for information extraction from images."
  },
  {
-  "id": "etit-informations-und-codierungstheorie",
-  "title_en": null,
-  "title_de": "Informations- und Codierungstheorie",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 90,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Explain information content, entropy and redundancy",
-   "Apply source coding with Shannon-Fano and Huffman methods",
-   "Compute channel capacity and channel entropies",
-   "Design linear block and cyclic codes for channel coding",
-   "Apply syndrome decoding and error-correcting methods"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "information theory",
-   "coding theory",
-   "entropy",
-   "error-correcting codes"
-  ],
-  "primary_cluster": "software_sys",
-  "secondary_clusters": [
-   "data_eng"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Foundations of information and coding theory covering entropy, channel capacity, source coding and error-correcting channel codes."
- },
- {
   "id": "etit-integrated-project",
   "title_en": "Integrated Project",
   "title_de": "Integrated Project",
@@ -2433,68 +2063,6 @@
   "description_en": "Connects machine learning with systems theory to design learning-based modelling and control approaches for dynamical systems."
  },
  {
-  "id": "etit-master-thesis",
-  "title_en": "Master Thesis",
-  "title_de": "Masterarbeit mit Kolloquium",
-  "language": "both",
-  "faculty": "FEIT",
-  "cp": 30,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Wirtschaftsingenieurwesen EIT (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Work scientifically on a delimited research problem",
-   "Select and apply suitable scientific methods",
-   "Critically evaluate and contextualize results",
-   "Write and defend a research-oriented master's thesis"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "master thesis",
-   "scientific work",
-   "research"
-  ],
-  "primary_cluster": "methods_skills",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "thesis",
-  "description_en": "Master's thesis in which students independently solve a research problem with scientific methods and present and defend the results."
- },
- {
-  "id": "etit-master-thesis-project",
-  "title_en": null,
-  "title_de": "Master Thesis Project",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 30,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Conduct independent scientific research on a current topic",
-   "Apply modern research methods to plan and execute studies",
-   "Evaluate experimental or theoretical results",
-   "Document results in a scientific written thesis",
-   "Present and defend the thesis before an expert audience"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "master thesis",
-   "scientific work",
-   "research methods",
-   "academic writing"
-  ],
-  "primary_cluster": "methods_skills",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "thesis",
-  "description_en": "Independent master's thesis applying modern research methods to a current scientific topic, documented and defended in scientific form."
- },
- {
   "id": "etit-mathematische-modellierung-physiologischer-syste",
   "title_en": null,
   "title_de": "Mathematische Modellierung physiologischer Systeme",
@@ -2525,71 +2093,6 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Mathematical modelling and computer simulation of selected physiological systems based on physical-chemical laws."
- },
- {
-  "id": "etit-mechatronic-systems-ii",
-  "title_en": "Mechatronic Systems II",
-  "title_de": "Mechatronische Systeme II",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Mechatronik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Model and simulate multi-domain mechatronic systems",
-   "Couple mechanical, electrical, thermal and hydraulic components in one model",
-   "Use Matlab/Simulink and toolboxes for mechatronic simulation",
-   "Build vehicle models capturing drive, steering, braking and driving dynamics"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "modeling and simulation",
-   "mechatronics",
-   "simulink",
-   "vehicle dynamics"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "mobility"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Course on modeling and simulating multi-domain mechatronic systems, including vehicle models, with Matlab/Simulink tools."
- },
- {
-  "id": "etit-mechatronics-iii",
-  "title_en": "Mechatronics III",
-  "title_de": "Mechatronik III",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Mechatronik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Formulate and structure mechatronic design problems",
-   "Apply the V-model of systems development",
-   "Use hierarchical and component-based design procedures",
-   "Evaluate parameter sensitivity, robustness and system optimization"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "mechatronics",
-   "systems design",
-   "v-model"
-  ],
-  "primary_cluster": "design_plm",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Advanced course on integrated mechatronic system design using the V-model, component-based methods, robustness and optimization."
  },
  {
   "id": "etit-mechatronik-ii-entwurf-mechatronischer-systeme",
@@ -2822,37 +2325,6 @@
   "description_en": "Teaches model predictive control techniques for three-phase power converters with applications to electric drives and grid-connected resources."
  },
  {
-  "id": "etit-modellierung-mit-populationsbilanzen",
-  "title_en": null,
-  "title_de": "Modellierung mit Populationsbilanzen",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Recognize population-dynamic mechanisms in disperse systems",
-   "Formulate and analyze population-balance models mathematically",
-   "Solve population balances with specialized numerical methods",
-   "Apply population-balance results to process design and operation"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "population balance",
-   "modeling",
-   "disperse systems",
-   "numerical methods"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Course on formulating, analyzing and numerically solving population-balance models for disperse systems in particle and bioprocess engineering."
- },
- {
   "id": "etit-modellierung-und-expertensysteme-in-der-elektris",
   "title_en": null,
   "title_de": "Modellierung und Expertensysteme in der elektrischen",
@@ -2884,73 +2356,6 @@
   "level_band": "core",
   "kind": "course",
   "description_en": "Course on modeling electrical power grids and building knowledge-based expert systems using fuzzy techniques and neural networks."
- },
- {
-  "id": "etit-modellierung-von-bioprozessen",
-  "title_en": null,
-  "title_de": "Modellierung von Bioprozessen",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 120,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Build mathematical models of biotechnological processes",
-   "Formulate mass balances and reaction-kinetic equations for bioreactors",
-   "Solve differential model equations using numerical integration",
-   "Estimate model parameters from experimental data",
-   "Implement bioprocess models in Matlab programs"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "process modeling",
-   "bioprocesses",
-   "matlab",
-   "numerical integration"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "energy_sustain"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Mathematical modelling of biotechnological processes with mass balances, reaction kinetics and Matlab-based numerical solution and parameter estimation."
- },
- {
-  "id": "etit-molekulares-modellieren",
-  "title_en": null,
-  "title_de": "Molekulares Modellieren",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Apply molecular modeling tools across spatial and temporal scales",
-   "Use Monte-Carlo methods for equilibrium and dynamic simulations",
-   "Run molecular-dynamics simulations of diffusion and nucleation",
-   "Match process-engineering problems to adequate models and numerical methods"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "molecular modeling",
-   "molecular dynamics",
-   "monte carlo",
-   "simulation"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "mech_mat"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Course teaching molecular modeling and simulation as an engineering tool using Monte-Carlo, molecular-dynamics and quantum-mechanical methods."
  },
  {
   "id": "etit-nonlinear-control",
@@ -3014,38 +2419,6 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Teaches analysis and control of nonlinear dynamic systems in state space using Lyapunov methods and nonlinear controller design."
- },
- {
-  "id": "etit-optimal-control",
-  "title_en": "Optimal Control",
-  "title_de": "Optimal Control",
-  "language": "en",
-  "faculty": "FEIT",
-  "cp": 120,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Formulate and analyze constrained optimal control problems",
-   "Apply dynamic programming and the Hamilton-Jacobi-Bellman equation",
-   "Use variational calculus and Pontryagin's maximum principle",
-   "Derive numerical solutions for optimal control problems"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "optimal control",
-   "dynamic programming",
-   "model predictive control"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "robotics"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Introduces formulation, theory and numerical solution of constrained optimal control problems for dynamic systems across many applications."
  },
  {
   "id": "etit-pattern-recognition",
@@ -3437,101 +2810,6 @@
   "description_en": "Project seminar teaching scientific working methods, literature survey, good citation practice and scientific report writing in electrical engineering."
  },
  {
-  "id": "etit-prozessleittechnik-ii",
-  "title_en": null,
-  "title_de": "Prozessleittechnik II",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Design and build distributed digital automation systems",
-   "Plan integration of diverse automation components",
-   "Apply automation and information technologies in process control",
-   "Interpret abstract automation and information models",
-   "Develop functional automation systems"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "process control",
-   "distributed automation",
-   "automation systems",
-   "integration"
-  ],
-  "primary_cluster": "industry40",
-  "secondary_clusters": [
-   "software_sys"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Design and construction of distributed digital automation systems, integrating automation and information technologies for process control."
- },
- {
-  "id": "etit-prozesssimulation",
-  "title_en": null,
-  "title_de": "Prozesssimulation",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Perform steady-state and dynamic process simulation in Aspen Plus/Dynamics",
-   "Model unit operations such as reactors, columns and heat exchangers",
-   "Configure recycle streams and overall process flowsheets",
-   "Evaluate alternative process variants for conceptual process design"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "process simulation",
-   "aspen plus",
-   "flowsheet",
-   "process design"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Course on conceptual process design via steady-state and dynamic simulation of chemical processes using Aspen Plus and Aspen Dynamics."
- },
- {
-  "id": "etit-qualifikationsziele-und",
-  "title_en": "Qualifikationsziele und",
-  "title_de": "Forschungsprojekt",
-  "language": "both",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Mechatronik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Work on a guided scientific research task at a chair",
-   "Acquire subject expertise and recognize relationships",
-   "Develop solutions through independent scientific work",
-   "Present results in a final report and colloquium"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "research project",
-   "scientific work",
-   "colloquium"
-  ],
-  "primary_cluster": "methods_skills",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "project",
-  "description_en": "Supervised research project in the Mechatronics master where students address a scientific task and present results in a colloquium."
- },
- {
   "id": "etit-radar-technology",
   "title_en": "Radar Technology",
   "title_de": "Radartechnik",
@@ -3594,6 +2872,38 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Course on computer-aided control design and implementation in Matlab/Simulink, covering robust multivariable and real-time controllers."
+ },
+ {
+  "id": "fmb-800376",
+  "title_en": null,
+  "title_de": "Regelung von Drehstrommaschinen",
+  "language": "de",
+  "faculty": "FEIT",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "800376",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Model AC machines using space-vector representation",
+   "Design control loops for synchronous and asynchronous machines",
+   "Apply field-oriented control and direct torque control",
+   "Evaluate machine types and control methods for applications"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "ac drives",
+   "field-oriented control",
+   "electric machines"
+  ],
+  "primary_cluster": "mobility",
+  "secondary_clusters": [
+   "energy_sustain"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "A course on the control of AC drives covering space-vector modeling, field-oriented control and direct torque control."
  },
  {
   "id": "etit-renewable-electricity-sources-system-analysis",
@@ -3883,71 +3193,36 @@
   "description_en": "Two-semester practical project designing, building and testing sensor systems with microcontroller-based data acquisition and evaluation."
  },
  {
-  "id": "etit-simulation-of-mechanical-processes",
+  "id": "fmb-800302",
   "title_en": null,
-  "title_de": "Simulation of Mechanical Processes",
-  "language": "en",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Characterize disperse particle systems with statistical material properties",
-   "Analyze stochastic and dynamic particle conversion processes",
-   "Apply multiscale modeling and population balances to comminution and separation",
-   "Evaluate and design particle-processing process systems"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "particle technology",
-   "simulation",
-   "population balance",
-   "comminution"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "manufacturing"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Advanced course on multiscale modeling and simulation of stochastic, dynamic mechanical particle processes such as comminution and separation."
- },
- {
-  "id": "etit-simulation-und-steuerung-regelung-der-biol-abwas",
-  "title_en": null,
-  "title_de": "Simulation und Steuerung/Regelung der biol. Abwasserreinigung",
+  "title_de": "Sensorapplikationen",
   "language": "de",
   "faculty": "FEIT",
-  "cp": 2,
+  "cp": 10,
   "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "module_code": "800302",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
   "source_url": null,
   "competencies": [
-   "Build dynamic simulation models of wastewater treatment plants",
-   "Apply activated sludge models (ASM3) to biological treatment",
-   "Calibrate and verify plant models with simulation software",
-   "Design measurement and oxygen control concepts for treatment plants",
-   "Combine steady-state design with dynamic simulation"
+   "Design and build sensor systems for a given application",
+   "Select sensors based on their functional principles",
+   "Acquire and microcontroller-based evaluation of measurement data",
+   "Test, document and present a sensor-based solution"
   ],
   "prerequisites": [],
   "topic_tags": [
-   "dynamic simulation",
-   "wastewater treatment",
-   "activated sludge model",
-   "process control"
+   "sensors",
+   "measurement",
+   "embedded systems"
   ],
-  "primary_cluster": "sim_num",
+  "primary_cluster": "robotics",
   "secondary_clusters": [
-   "energy_sustain"
+   "methods_skills"
   ],
   "notes": "",
   "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Dynamic simulation and control of biological wastewater treatment using activated sludge models for reliable, economic plant operation."
+  "kind": "project",
+  "description_en": "A two-semester practical project in which students design, build and test sensor systems for selected application domains."
  },
  {
   "id": "etit-speicherprogrammierbare-steuerungen",
@@ -4016,38 +3291,6 @@
   "description_en": "Introduces model-based state estimation and measurement systems with emphasis on Luenberger observers and Kalman filter variants."
  },
  {
-  "id": "etit-statistische-planung-und-auswertung-von-versuche",
-  "title_en": null,
-  "title_de": "Statistische Planung und Auswertung von Versuchen",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 3,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Evaluate experimental production data with statistical methods",
-   "Perform regression and correlation analysis for linear and nonlinear models",
-   "Determine confidence intervals of model parameters",
-   "Set up factorial and central composite designs of experiments"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "design of experiments",
-   "statistics",
-   "regression"
-  ],
-  "primary_cluster": "methods_skills",
-  "secondary_clusters": [
-   "data_eng"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Course on statistical evaluation of experimental data, regression analysis and design of experiments for first- and second-order models."
- },
- {
   "id": "etit-stromversorgungstechnik",
   "title_en": null,
   "title_de": "Stromversorgungstechnik",
@@ -4113,37 +3356,6 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Structural and qualitative modelling and analysis of cellular networks using graph theory, Boolean networks and metabolic network methods."
- },
- {
-  "id": "etit-stromungsmechanik-ii",
-  "title_en": null,
-  "title_de": "Strömungsmechanik II",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 4,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Analyze and compute complex flows in process engineering apparatus",
-   "Treat compressible flows with friction, heat transfer and shock waves",
-   "Model laminar and turbulent boundary layers and turbulence",
-   "Analyze multiphase and non-Newtonian fluid flows"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "fluid mechanics",
-   "turbulence",
-   "multiphase flow",
-   "compressible flow"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "Advanced fluid mechanics course on complex flows including compressible, turbulent, multiphase and non-Newtonian flow phenomena."
  },
  {
   "id": "etit-system-integration-of-power-electronics",
@@ -4274,40 +3486,6 @@
   "description_en": "Conveys advanced concepts of technical cognitive intelligent systems and their practical realization in engineering applications."
  },
  {
-  "id": "etit-unsicheres-wissen",
-  "title_en": null,
-  "title_de": "Unsicheres Wissen",
-  "language": "de",
-  "faculty": "FEIT",
-  "cp": 90,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Apply concepts for handling uncertain knowledge in modelling and decisions",
-   "Develop and parametrise Bayesian networks",
-   "Perform inference over Bayesian networks",
-   "Apply stochastic estimation theory",
-   "Use Wiener and Kalman filters for state estimation"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "bayesian networks",
-   "estimation",
-   "kalman filter",
-   "uncertainty"
-  ],
-  "primary_cluster": "ml_ai",
-  "secondary_clusters": [
-   "robotics"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Concepts and methods for reasoning under uncertainty, covering Bayesian networks, stochastic estimation and Wiener/Kalman filtering."
- },
- {
   "id": "etit-voice-user-interfaces",
   "title_en": "Voice User Interfaces",
   "title_de": "Sprachdialogsysteme",
@@ -4405,6 +3583,198 @@
   "description_en": "Course on wind energy conversion, wind turbine design and components, and the technical and economic aspects of grid integration."
  },
  {
+  "id": "fmb-908730",
+  "title_en": null,
+  "title_de": "Politik und Nachhaltigkeit",
+  "language": "de",
+  "faculty": "FHW",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "908730",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Analyze political frameworks and actors shaping sustainability transitions",
+   "Apply theories and empirical data of sustainability research",
+   "Evaluate environmental policy instruments and their relevance",
+   "Discuss sustainability policy in written and oral form"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "sustainability",
+   "environmental policy",
+   "governance"
+  ],
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": [
+   "innovation_mgmt"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on the political frameworks, actors and instruments of sustainability policy, illustrated by German environmental policy."
+ },
+ {
+  "id": "fmb-909099",
+  "title_en": "Sustainability Conflicts and Governance of Natural Resources",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FHW",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "909099",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Critically evaluate the limits of quantitative growth and sustainability paradigms",
+   "Analyze resource-related distributional conflicts",
+   "Compare sustainability strategies across regional and global scales",
+   "Assess governance approaches for natural resources"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "sustainability",
+   "resource governance",
+   "conflict"
+  ],
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": [
+   "innovation_mgmt"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "seminar",
+  "description_en": "A seminar examining sustainability conflicts, the limits of growth and governance approaches for natural resources."
+ },
+ {
+  "id": "fmb-906030",
+  "title_en": null,
+  "title_de": "Technologien im Sport I (ehemals Sportgerätetechnik I)",
+  "language": "de",
+  "faculty": "FHW",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "906030",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Analyze the design and function of sports equipment",
+   "Evaluate materials and technologies used in sports devices",
+   "Assess performance characteristics of sports technology",
+   "Present technical sports-equipment topics in a seminar"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "sports technology",
+   "sports equipment",
+   "materials"
+  ],
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": [
+   "design_plm"
+  ],
+  "notes": "",
+  "level_band": "introductory",
+  "kind": "seminar",
+  "description_en": "A seminar introducing the technologies and materials used in sports equipment and their performance characteristics."
+ },
+ {
+  "id": "fmb-technologien-im-sport-ii-ehemals-sportgeratetech",
+  "title_en": null,
+  "title_de": "Technologien im Sport II (ehemals Sportgerätetechnik II)",
+  "language": "de",
+  "faculty": "FHW",
+  "cp": 5,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Analyze advanced sports-equipment technologies",
+   "Evaluate materials and construction of sports devices",
+   "Assess performance and biomechanical aspects of sports technology",
+   "Present technical sports topics in a seminar"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "sports technology",
+   "sports equipment",
+   "materials"
+  ],
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": [
+   "design_plm"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "seminar",
+  "description_en": "A seminar on sports-equipment technology, continuing the study of materials, construction and performance of sports devices."
+ },
+ {
+  "id": "fmb-920011",
+  "title_en": null,
+  "title_de": "Technologien im Sport III (ehemals Technologien im Sport)",
+  "language": "de",
+  "faculty": "FHW",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "920011",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Analyze specialized sports-technology topics in depth",
+   "Evaluate materials and engineering of advanced sports devices",
+   "Assess technological developments in sports equipment",
+   "Present technical sports topics in a seminar"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "sports technology",
+   "sports equipment",
+   "materials"
+  ],
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": [
+   "design_plm"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "seminar",
+  "description_en": "An advanced seminar exploring specialized topics in sports technology and the engineering of sports equipment."
+ },
+ {
+  "id": "fmb-technologien-im-sport-iv-ehemals-technologien-im",
+  "title_en": null,
+  "title_de": "Technologien im Sport IV (ehemals Technologien im Sport)",
+  "language": "de",
+  "faculty": "FHW",
+  "cp": 5,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Investigate advanced sports-technology research topics",
+   "Evaluate cutting-edge materials and methods in sports equipment",
+   "Assess innovations in sports technology critically",
+   "Present specialized sports topics in a seminar"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "sports technology",
+   "sports equipment",
+   "materials"
+  ],
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": [
+   "design_plm"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "seminar",
+  "description_en": "An advanced seminar on selected research topics in sports technology and the engineering of sports devices."
+ },
+ {
   "id": "fin-103805",
   "title_en": "Advanced Database Models",
   "title_de": null,
@@ -4435,6 +3805,36 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Advanced study of non-relational database models, their concepts, query languages and application development on non-relational DBMS."
+ },
+ {
+  "id": "fmb-103805",
+  "title_en": null,
+  "title_de": "Advanced Database Models",
+  "language": "en",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "103805",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Apply advanced and non-relational database models",
+   "Compare data models for specialized application domains",
+   "Select appropriate database technologies for given workloads",
+   "Reason about modern data management concepts"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "databases",
+   "data models",
+   "data management"
+  ],
+  "primary_cluster": "data_eng",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "An advanced course on database models and modern data management concepts taught through lectures and exercises."
  },
  {
   "id": "fin-120491",
@@ -4662,6 +4062,39 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Advanced software engineering course teaching Clean Code Development principles, modern tools and collaborative development practices."
+ },
+ {
+  "id": "fmb-102809",
+  "title_en": null,
+  "title_de": "Computer Aided Geometric Design",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "102809",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Model curves and surfaces using parametric representations",
+   "Apply Bezier, B-spline and NURBS techniques for geometric design",
+   "Implement computer-aided geometric design algorithms",
+   "Construct and manipulate free-form geometry for CAD"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "cagd",
+   "geometric modeling",
+   "splines",
+   "cad"
+  ],
+  "primary_cluster": "design_plm",
+  "secondary_clusters": [
+   "viz"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on computer-aided geometric design covering curve and surface modeling for CAD applications."
  },
  {
   "id": "fin-110472",
@@ -4894,6 +4327,37 @@
   "description_en": "Hands-on course teaching data science with Python: importing, transforming, exploring and modelling real-world data for prediction and insight."
  },
  {
+  "id": "fmb-102808",
+  "title_en": null,
+  "title_de": "Data Warehouse-Technologies",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "102808",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Design and build data warehouse architectures",
+   "Model multidimensional schemas for analytical workloads",
+   "Implement ETL processes and OLAP operations",
+   "Apply data warehousing technologies for business intelligence"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "data warehouse",
+   "olap",
+   "etl",
+   "business intelligence"
+  ],
+  "primary_cluster": "data_eng",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on data warehouse technologies covering multidimensional modeling, ETL and analytical query processing."
+ },
+ {
   "id": "fin-120529",
   "title_en": "Database Concepts",
   "title_de": null,
@@ -4924,6 +4388,69 @@
   "level_band": "introductory",
   "kind": "course",
   "description_en": "Foundational database course covering relational modelling, ER mapping, SQL, normalization and database application programming."
+ },
+ {
+  "id": "fmb-100302",
+  "title_en": null,
+  "title_de": "Datenmanagement",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "100302",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Design relational database schemas",
+   "Write and optimize SQL queries",
+   "Apply data modeling and normalization principles",
+   "Manage data with relational database systems"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "databases",
+   "sql",
+   "data modeling",
+   "relational"
+  ],
+  "primary_cluster": "data_eng",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A core course on data management covering relational databases, data modeling and practical SQL exercises."
+ },
+ {
+  "id": "fmb-120501",
+  "title_en": null,
+  "title_de": "Decision Support Projekt (ehemals Startup-Engineering III)",
+  "language": "en",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "120501",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Build decision support solutions in a project setting",
+   "Apply decision analysis and modeling methods",
+   "Translate business problems into decision support concepts",
+   "Document and present project results"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "decision support",
+   "entrepreneurship",
+   "project"
+  ],
+  "primary_cluster": "innovation_mgmt",
+  "secondary_clusters": [
+   "methods_skills"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "project",
+  "description_en": "A project module in which students develop a decision-support solution, applying decision analysis and venture methods."
  },
  {
   "id": "fin-120463",
@@ -4989,6 +4516,74 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Course on distributed and parallel data management covering distribution design, distributed query and transaction processing, and replication."
+ },
+ {
+  "id": "etit-eingebettete-mechatronische-systeme-ii",
+  "title_en": null,
+  "title_de": "Eingebettete Mechatronische Systeme II",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Develop hardware and software for embedded mechatronic systems",
+   "Program 8-bit and 32-bit microcontrollers with real-time operating systems",
+   "Specify functions with Matlab/Simulink and ASCET and generate code",
+   "Apply AUTOSAR and ECU architectures for automotive control units",
+   "Implement real-time control on industrial PCs and mobile devices"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "embedded systems",
+   "automotive ecu",
+   "real-time os",
+   "autosar"
+  ],
+  "primary_cluster": "software_sys",
+  "secondary_clusters": [
+   "mobility"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "Advanced development of embedded mechatronic hardware and software for automotive ECUs, industrial PCs and mobile devices using modern tools."
+ },
+ {
+  "id": "etit-eingebettete-systeme",
+  "title_en": null,
+  "title_de": "Eingebettete Systeme",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Design hardware and software platforms for embedded systems",
+   "Model embedded systems with extended finite state machines",
+   "Apply object-oriented design to embedded software development",
+   "Realise functions on FPGA and DSP platforms",
+   "Validate embedded systems through testing"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "embedded systems",
+   "fpga",
+   "dsp",
+   "state machines"
+  ],
+  "primary_cluster": "software_sys",
+  "secondary_clusters": [
+   "robotics"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Architectures, design and implementation of computer-controlled embedded systems on hardware and software platforms, with formal methods and testing."
  },
  {
   "id": "fin-120526",
@@ -5090,6 +4685,38 @@
   "level_band": "core",
   "kind": "seminar",
   "description_en": "Seminar on eudaimonic, well-being-focused interaction design covering ethical interface design, dark patterns and scientific writing in HCI."
+ },
+ {
+  "id": "fmb-120469",
+  "title_en": "Evolutionary Multi-Objective Optimization",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "120469",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Formulate multi-objective optimization problems",
+   "Apply evolutionary algorithms to find Pareto-optimal solutions",
+   "Evaluate and compare evolutionary optimization methods",
+   "Solve complex optimization tasks with metaheuristics"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "evolutionary optimization",
+   "multi-objective",
+   "metaheuristics"
+  ],
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": [
+   "sim_num"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "A course on evolutionary algorithms for solving multi-objective optimization problems and finding Pareto-optimal solutions."
  },
  {
   "id": "fin-120261",
@@ -5259,6 +4886,38 @@
   "description_en": "Course on human-centred natural language processing covering tokenization, transformers, large language models and multimodal AI architectures."
  },
  {
+  "id": "fmb-901129",
+  "title_en": null,
+  "title_de": "Idea Engineering",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "901129",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Apply structured creativity techniques to generate ideas",
+   "Develop and refine innovative concepts systematically",
+   "Evaluate and select promising ideas",
+   "Document idea development in a written assignment"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "idea engineering",
+   "creativity",
+   "innovation"
+  ],
+  "primary_cluster": "innovation_mgmt",
+  "secondary_clusters": [
+   "methods_skills"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course teaching structured creativity and idea-generation techniques to systematically develop innovative concepts."
+ },
+ {
   "id": "fin-120506",
   "title_en": "In-Memory and Cloud-Technologies",
   "title_de": null,
@@ -5318,6 +4977,38 @@
   "level_band": "core",
   "kind": "project",
   "description_en": "Individual scientific project where a student independently investigates an agreed research question under supervision and presents the results."
+ },
+ {
+  "id": "fmb-100393",
+  "title_en": null,
+  "title_de": "Interaktive Systeme",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "100393",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Design interactive user interfaces",
+   "Apply interaction design principles and techniques",
+   "Develop and prototype interactive systems",
+   "Evaluate usability of interactive applications"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "interactive systems",
+   "interaction design",
+   "usability"
+  ],
+  "primary_cluster": "hci",
+  "secondary_clusters": [
+   "software_sys"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on the design and development of interactive systems, covering interaction techniques and user interface concepts."
  },
  {
   "id": "fin-999808",
@@ -5771,6 +5462,38 @@
   "description_en": "Seminar on narrative visualization techniques and tools for telling data-driven stories that support science communication."
  },
  {
+  "id": "fmb-110463",
+  "title_en": "Parallel Programming",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "110463",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Develop parallel programs using established paradigms",
+   "Apply shared-memory and distributed parallelization techniques",
+   "Analyze and optimize performance of parallel code",
+   "Implement concurrent algorithms on multicore and HPC systems"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "parallel programming",
+   "concurrency",
+   "hpc"
+  ],
+  "primary_cluster": "software_sys",
+  "secondary_clusters": [
+   "sim_num"
+  ],
+  "notes": "CP-Originalwert '120' unplausibel→5 (Katalog-Standard).",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on parallel programming covering parallelization paradigms and performance optimization for multicore and HPC systems."
+ },
+ {
   "id": "fin-120480",
   "title_en": "Parallel Storage Systems",
   "title_de": null,
@@ -5837,6 +5560,40 @@
   "level_band": "introductory",
   "kind": "skills",
   "description_en": "Course teaching scientific working methods and transferable soft skills including literature review, scientific writing, presentation, time and project management."
+ },
+ {
+  "id": "etit-prozessleittechnik-ii",
+  "title_en": null,
+  "title_de": "Prozessleittechnik II",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Design and build distributed digital automation systems",
+   "Plan integration of diverse automation components",
+   "Apply automation and information technologies in process control",
+   "Interpret abstract automation and information models",
+   "Develop functional automation systems"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "process control",
+   "distributed automation",
+   "automation systems",
+   "integration"
+  ],
+  "primary_cluster": "industry40",
+  "secondary_clusters": [
+   "software_sys"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "Design and construction of distributed digital automation systems, integrating automation and information technologies for process control."
  },
  {
   "id": "fin-120318",
@@ -6235,6 +5992,38 @@
   "description_en": "Course on software development for industrial robotics, emphasizing mathematical modeling and developing a robot controller with PTP and linear motion in simulation."
  },
  {
+  "id": "fmb-120442",
+  "title_en": null,
+  "title_de": "Startup-Engineering II",
+  "language": "both",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "120442",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Develop a start-up concept within a team project",
+   "Apply entrepreneurship methods to validate business ideas",
+   "Plan and execute early-stage venture activities",
+   "Document and present a start-up project"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "startup",
+   "entrepreneurship",
+   "project"
+  ],
+  "primary_cluster": "innovation_mgmt",
+  "secondary_clusters": [
+   "methods_skills"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "project",
+  "description_en": "A project module where students develop and advance a start-up concept applying entrepreneurship and venture-building methods."
+ },
+ {
   "id": "fin-102419",
   "title_en": "Swarm Intelligence",
   "title_de": null,
@@ -6434,6 +6223,36 @@
   "description_en": "Seminar on applying visual analytics to public-health and clinical data, covering epidemiology, clinical medicine, and detection of adverse drug effects."
  },
  {
+  "id": "fmb-102812",
+  "title_en": null,
+  "title_de": "Visualisierung",
+  "language": "de",
+  "faculty": "FIN",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "102812",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Apply scientific and information visualization techniques",
+   "Design effective visual representations of data",
+   "Implement visualization pipelines and rendering methods",
+   "Evaluate and interpret visualizations critically"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "visualization",
+   "scientific visualization",
+   "rendering"
+  ],
+  "primary_cluster": "viz",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on data and scientific visualization covering techniques for creating effective visual representations of data."
+ },
+ {
   "id": "fin-102812",
   "title_en": "Visualization",
   "title_de": null,
@@ -6500,6 +6319,233 @@
   "description_en": "Course on cloud and DevOps technologies, covering UNIX, Docker, Python automation with Ansible, Salt and Terraform, and continuous integration and delivery."
  },
  {
+  "id": "fmb-502294",
+  "title_en": "Advanced Topics in Numerical Linear Algebra",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FMA",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "502294",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Solve matrix equations for linear and quadratic systems",
+   "Compute and approximate matrix functions",
+   "Apply randomized algorithms in numerical linear algebra",
+   "Select numerical methods for dense and structured problems"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "numerical linear algebra",
+   "matrix functions",
+   "randomized algorithms"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "ml_ai"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "An advanced course on numerical linear algebra covering matrix equations, matrix functions and randomized algorithms."
+ },
+ {
+  "id": "etit-dynamics-of-robotic-systems",
+  "title_en": null,
+  "title_de": "Dynamics of Robotic Systems",
+  "language": "en",
+  "faculty": "FMA",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Describe kinematics of serial robotic manipulators",
+   "Analyse rigid-body and instantaneous kinematics",
+   "Derive the dynamics of robotic systems",
+   "Simulate robotic systems on a computer",
+   "Model and analyse robot manipulators mathematically"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "robotics",
+   "kinematics",
+   "dynamics",
+   "manipulators"
+  ],
+  "primary_cluster": "robotics",
+  "secondary_clusters": [
+   "sim_num"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Foundations of kinematics, dynamics and computer simulation of robotic manipulators and serial robot systems."
+ },
+ {
+  "id": "fmb-501317",
+  "title_en": "Modeling, Simulation and Optimization",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FMA",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "501317",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Model dynamic systems with differential equations",
+   "Formulate and solve optimal control problems",
+   "Apply parameter estimation and test planning methods",
+   "Implement optimization algorithms efficiently"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "modeling",
+   "simulation",
+   "optimization",
+   "optimal control"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "ml_ai"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on modeling, simulation and optimization of dynamic systems, covering optimal control and parameter estimation."
+ },
+ {
+  "id": "fmb-502301",
+  "title_en": "Optimization Methods for Machine Learning",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FMA",
+  "cp": 10,
+  "level": "Master",
+  "module_code": "502301",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Formulate machine learning problems as optimization tasks",
+   "Apply stochastic and deterministic gradient methods",
+   "Use penalization and regularization techniques",
+   "Implement optimization algorithms for SVMs and neural networks"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "optimization",
+   "machine learning",
+   "gradient methods"
+  ],
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": [
+   "sim_num"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "An advanced course on optimization methods for machine learning, covering gradient methods and models such as SVMs and neural networks."
+ },
+ {
+  "id": "fmb-501265",
+  "title_en": "Scientific Computing",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FMA",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "501265",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Implement numerical algorithms in a high-level language such as C",
+   "Analyze floating-point arithmetic and machine number errors",
+   "Use shell scripting and revision control for scientific software",
+   "Apply existing software packages in own numerical implementations"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "scientific computing",
+   "numerical algorithms",
+   "c programming"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "software_sys"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "A course on the practical implementation of numerical algorithms, covering floating-point arithmetic, C programming and scientific software tools."
+ },
+ {
+  "id": "etit-statistische-planung-und-auswertung-von-versuche",
+  "title_en": null,
+  "title_de": "Statistische Planung und Auswertung von Versuchen",
+  "language": "de",
+  "faculty": "FMA",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Evaluate experimental production data with statistical methods",
+   "Perform regression and correlation analysis for linear and nonlinear models",
+   "Determine confidence intervals of model parameters",
+   "Set up factorial and central composite designs of experiments"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "design of experiments",
+   "statistics",
+   "regression"
+  ],
+  "primary_cluster": "methods_skills",
+  "secondary_clusters": [
+   "data_eng"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Course on statistical evaluation of experimental data, regression analysis and design of experiments for first- and second-order models."
+ },
+ {
+  "id": "fmb-702262",
+  "title_en": "Sustainability Assessment for Biofuels",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FMA",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "702262",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Carry out a life cycle assessment for biofuels",
+   "Define system boundaries and apply cut-off and allocation rules",
+   "Select relevant impact categories for product systems",
+   "Use flow-sheet simulation to quantify energy and mass flows"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "life cycle assessment",
+   "biofuels",
+   "sustainability"
+  ],
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": [
+   "sim_num"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "A course on sustainability and life cycle assessment of biofuels, covering LCA methodology and renewable fuel production processes."
+ },
+ {
   "id": "fmb-603053",
   "title_en": "Advanced Applications of Industry 4.0-Technologies",
   "title_de": "Komplexe Anwendungen von Industrie 4.0-Technologien",
@@ -6535,68 +6581,6 @@
   "description_en": "Advanced course on applying Industry 4.0 technologies in production, logistics and mobility, analyzing application fields, trends and emerging business models."
  },
  {
-  "id": "fmb-103805",
-  "title_en": null,
-  "title_de": "Advanced Database Models",
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "103805",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Apply advanced and non-relational database models",
-   "Compare data models for specialized application domains",
-   "Select appropriate database technologies for given workloads",
-   "Reason about modern data management concepts"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "databases",
-   "data models",
-   "data management"
-  ],
-  "primary_cluster": "data_eng",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "An advanced course on database models and modern data management concepts taught through lectures and exercises."
- },
- {
-  "id": "fmb-702112",
-  "title_en": "Advanced Fluid Dynamics",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "702112",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Apply different forms of the Bernoulli equation to realistic flows",
-   "Distinguish and solve incompressible and compressible flows",
-   "Apply Navier-Stokes equations and similarity theory",
-   "Compute forces and torques induced by fluid flows"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "fluid dynamics",
-   "navier-stokes",
-   "compressible flow"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "mech_mat"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "An advanced course on fluid dynamics covering Bernoulli relations, Navier-Stokes equations and compressible and turbulent flows."
- },
- {
   "id": "fmb-601470",
   "title_en": "Advanced Mechanics of Materials",
   "title_de": "Fortgeschrittene Werkstoffmechanik",
@@ -6630,70 +6614,6 @@
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Advanced study of mechanical material behavior, constitutive modeling, fracture and fatigue, including non-local and AI-supported data-driven approaches."
- },
- {
-  "id": "fmb-502294",
-  "title_en": "Advanced Topics in Numerical Linear Algebra",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "502294",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Solve matrix equations for linear and quadratic systems",
-   "Compute and approximate matrix functions",
-   "Apply randomized algorithms in numerical linear algebra",
-   "Select numerical methods for dense and structured problems"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "numerical linear algebra",
-   "matrix functions",
-   "randomized algorithms"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "ml_ai"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "An advanced course on numerical linear algebra covering matrix equations, matrix functions and randomized algorithms."
- },
- {
-  "id": "fmb-800461",
-  "title_en": null,
-  "title_de": "Analyse und Berechnung elektrischer Systeme",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "800461",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Simulate and analyze electrical networks in time and frequency domain",
-   "Apply analytical and numerical methods to magnetic circuits",
-   "Model mechanical systems as equivalent electrical networks",
-   "Simulate magnetic fields and combine network and field methods"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "electrical networks",
-   "magnetic circuits",
-   "simulation"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "energy_sustain"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on analytical and numerical methods for simulating and analyzing electrical networks and magnetic circuits."
  },
  {
   "id": "fmb-601170",
@@ -6965,102 +6885,6 @@
   "description_en": "Collaborative management in logistics networks, covering coordination deficiencies, win-win partnerships, negotiation and collaborative IT control tools."
  },
  {
-  "id": "fmb-702073",
-  "title_en": "Computational Fluid Dynamics",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "702073",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Set up and run CFD simulations of complex flow problems",
-   "Apply finite difference, volume and element discretization methods",
-   "Critically analyze and validate CFD results",
-   "Use CFD software and supercomputing resources effectively"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "cfd",
-   "flow simulation",
-   "discretization",
-   "numerical methods"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "A hands-on course on computational fluid dynamics covering discretization methods, solvers and validation of flow simulations."
- },
- {
-  "id": "fmb-800441",
-  "title_en": "Computed Tomography I",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "800441",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Explain the system theory of imaging systems",
-   "Describe the physics of X-rays and computed tomography",
-   "Apply tomographic image reconstruction methods",
-   "Implement and correct reconstruction algorithms and artefacts"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "computed tomography",
-   "image reconstruction",
-   "imaging"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "viz"
-  ],
-  "notes": "",
-  "level_band": "introductory",
-  "kind": "course",
-  "description_en": "A course on computed tomography covering imaging system theory, X-ray physics and tomographic image reconstruction methods."
- },
- {
-  "id": "fmb-102809",
-  "title_en": null,
-  "title_de": "Computer Aided Geometric Design",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "102809",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Model curves and surfaces using parametric representations",
-   "Apply Bezier, B-spline and NURBS techniques for geometric design",
-   "Implement computer-aided geometric design algorithms",
-   "Construct and manipulate free-form geometry for CAD"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "cagd",
-   "geometric modeling",
-   "splines",
-   "cad"
-  ],
-  "primary_cluster": "design_plm",
-  "secondary_clusters": [
-   "viz"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on computer-aided geometric design covering curve and surface modeling for CAD applications."
- },
- {
   "id": "fmb-601393",
   "title_en": "Continuum Mechanics",
   "title_de": null,
@@ -7092,37 +6916,6 @@
   "level_band": "introductory",
   "kind": "course",
   "description_en": "Introduction to continuum mechanics field theories, covering tensor algebra, deformation kinematics, stress analysis, balance equations and material theory."
- },
- {
-  "id": "fmb-102808",
-  "title_en": null,
-  "title_de": "Data Warehouse-Technologies",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "102808",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Design and build data warehouse architectures",
-   "Model multidimensional schemas for analytical workloads",
-   "Implement ETL processes and OLAP operations",
-   "Apply data warehousing technologies for business intelligence"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "data warehouse",
-   "olap",
-   "etl",
-   "business intelligence"
-  ],
-  "primary_cluster": "data_eng",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on data warehouse technologies covering multidimensional modeling, ETL and analytical query processing."
  },
  {
   "id": "fmb-601467",
@@ -7157,69 +6950,6 @@
   "level_band": "introductory",
   "kind": "course",
   "description_en": "Introduction to data-driven and machine learning methods for the development, analysis and optimization of dynamic mechatronic systems."
- },
- {
-  "id": "fmb-100302",
-  "title_en": null,
-  "title_de": "Datenmanagement",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "100302",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Design relational database schemas",
-   "Write and optimize SQL queries",
-   "Apply data modeling and normalization principles",
-   "Manage data with relational database systems"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "databases",
-   "sql",
-   "data modeling",
-   "relational"
-  ],
-  "primary_cluster": "data_eng",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A core course on data management covering relational databases, data modeling and practical SQL exercises."
- },
- {
-  "id": "fmb-120501",
-  "title_en": null,
-  "title_de": "Decision Support Projekt (ehemals Startup-Engineering III)",
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "120501",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Build decision support solutions in a project setting",
-   "Apply decision analysis and modeling methods",
-   "Translate business problems into decision support concepts",
-   "Document and present project results"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "decision support",
-   "entrepreneurship",
-   "project"
-  ],
-  "primary_cluster": "innovation_mgmt",
-  "secondary_clusters": [
-   "methods_skills"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "project",
-  "description_en": "A project module in which students develop a decision-support solution, applying decision analysis and venture methods."
  },
  {
   "id": "fmb-601387",
@@ -7394,39 +7124,6 @@
   "description_en": "Modelling and simulation of multibody motion dynamics with a biomechanical focus on exoprostheses, including forward and inverse kinematics and dynamics."
  },
  {
-  "id": "fmb-800037",
-  "title_en": "Electrical Traction Drives",
-  "title_de": "Elektrische Antriebssysteme",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "800037",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Explain the structure and functions of electric drive systems",
-   "Select electrical drive systems for traction applications",
-   "Assess steady-state and dynamic drive characteristics",
-   "Analyse speed-torque behavior of electrical machines",
-   "Apply control strategies for variable-speed drives"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "electric drives",
-   "traction",
-   "drive control"
-  ],
-  "primary_cluster": "mobility",
-  "secondary_clusters": [
-   "energy_sustain"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Controlled and regulated electrical drive systems with a focus on traction drives, covering structure, machine characteristics and speed control strategies."
- },
- {
   "id": "fmb-601384",
   "title_en": null,
   "title_de": "Energy sources and energy storage",
@@ -7595,38 +7292,6 @@
   "level_band": "introductory",
   "kind": "course",
   "description_en": "Introduction to operations management and enterprise resource planning, covering forecasting, inventory, MRP/ERP, capacity planning and network optimization."
- },
- {
-  "id": "fmb-120469",
-  "title_en": "Evolutionary Multi-Objective Optimization",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "120469",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Formulate multi-objective optimization problems",
-   "Apply evolutionary algorithms to find Pareto-optimal solutions",
-   "Evaluate and compare evolutionary optimization methods",
-   "Solve complex optimization tasks with metaheuristics"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "evolutionary optimization",
-   "multi-objective",
-   "metaheuristics"
-  ],
-  "primary_cluster": "ml_ai",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "A course on evolutionary algorithms for solving multi-objective optimization problems and finding Pareto-optimal solutions."
  },
  {
   "id": "fmb-601124",
@@ -8125,70 +7790,6 @@
   "description_en": "Covers logistics and handling of bulk materials, including conveyor design, throughput calculation and DEM simulation of critical handling zones."
  },
  {
-  "id": "fmb-601430",
-  "title_en": "Human-Technology Interaction",
-  "title_de": "Hörakustik",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "601430",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Describe fundamental psychoacoustic quantities and their physical correlates",
-   "Apply measurement methods for hearing acoustics",
-   "Calculate loudness as a basic perceptual quantity",
-   "Characterize perception of noise, tonal sounds and binaural hearing"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "psychoacoustics",
-   "acoustics",
-   "noise perception"
-  ],
-  "primary_cluster": "mech_mat",
-  "secondary_clusters": [
-   "mobility"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "Teaches the fundamentals of psychoacoustics, including loudness calculation, sound measurement and perceptual characterization of technical and environmental noise."
- },
- {
-  "id": "fmb-901129",
-  "title_en": null,
-  "title_de": "Idea Engineering",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "901129",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Apply structured creativity techniques to generate ideas",
-   "Develop and refine innovative concepts systematically",
-   "Evaluate and select promising ideas",
-   "Document idea development in a written assignment"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "idea engineering",
-   "creativity",
-   "innovation"
-  ],
-  "primary_cluster": "innovation_mgmt",
-  "secondary_clusters": [
-   "methods_skills"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course teaching structured creativity and idea-generation techniques to systematically develop innovative concepts."
- },
- {
   "id": "fmb-601307",
   "title_en": null,
   "title_de": "Industrielles Projektmanagement",
@@ -8315,38 +7916,6 @@
   "level_band": "core",
   "kind": "course",
   "description_en": "Introduces intelligent transport systems combining IT, communication and traffic engineering for safer, more efficient mobility and connected autonomous driving."
- },
- {
-  "id": "fmb-100393",
-  "title_en": null,
-  "title_de": "Interaktive Systeme",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "100393",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Design interactive user interfaces",
-   "Apply interaction design principles and techniques",
-   "Develop and prototype interactive systems",
-   "Evaluate usability of interactive applications"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "interactive systems",
-   "interaction design",
-   "usability"
-  ],
-  "primary_cluster": "hci",
-  "secondary_clusters": [
-   "software_sys"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on the design and development of interactive systems, covering interaction techniques and user interface concepts."
  },
  {
   "id": "fmb-601428",
@@ -8533,7 +8102,7 @@
   ],
   "primary_cluster": "mech_mat",
   "secondary_clusters": [],
-  "notes": "CP-Originalwert '90' unplausibel→5 (FMB-Standard).",
+  "notes": "CP-Originalwert '90' unplausibel→5 (Katalog-Standard).",
   "level_band": "advanced",
   "kind": "course",
   "description_en": "Provides advanced understanding of metallic materials, linking crystal structure, dislocations and microstructure to mechanical and high-temperature properties."
@@ -8601,6 +8170,71 @@
   "level_band": "core",
   "kind": "course",
   "description_en": "Covers the basics of material behavior modeling, from experiment to mathematical equations for elastic, inelastic, damage and fracture behavior."
+ },
+ {
+  "id": "etit-mechatronic-systems-ii",
+  "title_en": "Mechatronic Systems II",
+  "title_de": "Mechatronische Systeme II",
+  "language": "de",
+  "faculty": "FMB",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Mechatronik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Model and simulate multi-domain mechatronic systems",
+   "Couple mechanical, electrical, thermal and hydraulic components in one model",
+   "Use Matlab/Simulink and toolboxes for mechatronic simulation",
+   "Build vehicle models capturing drive, steering, braking and driving dynamics"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "modeling and simulation",
+   "mechatronics",
+   "simulink",
+   "vehicle dynamics"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "mobility"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Course on modeling and simulating multi-domain mechatronic systems, including vehicle models, with Matlab/Simulink tools."
+ },
+ {
+  "id": "etit-mechatronics-iii",
+  "title_en": "Mechatronics III",
+  "title_de": "Mechatronik III",
+  "language": "de",
+  "faculty": "FMB",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Mechatronik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Formulate and structure mechatronic design problems",
+   "Apply the V-model of systems development",
+   "Use hierarchical and component-based design procedures",
+   "Evaluate parameter sensitivity, robustness and system optimization"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "mechatronics",
+   "systems design",
+   "v-model"
+  ],
+  "primary_cluster": "design_plm",
+  "secondary_clusters": [
+   "sim_num"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "Advanced course on integrated mechatronic system design using the V-model, component-based methods, robustness and optimization."
  },
  {
   "id": "fmb-601372",
@@ -8698,39 +8332,6 @@
   "level_band": "core",
   "kind": "course",
   "description_en": "Teaches simulation and simulation-based optimization for production and logistics planning across multiple paradigms and industry simulation tools."
- },
- {
-  "id": "fmb-501317",
-  "title_en": "Modeling, Simulation and Optimization",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "501317",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Model dynamic systems with differential equations",
-   "Formulate and solve optimal control problems",
-   "Apply parameter estimation and test planning methods",
-   "Implement optimization algorithms efficiently"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "modeling",
-   "simulation",
-   "optimization",
-   "optimal control"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "ml_ai"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on modeling, simulation and optimization of dynamic systems, covering optimal control and parameter estimation."
  },
  {
   "id": "fmb-601380",
@@ -8960,70 +8561,6 @@
   "description_en": "Teaches nonlinear finite element analysis, covering geometric and material nonlinearity, solution methods for nonlinear systems and contact problems."
  },
  {
-  "id": "fmb-502301",
-  "title_en": "Optimization Methods for Machine Learning",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 10,
-  "level": "Master",
-  "module_code": "502301",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Formulate machine learning problems as optimization tasks",
-   "Apply stochastic and deterministic gradient methods",
-   "Use penalization and regularization techniques",
-   "Implement optimization algorithms for SVMs and neural networks"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "optimization",
-   "machine learning",
-   "gradient methods"
-  ],
-  "primary_cluster": "ml_ai",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "An advanced course on optimization methods for machine learning, covering gradient methods and models such as SVMs and neural networks."
- },
- {
-  "id": "fmb-110463",
-  "title_en": "Parallel Programming",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "110463",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Develop parallel programs using established paradigms",
-   "Apply shared-memory and distributed parallelization techniques",
-   "Analyze and optimize performance of parallel code",
-   "Implement concurrent algorithms on multicore and HPC systems"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "parallel programming",
-   "concurrency",
-   "hpc"
-  ],
-  "primary_cluster": "software_sys",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "CP-Originalwert '120' unplausibel→5 (FMB-Standard).",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on parallel programming covering parallelization paradigms and performance optimization for multicore and HPC systems."
- },
- {
   "id": "fmb-604152",
   "title_en": null,
   "title_de": "Planung logistischer Systeme (PLS)",
@@ -9055,38 +8592,6 @@
   "level_band": "core",
   "kind": "project",
   "description_en": "A practice-oriented project module developing planning solutions for production and logistics systems through company case studies and team project work."
- },
- {
-  "id": "fmb-908730",
-  "title_en": null,
-  "title_de": "Politik und Nachhaltigkeit",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "908730",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Analyze political frameworks and actors shaping sustainability transitions",
-   "Apply theories and empirical data of sustainability research",
-   "Evaluate environmental policy instruments and their relevance",
-   "Discuss sustainability policy in written and oral form"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "sustainability",
-   "environmental policy",
-   "governance"
-  ],
-  "primary_cluster": "energy_sustain",
-  "secondary_clusters": [
-   "innovation_mgmt"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on the political frameworks, actors and instruments of sustainability policy, illustrated by German environmental policy."
  },
  {
   "id": "fmb-601410",
@@ -9342,38 +8847,6 @@
   "description_en": "A practice-oriented course on computer-aided industrial design, focusing on CAID/CAD tools, software interfaces, and complex product visualization."
  },
  {
-  "id": "fmb-800376",
-  "title_en": null,
-  "title_de": "Regelung von Drehstrommaschinen",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "800376",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Model AC machines using space-vector representation",
-   "Design control loops for synchronous and asynchronous machines",
-   "Apply field-oriented control and direct torque control",
-   "Evaluate machine types and control methods for applications"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "ac drives",
-   "field-oriented control",
-   "electric machines"
-  ],
-  "primary_cluster": "mobility",
-  "secondary_clusters": [
-   "energy_sustain"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "A course on the control of AC drives covering space-vector modeling, field-oriented control and direct torque control."
- },
- {
   "id": "fmb-601411",
   "title_en": "Resources and Recycling",
   "title_de": null,
@@ -9503,70 +8976,6 @@
   "description_en": "A course on the design of welded structures, covering weld-appropriate detailing, joint dimensioning, fatigue strength, and relevant standards and codes."
  },
  {
-  "id": "fmb-501265",
-  "title_en": "Scientific Computing",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "501265",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Implement numerical algorithms in a high-level language such as C",
-   "Analyze floating-point arithmetic and machine number errors",
-   "Use shell scripting and revision control for scientific software",
-   "Apply existing software packages in own numerical implementations"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "scientific computing",
-   "numerical algorithms",
-   "c programming"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "software_sys"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on the practical implementation of numerical algorithms, covering floating-point arithmetic, C programming and scientific software tools."
- },
- {
-  "id": "fmb-800302",
-  "title_en": null,
-  "title_de": "Sensorapplikationen",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 10,
-  "level": "Master",
-  "module_code": "800302",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Design and build sensor systems for a given application",
-   "Select sensors based on their functional principles",
-   "Acquire and microcontroller-based evaluation of measurement data",
-   "Test, document and present a sensor-based solution"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "sensors",
-   "measurement",
-   "embedded systems"
-  ],
-  "primary_cluster": "robotics",
-  "secondary_clusters": [
-   "methods_skills"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "project",
-  "description_en": "A two-semester practical project in which students design, build and test sensor systems for selected application domains."
- },
- {
   "id": "fmb-603028",
   "title_en": null,
   "title_de": "Simulation innermotorischer Prozesse",
@@ -9629,39 +9038,6 @@
   "level_band": "core",
   "kind": "course",
   "description_en": "A course on simulation methods for dynamical systems, covering vibration dynamics, time integration, eigenvalue analysis, multibody systems, and nonlinearities."
- },
- {
-  "id": "fmb-702268",
-  "title_en": "Simulations of Mechanical Processes",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "702268",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Model mechanical processes mathematically using statistical methods",
-   "Numerically solve ordinary differential equations for particle systems",
-   "Implement Monte-Carlo and stochastic solution methods",
-   "Develop and validate simulation programs for mechanical processes"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "simulation",
-   "mechanical processes",
-   "monte carlo",
-   "particle technology"
-  ],
-  "primary_cluster": "sim_num",
-  "secondary_clusters": [
-   "manufacturing"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "A course on simulating mechanical processes using statistical methods, numerical ODE solvers and Monte-Carlo techniques."
  },
  {
   "id": "fmb-604117",
@@ -9728,38 +9104,6 @@
   "level_band": "core",
   "kind": "course",
   "description_en": "A cross-disciplinary course introducing space biotechnology, gravitational biology, human spaceflight, and the commercial space economy in low Earth orbit."
- },
- {
-  "id": "fmb-120442",
-  "title_en": null,
-  "title_de": "Startup-Engineering II",
-  "language": "both",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "120442",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Develop a start-up concept within a team project",
-   "Apply entrepreneurship methods to validate business ideas",
-   "Plan and execute early-stage venture activities",
-   "Document and present a start-up project"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "startup",
-   "entrepreneurship",
-   "project"
-  ],
-  "primary_cluster": "innovation_mgmt",
-  "secondary_clusters": [
-   "methods_skills"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "project",
-  "description_en": "A project module where students develop and advance a start-up concept applying entrepreneurship and venture-building methods."
  },
  {
   "id": "fmb-604147",
@@ -9918,70 +9262,6 @@
   "description_en": "A course on logistics networks and logistics service providers, covering supply chain design, scenario-based network optimization, and inventory management."
  },
  {
-  "id": "fmb-702262",
-  "title_en": "Sustainability Assessment for Biofuels",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "702262",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Carry out a life cycle assessment for biofuels",
-   "Define system boundaries and apply cut-off and allocation rules",
-   "Select relevant impact categories for product systems",
-   "Use flow-sheet simulation to quantify energy and mass flows"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "life cycle assessment",
-   "biofuels",
-   "sustainability"
-  ],
-  "primary_cluster": "energy_sustain",
-  "secondary_clusters": [
-   "sim_num"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "course",
-  "description_en": "A course on sustainability and life cycle assessment of biofuels, covering LCA methodology and renewable fuel production processes."
- },
- {
-  "id": "fmb-909099",
-  "title_en": "Sustainability Conflicts and Governance of Natural Resources",
-  "title_de": null,
-  "language": "en",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "909099",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Critically evaluate the limits of quantitative growth and sustainability paradigms",
-   "Analyze resource-related distributional conflicts",
-   "Compare sustainability strategies across regional and global scales",
-   "Assess governance approaches for natural resources"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "sustainability",
-   "resource governance",
-   "conflict"
-  ],
-  "primary_cluster": "energy_sustain",
-  "secondary_clusters": [
-   "innovation_mgmt"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "seminar",
-  "description_en": "A seminar examining sustainability conflicts, the limits of growth and governance approaches for natural resources."
- },
- {
   "id": "fmb-604179",
   "title_en": null,
   "title_de": "Sustainable Design",
@@ -10075,134 +9355,6 @@
   "level_band": "core",
   "kind": "course",
   "description_en": "A course on technical innovation management, enabling students to plan, classify, steer, and evaluate product, process, and technology innovation processes."
- },
- {
-  "id": "fmb-906030",
-  "title_en": null,
-  "title_de": "Technologien im Sport I (ehemals Sportgerätetechnik I)",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "906030",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Analyze the design and function of sports equipment",
-   "Evaluate materials and technologies used in sports devices",
-   "Assess performance characteristics of sports technology",
-   "Present technical sports-equipment topics in a seminar"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "sports technology",
-   "sports equipment",
-   "materials"
-  ],
-  "primary_cluster": "mech_mat",
-  "secondary_clusters": [
-   "design_plm"
-  ],
-  "notes": "",
-  "level_band": "introductory",
-  "kind": "seminar",
-  "description_en": "A seminar introducing the technologies and materials used in sports equipment and their performance characteristics."
- },
- {
-  "id": "fmb-technologien-im-sport-ii-ehemals-sportgeratetech",
-  "title_en": null,
-  "title_de": "Technologien im Sport II (ehemals Sportgerätetechnik II)",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Analyze advanced sports-equipment technologies",
-   "Evaluate materials and construction of sports devices",
-   "Assess performance and biomechanical aspects of sports technology",
-   "Present technical sports topics in a seminar"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "sports technology",
-   "sports equipment",
-   "materials"
-  ],
-  "primary_cluster": "mech_mat",
-  "secondary_clusters": [
-   "design_plm"
-  ],
-  "notes": "",
-  "level_band": "core",
-  "kind": "seminar",
-  "description_en": "A seminar on sports-equipment technology, continuing the study of materials, construction and performance of sports devices."
- },
- {
-  "id": "fmb-920011",
-  "title_en": null,
-  "title_de": "Technologien im Sport III (ehemals Technologien im Sport)",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "920011",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Analyze specialized sports-technology topics in depth",
-   "Evaluate materials and engineering of advanced sports devices",
-   "Assess technological developments in sports equipment",
-   "Present technical sports topics in a seminar"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "sports technology",
-   "sports equipment",
-   "materials"
-  ],
-  "primary_cluster": "mech_mat",
-  "secondary_clusters": [
-   "design_plm"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "seminar",
-  "description_en": "An advanced seminar exploring specialized topics in sports technology and the engineering of sports equipment."
- },
- {
-  "id": "fmb-technologien-im-sport-iv-ehemals-technologien-im",
-  "title_en": null,
-  "title_de": "Technologien im Sport IV (ehemals Technologien im Sport)",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": null,
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Investigate advanced sports-technology research topics",
-   "Evaluate cutting-edge materials and methods in sports equipment",
-   "Assess innovations in sports technology critically",
-   "Present specialized sports topics in a seminar"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "sports technology",
-   "sports equipment",
-   "materials"
-  ],
-  "primary_cluster": "mech_mat",
-  "secondary_clusters": [
-   "design_plm"
-  ],
-  "notes": "",
-  "level_band": "advanced",
-  "kind": "seminar",
-  "description_en": "An advanced seminar on selected research topics in sports technology and the engineering of sports devices."
  },
  {
   "id": "fmb-601378",
@@ -10426,36 +9578,6 @@
   "level_band": "advanced",
   "kind": "lab",
   "description_en": "A course with lab exercises on vibro-acoustics, covering sound radiation and transmission of structures, measurement methods, and active noise reduction."
- },
- {
-  "id": "fmb-102812",
-  "title_en": null,
-  "title_de": "Visualisierung",
-  "language": "de",
-  "faculty": "FMB",
-  "cp": 5,
-  "level": "Master",
-  "module_code": "102812",
-  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
-  "source_url": null,
-  "competencies": [
-   "Apply scientific and information visualization techniques",
-   "Design effective visual representations of data",
-   "Implement visualization pipelines and rendering methods",
-   "Evaluate and interpret visualizations critically"
-  ],
-  "prerequisites": [],
-  "topic_tags": [
-   "visualization",
-   "scientific visualization",
-   "rendering"
-  ],
-  "primary_cluster": "viz",
-  "secondary_clusters": [],
-  "notes": "",
-  "level_band": "core",
-  "kind": "course",
-  "description_en": "A course on data and scientific visualization covering techniques for creating effective visual representations of data."
  },
  {
   "id": "fmb-603073",
@@ -10715,5 +9837,458 @@
   "level_band": "core",
   "kind": "course",
   "description_en": "A course on time management and data collection, teaching efficient time-data acquisition and time-economy optimization of production systems."
+ },
+ {
+  "id": "etit-computational-neuroscience-i",
+  "title_en": null,
+  "title_de": "Computational Neuroscience I",
+  "language": "de",
+  "faculty": "FNW",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Describe biophysical generation of neuronal activity mathematically",
+   "Model neurons with RC, LIF and Hodgkin-Huxley equations",
+   "Analyse encoding and decoding of sensory information",
+   "Apply Bayesian estimation and information-theoretic measures",
+   "Simulate dynamical neural systems in self-written programs"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "computational neuroscience",
+   "neural coding",
+   "bayesian inference",
+   "simulation"
+  ],
+  "primary_cluster": "ml_ai",
+  "secondary_clusters": [
+   "sim_num"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Biophysical foundations of neuronal activity and neural coding, with mathematical models, Bayesian decoding and information theory."
+ },
+ {
+  "id": "fmb-601430",
+  "title_en": "Human-Technology Interaction",
+  "title_de": "Hörakustik",
+  "language": "de",
+  "faculty": "FNW",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "601430",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Describe fundamental psychoacoustic quantities and their physical correlates",
+   "Apply measurement methods for hearing acoustics",
+   "Calculate loudness as a basic perceptual quantity",
+   "Characterize perception of noise, tonal sounds and binaural hearing"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "psychoacoustics",
+   "acoustics",
+   "noise perception"
+  ],
+  "primary_cluster": "mech_mat",
+  "secondary_clusters": [
+   "mobility"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Teaches the fundamentals of psychoacoustics, including loudness calculation, sound measurement and perceptual characterization of technical and environmental noise."
+ },
+ {
+  "id": "fmb-702112",
+  "title_en": "Advanced Fluid Dynamics",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FVST",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "702112",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Apply different forms of the Bernoulli equation to realistic flows",
+   "Distinguish and solve incompressible and compressible flows",
+   "Apply Navier-Stokes equations and similarity theory",
+   "Compute forces and torques induced by fluid flows"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "fluid dynamics",
+   "navier-stokes",
+   "compressible flow"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "mech_mat"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "An advanced course on fluid dynamics covering Bernoulli relations, Navier-Stokes equations and compressible and turbulent flows."
+ },
+ {
+  "id": "fmb-702073",
+  "title_en": "Computational Fluid Dynamics",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FVST",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "702073",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Set up and run CFD simulations of complex flow problems",
+   "Apply finite difference, volume and element discretization methods",
+   "Critically analyze and validate CFD results",
+   "Use CFD software and supercomputing resources effectively"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "cfd",
+   "flow simulation",
+   "discretization",
+   "numerical methods"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "A hands-on course on computational fluid dynamics covering discretization methods, solvers and validation of flow simulations."
+ },
+ {
+  "id": "etit-computational-fluid-dynamics",
+  "title_en": null,
+  "title_de": "Computational Fluid Dynamics",
+  "language": "both",
+  "faculty": "FVST",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Simulate complex flow processes using numerical flow simulation",
+   "Generate high-quality grids and choose appropriate discretization",
+   "Assess convergence, residuals and validate CFD results critically",
+   "Simulate turbulent, multiphase and non-Newtonian flows"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "cfd",
+   "fluid dynamics",
+   "simulation",
+   "turbulence"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Course on computational fluid dynamics covering grid generation, discretization, validation and simulation of turbulent and multiphase flows."
+ },
+ {
+  "id": "etit-disperse-systeme-der-verfahrenstechnik-polymere",
+  "title_en": null,
+  "title_de": "Disperse Systeme der Verfahrenstechnik: Polymere, Kristalle,",
+  "language": "en",
+  "faculty": "FVST",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Model disperse systems using mass, energy and population balances",
+   "Analyze crystallization, polymerization and emulsion systems",
+   "Quantify kinetics and thermodynamics of dispersed-phase mechanisms",
+   "Model, optimize and design processes involving a dispersed phase"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "disperse systems",
+   "population balance",
+   "crystallization",
+   "polymerization"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "mech_mat"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Course on modeling disperse systems via balance equations, covering crystallization, polymerization and emulsion process design."
+ },
+ {
+  "id": "etit-fluidenergiemaschinen",
+  "title_en": null,
+  "title_de": "Fluidenergiemaschinen",
+  "language": "de",
+  "faculty": "FVST",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Explain working principles and construction of turbomachines",
+   "Select and dimension pumps, turbines and compressors",
+   "Analyse operating behaviour and control for optimal energy conversion",
+   "Apply affinity laws and dimensionless characteristic numbers",
+   "Assess energy transfer in fluid-flow machines"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "turbomachinery",
+   "pumps",
+   "turbines",
+   "energy conversion"
+  ],
+  "primary_cluster": "energy_sustain",
+  "secondary_clusters": [
+   "sim_num"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Fundamentals, design, operation and control of fluid-energy machines such as pumps, turbines and compressors for efficient energy conversion."
+ },
+ {
+  "id": "etit-modellierung-mit-populationsbilanzen",
+  "title_en": null,
+  "title_de": "Modellierung mit Populationsbilanzen",
+  "language": "de",
+  "faculty": "FVST",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Recognize population-dynamic mechanisms in disperse systems",
+   "Formulate and analyze population-balance models mathematically",
+   "Solve population balances with specialized numerical methods",
+   "Apply population-balance results to process design and operation"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "population balance",
+   "modeling",
+   "disperse systems",
+   "numerical methods"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Course on formulating, analyzing and numerically solving population-balance models for disperse systems in particle and bioprocess engineering."
+ },
+ {
+  "id": "etit-molekulares-modellieren",
+  "title_en": null,
+  "title_de": "Molekulares Modellieren",
+  "language": "de",
+  "faculty": "FVST",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Apply molecular modeling tools across spatial and temporal scales",
+   "Use Monte-Carlo methods for equilibrium and dynamic simulations",
+   "Run molecular-dynamics simulations of diffusion and nucleation",
+   "Match process-engineering problems to adequate models and numerical methods"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "molecular modeling",
+   "molecular dynamics",
+   "monte carlo",
+   "simulation"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "mech_mat"
+  ],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Course teaching molecular modeling and simulation as an engineering tool using Monte-Carlo, molecular-dynamics and quantum-mechanical methods."
+ },
+ {
+  "id": "etit-prozesssimulation",
+  "title_en": null,
+  "title_de": "Prozesssimulation",
+  "language": "de",
+  "faculty": "FVST",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Perform steady-state and dynamic process simulation in Aspen Plus/Dynamics",
+   "Model unit operations such as reactors, columns and heat exchangers",
+   "Configure recycle streams and overall process flowsheets",
+   "Evaluate alternative process variants for conceptual process design"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "process simulation",
+   "aspen plus",
+   "flowsheet",
+   "process design"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "core",
+  "kind": "course",
+  "description_en": "Course on conceptual process design via steady-state and dynamic simulation of chemical processes using Aspen Plus and Aspen Dynamics."
+ },
+ {
+  "id": "etit-simulation-of-mechanical-processes",
+  "title_en": null,
+  "title_de": "Simulation of Mechanical Processes",
+  "language": "en",
+  "faculty": "FVST",
+  "cp": 3,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Characterize disperse particle systems with statistical material properties",
+   "Analyze stochastic and dynamic particle conversion processes",
+   "Apply multiscale modeling and population balances to comminution and separation",
+   "Evaluate and design particle-processing process systems"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "particle technology",
+   "simulation",
+   "population balance",
+   "comminution"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "manufacturing"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "Advanced course on multiscale modeling and simulation of stochastic, dynamic mechanical particle processes such as comminution and separation."
+ },
+ {
+  "id": "etit-simulation-und-steuerung-regelung-der-biol-abwas",
+  "title_en": null,
+  "title_de": "Simulation und Steuerung/Regelung der biol. Abwasserreinigung",
+  "language": "de",
+  "faculty": "FVST",
+  "cp": 2,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Build dynamic simulation models of wastewater treatment plants",
+   "Apply activated sludge models (ASM3) to biological treatment",
+   "Calibrate and verify plant models with simulation software",
+   "Design measurement and oxygen control concepts for treatment plants",
+   "Combine steady-state design with dynamic simulation"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "dynamic simulation",
+   "wastewater treatment",
+   "activated sludge model",
+   "process control"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "energy_sustain"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "Dynamic simulation and control of biological wastewater treatment using activated sludge models for reliable, economic plant operation."
+ },
+ {
+  "id": "fmb-702268",
+  "title_en": "Simulations of Mechanical Processes",
+  "title_de": null,
+  "language": "en",
+  "faculty": "FVST",
+  "cp": 5,
+  "level": "Master",
+  "module_code": "702268",
+  "source": "Modulkatalog FMB-Masterstudiengänge (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Model mechanical processes mathematically using statistical methods",
+   "Numerically solve ordinary differential equations for particle systems",
+   "Implement Monte-Carlo and stochastic solution methods",
+   "Develop and validate simulation programs for mechanical processes"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "simulation",
+   "mechanical processes",
+   "monte carlo",
+   "particle technology"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [
+   "manufacturing"
+  ],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "A course on simulating mechanical processes using statistical methods, numerical ODE solvers and Monte-Carlo techniques."
+ },
+ {
+  "id": "etit-stromungsmechanik-ii",
+  "title_en": null,
+  "title_de": "Strömungsmechanik II",
+  "language": "de",
+  "faculty": "FVST",
+  "cp": 4,
+  "level": "Master",
+  "module_code": null,
+  "source": "Modulhandbuch M.Sc. Systemtechnik und Technische Kybernetik (PDF)",
+  "source_url": null,
+  "competencies": [
+   "Analyze and compute complex flows in process engineering apparatus",
+   "Treat compressible flows with friction, heat transfer and shock waves",
+   "Model laminar and turbulent boundary layers and turbulence",
+   "Analyze multiphase and non-Newtonian fluid flows"
+  ],
+  "prerequisites": [],
+  "topic_tags": [
+   "fluid mechanics",
+   "turbulence",
+   "multiphase flow",
+   "compressible flow"
+  ],
+  "primary_cluster": "sim_num",
+  "secondary_clusters": [],
+  "notes": "",
+  "level_band": "advanced",
+  "kind": "course",
+  "description_en": "Advanced fluid mechanics course on complex flows including compressible, turbulent, multiphase and non-Newtonian flow phenomena."
  }
 ]

@@ -23,10 +23,10 @@
     "evolutionary optimization",
     "ML safety"
    ],
-   "count_total": 26,
-   "count_incl_secondary": 44,
-   "count_en_finfmb": 12,
-   "cp_en_finfmb": 75
+   "count_total": 25,
+   "count_incl_secondary": 43,
+   "count_en_finfmb": 11,
+   "cp_en_finfmb": 65
   },
   {
    "key": "data_eng",
@@ -47,7 +47,7 @@
     "storage"
    ],
    "count_total": 14,
-   "count_incl_secondary": 31,
+   "count_incl_secondary": 30,
    "count_en_finfmb": 11,
    "cp_en_finfmb": 65
   },
@@ -112,7 +112,7 @@
     "factory automation"
    ],
    "count_total": 20,
-   "count_incl_secondary": 41,
+   "count_incl_secondary": 39,
    "count_en_finfmb": 4,
    "cp_en_finfmb": 23
   },
@@ -135,10 +135,10 @@
     "continuum mechanics",
     "modeling and simulation"
    ],
-   "count_total": 53,
-   "count_incl_secondary": 99,
-   "count_en_finfmb": 17,
-   "cp_en_finfmb": 87
+   "count_total": 46,
+   "count_incl_secondary": 91,
+   "count_en_finfmb": 10,
+   "cp_en_finfmb": 52
   },
   {
    "key": "mech_mat",
@@ -302,8 +302,8 @@
     "programming paradigms",
     "computer science for engineers"
    ],
-   "count_total": 21,
-   "count_incl_secondary": 49,
+   "count_total": 20,
+   "count_incl_secondary": 47,
    "count_en_finfmb": 10,
    "cp_en_finfmb": 59
   },
@@ -326,10 +326,10 @@
     "space economy",
     "life cycle"
    ],
-   "count_total": 40,
-   "count_incl_secondary": 56,
-   "count_en_finfmb": 4,
-   "cp_en_finfmb": 20
+   "count_total": 39,
+   "count_incl_secondary": 51,
+   "count_en_finfmb": 2,
+   "cp_en_finfmb": 10
   },
   {
    "key": "innovation_mgmt",
@@ -373,8 +373,8 @@
     "zeitmanagement",
     "praktikum"
    ],
-   "count_total": 22,
-   "count_incl_secondary": 41,
+   "count_total": 19,
+   "count_incl_secondary": 38,
    "count_en_finfmb": 9,
    "cp_en_finfmb": 60
   }

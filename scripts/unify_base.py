@@ -101,7 +101,7 @@ for m in fmb:
         "id": "fmb-" + (ex if ex else slug(title_de or title_en)),
         "title_en": title_en or None, "title_de": title_de or None,
         "language": lang or "de",
-        "faculty": "FMB",
+        "faculty": m.get("faculty") or "FMB",
         "cp": num_cp(m["cp"]),
         "level": "Master",
         "module_code": ex,
@@ -117,16 +117,22 @@ etit = json.load(open("data/raw_modules_etit.json"))
 for m in etit:
     title_en = (m.get("title_en") or "").strip()
     title_de = (m.get("title_de") or "").strip()
+    title = title_en or title_de
+    cpv = num_cp(m["cp"])
+    # drop non-modules: Vertiefungen / programme totals (>=12 CP), theses, parse artefacts
+    if (cpv is not None and cpv >= 12) or len(title.strip()) < 3 or \
+       re.match(r"(Qualifikationsziele|Lernziele|Arbeitsaufwand|Inhalt|Teilnahmevoraussetzung)", title, re.I):
+        continue
     lang = norm_lang(m.get("language_raw"), m.get("text"))
     modules.append({
         "id": "etit-" + slug(title_en or title_de),
         "title_en": title_en or None, "title_de": title_de or None,
         "language": lang or "de",
-        "faculty": "FEIT",
-        "cp": num_cp(m["cp"]),
+        "faculty": m.get("faculty") or "FEIT",
+        "cp": cpv,
         "level": "Master",
         "module_code": None,
-        "source": "Modulhandbuch " + m.get("program", "ETIT") + " (PDF)",
+        "source": "Modulhandbuch " + m.get("program", "FEIT") + " (PDF)",
         "source_url": None,
         "competencies": [], "prerequisites": [], "topic_tags": [],
         "primary_cluster": None, "secondary_clusters": [], "notes": "",
@@ -145,9 +151,9 @@ for m in modules:
         m["title_de"] = "Projektmodul (FMB)"
         m["title_en"] = m["title_en"] or "Project module (FMB)"
         m["notes"] = (m["notes"] + " CP aus Titel abgeleitet.").strip()
-    if m["faculty"] == "FMB":
+    if "FMB" in (m.get("source") or ""):   # all FMB-catalog modules (incl. re-attributed imports)
         if m["cp"] is None or not (3 <= (m["cp"] or 0) <= 15):
-            m["notes"] = (m["notes"] + f" CP-Originalwert '{m['cp']}' unplausibel→5 (FMB-Standard).").strip()
+            m["notes"] = (m["notes"] + f" CP-Originalwert '{m['cp']}' unplausibel→5 (Katalog-Standard).").strip()
             m["cp"] = 5
 
 # ---- de-dup ids ----

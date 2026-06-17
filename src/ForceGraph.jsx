@@ -10,7 +10,10 @@ const CLUSTER_ORDER = [
   "industry40", "robotics", "sim_num", "energy_sustain",
   "mech_mat", "manufacturing", "design_plm", "mobility",
 ];
-const FAC_COLOR = { FIN: "#2B3A55", FMB: "#6E5A3A", FEIT: "#9A968D" };
+// FIN & FMB (the two programme-bearing faculties) get distinct strokes; all other
+// (import / substitute-only) faculties share a muted neutral.
+const FAC_COLOR = { FIN: "#2B3A55", FMB: "#6E5A3A" };
+const facStroke = (f) => FAC_COLOR[f] || "#9A968D";
 const nodeRadius = (d) => 4 + Math.sqrt(d.cp || 5) * 1.15;
 
 export default function ForceGraph({
@@ -270,10 +273,10 @@ export default function ForceGraph({
         if (profSets) {
           if (profSets.core.has(d.id)) return "#1C1B19";
           if (profSets.sub.has(d.id)) return colorOf[d.cluster];
-          if (profSets.eligible.has(d.id)) return FAC_COLOR[d.faculty];
+          if (profSets.eligible.has(d.id)) return facStroke(d.faculty);
           return "transparent";
         }
-        return FAC_COLOR[d.faculty];
+        return facStroke(d.faculty);
       })
       .attr("stroke-width", (d) => (d.id === selectedId ? 2.6 : profSets?.core.has(d.id) ? 2 : 1.1))
       .attr("stroke-dasharray", (d) => (profSets && profSets.sub.has(d.id) && !profSets.eligible.has(d.id) ? "2 2" : null))

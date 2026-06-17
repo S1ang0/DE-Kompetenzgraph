@@ -23,7 +23,7 @@ const KIND_LABEL = { course: "Vorlesung", seminar: "Seminar", project: "Projekt"
 const LEVEL_LABEL = { introductory: "Einführung", core: "Kern", advanced: "Vertiefung" };
 const NEW_COLORS = ["#5B7DB1", "#4E9C8B", "#9A6FA8", "#B07C57", "#6F8C4E", "#A86C86", "#557A9E", "#8C8C8C"];
 
-const LS_KEY = "de_workspace_v2";
+const LS_KEY = "de_workspace_v3";   // bumped after faculty re-attribution + FEIT cleanup
 const loadLS = () => { try { return JSON.parse(localStorage.getItem(LS_KEY)); } catch { return null; } };
 const uid = (p) => p + Math.random().toString(36).slice(2, 7);
 
@@ -127,7 +127,7 @@ export default function App() {
           <button className="btn btn--ghost rail-toggle" onClick={() => setRailOpen((v) => !v)} aria-label="Filter ein-/ausblenden">{I.filter}</button>
           <div className="head__brand">
             <h1 className="head__title">M.Sc. Digital Engineering</h1>
-            <span className="head__sub">Modul- &amp; Profilierungsgraph · FIN · FMB · FEIT</span>
+            <span className="head__sub">Modul- &amp; Profilierungsgraph · FIN + FMB + Importmodule</span>
           </div>
           <div className="head__spacer" />
           <div className="head__stats" aria-hidden="true">
@@ -178,6 +178,11 @@ export default function App() {
 /* ───────────────────────────────── Rail ──────────────────────────────────── */
 function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels, showHulls, setShowHulls }) {
   const clusterCounts = useMemo(() => { const c = {}; data.modules.forEach((x) => (c[x.cluster] = (c[x.cluster] || 0) + 1)); return c; }, [data]);
+  const faculties = useMemo(() => {
+    const order = ["FIN", "FMB", "FEIT", "FMA", "FVST", "FHW", "FNW", "FWW"];
+    const present = new Set(data.modules.map((m) => m.faculty));
+    return order.filter((f) => present.has(f)).concat([...present].filter((f) => !order.includes(f)));
+  }, [data]);
   return (
     <div className="rail__scroll">
       <div className="rail__section">
@@ -188,10 +193,13 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
       </div>
       <div className="rail__section">
         <div className="rail__head"><span className="eyebrow">Fakultät</span></div>
-        <div className="seg" role="group" aria-label="Fakultät filtern">
-          {["FIN", "FMB", "FEIT"].map((f) => (<button key={f} aria-pressed={filters.faculties.has(f)} onClick={() => toggleSet("faculties", f)}>{f}</button>))}
+        <div className="row wrap gap2" role="group" aria-label="Fakultät filtern">
+          {faculties.map((f) => (
+            <button key={f} className="chip" aria-pressed={filters.faculties.has(f)} onClick={() => toggleSet("faculties", f)}>{f}</button>
+          ))}
         </div>
-        <div style={{ height: 12 }} />
+        <p className="muted" style={{ fontSize: 11, marginTop: 8, lineHeight: 1.4 }}>FIN + FMB tragen das Programm; übrige Fakultäten = importierte Module (nur Substitute).</p>
+        <div style={{ height: 16 }} />
         <div className="rail__head"><span className="eyebrow">Sprache</span></div>
         <div className="seg" role="group" aria-label="Sprache filtern">
           {[["en", "Englisch"], ["de", "Deutsch"]].map(([k, l]) => (<button key={k} aria-pressed={filters.languages.has(k)} onClick={() => toggleSet("languages", k)}>{l}</button>))}

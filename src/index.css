@@ -178,7 +178,7 @@ a:hover { text-decoration: underline; }
 }
 .badge--fin  { color: var(--fin);  border-color: #C7CCD8; background: #F1F3F7; }
 .badge--fmb  { color: var(--fmb);  border-color: #D9CFB9; background: #F6F1E6; }
-.badge--feit { color: var(--feit); border-color: var(--line-2); background: var(--surface-2); }
+.badge--feit, .badge--fma, .badge--fvst, .badge--fhw, .badge--fnw, .badge--fww { color: var(--feit); border-color: var(--line-2); background: var(--surface-2); }
 .badge--en   { color: #2E5E5A; border-color: #C5DAD6; background: #EEF5F3; }
 .badge--de   { color: #7A4E2E; border-color: #E2D2C2; background: #F8F0E8; }
 

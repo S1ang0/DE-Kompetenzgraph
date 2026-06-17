@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Parse the FMB master module catalog (data/raw_text/Modulkatalog_FMB...txt) into
 raw module records. Output: data/raw_modules_fmb.json"""
-import re, json, os
+import re, json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from faculty import detect_faculty
 
 F = "data/raw_text/Modulkatalog_FMB_Masterstudienga_nge.txt"
 text = open(F, encoding="utf-8").read()
@@ -55,7 +57,7 @@ for i, m in enumerate(matches):
     lang_raw = lang_normalize(block, m.group(0))
     mods.append({
         "source": "Modulkatalog_FMB-Masterstudiengaenge.pdf",
-        "faculty": "FMB",
+        "faculty": detect_faculty(block) or "FMB",
         "exam_number": exam,
         "title_de": title_de,
         "title_en": title_en,

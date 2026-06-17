@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Parse the 5 ETIT handbooks into raw module records (substitutes-only pool).
 Output: data/raw_modules_etit.json  (deduped across files by normalized English/German title)."""
-import re, json, os, glob, collections
+import re, json, os, glob, collections, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from faculty import detect_faculty
 
 FILES = {
     "Module_Descriptions_M_Sc_Electrical_Engineering_and_Information_Technology_from_March_04_2026.txt": "M.Sc. Electrical Engineering and IT (EN)",
@@ -68,7 +70,7 @@ def parse_file(fname, prog):
             continue
         out.append({
             "source": fname.replace(".txt", ".pdf"),
-            "program": prog, "faculty": "FEIT",
+            "program": prog, "faculty": detect_faculty(blk) or "FEIT",
             "title_de": title_de, "title_en": title_en,
             "cp": cp_of(blk), "language_raw": lang_of(blk),
             "text": blk[:4500],
