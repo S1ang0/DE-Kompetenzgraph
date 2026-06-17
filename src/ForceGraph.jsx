@@ -1,5 +1,6 @@
 import { useEffect, useRef, useMemo, useState } from "react";
 import * as d3 from "d3";
+import { nodeGlyphD } from "./glyphs.js";
 
 // Order clusters so FIN-leaning topics sit on one side, FMB-leaning on the other,
 // bridges in between — this lays out the FIN×FMB story spatially. Unknown/new clusters
@@ -15,23 +16,6 @@ const CLUSTER_ORDER = [
 const FAC_COLOR = { FIN: "#2B3A55", FMB: "#6E5A3A" };
 const facStroke = (f) => FAC_COLOR[f] || "#9A968D";
 const nodeRadius = (d) => 4 + Math.sqrt(d.cp || 5) * 1.15;
-
-// Node glyph encodes the offering semester: snowflake = winter, sun = summer, circle = both.
-function starPath(n, R, k) {
-  const ri = R * k; let s = "";
-  for (let i = 0; i < 2 * n; i++) {
-    const r = i % 2 === 0 ? R : ri, a = -Math.PI / 2 + (i * Math.PI) / n;
-    s += (i ? "L" : "M") + (Math.cos(a) * r).toFixed(1) + "," + (Math.sin(a) * r).toFixed(1);
-  }
-  return s + "Z";
-}
-const circlePath = (r) => `M${-r},0A${r},${r} 0 1,0 ${r},0A${r},${r} 0 1,0 ${-r},0Z`;
-function glyphPath(d) {
-  const r = nodeRadius(d);
-  if (d.semester === "winter") return starPath(6, r * 1.8, 0.34);   // snowflake
-  if (d.semester === "summer") return starPath(8, r * 1.5, 0.62);   // sun
-  return circlePath(r);                                             // both / unknown
-}
 
 export default function ForceGraph({
   dataset, filters, selectedId, onSelect, activeProfile, showLabels, showHulls,
@@ -139,7 +123,7 @@ export default function ForceGraph({
       .attr("class", "link").attr("stroke-width", (d) => 0.6 + d.weight * 0.12);
 
     const node = gNode.selectAll("path").data(nodes, (d) => d.id).join("path")
-      .attr("class", "node").attr("d", glyphPath)
+      .attr("class", "node").attr("d", (d) => nodeGlyphD(d.semester, nodeRadius(d)))
       .on("click", (e, d) => { e.stopPropagation(); onSelect(d.id); })
       .on("mouseenter", (e, d) => {
         const rect = wrapRef.current.getBoundingClientRect();
@@ -361,7 +345,7 @@ export default function ForceGraph({
       {tip && (
         <div className="tooltip" style={{ left: tip.x, top: tip.y }} role="presentation">
           <b>{tip.d.label}</b>
-          <div className="tooltip__meta">{tip.d.faculty} · {tip.d.cp} CP · {tip.d.language.toUpperCase()} · {tip.d.semester === "winter" ? "❄ Winter" : tip.d.semester === "summer" ? "☀ Sommer" : "Winter + Sommer"} · {nameOf[tip.d.cluster]}</div>
+          <div className="tooltip__meta">{tip.d.faculty} · {tip.d.cp} CP · {tip.d.language.toUpperCase()} · {tip.d.semester === "winter" ? "Winter" : tip.d.semester === "summer" ? "Sommer" : "Winter + Sommer"} · {nameOf[tip.d.cluster]}</div>
         </div>
       )}
     </div>

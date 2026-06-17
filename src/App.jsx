@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import ForceGraph from "./ForceGraph.jsx";
 import { computeProfiles, computeProfile, toDef } from "./profiles.js";
+import { uiGlyphD } from "./glyphs.js";
 
 /* ───────────────────────── icons (single consistent line set) ───────────── */
 const I = {
@@ -21,7 +22,16 @@ const I = {
 const LANG_LABEL = { en: "Englisch", de: "Deutsch", both: "Zweisprachig" };
 const KIND_LABEL = { course: "Vorlesung", seminar: "Seminar", project: "Projekt", lab: "Labor", thesis: "Abschlussarbeit", skills: "Schlüsselkompetenz" };
 const LEVEL_LABEL = { introductory: "Einführung", core: "Kern", advanced: "Vertiefung" };
-const SEM_LABEL = { winter: "❄ Wintersem.", summer: "☀ Sommersem.", both: "Winter + Sommer" };
+const SEM_LABEL = { winter: "Wintersem.", summer: "Sommersem.", both: "Winter + Sommer" };
+
+// same shapes as the graph nodes (snowflake / sun / circle), drawn from the shared glyph module
+function SemesterGlyph({ semester, size = 14 }) {
+  return (
+    <svg width={size} height={size} viewBox="-13 -13 26 26" aria-hidden="true" style={{ flex: "none", verticalAlign: "-2px" }}>
+      <path d={uiGlyphD(semester)} fill="currentColor" />
+    </svg>
+  );
+}
 const NEW_COLORS = ["#5B7DB1", "#4E9C8B", "#9A6FA8", "#B07C57", "#6F8C4E", "#A86C86", "#557A9E", "#8C8C8C"];
 
 const LS_KEY = "de_workspace_v4";   // bumped after adding the semester field
@@ -208,8 +218,10 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
         <div style={{ height: 16 }} />
         <div className="rail__head"><span className="eyebrow">Semester</span></div>
         <div className="seg" role="group" aria-label="Semester filtern">
-          {[["winter", "❄ Winter"], ["summer", "☀ Sommer"], ["both", "Beide"]].map(([k, l]) => (
-            <button key={k} aria-pressed={filters.semesters.has(k)} onClick={() => toggleSet("semesters", k)}>{l}</button>
+          {[["winter", "Winter"], ["summer", "Sommer"], ["both", "Beide"]].map(([k, l]) => (
+            <button key={k} aria-pressed={filters.semesters.has(k)} onClick={() => toggleSet("semesters", k)}>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 5 }}><SemesterGlyph semester={k} size={13} />{l}</span>
+            </button>
           ))}
         </div>
       </div>
@@ -243,7 +255,7 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
         <p className="muted" style={{ fontSize: 11.5, lineHeight: 1.55 }}>
           <b style={{ color: "var(--ink-2)" }}>Knotenfarbe</b> = Themencluster ·{" "}
           <b style={{ color: "var(--ink-2)" }}>Knotengröße</b> ∝ Creditpoints ·{" "}
-          <b style={{ color: "var(--ink-2)" }}>Form</b>: ❄ Schneeflocke = Wintersemester, ☀ Sonne = Sommersemester, ● Kreis = beide.
+          <b style={{ color: "var(--ink-2)" }}>Form</b>: <SemesterGlyph semester="winter" size={13} /> Wintersem., <SemesterGlyph semester="summer" size={13} /> Sommersem., <SemesterGlyph semester="both" size={13} /> beide.
           Die Fakultät steht im Tooltip &amp; Detailpanel und lässt sich oben filtern. Bei aktiver Profilierung sind
           anrechenbare englische FIN+FMB-Module kräftig gefärbt, Substitute gedämpft &amp; gestrichelt.
         </p>
@@ -275,7 +287,7 @@ function DetailPanel({ module, clusterById, onClose, activeProfile }) {
               <span className={`badge badge--${module.faculty.toLowerCase()}`}>{module.faculty}</span>
               <span className={`badge badge--${module.language === "de" ? "de" : "en"}`}>{LANG_LABEL[module.language]}</span>
               <span className="badge">{module.cp} CP</span>
-              {module.semester && <span className="badge">{SEM_LABEL[module.semester] || module.semester}</span>}
+              {module.semester && <span className="badge" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><SemesterGlyph semester={module.semester} size={12} />{SEM_LABEL[module.semester] || module.semester}</span>}
               <span className="badge">{LEVEL_LABEL[module.level_band] || module.level_band}</span>
               {module.kind !== "course" && <span className="badge">{KIND_LABEL[module.kind] || module.kind}</span>}
             </div>
