@@ -18,7 +18,7 @@ export const circlePath = (r) => `M${-r},0A${r},${r} 0 1,0 ${r},0A${r},${r} 0 1,
 export function nodeGlyphD(semester, r) {
   if (semester === "winter") return starPath(6, r * 1.8, 0.34);   // snowflake
   if (semester === "summer") return starPath(8, r * 1.5, 0.62);   // sun
-  return circlePath(r);                                           // both / unknown
+  return circlePath(r * 1.35);                                     // both / unknown (bigger, solid)
 }
 
 // fixed-size UI glyph (same shapes, normalised so all three read at a similar size)

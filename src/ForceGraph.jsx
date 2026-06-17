@@ -100,6 +100,7 @@ export default function ForceGraph({
     const gLink = root.append("g").attr("stroke-linecap", "round");
     const gNode = root.append("g");
     const gLabel = root.append("g");
+    const gHit = root.append("g");   // transparent, uniform circular hit targets (topmost)
 
     // cluster anchors on a generous VIRTUAL canvas (viewport-independent); fit afterwards.
     const present = CLUSTER_ORDER.filter((k) => dataset.modules.some((n) => n.cluster === k))
@@ -137,6 +138,11 @@ export default function ForceGraph({
 
     const node = gNode.selectAll("path").data(nodes, (d) => d.id).join("path")
       .attr("class", "node").attr("d", (d) => nodeGlyphD(d.semester, nodeRadius(d)))
+      .attr("pointer-events", "none");   // the hit circle handles all interaction
+
+    // uniform circular hit targets so spiky snowflakes and small circles grab as easily as suns
+    const hit = gHit.selectAll("circle").data(nodes, (d) => d.id).join("circle")
+      .attr("r", (d) => nodeRadius(d) * 1.7 + 3).attr("fill", "transparent").style("cursor", "pointer")
       .on("click", (e, d) => { e.stopPropagation(); onSelect(d.id); })
       .on("mouseenter", (e, d) => {
         const rect = wrapRef.current.getBoundingClientRect();
@@ -183,6 +189,7 @@ export default function ForceGraph({
     function render() {
       link.attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
       node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+      hit.attr("transform", (d) => `translate(${d.x},${d.y})`);
       label.attr("x", (d) => d.x).attr("y", (d) => d.y);
       nodes.forEach((n) => saved.set(n.id, { x: n.x, y: n.y, vx: n.vx, vy: n.vy }));
       if (showHullsRef.current) drawHulls();
