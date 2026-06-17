@@ -122,7 +122,7 @@ for m in etit:
         "id": "etit-" + slug(title_en or title_de),
         "title_en": title_en or None, "title_de": title_de or None,
         "language": lang or "de",
-        "faculty": "ETIT",
+        "faculty": "FEIT",
         "cp": num_cp(m["cp"]),
         "level": "Master",
         "module_code": None,
@@ -178,7 +178,7 @@ print("by language:", dict(lang))
 print("missing cp:", sum(1 for m in modules if m["cp"] is None))
 print("missing title (both):", sum(1 for m in modules if not m["title_en"] and not m["title_de"]))
 print("\nEnglish modules by faculty:")
-for f in ("FIN", "FMB", "ETIT"):
+for f in ("FIN", "FMB", "FEIT"):
     n = sum(1 for m in modules if m["faculty"] == f and m["language"] in ("en", "both"))
     print(f"   {f}: {n} EN/both  of {fac[f]}")
 print("\ncross-faculty same-title (info):", len(dups))

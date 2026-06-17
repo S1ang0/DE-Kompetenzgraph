@@ -9,7 +9,7 @@ const CLUSTER_ORDER = [
   "industry40", "robotics", "sim_num", "energy_sustain",
   "mech_mat", "manufacturing", "design_plm", "mobility",
 ];
-const FAC_COLOR = { FIN: "#2B3A55", FMB: "#6E5A3A", ETIT: "#9A968D" };
+const FAC_COLOR = { FIN: "#2B3A55", FMB: "#6E5A3A", FEIT: "#9A968D" };
 const nodeRadius = (d) => 4 + Math.sqrt(d.cp || 5) * 1.15;
 
 export default function ForceGraph({
@@ -22,6 +22,7 @@ export default function ForceGraph({
   const simRef = useRef(null);
   const selRef = useRef({});
   const zoomRef = useRef(null);
+  const fitRef = useRef(null);
   const [dims, setDims] = useState({ w: 1000, h: 700 });
   const [tip, setTip] = useState(null);
 
@@ -82,29 +83,28 @@ export default function ForceGraph({
     const gNode = root.append("g");
     const gLabel = root.append("g");
 
-    // cluster anchors on a grid scaled to viewport
-    const cols = 4, rows = Math.ceil(CLUSTER_ORDER.length / cols);
-    const mx = w * 0.13, my = h * 0.14;
+    // cluster anchors on a generous VIRTUAL canvas (independent of the viewport);
+    // the whole graph is fit into view afterwards, so zooming in really separates nodes.
+    const presentKeys = CLUSTER_ORDER.filter((k) => dataset.modules.some((n) => n.cluster === k));
+    const cols = 4, cellW = 360, cellH = 300;
     const anchor = {};
-    CLUSTER_ORDER.forEach((k, i) => {
+    presentKeys.forEach((k, i) => {
       const c = i % cols, r = Math.floor(i / cols);
-      anchor[k] = {
-        x: mx + (c / (cols - 1)) * (w - 2 * mx),
-        y: my + (r / (rows - 1)) * (h - 2 * my),
-      };
+      anchor[k] = { x: (c + 0.5) * cellW, y: (r + 0.5) * cellH };
     });
+    const LW = cols * cellW, LH = (Math.ceil(presentKeys.length / cols)) * cellH;
 
     const nodes = dataset.modules.map((d) => ({ ...d }));
     const byId = new Map(nodes.map((n) => [n.id, n]));
     const links = dataset.links.map((l) => ({ ...l }));
 
     const sim = d3.forceSimulation(nodes)
-      .force("link", d3.forceLink(links).id((d) => d.id).distance(34).strength(0.18))
-      .force("charge", d3.forceManyBody().strength(-58).distanceMax(260))
-      .force("x", d3.forceX((d) => (anchor[d.cluster] || { x: w / 2 }).x).strength(0.22))
-      .force("y", d3.forceY((d) => (anchor[d.cluster] || { y: h / 2 }).y).strength(0.22))
-      .force("collide", d3.forceCollide((d) => nodeRadius(d) + 2.4))
-      .alpha(0.9).alphaDecay(0.028);
+      .force("link", d3.forceLink(links).id((d) => d.id).distance(46).strength(0.12))
+      .force("charge", d3.forceManyBody().strength(-150).distanceMax(520))
+      .force("x", d3.forceX((d) => (anchor[d.cluster] || { x: LW / 2 }).x).strength(0.14))
+      .force("y", d3.forceY((d) => (anchor[d.cluster] || { y: LH / 2 }).y).strength(0.14))
+      .force("collide", d3.forceCollide((d) => nodeRadius(d) + 5).strength(0.9))
+      .alpha(1).alphaDecay(0.022);
     simRef.current = sim;
 
     const link = gLink.selectAll("line").data(links).join("line")
@@ -182,19 +182,34 @@ export default function ForceGraph({
     });
 
     // zoom
-    const zoom = d3.zoom().scaleExtent([0.3, 5]).on("zoom", (e) => {
+    const zoom = d3.zoom().scaleExtent([0.35, 4]).on("zoom", (e) => {
       root.attr("transform", e.transform);
-      gLabel.attr("display", e.transform.k < 1.15 ? "none" : null);
+      gLabel.attr("display", e.transform.k < 1.0 ? "none" : null);
     });
     zoomRef.current = zoom;
     svg.call(zoom).on("dblclick.zoom", null);
     svg.on("click", () => onSelect(null));
 
+    // fit the whole settled graph into the viewport with padding; constrain panning
+    function fitView(animate) {
+      const xs = nodes.map((n) => n.x), ys = nodes.map((n) => n.y);
+      const minX = Math.min(...xs), maxX = Math.max(...xs);
+      const minY = Math.min(...ys), maxY = Math.max(...ys);
+      const gw = Math.max(1, maxX - minX), gh = Math.max(1, maxY - minY);
+      const pad = 70;
+      const k = Math.max(0.35, Math.min(2, Math.min((w - 2 * pad) / gw, (h - 2 * pad) / gh)));
+      const tx = (w - k * (minX + maxX)) / 2, ty = (h - k * (minY + maxY)) / 2;
+      zoom.translateExtent([[minX - 500, minY - 500], [maxX + 500, maxY + 500]]);
+      (animate ? svg.transition().duration(420) : svg).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(k));
+    }
+    fitRef.current = fitView;
+
     selRef.current = { node, link, label, byId, gHull, gHullLabel, gLabel, drawHulls };
 
-    // initial settle
-    sim.tick(40);
+    // settle synchronously for a stable layout, then fit to view
+    sim.tick(280);
     drawHulls();
+    fitView(false);
 
     return () => sim.stop();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -302,10 +317,7 @@ export default function ForceGraph({
     const svg = d3.select(svgRef.current);
     svg.transition().duration(220).call(zoomRef.current.scaleBy, k);
   };
-  const resetZoom = () => {
-    const svg = d3.select(svgRef.current);
-    svg.transition().duration(300).call(zoomRef.current.transform, d3.zoomIdentity);
-  };
+  const resetZoom = () => { fitRef.current?.(true); };
 
   return (
     <div className="canvas" ref={wrapRef}>

@@ -2,7 +2,7 @@
 
 Interaktiver Wissensgraph für das Masterprogramm **Digital Engineering** (gemeinsam getragen von
 FIN & FMB): **330 Module** aus den Fakultäten Informatik (FIN), Maschinenbau (FMB) und
-Elektro-/Informationstechnik (ETIT), gruppiert in **16 Themencluster**, mit **11 CP-schwellen­basierten
+Elektro-/Informationstechnik (FEIT), gruppiert in **16 Themencluster**, mit **11 CP-schwellen­basierten
 Profilierungen** als auswählbare Overlays.
 
 Aufbauend auf dem B.Sc.-Kompetenzgraphen eines Kollegen (React + Vite + D3); dessen Daten bleiben
@@ -26,7 +26,7 @@ Eine Profilierung („*M.Sc. Digital Engineering mit der Profilierung [Name]*") 
 Harte Constraints, maschinell geprüft (`scripts/validate_profiles.py`, **11/11 PASS**):
 
 - **C1** — jede Profilierung ist allein mit **englischsprachigen** Modulen erfüllbar; deutsche Module nur als optionale Substitute.
-- **C2** — jede Profilierung ist allein mit Modulen aus **FIN + FMB** erfüllbar; ETIT-Module nur als optionale Substitute.
+- **C2** — jede Profilierung ist allein mit Modulen aus **FIN + FMB** erfüllbar; FEIT-Module nur als optionale Substitute.
 
 ## Datenpipeline (`scripts/`)
 

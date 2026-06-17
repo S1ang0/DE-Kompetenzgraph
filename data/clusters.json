@@ -6,7 +6,7 @@
  "clusters": [
   {
    "key": "ml_ai",
-   "name": "Machine Learning & AI",
+   "name": "Artificial Intelligence & Machine Learning",
    "color": "#3F6CB0",
    "description": "Learning systems and artificial intelligence: classical ML, deep learning, generative models, data mining, optimization for learning, intelligent agents.",
    "seeds": [

@@ -29,7 +29,7 @@ html, body, #root { height: 100%; }
   /* ---- faculty marks (subtle, not categorical-cluster colours) ---- */
   --fin:  #2B3A55;   /* informatics  */
   --fmb:  #6E5A3A;   /* mechanical   */
-  --etit: #8A8780;   /* electrical (substitute role -> muted) */
+  --feit: #8A8780;   /* electrical (substitute role -> muted) */
 
   /* ---- type ---- */
   --serif: 'Charter', 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
@@ -100,9 +100,9 @@ a:hover { text-decoration: underline; }
 .head__sub   { font-size: 11.5px; color: var(--ink-3); letter-spacing: .01em; }
 .head__spacer{ flex: 1; }
 .head__stats { display: flex; gap: var(--s5); }
-.head__stat  { display: flex; flex-direction: column; align-items: flex-end; line-height: 1.1; }
-.head__stat b{ font-family: var(--serif); font-size: 17px; font-weight: 600; }
-.head__stat span{ font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.head__stat  { display: flex; flex-direction: column; align-items: flex-end; line-height: 1.05; }
+.head__stat b{ font-family: var(--sans); font-size: 18px; font-weight: 640; font-variant-numeric: tabular-nums lining-nums; letter-spacing: -0.01em; }
+.head__stat span{ font-size: 10px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin-top: 1px; }
 @media (max-width: 900px){ .head__stats{ display: none; } }
 
 /* ============================================================================
@@ -178,7 +178,7 @@ a:hover { text-decoration: underline; }
 }
 .badge--fin  { color: var(--fin);  border-color: #C7CCD8; background: #F1F3F7; }
 .badge--fmb  { color: var(--fmb);  border-color: #D9CFB9; background: #F6F1E6; }
-.badge--etit { color: var(--etit); border-color: var(--line-2); background: var(--surface-2); }
+.badge--feit { color: var(--feit); border-color: var(--line-2); background: var(--surface-2); }
 .badge--en   { color: #2E5E5A; border-color: #C5DAD6; background: #EEF5F3; }
 .badge--de   { color: #7A4E2E; border-color: #E2D2C2; background: #F8F0E8; }
 

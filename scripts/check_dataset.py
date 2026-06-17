@@ -8,7 +8,7 @@ clusters = {c["key"] for c in ds["clusters"]}
 mods = {m["id"]: m for m in ds["modules"]}
 errs = []
 
-FAC = {"FIN", "FMB", "ETIT"}
+FAC = {"FIN", "FMB", "FEIT"}
 LANG = {"en", "de", "both"}
 for m in ds["modules"]:
     if not m.get("id"): errs.append(f"module missing id: {m}")

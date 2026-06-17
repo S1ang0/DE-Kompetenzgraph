@@ -86,7 +86,7 @@ export default function App() {
           <button className="btn btn--ghost rail-toggle" onClick={() => setRailOpen((v) => !v)} aria-label="Filter ein-/ausblenden">{I.filter}</button>
           <div className="head__brand">
             <h1 className="head__title">M.Sc. Digital Engineering</h1>
-            <span className="head__sub">Modul- &amp; Profilierungsgraph · FIN · FMB · ETIT</span>
+            <span className="head__sub">Modul- &amp; Profilierungsgraph · FIN · FMB · FEIT</span>
           </div>
           <div className="head__spacer" />
           <div className="head__stats" aria-hidden="true">
@@ -163,7 +163,7 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
       <div className="rail__section">
         <div className="rail__head"><span className="eyebrow">Fakultät</span></div>
         <div className="seg" role="group" aria-label="Fakultät filtern">
-          {["FIN", "FMB", "ETIT"].map((f) => (
+          {["FIN", "FMB", "FEIT"].map((f) => (
             <button key={f} aria-pressed={filters.faculties.has(f)} onClick={() => toggleSet("faculties", f)}>{f}</button>
           ))}
         </div>
@@ -216,11 +216,11 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
         <div className="legend">
           <span className="legend__item"><span className="swatch" style={{ borderRadius: "50%", border: "1.5px solid var(--fin)", background: "transparent" }} />FIN</span>
           <span className="legend__item"><span className="swatch" style={{ borderRadius: "50%", border: "1.5px solid var(--fmb)", background: "transparent" }} />FMB</span>
-          <span className="legend__item"><span className="swatch" style={{ borderRadius: "50%", border: "1.5px solid var(--etit)", background: "transparent" }} />ETIT</span>
+          <span className="legend__item"><span className="swatch" style={{ borderRadius: "50%", border: "1.5px solid var(--feit)", background: "transparent" }} />FEIT</span>
         </div>
         <p className="muted" style={{ fontSize: 11.5, marginTop: 8, lineHeight: 1.45 }}>
           Knotengröße ∝ Creditpoints. Bei aktiver Profilierung erscheinen anrechenbare englische
-          FIN+FMB-Module farbig, Substitute (deutsch/ETIT) hohl-gestrichelt.
+          FIN+FMB-Module farbig, Substitute (deutsch/FEIT) hohl-gestrichelt.
         </p>
       </div>
     </div>
@@ -234,7 +234,7 @@ function DetailPanel({ module, clusterById, onClose, activeProfile }) {
   if (module && activeProfile) {
     if (activeProfile.core_eligible_pool.includes(module.id)) profStatus = { t: "Kernmodul dieser Profilierung", k: "core" };
     else if (activeProfile.eligible_pool.includes(module.id)) profStatus = { t: "Anrechenbar (englisch, FIN+FMB)", k: "elig" };
-    else if (activeProfile.substitutes.includes(module.id)) profStatus = { t: "Optionales Substitut (deutsch/ETIT)", k: "sub" };
+    else if (activeProfile.substitutes.includes(module.id)) profStatus = { t: "Optionales Substitut (deutsch/FEIT)", k: "sub" };
     else profStatus = { t: "Nicht Teil dieser Profilierung", k: "out" };
   }
   return (

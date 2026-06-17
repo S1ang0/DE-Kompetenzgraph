@@ -68,7 +68,7 @@ def parse_file(fname, prog):
             continue
         out.append({
             "source": fname.replace(".txt", ".pdf"),
-            "program": prog, "faculty": "ETIT",
+            "program": prog, "faculty": "FEIT",
             "title_de": title_de, "title_en": title_en,
             "cp": cp_of(blk), "language_raw": lang_of(blk),
             "text": blk[:4500],

@@ -110,7 +110,7 @@ for p in profiles["profiles"]:
 dataset = {
     "meta": {
         "title": "M.Sc. Digital Engineering — Modul- & Profilierungsgraph",
-        "faculties": ["FIN", "FMB", "ETIT"],
+        "faculties": ["FIN", "FMB", "FEIT"],
         "n_modules": len(nodes), "n_links": len(links),
         "n_clusters": len(clusters["clusters"]), "n_profiles": len(slim_profiles),
         "profile_threshold_cp": profiles["meta"]["threshold_cp"],
