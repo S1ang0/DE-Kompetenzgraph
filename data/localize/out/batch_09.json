@@ -1,0 +1,132 @@
+[
+ {
+  "id": "etit-computational-neuroscience-i",
+  "description_de": "Biophysikalische Grundlagen neuronaler Aktivität und neuronaler Kodierung, mit mathematischen Modellen, Bayes'scher Dekodierung und Informationstheorie.",
+  "competencies_de": [
+   "Die biophysikalische Entstehung neuronaler Aktivität mathematisch beschreiben",
+   "Neurone mit RC-, LIF- und Hodgkin-Huxley-Gleichungen modellieren",
+   "Die Kodierung und Dekodierung sensorischer Information analysieren",
+   "Bayes'sche Schätzverfahren und informationstheoretische Maße anwenden",
+   "Dynamische neuronale Systeme in selbst geschriebenen Programmen simulieren"
+  ],
+  "topic_tags_de": [
+   "computational neuroscience",
+   "neuronale kodierung",
+   "bayessche inferenz",
+   "simulation"
+  ]
+ },
+ {
+  "id": "fmb-601430",
+  "description_de": "Vermittelt die Grundlagen der Psychoakustik, einschließlich Lautheitsberechnung, Schallmessung und wahrnehmungsbezogener Charakterisierung technischer und umweltbedingter Geräusche.",
+  "competencies_de": [
+   "Grundlegende psychoakustische Größen und ihre physikalischen Korrelate beschreiben",
+   "Messverfahren der Hörakustik anwenden",
+   "Die Lautheit als grundlegende Wahrnehmungsgröße berechnen",
+   "Die Wahrnehmung von Geräuschen, tonalen Klängen und binauralem Hören charakterisieren"
+  ],
+  "topic_tags_de": [
+   "psychoakustik",
+   "akustik",
+   "geräuschwahrnehmung"
+  ]
+ },
+ {
+  "id": "etit-fluidenergiemaschinen",
+  "description_de": "Grundlagen, Auslegung, Betrieb und Regelung von Fluidenergiemaschinen wie Pumpen, Turbinen und Verdichtern zur effizienten Energiewandlung.",
+  "competencies_de": [
+   "Wirkprinzipien und Aufbau von Strömungsmaschinen erläutern",
+   "Pumpen, Turbinen und Verdichter auswählen und dimensionieren",
+   "Das Betriebsverhalten und die Regelung für eine optimale Energiewandlung analysieren",
+   "Affinitätsgesetze und dimensionslose Kennzahlen anwenden",
+   "Die Energieübertragung in Strömungsmaschinen bewerten"
+  ],
+  "topic_tags_de": [
+   "strömungsmaschinen",
+   "pumpen",
+   "turbinen",
+   "energiewandlung"
+  ]
+ },
+ {
+  "id": "etit-modellierung-mit-populationsbilanzen",
+  "description_de": "Lehrveranstaltung zur Aufstellung, Analyse und numerischen Lösung von Populationsbilanzmodellen für disperse Systeme in der Partikel- und Bioprozesstechnik.",
+  "competencies_de": [
+   "Populationsdynamische Mechanismen in dispersen Systemen erkennen",
+   "Populationsbilanzmodelle mathematisch formulieren und analysieren",
+   "Populationsbilanzen mit spezialisierten numerischen Verfahren lösen",
+   "Ergebnisse der Populationsbilanzierung auf Prozessauslegung und -betrieb anwenden"
+  ],
+  "topic_tags_de": [
+   "populationsbilanz",
+   "modellierung",
+   "disperse systeme",
+   "numerische verfahren"
+  ]
+ },
+ {
+  "id": "etit-molekulares-modellieren",
+  "description_de": "Lehrveranstaltung zur molekularen Modellierung und Simulation als ingenieurwissenschaftliches Werkzeug unter Einsatz von Monte-Carlo-, Molekulardynamik- und quantenmechanischen Methoden.",
+  "competencies_de": [
+   "Werkzeuge der molekularen Modellierung über räumliche und zeitliche Skalen hinweg anwenden",
+   "Monte-Carlo-Methoden für Gleichgewichts- und dynamische Simulationen einsetzen",
+   "Molekulardynamiksimulationen von Diffusion und Keimbildung durchführen",
+   "Verfahrenstechnische Problemstellungen geeigneten Modellen und numerischen Methoden zuordnen"
+  ],
+  "topic_tags_de": [
+   "molekulare modellierung",
+   "molekulardynamik",
+   "monte carlo",
+   "simulation"
+  ]
+ },
+ {
+  "id": "etit-prozesssimulation",
+  "description_de": "Lehrveranstaltung zur konzeptionellen Prozessauslegung mittels stationärer und dynamischer Simulation chemischer Prozesse mit Aspen Plus und Aspen Dynamics.",
+  "competencies_de": [
+   "Stationäre und dynamische Prozesssimulationen in Aspen Plus/Dynamics durchführen",
+   "Grundoperationen wie Reaktoren, Kolonnen und Wärmeübertrager modellieren",
+   "Rückführströme und Gesamtfließbilder konfigurieren",
+   "Alternative Prozessvarianten für die konzeptionelle Prozessauslegung bewerten"
+  ],
+  "topic_tags_de": [
+   "prozesssimulation",
+   "aspen plus",
+   "fließbild",
+   "prozessauslegung"
+  ]
+ },
+ {
+  "id": "etit-simulation-und-steuerung-regelung-der-biol-abwas",
+  "description_de": "Dynamische Simulation sowie Steuerung und Regelung der biologischen Abwasserreinigung mithilfe von Belebtschlammmodellen für einen zuverlässigen und wirtschaftlichen Anlagenbetrieb.",
+  "competencies_de": [
+   "Dynamische Simulationsmodelle von Kläranlagen aufbauen",
+   "Belebtschlammmodelle (ASM3) auf die biologische Abwasserreinigung anwenden",
+   "Anlagenmodelle mit Simulationssoftware kalibrieren und verifizieren",
+   "Mess- und Sauerstoffregelungskonzepte für Kläranlagen entwerfen",
+   "Stationäre Auslegung mit dynamischer Simulation verknüpfen"
+  ],
+  "topic_tags_de": [
+   "dynamische simulation",
+   "abwasserreinigung",
+   "belebtschlammmodell",
+   "prozessregelung"
+  ]
+ },
+ {
+  "id": "etit-stromungsmechanik-ii",
+  "description_de": "Vertiefende Lehrveranstaltung der Strömungsmechanik zu komplexen Strömungen einschließlich kompressibler, turbulenter, mehrphasiger und nicht-newtonscher Strömungsphänomene.",
+  "competencies_de": [
+   "Komplexe Strömungen in verfahrenstechnischen Apparaten analysieren und berechnen",
+   "Kompressible Strömungen mit Reibung, Wärmeübergang und Verdichtungsstößen behandeln",
+   "Laminare und turbulente Grenzschichten sowie Turbulenz modellieren",
+   "Mehrphasige und nicht-newtonsche Strömungen analysieren"
+  ],
+  "topic_tags_de": [
+   "strömungsmechanik",
+   "turbulenz",
+   "mehrphasenströmung",
+   "kompressible strömung"
+  ]
+ }
+]

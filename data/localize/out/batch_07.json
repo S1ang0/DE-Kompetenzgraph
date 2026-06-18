@@ -1,0 +1,248 @@
+[
+ {
+  "id": "fmb-601352",
+  "description_de": "Vermittelt eine ganzheitliche, systemische Sicht auf nachhaltige Mobilität und behandelt Elektromobilität, Ressourcen, Umweltwirkungen und politische Instrumente.",
+  "competencies_de": [
+   "einen ganzheitlichen, systemischen Ansatz auf nachhaltige Mobilität anwenden",
+   "Mobilität in Bezug zu Lebensqualität, Ressourcen und Umweltwirkungen setzen",
+   "Elektromobilität, neue Mobilitätsformen und Mobility-as-a-Service bewerten",
+   "politische Instrumente und die Akzeptanz von Mobilitätsmaßnahmen beurteilen"
+  ],
+  "topic_tags_de": [
+   "nachhaltige mobilität",
+   "elektromobilität",
+   "maas",
+   "verkehr"
+  ]
+ },
+ {
+  "id": "fmb-601374",
+  "description_de": "Gibt einen Überblick über neue Werkstoffe einschließlich Nichteisenmetallen, Polymeren, Verbundwerkstoffen und Keramiken mit Schwerpunkt auf Struktur-Eigenschafts-Beziehungen und Werkstoffauswahl.",
+  "competencies_de": [
+   "Nichteisenmetalle und Legierungen für spezielle Anwendungen auswählen",
+   "die Struktur von Polymeren und Verbundwerkstoffen mit deren Eigenschaften in Beziehung setzen",
+   "Keramiken, Gläser und anorganische Funktionswerkstoffe charakterisieren",
+   "Struktur-Eigenschafts-Beziehungen zur Werkstoffauswahl anwenden"
+  ],
+  "topic_tags_de": [
+   "neue werkstoffe",
+   "nichteisenmetalle",
+   "polymere",
+   "verbundwerkstoffe"
+  ]
+ },
+ {
+  "id": "fmb-604152",
+  "description_de": "Ein praxisorientiertes Projektmodul, in dem anhand betrieblicher Fallstudien und in Teamprojektarbeit Planungslösungen für Produktions- und Logistiksysteme entwickelt werden.",
+  "competencies_de": [
+   "Planungslösungen für Produktions- und Logistiksysteme entwickeln",
+   "Logistikprozesse in Distributions- und Fulfillment-Zentren analysieren",
+   "Lösungsvarianten bewerten sowie Lieferketten analysieren und steuern",
+   "Projektergebnisse adressatengerecht dokumentieren, präsentieren und verteidigen"
+  ],
+  "topic_tags_de": [
+   "logistikplanung",
+   "lieferkette",
+   "distributionszentrum",
+   "projektarbeit"
+  ]
+ },
+ {
+  "id": "fmb-604124",
+  "description_de": "Vermittelt die Rolle des Produktdesigns in der integrierten Entwicklung und schult eine gestaltungsorientierte Formgebung, die ästhetische, ergonomische und technische Anforderungen ausbalanciert.",
+  "competencies_de": [
+   "gestaltungsorientierte und integrative Ansätze auf das Produktdesign anwenden",
+   "ästhetische, ergonomische und technische Produktanforderungen ausbalancieren",
+   "analoge und digitale Gestaltungs- und Zeichenwerkzeuge einsetzen",
+   "menschzentrierte Nutzungsprozesse in der Produktformgebung berücksichtigen"
+  ],
+  "topic_tags_de": [
+   "produktdesign",
+   "industriedesign",
+   "ergonomie",
+   "formgebung"
+  ]
+ },
+ {
+  "id": "fmb-603020",
+  "description_de": "Vermittelt die methodische Planung und Gestaltung von Fabrik- und Produktionssystemen einschließlich Datenanalyse, Ressourcendimensionierung und Optimierung des Maschinenlayouts.",
+  "competencies_de": [
+   "Methoden zur Planung und Gestaltung von Fabrik- und Produktionssystemen anwenden",
+   "planungsrelevante Daten für Produktionssysteme analysieren und verdichten",
+   "Ressourcen dimensionieren und das Maschinenlayout unter Randbedingungen optimieren",
+   "einen Masterplan für ein funktionsfähiges Gesamtproduktionssystem entwickeln"
+  ],
+  "topic_tags_de": [
+   "produktionssystemplanung",
+   "fabrikplanung",
+   "produktion"
+  ]
+ },
+ {
+  "id": "fmb-604165",
+  "description_de": "Ein Einzel- oder Teamprojektmodul, in dem Studierende ein forschungs- oder lehrbezogenes Ingenieurprojekt bearbeiten, dokumentieren, präsentieren und verteidigen.",
+  "competencies_de": [
+   "ein Projekt zielorientiert und effektiv bearbeiten",
+   "die für die Projektdurchführung erforderlichen Zusammenhänge herstellen",
+   "Projektergebnisse dokumentieren",
+   "Projektergebnisse präsentieren und verteidigen"
+  ],
+  "topic_tags_de": [
+   "projektarbeit",
+   "wissenschaftliches projekt",
+   "teamprojekt"
+  ]
+ },
+ {
+  "id": "fmb-604165-2",
+  "description_de": "Ein Einzel- oder Teamprojekt, in dem Studierende ein an die Institutsforschung oder -lehre angebundenes Ingenieurprojekt eigenständig planen, durchführen, dokumentieren und verteidigen.",
+  "competencies_de": [
+   "ein Ingenieurprojekt zielgerichtet planen und durchführen",
+   "die für die Projektarbeit erforderlichen Kontakte und Ressourcen erschließen",
+   "Projektergebnisse in einem schriftlichen Bericht dokumentieren",
+   "Projektergebnisse präsentieren und verteidigen"
+  ],
+  "topic_tags_de": [
+   "projektarbeit",
+   "wissenschaftliches projekt",
+   "teamarbeit"
+  ]
+ },
+ {
+  "id": "fmb-604161",
+  "description_de": "Eine praxisorientierte Lehrveranstaltung zum rechnergestützten Industriedesign mit Schwerpunkt auf CAID-/CAD-Werkzeugen, Softwareschnittstellen und der Visualisierung komplexer Produkte.",
+  "competencies_de": [
+   "rechnergestützte Entwurfsmethoden auf Aufgaben des Produktdesigns anwenden",
+   "im Industriedesign übliche Gestaltungswerkzeuge und -methoden einsetzen",
+   "Schnittstellen zwischen CAID-, CAD- und Ergonomie-Softwaresystemen handhaben",
+   "komplexe Visualisierungen von Produkten erstellen"
+  ],
+  "topic_tags_de": [
+   "cad",
+   "industriedesign",
+   "produktvisualisierung"
+  ]
+ },
+ {
+  "id": "fmb-601406",
+  "description_de": "Eine Lehrveranstaltung zur Schadensanalyse metallischer Bauteile, die Schädigungsmechanismen, Bruch- und Korrosionsarten sowie eine schadensvermeidende Bauteilgestaltung behandelt.",
+  "competencies_de": [
+   "das Zusammenwirken von Werkstoff, Konstruktion und Belastung für eine sichere Bauteilauslegung verstehen",
+   "Schäden an metallischen Bauteilen erkennen, analysieren und vermeiden",
+   "Bruch- und Korrosionsschadensarten sowie deren Topographien identifizieren",
+   "Normen und Regelwerke bei der Schadenserkennung anwenden"
+  ],
+  "topic_tags_de": [
+   "schadensanalyse",
+   "ermüdung",
+   "korrosion"
+  ]
+ },
+ {
+  "id": "fmb-604111",
+  "description_de": "Eine vertiefende Lehrveranstaltung zu schweißtechnischen Fertigungsverfahren, die die Verfahrensauswahl, eine qualitätsorientierte Schweißtechnik und die Automatisierung der Schweißverbindungsfertigung vermittelt.",
+  "competencies_de": [
+   "geeignete Schweißverfahren für einen gegebenen Anwendungsfall auswählen",
+   "qualitätsorientierte Schweißtechnologien gestalten",
+   "Lichtbogen-, Laser-, Elektronenstrahl- und Pressschweißverfahren anwenden",
+   "Mechanisierung, Automatisierung und Qualitätssicherung des Schweißens umsetzen"
+  ],
+  "topic_tags_de": [
+   "schweißen",
+   "fügen",
+   "fertigung"
+  ]
+ },
+ {
+  "id": "fmb-601325",
+  "description_de": "Eine Lehrveranstaltung zur Konstruktion geschweißter Strukturen, die schweißgerechte Gestaltung, die Dimensionierung von Schweißverbindungen, die Betriebsfestigkeit sowie einschlägige Normen und Regelwerke behandelt.",
+  "competencies_de": [
+   "schweißgerechte und anforderungsgerechte Schweißkonstruktionen gestalten",
+   "Schweißverbindungen dimensionieren und den Konformitätsnachweis führen",
+   "Festigkeit und Rissvermeidung bei hochfesten Schweißverbindungen bewerten",
+   "Normen, Regelwerke und IIW-Empfehlungen auf Schweißkonstruktionen anwenden"
+  ],
+  "topic_tags_de": [
+   "schweißkonstruktion",
+   "fügekonstruktion",
+   "schweißnahtfestigkeit"
+  ]
+ },
+ {
+  "id": "fmb-603028",
+  "description_de": "Eine Lehrveranstaltung zur Simulation innermotorischer Prozesse mit 1D- und 3D-CFD-Werkzeugen, die Motorauslegung, Verbrennung und die Modellierung des gesamten Antriebsstrangs behandelt.",
+  "competencies_de": [
+   "1D- und 3D-Simulationswerkzeuge in der Antriebsstrangentwicklung anwenden",
+   "Motorkonzepte einschließlich Aufladung und Einspritzsystemen auslegen und modellieren",
+   "Verbrennung, Gemischbildung und Schadstoffbildung modellieren",
+   "Gesamtfahrzeugsysteme und Brennstoffzellenantriebe simulieren"
+  ],
+  "topic_tags_de": [
+   "motorsimulation",
+   "cfd",
+   "verbrennung"
+  ]
+ },
+ {
+  "id": "fmb-604117",
+  "description_de": "Lehrveranstaltung zur Adaptronik und zu adaptiven Strukturen, die strukturintegrierte Sensoren und Aktoren zur aktiven Formanpassung sowie zur Schwingungs- und Geräuschminderung behandelt.",
+  "competencies_de": [
+   "adaptronische Systeme und deren Anwendungsfelder verstehen",
+   "strukturintegrierte Sensoren und Aktoren auslegen",
+   "Verfahren zur aktiven Schwingungs- und Geräuschminderung anwenden",
+   "eine aktive Formanpassung durch elastische Verformung umsetzen",
+   "Kenntnisse aus Werkstoff-, Maschinen-, Elektro- und Regelungstechnik im Labor verbinden"
+  ],
+  "topic_tags_de": [
+   "adaptronik",
+   "intelligente strukturen",
+   "aktoren",
+   "schwingungsminderung"
+  ]
+ },
+ {
+  "id": "fmb-604147",
+  "description_de": "Eine Lehrveranstaltung zur Laser- und Elektronenstrahltechnik als Fertigungswerkzeuge zum Fügen und Trennen, die Strahlsysteme, Werkstoffwirkungen und die Verbindungsqualität behandelt.",
+  "competencies_de": [
+   "die Erzeugung und Nutzung von Laser- und Elektronenstrahlen für die Fertigung verstehen",
+   "Strahlverfahren zum Schweißen, Schneiden, Bohren und Beschriften anwenden",
+   "die Eignung von Werkstoffen für das Strahlschweißen beurteilen",
+   "strahlgeschweißte Verbindungen auslegen und deren Qualität sicherstellen"
+  ],
+  "topic_tags_de": [
+   "laser",
+   "elektronenstrahl",
+   "strahlschweißen"
+  ]
+ },
+ {
+  "id": "fmb-601381",
+  "description_de": "Eine Lehrveranstaltung zur Strukturdynamik und Lebensdaueranalyse, die Schwingungsmodellierung, Modalanalyse, die Ableitung von Lastkollektiven und die Lebensdauerabschätzung behandelt.",
+  "competencies_de": [
+   "strukturdynamische Systeme in mechanische Ersatzmodelle überführen",
+   "Schwingungsdifferentialgleichungen für Ein- und Mehrfreiheitsgradsysteme lösen",
+   "Lastkollektive mithilfe von Klassierverfahren ableiten",
+   "die Bauteillebensdauer über Schadensakkumulationsmodelle abschätzen"
+  ],
+  "topic_tags_de": [
+   "strukturdynamik",
+   "lebensdauer",
+   "schwingung"
+  ]
+ },
+ {
+  "id": "fmb-604179",
+  "description_de": "Eine Lehrveranstaltung zur nachhaltigen Produktgestaltung mit ästhetischen Mitteln der Form, Farbe und des Materials im Rahmen integrierter Produktentwicklungsprozesse.",
+  "competencies_de": [
+   "ästhetische Gestaltungsmittel der Form, Farbe und des Materials für die Nachhaltigkeit einsetzen",
+   "nachhaltiges Design in die integrierte Produktentwicklung einbinden",
+   "Nachhaltigkeitspotenziale der Objekt- und Nutzungsästhetik analysieren",
+   "Wahrnehmungs- und Nutzungswirkungen ästhetischer Gestaltungsentscheidungen untersuchen"
+  ],
+  "topic_tags_de": [
+   "nachhaltiges design",
+   "industriedesign",
+   "produktentwicklung"
+  ]
+ }
+]

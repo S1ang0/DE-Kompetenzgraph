@@ -1,0 +1,254 @@
+[
+ {
+  "id": "fmb-908730",
+  "description_de": "Eine Lehrveranstaltung zu den politischen Rahmenbedingungen, Akteuren und Instrumenten der Nachhaltigkeitspolitik, veranschaulicht am Beispiel der deutschen Umweltpolitik.",
+  "competencies_de": [
+   "Politische Rahmenbedingungen und Akteure von Nachhaltigkeitstransformationen analysieren",
+   "Theorien und empirische Daten der Nachhaltigkeitsforschung anwenden",
+   "Umweltpolitische Instrumente und deren Relevanz bewerten",
+   "Nachhaltigkeitspolitik schriftlich und mündlich diskutieren"
+  ],
+  "topic_tags_de": [
+   "nachhaltigkeit",
+   "umweltpolitik",
+   "governance"
+  ]
+ },
+ {
+  "id": "fmb-906030",
+  "description_de": "Ein Seminar, das in die in Sportgeräten verwendeten Technologien und Werkstoffe sowie deren Leistungseigenschaften einführt.",
+  "competencies_de": [
+   "Aufbau und Funktion von Sportgeräten analysieren",
+   "In Sportgeräten eingesetzte Werkstoffe und Technologien bewerten",
+   "Leistungseigenschaften der Sporttechnik beurteilen",
+   "Technische Themen der Sportgerätetechnik im Seminar präsentieren"
+  ],
+  "topic_tags_de": [
+   "sporttechnik",
+   "sportgeräte",
+   "werkstoffe"
+  ]
+ },
+ {
+  "id": "fmb-technologien-im-sport-ii-ehemals-sportgeratetech",
+  "description_de": "Ein Seminar zur Sportgerätetechnik, das die Auseinandersetzung mit Werkstoffen, Konstruktion und Leistung von Sportgeräten fortführt.",
+  "competencies_de": [
+   "Fortgeschrittene Technologien der Sportgerätetechnik analysieren",
+   "Werkstoffe und Konstruktion von Sportgeräten bewerten",
+   "Leistungsbezogene und biomechanische Aspekte der Sporttechnik beurteilen",
+   "Technische Themen des Sports im Seminar präsentieren"
+  ],
+  "topic_tags_de": [
+   "sporttechnik",
+   "sportgeräte",
+   "werkstoffe"
+  ]
+ },
+ {
+  "id": "fmb-920011",
+  "description_de": "Ein vertiefendes Seminar, das spezialisierte Themen der Sporttechnik und der Konstruktion von Sportgeräten behandelt.",
+  "competencies_de": [
+   "Spezialisierte Themen der Sporttechnik vertieft analysieren",
+   "Werkstoffe und Konstruktion fortgeschrittener Sportgeräte bewerten",
+   "Technologische Entwicklungen bei Sportgeräten beurteilen",
+   "Technische Themen des Sports im Seminar präsentieren"
+  ],
+  "topic_tags_de": [
+   "sporttechnik",
+   "sportgeräte",
+   "werkstoffe"
+  ]
+ },
+ {
+  "id": "fmb-technologien-im-sport-iv-ehemals-technologien-im",
+  "description_de": "Ein vertiefendes Seminar zu ausgewählten Forschungsthemen der Sporttechnik und der Konstruktion von Sportgeräten.",
+  "competencies_de": [
+   "Fortgeschrittene Forschungsthemen der Sporttechnik untersuchen",
+   "Neueste Werkstoffe und Methoden bei Sportgeräten bewerten",
+   "Innovationen in der Sporttechnik kritisch beurteilen",
+   "Spezialisierte Themen des Sports im Seminar präsentieren"
+  ],
+  "topic_tags_de": [
+   "sporttechnik",
+   "sportgeräte",
+   "werkstoffe"
+  ]
+ },
+ {
+  "id": "fmb-102809",
+  "description_de": "Eine Lehrveranstaltung zum computergestützten geometrischen Design, die die Modellierung von Kurven und Flächen für CAD-Anwendungen behandelt.",
+  "competencies_de": [
+   "Kurven und Flächen mithilfe parametrischer Darstellungen modellieren",
+   "Bézier-, B-Spline- und NURBS-Verfahren für das geometrische Design anwenden",
+   "Algorithmen des computergestützten geometrischen Designs implementieren",
+   "Freiformgeometrie für CAD konstruieren und bearbeiten"
+  ],
+  "topic_tags_de": [
+   "cagd",
+   "geometrische modellierung",
+   "splines",
+   "cad"
+  ]
+ },
+ {
+  "id": "fmb-102808",
+  "description_de": "Eine Lehrveranstaltung zu Data-Warehouse-Technologien, die multidimensionale Modellierung, ETL und analytische Anfrageverarbeitung behandelt.",
+  "competencies_de": [
+   "Data-Warehouse-Architekturen entwerfen und aufbauen",
+   "Multidimensionale Schemata für analytische Lasten modellieren",
+   "ETL-Prozesse und OLAP-Operationen implementieren",
+   "Data-Warehouse-Technologien für Business Intelligence anwenden"
+  ],
+  "topic_tags_de": [
+   "data warehouse",
+   "olap",
+   "etl",
+   "business intelligence"
+  ]
+ },
+ {
+  "id": "fmb-100302",
+  "description_de": "Eine Grundlagenveranstaltung zum Datenmanagement, die relationale Datenbanken, Datenmodellierung und praktische SQL-Übungen behandelt.",
+  "competencies_de": [
+   "Relationale Datenbankschemata entwerfen",
+   "SQL-Anfragen formulieren und optimieren",
+   "Prinzipien der Datenmodellierung und Normalisierung anwenden",
+   "Daten mit relationalen Datenbanksystemen verwalten"
+  ],
+  "topic_tags_de": [
+   "datenbanken",
+   "sql",
+   "datenmodellierung",
+   "relational"
+  ]
+ },
+ {
+  "id": "etit-eingebettete-mechatronische-systeme-ii",
+  "description_de": "Vertiefte Entwicklung eingebetteter mechatronischer Hard- und Software für Kfz-Steuergeräte, Industrie-PCs und mobile Endgeräte unter Einsatz moderner Werkzeuge.",
+  "competencies_de": [
+   "Hard- und Software für eingebettete mechatronische Systeme entwickeln",
+   "8-Bit- und 32-Bit-Mikrocontroller mit Echtzeitbetriebssystemen programmieren",
+   "Funktionen mit Matlab/Simulink und ASCET spezifizieren und Code generieren",
+   "AUTOSAR und Steuergeräte-Architekturen für Kfz-Steuergeräte anwenden",
+   "Echtzeitregelung auf Industrie-PCs und mobilen Endgeräten umsetzen"
+  ],
+  "topic_tags_de": [
+   "eingebettete systeme",
+   "kfz-steuergerät",
+   "echtzeitbetriebssystem",
+   "autosar"
+  ]
+ },
+ {
+  "id": "etit-eingebettete-systeme",
+  "description_de": "Architekturen, Entwurf und Implementierung rechnergesteuerter eingebetteter Systeme auf Hard- und Softwareplattformen unter Einsatz formaler Methoden und Testverfahren.",
+  "competencies_de": [
+   "Hard- und Softwareplattformen für eingebettete Systeme entwerfen",
+   "Eingebettete Systeme mit erweiterten endlichen Automaten modellieren",
+   "Objektorientierten Entwurf in der Entwicklung eingebetteter Software anwenden",
+   "Funktionen auf FPGA- und DSP-Plattformen realisieren",
+   "Eingebettete Systeme durch Testverfahren validieren"
+  ],
+  "topic_tags_de": [
+   "eingebettete systeme",
+   "fpga",
+   "dsp",
+   "endliche automaten"
+  ]
+ },
+ {
+  "id": "fmb-901129",
+  "description_de": "Eine Lehrveranstaltung, die strukturierte Kreativitäts- und Ideenfindungstechniken vermittelt, um systematisch innovative Konzepte zu entwickeln.",
+  "competencies_de": [
+   "Strukturierte Kreativitätstechniken zur Ideengenerierung anwenden",
+   "Innovative Konzepte systematisch entwickeln und verfeinern",
+   "Vielversprechende Ideen bewerten und auswählen",
+   "Die Ideenentwicklung in einer schriftlichen Ausarbeitung dokumentieren"
+  ],
+  "topic_tags_de": [
+   "idea engineering",
+   "kreativität",
+   "innovation"
+  ]
+ },
+ {
+  "id": "fin-120506",
+  "description_de": "Zweisemestrige Lehrveranstaltung zu In-Memory- und Cloud-Technologien für Unternehmens- und Informationssysteme, die Informatik und ingenieurwissenschaftliche Anwendungsbereiche verbindet.",
+  "competencies_de": [
+   "Technologien des In-Memory-Datenmanagements anwenden",
+   "Cloud-Computing-Technologien für Unternehmenssysteme verstehen",
+   "Methoden der Data Science auf neuartige Problemstellungen übertragen",
+   "Digitalisierungslösungen in interdisziplinären Projekten erarbeiten"
+  ],
+  "topic_tags_de": [
+   "in-memory",
+   "cloud",
+   "unternehmenssysteme"
+  ]
+ },
+ {
+  "id": "fmb-100393",
+  "description_de": "Eine Lehrveranstaltung zum Entwurf und zur Entwicklung interaktiver Systeme, die Interaktionstechniken und Konzepte der Benutzungsschnittstelle behandelt.",
+  "competencies_de": [
+   "Interaktive Benutzungsschnittstellen entwerfen",
+   "Prinzipien und Techniken des Interaktionsdesigns anwenden",
+   "Interaktive Systeme entwickeln und prototypisch umsetzen",
+   "Die Gebrauchstauglichkeit interaktiver Anwendungen evaluieren"
+  ],
+  "topic_tags_de": [
+   "interaktive systeme",
+   "interaktionsdesign",
+   "gebrauchstauglichkeit"
+  ]
+ },
+ {
+  "id": "fin-120532",
+  "description_de": "Einführung in die Sicherheit des maschinellen Lernens, die Fehlerarten, Unsicherheit, Anomalieerkennung, adversariale Bedrohungen und regulatorische Aspekte behandelt.",
+  "competencies_de": [
+   "Typische Fehlerarten von ML-Systemen analysieren",
+   "Test- und Evaluationsmethoden für sicherheitskritisches ML auswählen",
+   "Unsicherheitsschätzung, Anomalieerkennung und Robustheit beurteilen",
+   "Adversariale Bedrohungsmodelle und Abwehrmaßnahmen verstehen",
+   "Regulatorische und ethische Rahmenbedingungen für den ML-Einsatz reflektieren"
+  ],
+  "topic_tags_de": [
+   "ml-sicherheit",
+   "robustheit",
+   "adversarial",
+   "unsicherheit"
+  ]
+ },
+ {
+  "id": "fin-999997",
+  "description_de": "Masterarbeit, in der die Studierenden eigenständig eine originäre wissenschaftliche Lösung für eine Forschungs- oder Anwendungsfragestellung entwickeln und ihre Ergebnisse verteidigen.",
+  "competencies_de": [
+   "Eine komplexe Forschungs- oder Anwendungsfragestellung eigenständig mit wissenschaftlichen Methoden lösen",
+   "Eine Problemstellung analysieren und mögliche Lösungsansätze vergleichen",
+   "Eine originäre Lösung entwickeln und kritisch bewerten",
+   "Ergebnisse und deren mögliche Konsequenzen einschätzen",
+   "Erkenntnisse darlegen sowie Entscheidungen und Interpretationen verteidigen"
+  ],
+  "topic_tags_de": [
+   "abschlussarbeit",
+   "wissenschaftliches arbeiten",
+   "forschung"
+  ]
+ },
+ {
+  "id": "etit-prozessleittechnik-ii",
+  "description_de": "Entwurf und Aufbau verteilter digitaler Automatisierungssysteme unter Integration von Automatisierungs- und Informationstechnik für die Prozessführung.",
+  "competencies_de": [
+   "Verteilte digitale Automatisierungssysteme entwerfen und aufbauen",
+   "Die Integration unterschiedlicher Automatisierungskomponenten planen",
+   "Automatisierungs- und Informationstechnik in der Prozessführung anwenden",
+   "Abstrakte Automatisierungs- und Informationsmodelle interpretieren",
+   "Funktionsfähige Automatisierungssysteme entwickeln"
+  ],
+  "topic_tags_de": [
+   "prozessführung",
+   "verteilte automatisierung",
+   "automatisierungssysteme",
+   "integration"
+  ]
+ }
+]

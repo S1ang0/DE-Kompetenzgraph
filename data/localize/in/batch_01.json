@@ -1,0 +1,293 @@
+[
+ {
+  "id": "etit-computer-based-controller-design",
+  "title_de": "Rechnerbasierter Reglerentwurf (ersetzt Hybride Discrete Event Systems)",
+  "faculty": "FEIT",
+  "description_en": "Teaches computer-aided design and real-time implementation of robust control systems using Matlab/Simulink and modern synthesis methods.",
+  "competencies": [
+   "Design and implement controllers in Matlab/Simulink",
+   "Auto-tune PI/PID controllers",
+   "Synthesize robust multivariable controllers using H-infinity and mu-synthesis",
+   "Apply linear matrix inequalities to controller design",
+   "Implement controllers for real-time operation"
+  ],
+  "topic_tags": [
+   "control design",
+   "matlab/simulink",
+   "robust control",
+   "real-time implementation"
+  ]
+ },
+ {
+  "id": "etit-einfuhrung-in-die-medizinische-bildgebung",
+  "title_de": "Einführung in die medizinische Bildgebung",
+  "faculty": "FEIT",
+  "description_en": "Introductory overview of modern medical imaging modalities, their principles, image quality, risks and required data processing.",
+  "competencies": [
+   "Describe modalities of modern medical imaging",
+   "Explain principles of X-ray, CT, PET/SPECT, ultrasound and MRI",
+   "Assess image quality and patient risks of imaging methods",
+   "Outline data processing steps for medical images",
+   "Apply basic image processing in laboratory exercises"
+  ],
+  "topic_tags": [
+   "medical imaging",
+   "ct",
+   "mri",
+   "ultrasound"
+  ]
+ },
+ {
+  "id": "etit-eingebettete-mechatronische-systeme-i",
+  "title_de": "Eingebettete Mechatronische Systeme I",
+  "faculty": "FEIT",
+  "description_en": "Fundamentals of embedded mechatronic systems covering analog and digital solutions, signal processing and real-time behaviour.",
+  "competencies": [
+   "Explain structure and function of embedded systems in mechatronics",
+   "Design analog solutions based on operational amplifiers",
+   "Design digital solutions based on microcontrollers",
+   "Specify and generate real-time software",
+   "Implement functions on programmable logic"
+  ],
+  "topic_tags": [
+   "embedded systems",
+   "mechatronics",
+   "microcontrollers",
+   "real-time"
+  ]
+ },
+ {
+  "id": "fmb-800037",
+  "title_de": "Elektrische Antriebssysteme",
+  "faculty": "FEIT",
+  "description_en": "Controlled and regulated electrical drive systems with a focus on traction drives, covering structure, machine characteristics and speed control strategies.",
+  "competencies": [
+   "Explain the structure and functions of electric drive systems",
+   "Select electrical drive systems for traction applications",
+   "Assess steady-state and dynamic drive characteristics",
+   "Analyse speed-torque behavior of electrical machines",
+   "Apply control strategies for variable-speed drives"
+  ],
+  "topic_tags": [
+   "electric drives",
+   "traction",
+   "drive control"
+  ]
+ },
+ {
+  "id": "etit-electromagnetic-compatibility-of-regenerative-el",
+  "title_de": "Elektromagnetische Verträglichkeit regenerativer elektrischer Systeme",
+  "faculty": "FEIT",
+  "description_en": "Covers electromagnetic compatibility of regenerative electrical systems, including disturbance analysis, prediction methods and mitigation.",
+  "competencies": [
+   "Describe generation, propagation and effects of electromagnetic disturbances in grids",
+   "Assess the impact of renewable sources on grid power quality",
+   "Select analytical and numerical methods to predict EMC",
+   "Apply shielding concepts and mitigation measures for EMC problems"
+  ],
+  "topic_tags": [
+   "electromagnetic compatibility",
+   "power quality",
+   "renewable energy",
+   "shielding"
+  ]
+ },
+ {
+  "id": "etit-electromechanical-actuators",
+  "title_de": "Unkonventionelle elektrische Maschinen",
+  "faculty": "FEIT",
+  "description_en": "Provides advanced knowledge of electrical machines and actuators as components of electromechanical and mechatronic systems.",
+  "competencies": [
+   "Explain operation and dynamics of unconventional electrical machines",
+   "Model electromechanical actuators within mechanical systems",
+   "Design control for reluctance, stepper and linear motors",
+   "Project the integration of actuators into mechatronic systems"
+  ],
+  "topic_tags": [
+   "electrical machines",
+   "actuators",
+   "electromechanical systems",
+   "drive control"
+  ]
+ },
+ {
+  "id": "etit-elektrische-energienetze-ii-energieversorgung",
+  "title_de": "Elektrische Energienetze II - Energieversorgung",
+  "faculty": "FEIT",
+  "description_en": "Advanced course on planning and operating electrical power grids, smart-grid development, grid security and integration of decentralized generation.",
+  "competencies": [
+   "Plan and operate electrical power transmission and distribution grids",
+   "Derive measures to develop intelligent smart-grid structures",
+   "Assess grid security, dynamic security and black-out prevention",
+   "Integrate decentralized generators and model wind farms in grids"
+  ],
+  "topic_tags": [
+   "power grids",
+   "smart grid",
+   "energy supply",
+   "grid integration"
+  ]
+ },
+ {
+  "id": "etit-elektromechanische-aktorsysteme",
+  "title_de": "Elektromechanische Aktorsysteme",
+  "faculty": "FEIT",
+  "description_en": "Construction, behaviour and control of electromechanical actuators such as piezo and magnetostrictive actuators and their system integration.",
+  "competencies": [
+   "Model electromechanical systems using Lagrange equations",
+   "Explain construction and behaviour of piezo and magnetostrictive actuators",
+   "Design power amplifiers and control for piezo actuators",
+   "Integrate electric actuators into complex mechanical systems",
+   "Apply actuators to vibration damping and positioning"
+  ],
+  "topic_tags": [
+   "actuators",
+   "piezo",
+   "smart materials",
+   "mechatronics"
+  ]
+ },
+ {
+  "id": "etit-emc-measurement-techniques",
+  "title_de": "EMV-Messtechnik",
+  "faculty": "FEIT",
+  "description_en": "Teaches instruments, probes and standardized methods for measuring and assessing electromagnetic compatibility of electrical systems.",
+  "competencies": [
+   "Use measurement instruments and probes for EMC assessment",
+   "Analyze measurement limits and errors in time and frequency domains",
+   "Select suitable measurement methods for EMC problems",
+   "Evaluate emission and immunity measurement results"
+  ],
+  "topic_tags": [
+   "emc measurement",
+   "metrology",
+   "spectrum analysis",
+   "emissions"
+  ]
+ },
+ {
+  "id": "etit-emc-measurement-technology-seminar",
+  "title_de": "Seminar EMV-Messtechnik",
+  "faculty": "FEIT",
+  "description_en": "A seminar applying electromagnetic compatibility measurement methods through experiments to analyze and evaluate EMC problems.",
+  "competencies": [
+   "Apply EMC measurement methods to analyze EMC problems",
+   "Conduct EMC investigations in time and frequency domains",
+   "Measure scattering and transfer impedance matrices experimentally",
+   "Evaluate experimental EMC results critically"
+  ],
+  "topic_tags": [
+   "emc measurement",
+   "experiments",
+   "metrology",
+   "emissions"
+  ]
+ },
+ {
+  "id": "etit-emc-analysis-of-electronic-systems",
+  "title_de": "EMV-Analyse elektronischer Systeme",
+  "faculty": "FEIT",
+  "description_en": "Course on analyzing electromagnetic compatibility of electronic systems using field theory, numerical methods and signal/power integrity.",
+  "competencies": [
+   "Perform worst-case electromagnetic compatibility analyses of electronic systems",
+   "Select and quantitatively evaluate interference-suppression measures",
+   "Apply numerical electromagnetic field computation methods",
+   "Assess signal and power integrity in interconnect structures"
+  ],
+  "topic_tags": [
+   "emc",
+   "electromagnetic fields",
+   "signal integrity"
+  ]
+ },
+ {
+  "id": "etit-generator-systems-for-renewable-energy",
+  "title_de": "Generatorsysteme zur regenerativen Energieerzeugung",
+  "faculty": "FEIT",
+  "description_en": "Covers electrical machines and control of generator systems for renewable energy generation, including maximum power point tracking.",
+  "competencies": [
+   "Assess boundary conditions of renewable energy generation",
+   "Dimension electrical machines for generator operation",
+   "Design control for maximum power point tracking",
+   "Optimize energy yield in variable-speed generator systems"
+  ],
+  "topic_tags": [
+   "renewable energy",
+   "generators",
+   "electrical machines",
+   "mppt"
+  ]
+ },
+ {
+  "id": "etit-genetic-algorithms",
+  "title_de": "Genetische Algorithmen",
+  "faculty": "FEIT",
+  "description_en": "Teaches the application and implementation of genetic and evolutionary algorithms for global optimization in engineering and biomedicine.",
+  "competencies": [
+   "Apply genetic and evolutionary algorithms for global optimization",
+   "Select and implement suitable algorithm structures for a task",
+   "Design fitness functions and application-specific components",
+   "Validate optimization results in engineering and biomedical problems"
+  ],
+  "topic_tags": [
+   "genetic algorithms",
+   "evolutionary optimization",
+   "global optimization",
+   "metaheuristics"
+  ]
+ },
+ {
+  "id": "etit-grundlagen-stochastischer-prozesse-in-biophysika",
+  "title_de": "Grundlagen stochastischer Prozesse in biophysikalischen",
+  "faculty": "FEIT",
+  "description_en": "Introduction to stochastic modelling of random processes in biophysical non-equilibrium systems, with analysis and numerical simulation.",
+  "competencies": [
+   "Characterise properties of stochastic processes",
+   "Derive and approximate master equations via Fokker-Planck equations",
+   "Relate stochastic differential equations to Fokker-Planck descriptions",
+   "Simulate stochastic processes with the Gillespie algorithm",
+   "Model biophysical non-equilibrium systems stochastically"
+  ],
+  "topic_tags": [
+   "stochastic processes",
+   "master equation",
+   "gillespie algorithm",
+   "biophysics"
+  ]
+ },
+ {
+  "id": "etit-heterogeneous-computing",
+  "title_de": "Heterogeneous Computing",
+  "faculty": "FEIT",
+  "description_en": "Teaches architecture, programming and integration of hardware accelerators like GPUs, FPGAs and AI accelerators into CPU-based systems.",
+  "competencies": [
+   "Explain architectures of GPU, FPGA and AI accelerators",
+   "Select suitable accelerators for given applications",
+   "Design and implement parallel programs for heterogeneous systems",
+   "Evaluate performance, energy and scalability of heterogeneous systems"
+  ],
+  "topic_tags": [
+   "heterogeneous computing",
+   "gpu",
+   "fpga"
+  ]
+ },
+ {
+  "id": "etit-high-frequency-components-and-systems",
+  "title_de": "Hochfrequenzkomponenten und -systeme (bisher Hochfrequenztechnik II)",
+  "faculty": "FEIT",
+  "description_en": "Covers analysis and dimensioning of high-frequency waveguide and transmission line structures using analytical electromagnetic methods.",
+  "competencies": [
+   "Analyze high-frequency transmission line structures",
+   "Select and dimension waveguides for a given application",
+   "Solve Bessel differential equations for cylindrical structures",
+   "Apply tools to analyze complex line structures and discontinuities"
+  ],
+  "topic_tags": [
+   "high-frequency technology",
+   "waveguides",
+   "transmission lines",
+   "electromagnetics"
+  ]
+ }
+]

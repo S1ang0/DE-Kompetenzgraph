@@ -1,0 +1,292 @@
+[
+ {
+  "id": "fmb-102812",
+  "title_de": "Visualisierung",
+  "faculty": "FIN",
+  "description_en": "A course on data and scientific visualization covering techniques for creating effective visual representations of data.",
+  "competencies": [
+   "Apply scientific and information visualization techniques",
+   "Design effective visual representations of data",
+   "Implement visualization pipelines and rendering methods",
+   "Evaluate and interpret visualizations critically"
+  ],
+  "topic_tags": [
+   "visualization",
+   "scientific visualization",
+   "rendering"
+  ]
+ },
+ {
+  "id": "etit-statistische-planung-und-auswertung-von-versuche",
+  "title_de": "Statistische Planung und Auswertung von Versuchen",
+  "faculty": "FMA",
+  "description_en": "Course on statistical evaluation of experimental data, regression analysis and design of experiments for first- and second-order models.",
+  "competencies": [
+   "Evaluate experimental production data with statistical methods",
+   "Perform regression and correlation analysis for linear and nonlinear models",
+   "Determine confidence intervals of model parameters",
+   "Set up factorial and central composite designs of experiments"
+  ],
+  "topic_tags": [
+   "design of experiments",
+   "statistics",
+   "regression"
+  ]
+ },
+ {
+  "id": "fmb-601170",
+  "title_de": "Angewandte Konstruktionstechnik",
+  "faculty": "FMB",
+  "description_en": "Methodical engineering design covering the product development process, systems engineering, interdisciplinary information flows and team-based project work.",
+  "competencies": [
+   "Apply systematic product development processes",
+   "Use systems engineering approaches across disciplines",
+   "Carry out methodical conceptual and detailed design",
+   "Manage interdisciplinary design projects in teams",
+   "Apply quality-oriented product development methods"
+  ],
+  "topic_tags": [
+   "engineering design",
+   "systems engineering",
+   "product development"
+  ]
+ },
+ {
+  "id": "fmb-601376",
+  "title_de": "Angewandte FEM",
+  "faculty": "FMB",
+  "description_en": "Applied finite element analysis for product strength and structural simulation, covering meshing, material models, contact and structural dynamics.",
+  "competencies": [
+   "Apply the finite element method to strength and structural analysis",
+   "Select appropriate meshing methods and material models",
+   "Evaluate simulation results and assess solution accuracy",
+   "Model contact problems and perform model reduction",
+   "Conduct eigenvalue, harmonic and transient structural dynamics analyses"
+  ],
+  "topic_tags": [
+   "fem",
+   "structural analysis",
+   "simulation",
+   "structural dynamics"
+  ]
+ },
+ {
+  "id": "fmb-601166",
+  "title_de": "CAx-Anwendungen",
+  "faculty": "FMB",
+  "description_en": "Overview of CAx applications across the product lifecycle, covering CAD modeling, CAE simulation, optimization, and CAP/CAM process integration.",
+  "competencies": [
+   "Apply CAx tools across the product lifecycle",
+   "Build 3D CAD models using B-Rep, CSG and parametric methods",
+   "Use CAE simulation including FEM, CFD and multibody systems",
+   "Apply topology and shape optimization techniques",
+   "Integrate CAP and CAM in the digital process chain"
+  ],
+  "topic_tags": [
+   "cax",
+   "cad",
+   "cae",
+   "product lifecycle"
+  ]
+ },
+ {
+  "id": "fmb-601167",
+  "title_de": "CAx-Management",
+  "faculty": "FMB",
+  "description_en": "Management of CAx systems, covering system introduction and migration, economic efficiency assessment, lifecycle costing and technology evaluation.",
+  "competencies": [
+   "Plan introduction and migration of CAx systems",
+   "Assess the economic efficiency of CAx systems",
+   "Apply cost methods to predict product costs across the lifecycle",
+   "Manage CAx systems and applications",
+   "Evaluate new technologies using the BAPM method"
+  ],
+  "topic_tags": [
+   "cax management",
+   "plm",
+   "product lifecycle costing"
+  ]
+ },
+ {
+  "id": "fmb-601467",
+  "title_de": "Datengetriebene Verfahren in der Systementwicklung",
+  "faculty": "FMB",
+  "description_en": "Introduction to data-driven and machine learning methods for the development, analysis and optimization of dynamic mechatronic systems.",
+  "competencies": [
+   "Apply data-driven methods to dynamic mechatronic systems",
+   "Use supervised and unsupervised learning techniques",
+   "Build and apply perceptrons and neural networks",
+   "Apply data-driven control and reinforcement learning",
+   "Use physics-informed machine learning and assess its limitations"
+  ],
+  "topic_tags": [
+   "machine learning",
+   "neural networks",
+   "physics-informed ml"
+  ]
+ },
+ {
+  "id": "fmb-601387",
+  "title_de": "Entwicklung von Arbeits- und Fördermaschinen",
+  "faculty": "FMB",
+  "description_en": "Design of working and conveying machines, focusing on deriving load assumptions and spectra and applying multibody simulation to size complex assemblies.",
+  "competencies": [
+   "Determine load assumptions for working and conveying machines",
+   "Calculate forces and moments for drive and component sizing",
+   "Derive load spectra for dimensioning machine drive units",
+   "Design and conceptualize complex machine assemblies",
+   "Apply multibody simulation to size complex machines"
+  ],
+  "topic_tags": [
+   "machine design",
+   "load assumptions",
+   "multibody simulation",
+   "cranes"
+  ]
+ },
+ {
+  "id": "fmb-604167",
+  "title_de": "Fahrerassistenzsysteme und autonomes Fahren",
+  "faculty": "FMB",
+  "description_en": "Driver assistance systems and autonomous driving, covering vehicle dynamics, sensors and actuators, and stabilization- and navigation-level assistance functions.",
+  "competencies": [
+   "Explain the structure and function of driver assistance systems",
+   "Apply development methodology for driver assistance systems",
+   "Model vehicle dynamics for assistance functions",
+   "Select sensors and actuators for assistance systems",
+   "Assess stabilization and navigation-level assistance systems"
+  ],
+  "topic_tags": [
+   "driver assistance",
+   "autonomous driving",
+   "vehicle dynamics"
+  ]
+ },
+ {
+  "id": "fmb-601384",
+  "title_de": "Energy sources and energy storage",
+  "faculty": "FMB",
+  "description_en": "Energy sources and storage technologies for vehicles, covering fossil and biogenic fuels, hydrogen, kinetic and electrochemical storage, and battery management.",
+  "competencies": [
+   "Select energy sources and storage technologies for applications",
+   "Assess fuels by availability, sustainability and economics",
+   "Explain electrochemical principles of primary and secondary cells",
+   "Evaluate kinetic and electrical energy storage systems",
+   "Apply battery management and scaling for mobile systems"
+  ],
+  "topic_tags": [
+   "energy storage",
+   "fuels",
+   "batteries",
+   "sustainability"
+  ]
+ },
+ {
+  "id": "fmb-601124",
+  "title_de": "Experimentelle Mechanik",
+  "faculty": "FMB",
+  "description_en": "Experimental mechanics linking theory and application through laboratory measurement of deformations, stresses and vibrations using strain gauges and photoelasticity.",
+  "competencies": [
+   "Select appropriate experimental measurement methods independently",
+   "Measure deformations, stresses and vibrations in solids",
+   "Apply strain gauges, photoelasticity and frequency analysis",
+   "Acquire and process measurement data",
+   "Conduct experiments and correctly evaluate results"
+  ],
+  "topic_tags": [
+   "experimental mechanics",
+   "strain measurement",
+   "vibration analysis"
+  ]
+ },
+ {
+  "id": "fmb-601229",
+  "title_de": "Betriebsorganisation",
+  "faculty": "FMB",
+  "description_en": "Planning and control of industrial production, covering organizational structures, order processing, ERP-based resource planning and production system evaluation.",
+  "competencies": [
+   "Plan and control industrial production processes",
+   "Derive organizational structures from corporate strategy",
+   "Apply ERP-supported production planning methods",
+   "Plan resource deployment and material provision",
+   "Evaluate production systems using logistic key figures"
+  ],
+  "topic_tags": [
+   "production planning",
+   "erp",
+   "factory organisation"
+  ]
+ },
+ {
+  "id": "fmb-601383",
+  "title_de": "Fahrzeugemissionen",
+  "faculty": "FMB",
+  "description_en": "Vehicle emissions covering emission types and effects, legal regulations, formation and reduction measures, and exhaust aftertreatment across powertrain concepts.",
+  "competencies": [
+   "Analyse types of vehicle emissions and their effects",
+   "Distinguish emissions from immissions",
+   "Apply legal regulations on vehicle emissions",
+   "Evaluate emission formation and reduction measures",
+   "Compare emissions across vehicle and powertrain concepts"
+  ],
+  "topic_tags": [
+   "vehicle emissions",
+   "exhaust aftertreatment",
+   "sustainability"
+  ]
+ },
+ {
+  "id": "fmb-601351",
+  "title_de": "Fahrzeugsystementwurf",
+  "faculty": "FMB",
+  "description_en": "Vehicle system design covering the development process, platforms, requirements management, electrified and conventional architectures, and life-cycle assessment.",
+  "competencies": [
+   "Analyse requirements in vehicle development",
+   "Design vehicle architectures and platforms",
+   "Apply the product development process to vehicles",
+   "Compare BEV, HEV, FCEV and conventional architectures",
+   "Consider recycling and life-cycle assessment in design"
+  ],
+  "topic_tags": [
+   "vehicle architecture",
+   "vehicle development",
+   "powertrain concepts"
+  ]
+ },
+ {
+  "id": "fmb-601375",
+  "title_de": "Fertigungsgerechte und montagegerechte Konstruktion",
+  "faculty": "FMB",
+  "description_en": "Manufacturing- and assembly-appropriate product design, covering design-for-manufacturing and design-for-assembly principles, recycling and conformity assessment.",
+  "competencies": [
+   "Apply design-for-manufacturing principles",
+   "Apply design-for-assembly methods",
+   "Adapt component design to specific manufacturing processes",
+   "Address disassembly and recycling in design",
+   "Apply conformity assessment and CE marking procedures"
+  ],
+  "topic_tags": [
+   "design for manufacturing",
+   "design for assembly",
+   "ce marking"
+  ]
+ },
+ {
+  "id": "fmb-601247",
+  "title_de": "Fertigungsmesstechnik",
+  "faculty": "FMB",
+  "description_en": "Manufacturing metrology covering measurement setup design, instrument selection, geometric inspection, measurement uncertainty and statistical data analysis.",
+  "competencies": [
+   "Design measurement setups from drawing specifications",
+   "Select appropriate measuring instruments and gauges",
+   "Apply measuring devices to inspect geometric elements",
+   "Assess measurement deviations and uncertainties",
+   "Statistically analyse and process measurement data"
+  ],
+  "topic_tags": [
+   "metrology",
+   "measurement technology",
+   "quality control"
+  ]
+ }
+]

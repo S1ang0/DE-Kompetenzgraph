@@ -19,10 +19,31 @@ const I = {
   ul: <svg className="icon" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="17 8 12 3 7 8" /><line x1="12" y1="3" x2="12" y2="15" /></svg>,
 };
 
-const LANG_LABEL = { en: "Englisch", de: "Deutsch", both: "Zweisprachig" };
-const KIND_LABEL = { course: "Vorlesung", seminar: "Seminar", project: "Projekt", lab: "Labor", thesis: "Abschlussarbeit", skills: "Schlüsselkompetenz" };
-const LEVEL_LABEL = { introductory: "Einführung", core: "Kern", advanced: "Vertiefung" };
-const SEM_LABEL = { winter: "Wintersem.", summer: "Sommersem.", both: "Winter + Sommer" };
+// The detail panel is shown entirely in the module's own teaching language:
+// a German-taught module reads in German, an English / bilingual one in English.
+// (The module name itself is never translated — see DetailPanel.)
+const PANEL_T = {
+  de: {
+    competencies: "Kompetenzen", topics: "Themen-Tags", metadata: "Metadaten",
+    faculty: "Fakultät", language: "Sprache", credits: "Creditpoints",
+    moduleCode: "Modulcode", source: "Quelle", openPage: "Modulseite öffnen",
+    lang: { en: "Englisch", de: "Deutsch", both: "Zweisprachig" },
+    level: { introductory: "Einführung", core: "Kern", advanced: "Vertiefung" },
+    kind: { course: "Vorlesung", seminar: "Seminar", project: "Projekt", lab: "Labor", thesis: "Abschlussarbeit", skills: "Schlüsselkompetenz" },
+    sem: { winter: "Wintersem.", summer: "Sommersem.", both: "Winter + Sommer" },
+    prof: { core: "Kernmodul dieser Profilierung", elig: "Anrechenbar (englisch, FIN+FMB)", sub: "Optionales Substitut (deutsch/FEIT)", out: "Nicht Teil dieser Profilierung" },
+  },
+  en: {
+    competencies: "Competencies", topics: "Topics", metadata: "Metadata",
+    faculty: "Faculty", language: "Language", credits: "Credit points",
+    moduleCode: "Module code", source: "Source", openPage: "Open module page",
+    lang: { en: "English", de: "German", both: "Bilingual" },
+    level: { introductory: "Introductory", core: "Core", advanced: "Advanced" },
+    kind: { course: "Lecture", seminar: "Seminar", project: "Project", lab: "Lab", thesis: "Thesis", skills: "Transferable skill" },
+    sem: { winter: "Winter sem.", summer: "Summer sem.", both: "Winter + summer" },
+    prof: { core: "Core module of this profile", elig: "Creditable (English, FIN+FMB)", sub: "Optional substitute (German/FEIT)", out: "Not part of this profile" },
+  },
+};
 
 // same shapes as the graph nodes (snowflake / sun / circle), drawn from the shared glyph module
 function SemesterGlyph({ semester, size = 14 }) {
@@ -34,7 +55,7 @@ function SemesterGlyph({ semester, size = 14 }) {
 }
 const NEW_COLORS = ["#5B7DB1", "#4E9C8B", "#9A6FA8", "#B07C57", "#6F8C4E", "#A86C86", "#557A9E", "#8C8C8C"];
 
-const LS_KEY = "de_workspace_v4";   // bumped after adding the semester field
+const LS_KEY = "de_workspace_v5";   // bumped after per-language module content (native description/competencies/tags/label)
 const loadLS = () => { try { return JSON.parse(localStorage.getItem(LS_KEY)); } catch { return null; } };
 const uid = (p) => p + Math.random().toString(36).slice(2, 7);
 
@@ -267,12 +288,15 @@ function Rail({ data, filters, setFilters, toggleSet, showLabels, setShowLabels,
 /* ─────────────────────────── Module detail panel ─────────────────────────── */
 function DetailPanel({ module, clusterById, onClose, activeProfile }) {
   const c = module ? clusterById.get(module.cluster) : null;
+  const T = PANEL_T[module && module.language === "de" ? "de" : "en"];
+  // the original name stays primary; the other official title (if any) becomes the subtitle
+  const altTitle = module ? (module.label === module.title_de ? module.title_en : module.title_de) : null;
   let profStatus = null;
   if (module && activeProfile) {
-    if (activeProfile.core_eligible_pool.includes(module.id)) profStatus = { t: "Kernmodul dieser Profilierung", k: "core" };
-    else if (activeProfile.eligible_pool.includes(module.id)) profStatus = { t: "Anrechenbar (englisch, FIN+FMB)", k: "elig" };
-    else if (activeProfile.substitutes.includes(module.id)) profStatus = { t: "Optionales Substitut (deutsch/FEIT)", k: "sub" };
-    else profStatus = { t: "Nicht Teil dieser Profilierung", k: "out" };
+    if (activeProfile.core_eligible_pool.includes(module.id)) profStatus = { t: T.prof.core, k: "core" };
+    else if (activeProfile.eligible_pool.includes(module.id)) profStatus = { t: T.prof.elig, k: "elig" };
+    else if (activeProfile.substitutes.includes(module.id)) profStatus = { t: T.prof.sub, k: "sub" };
+    else profStatus = { t: T.prof.out, k: "out" };
   }
   return (
     <div className="detail" data-open={!!module} aria-hidden={!module}>
@@ -282,14 +306,14 @@ function DetailPanel({ module, clusterById, onClose, activeProfile }) {
             <button className="btn btn--ghost detail__close" onClick={onClose} aria-label="Detailpanel schließen">{I.close}</button>
             <div className="row gap2"><span className="swatch" style={{ background: c?.color }} /><span className="eyebrow">{c?.name}</span></div>
             <h2 className="detail__title">{module.label}</h2>
-            {module.title_de && module.title_de !== module.label && (<div className="muted" style={{ fontSize: 13, marginTop: -6, marginBottom: 6 }}>{module.title_de}</div>)}
+            {altTitle && altTitle !== module.label && (<div className="muted" style={{ fontSize: 13, marginTop: -6, marginBottom: 6 }}>{altTitle}</div>)}
             <div className="detail__row">
               <span className={`badge badge--${module.faculty.toLowerCase()}`}>{module.faculty}</span>
-              <span className={`badge badge--${module.language === "de" ? "de" : "en"}`}>{LANG_LABEL[module.language]}</span>
+              <span className={`badge badge--${module.language === "de" ? "de" : "en"}`}>{T.lang[module.language]}</span>
               <span className="badge">{module.cp} CP</span>
-              {module.semester && <span className="badge" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><SemesterGlyph semester={module.semester} size={12} />{SEM_LABEL[module.semester] || module.semester}</span>}
-              <span className="badge">{LEVEL_LABEL[module.level_band] || module.level_band}</span>
-              {module.kind !== "course" && <span className="badge">{KIND_LABEL[module.kind] || module.kind}</span>}
+              {module.semester && <span className="badge" style={{ display: "inline-flex", alignItems: "center", gap: 4 }}><SemesterGlyph semester={module.semester} size={12} />{T.sem[module.semester] || module.semester}</span>}
+              <span className="badge">{T.level[module.level_band] || module.level_band}</span>
+              {module.kind !== "course" && <span className="badge">{T.kind[module.kind] || module.kind}</span>}
             </div>
           </div>
           <div className="detail__scroll">
@@ -298,18 +322,18 @@ function DetailPanel({ module, clusterById, onClose, activeProfile }) {
                 <div className="row gap2" style={{ fontSize: 12.5, fontWeight: 550 }}>{profStatus.k !== "out" && <span style={{ color: "var(--accent)" }}>{I.check}</span>}{profStatus.t}</div>
               </div>
             )}
-            {module.description_en && <p style={{ fontSize: 13.5, color: "var(--ink-2)", lineHeight: 1.5 }}>{module.description_en}</p>}
-            {module.competencies?.length > 0 && (<><div className="section-title">Kompetenzen</div><ul className="bullets">{module.competencies.map((x, i) => <li key={i}>{x}</li>)}</ul></>)}
-            {module.topic_tags?.length > 0 && (<><div className="section-title">Themen-Tags</div><div className="taglist">{module.topic_tags.map((t, i) => <span className="tag" key={i}>{t}</span>)}</div></>)}
-            <div className="section-title">Metadaten</div>
+            {module.description && <p style={{ fontSize: 13.5, color: "var(--ink-2)", lineHeight: 1.5 }}>{module.description}</p>}
+            {module.competencies?.length > 0 && (<><div className="section-title">{T.competencies}</div><ul className="bullets">{module.competencies.map((x, i) => <li key={i}>{x}</li>)}</ul></>)}
+            {module.topic_tags?.length > 0 && (<><div className="section-title">{T.topics}</div><div className="taglist">{module.topic_tags.map((t, i) => <span className="tag" key={i}>{t}</span>)}</div></>)}
+            <div className="section-title">{T.metadata}</div>
             <dl className="kv">
-              <dt>Fakultät</dt><dd>{module.faculty}</dd>
-              <dt>Sprache</dt><dd>{LANG_LABEL[module.language]}</dd>
-              <dt>Creditpoints</dt><dd>{module.cp} CP</dd>
-              {module.module_code && (<><dt>Modulcode</dt><dd className="mono">{module.module_code}</dd></>)}
-              <dt>Quelle</dt><dd style={{ fontSize: 12 }}>{module.source}</dd>
+              <dt>{T.faculty}</dt><dd>{module.faculty}</dd>
+              <dt>{T.language}</dt><dd>{T.lang[module.language]}</dd>
+              <dt>{T.credits}</dt><dd>{module.cp} CP</dd>
+              {module.module_code && (<><dt>{T.moduleCode}</dt><dd className="mono">{module.module_code}</dd></>)}
+              <dt>{T.source}</dt><dd style={{ fontSize: 12 }}>{module.source}</dd>
             </dl>
-            {module.source_url && (<a className="btn btn--sm" href={module.source_url} target="_blank" rel="noreferrer">{I.ext}<span>Modulseite öffnen</span></a>)}
+            {module.source_url && (<a className="btn btn--sm" href={module.source_url} target="_blank" rel="noreferrer">{I.ext}<span>{T.openPage}</span></a>)}
           </div>
         </>
       )}
@@ -447,7 +471,7 @@ function ModulesTab({ ws, ops }) {
   const [q, setQ] = useState("");
   const list = useMemo(() => {
     const t = q.toLowerCase();
-    return ws.modules.filter((m) => !t || (m.label || "").toLowerCase().includes(t) || (m.title_de || "").toLowerCase().includes(t) || m.faculty.toLowerCase().includes(t));
+    return ws.modules.filter((m) => !t || (m.label || "").toLowerCase().includes(t) || (m.title_de || "").toLowerCase().includes(t) || (m.title_en || "").toLowerCase().includes(t) || m.faculty.toLowerCase().includes(t));
   }, [ws.modules, q]);
   const shown = list.slice(0, 140);
   return (

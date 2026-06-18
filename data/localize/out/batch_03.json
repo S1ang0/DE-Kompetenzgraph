@@ -1,0 +1,259 @@
+[
+ {
+  "id": "etit-radar-technology",
+  "description_de": "Behandelt Radarkonzepte und -systeme zur Objektdetektion, Entfernungs- und Positionsbestimmung einschließlich der erforderlichen Signalverarbeitung und Ausbreitungseffekte.",
+  "competencies_de": [
+   "Konzepte zur Objektdetektion, Entfernungs- und Winkelbestimmung erläutern",
+   "Funktionsweise von Primär- und Sekundärradarsystemen beschreiben",
+   "Signalverarbeitungsverfahren für Radar anwenden",
+   "Physikalische Ausbreitungseffekte in Radarsystemen bewerten"
+  ],
+  "topic_tags_de": [
+   "radar",
+   "objektdetektion",
+   "signalverarbeitung",
+   "sensorik"
+  ]
+ },
+ {
+  "id": "etit-rechnerbasierter-reglerentwurf",
+  "description_de": "Lehrveranstaltung zum rechnergestützten Reglerentwurf und zur Implementierung in Matlab/Simulink, einschließlich robuster Mehrgrößen- und Echtzeitregler.",
+  "competencies_de": [
+   "Regler rechnergestützt in Matlab/Simulink entwerfen und implementieren",
+   "Zentrale und dezentrale PI-/PID-Regler automatisch einstellen",
+   "Robuste Mehrgrößenregler mittels H-unendlich- und mu-Synthese entwerfen",
+   "Regler über lineare Matrixungleichungen synthetisieren und in Echtzeit implementieren"
+  ],
+  "topic_tags_de": [
+   "reglerentwurf",
+   "robuste regelung",
+   "matlab",
+   "lmi"
+  ]
+ },
+ {
+  "id": "fmb-800376",
+  "description_de": "Lehrveranstaltung zur Regelung von Drehstromantrieben, die Raumzeigermodellierung, feldorientierte Regelung und direkte Drehmomentregelung behandelt.",
+  "competencies_de": [
+   "Drehstrommaschinen mittels Raumzeigerdarstellung modellieren",
+   "Regelkreise für Synchron- und Asynchronmaschinen entwerfen",
+   "Feldorientierte Regelung und direkte Drehmomentregelung anwenden",
+   "Maschinentypen und Regelverfahren für Anwendungen bewerten"
+  ],
+  "topic_tags_de": [
+   "drehstromantriebe",
+   "feldorientierte regelung",
+   "elektrische maschinen"
+  ]
+ },
+ {
+  "id": "etit-renewable-electricity-sources-system-analysis",
+  "description_de": "Untersucht die Stromerzeugung aus regenerativen Quellen und ihre Integration in das Gesamtenergiesystem und in Smart Grids.",
+  "competencies_de": [
+   "Auswirkungen regenerativer Quellen auf das Energieversorgungssystem bewerten",
+   "Stromerzeugung aus Photovoltaik, Wind- und Wasserkraft beurteilen",
+   "Netzintegration dezentraler regenerativer Erzeuger analysieren",
+   "Speicher und Brennstoffzellen in Smart-Grid-Konzepte einbinden"
+  ],
+  "topic_tags_de": [
+   "regenerative energien",
+   "smart grid",
+   "netzintegration",
+   "energiespeicher"
+  ]
+ },
+ {
+  "id": "etit-robotersysteme",
+  "description_de": "Entwurf, Modellierung, Regelung und Programmierung von Roboterantriebssystemen einschließlich dynamischer Modelle und experimenteller Untersuchungen an Robotern.",
+  "competencies_de": [
+   "Roboterantriebssysteme entwerfen, modellieren und regeln",
+   "Räumliche Roboterbewegungen mit Denavit-Hartenberg-Koordinaten beschreiben",
+   "Dynamische Modelle von Robotersystemen aufstellen",
+   "Robotersteuerungen und kaskadierte Antriebsregelung programmieren",
+   "Experimentelle Untersuchungen an Robotersystemen durchführen"
+  ],
+  "topic_tags_de": [
+   "robotik",
+   "roboterregelung",
+   "antriebssysteme",
+   "kinematik"
+  ]
+ },
+ {
+  "id": "etit-seminar-cognitive-systems",
+  "description_de": "Seminar zur praktischen Anwendung kognitiver intelligenter Systeme einschließlich Sprachmodellierung und ihrer Realisierung in technischen Systemen.",
+  "competencies_de": [
+   "Prinzipien kognitiver Intelligenz in praktischen Programmen anwenden",
+   "Modelle gesprochener und geschriebener Sprache als Repräsentationsmodelle aufbauen",
+   "Kognitive Systeme in technischen Anwendungen umsetzen",
+   "Bedeutungszuweisung und Daten in kognitiven Systemen handhaben"
+  ],
+  "topic_tags_de": [
+   "kognitive systeme",
+   "künstliche intelligenz",
+   "sprachmodellierung",
+   "intelligente systeme"
+  ]
+ },
+ {
+  "id": "etit-sensor-applications",
+  "description_de": "Zweisemestriges Praxisprojekt zum Entwurf, Aufbau und Test von Sensorsystemen mit mikrocontrollerbasierter Datenerfassung und -auswertung.",
+  "competencies_de": [
+   "Sensorbasierte Systeme für gegebene Aufgabenstellungen entwerfen, aufbauen und testen",
+   "Messdaten mit Mikrocontrollern erfassen und verarbeiten",
+   "Sensoren nach Wirkprinzip für Anwendungsbereiche auswählen und bewerten",
+   "Ein zweisemestriges praktisches Sensorprojekt dokumentieren und präsentieren"
+  ],
+  "topic_tags_de": [
+   "sensoren",
+   "messtechnik",
+   "mikrocontroller",
+   "projekt"
+  ]
+ },
+ {
+  "id": "fmb-800302",
+  "description_de": "Zweisemestriges Praxisprojekt, in dem die Studierenden Sensorsysteme für ausgewählte Anwendungsbereiche entwerfen, aufbauen und testen.",
+  "competencies_de": [
+   "Sensorsysteme für eine gegebene Anwendung entwerfen und aufbauen",
+   "Sensoren auf Grundlage ihrer Wirkprinzipien auswählen",
+   "Messdaten erfassen und mikrocontrollerbasiert auswerten",
+   "Eine sensorbasierte Lösung testen, dokumentieren und präsentieren"
+  ],
+  "topic_tags_de": [
+   "sensoren",
+   "messtechnik",
+   "eingebettete systeme"
+  ]
+ },
+ {
+  "id": "etit-speicherprogrammierbare-steuerungen",
+  "description_de": "Aufbau und Programmierung speicherprogrammierbarer Steuerungen für die Binärsteuerung und Antriebsautomatisierung mit praktischen Programmierübungen.",
+  "competencies_de": [
+   "Aufgaben und Einsatzgebiete speicherprogrammierbarer Steuerungen erläutern",
+   "Binäre Steuerschaltungen für Asynchronmaschinen entwerfen",
+   "SPS-gesteuerte Antriebssysteme programmieren",
+   "Maschinen- und Anlagensteuerungen mit SPS realisieren",
+   "Motion-Control-Systeme mit speicherprogrammierbarer Antriebsregelung steuern"
+  ],
+  "topic_tags_de": [
+   "sps",
+   "automatisierung",
+   "motion control",
+   "antriebsregelung"
+  ]
+ },
+ {
+  "id": "etit-stromversorgungstechnik",
+  "description_de": "Lehrveranstaltung zu leistungselektronischen Systemen für die Stromversorgung, die regenerative Erzeugung, HGÜ, Speicher und das Laden von Elektrofahrzeugen behandelt.",
+  "competencies_de": [
+   "Leistungselektronische Schaltungen in komplexen Stromversorgungssystemen umsetzen",
+   "Stromversorgungen für regenerative Erzeugung und Elektrofahrzeuge auslegen",
+   "Leistungselektronische Systeme anwendungsspezifisch dimensionieren",
+   "HGÜ-, Speicher- und Ladekonzepte in der Elektromobilität anwenden"
+  ],
+  "topic_tags_de": [
+   "stromversorgung",
+   "leistungselektronik",
+   "elektromobilität",
+   "regenerative energien"
+  ]
+ },
+ {
+  "id": "etit-strukturelle-und-funktionale-analyse-von-zellula",
+  "description_de": "Strukturelle und qualitative Modellierung und Analyse zellulärer Netzwerke mithilfe der Graphentheorie, Boolescher Netzwerke und Methoden metabolischer Netzwerke.",
+  "competencies_de": [
+   "Zelluläre Netzwerke mittels Graphen- und Hypergraphentheorie modellieren",
+   "Metabolische Netzwerkanalyse mit Elementarmoden und Schnittmengen durchführen",
+   "Regulatorische und Signalnetzwerke mit Booleschen Netzwerken modellieren",
+   "Strukturelle und statistische Netzwerkmaße berechnen",
+   "Softwarewerkzeuge zur rechnergestützten Analyse biochemischer Netzwerke anwenden"
+  ],
+  "topic_tags_de": [
+   "netzwerkanalyse",
+   "graphentheorie",
+   "systembiologie",
+   "boolesche netzwerke"
+  ]
+ },
+ {
+  "id": "etit-system-integration-of-power-electronics",
+  "description_de": "Seminar zur Systemintegration von Leistungselektronik mittels Modellierung, Simulation und Hardware-in-the-Loop für regenerative Energien und Elektromobilität.",
+  "competencies_de": [
+   "Fragestellungen der Systemintegration von Leistungselektronik bearbeiten",
+   "Wechselwirkungen zwischen Leistungselektronik und umgebendem System quantifizieren",
+   "Methoden der Modellierung, Simulation und Hardware-in-the-Loop anwenden",
+   "Ein Gesamtsystem einschließlich leistungselektronischer Baugruppen und Regelung abbilden"
+  ],
+  "topic_tags_de": [
+   "leistungselektronik",
+   "systemintegration",
+   "hardware-in-the-loop",
+   "simulation"
+  ]
+ },
+ {
+  "id": "etit-technical-cognitive-systems",
+  "description_de": "Vermittelt fortgeschrittene Konzepte technischer kognitiver intelligenter Systeme und ihre praktische Realisierung in technischen Anwendungen.",
+  "competencies_de": [
+   "Prinzipien kognitiver Intelligenz und ihre Übertragung auf den Rechner erläutern",
+   "Mit kognitiven Modellarchitekturen arbeiten",
+   "Bedeutungszuweisung und Datenhandhabung in Assistenzsystemen umsetzen",
+   "Konzepte kognitiver Systeme in praktischen Programmen realisieren"
+  ],
+  "topic_tags_de": [
+   "kognitive systeme",
+   "künstliche intelligenz",
+   "kognitive modellierung",
+   "intelligente systeme"
+  ]
+ },
+ {
+  "id": "etit-voice-user-interfaces",
+  "description_de": "Vermittelt den Entwurf und die Implementierung von Sprachdialogschnittstellen und Dialogsystemen mit VXML und modernen Sprachassistenten.",
+  "competencies_de": [
+   "Konzepte und Methoden automatischer Dialogsysteme erläutern",
+   "Wissen in Sprachgrammatiken repräsentieren",
+   "Sprachdialoge in VXML und Amazon-Alexa-Skills aufbauen",
+   "Stärken und Schwächen von Sprachdialogschnittstellen bewerten"
+  ],
+  "topic_tags_de": [
+   "sprachdialogschnittstellen",
+   "dialogsysteme",
+   "vxml",
+   "sprachassistenten"
+  ]
+ },
+ {
+  "id": "etit-wind-energy",
+  "description_de": "Behandelt Wandlung, Auslegung und Netzintegration von Windkraftanlagen zur Stromerzeugung einschließlich Aerodynamik und Wirtschaftlichkeit.",
+  "competencies_de": [
+   "Physik und Wandlungsprinzipien der Windenergie erläutern",
+   "Windkraftanlagen mittels Tragflügeltheorie auslegen",
+   "Leistungskennlinien und Teillastverhalten von Windkraftanlagen berechnen",
+   "Netzintegration und Wirtschaftlichkeit von Windkraftanlagen bewerten"
+  ],
+  "topic_tags_de": [
+   "windenergie",
+   "windkraftanlagen",
+   "regenerative energien",
+   "netzintegration"
+  ]
+ },
+ {
+  "id": "etit-windenergie",
+  "description_de": "Lehrveranstaltung zur Windenergiewandlung, zur Auslegung von Windkraftanlagen und ihren Komponenten sowie zu den technischen und wirtschaftlichen Aspekten der Netzintegration.",
+  "competencies_de": [
+   "Physik und Wandlungsprinzipien der Windenergie erläutern",
+   "Windkraftanlagen mittels Tragflügeltheorie und Leistungskennlinien auslegen",
+   "Teillastverhalten und Leistungskennwerte von Anlagen berechnen",
+   "Netzintegration und Wirtschaftlichkeit von Windparks analysieren"
+  ],
+  "topic_tags_de": [
+   "windenergie",
+   "windkraftanlagen",
+   "regenerative energien",
+   "netzintegration"
+  ]
+ }
+]

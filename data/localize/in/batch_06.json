@@ -1,0 +1,284 @@
+[
+ {
+  "id": "fmb-601317",
+  "title_de": "Fertigungsplanung",
+  "faculty": "FMB",
+  "description_en": "Manufacturing planning covering blank selection, process sequencing, assembly operations, resource estimation, production control and quality planning.",
+  "competencies": [
+   "Plan manufacturing steps for typical mechanical components",
+   "Select blanks and define technological datums",
+   "Schedule assembly and disassembly operations",
+   "Estimate required production resources",
+   "Apply production control, monitoring and quality planning"
+  ],
+  "topic_tags": [
+   "manufacturing planning",
+   "process planning",
+   "production control"
+  ]
+ },
+ {
+  "id": "fmb-601373",
+  "title_de": "Fertigungstechnologien",
+  "faculty": "FMB",
+  "description_en": "Manufacturing technologies across casting, forming, cutting, removal and joining, enabling application-optimized selection of processes and technologies.",
+  "competencies": [
+   "Select application-optimized manufacturing processes",
+   "Assess possibilities and limits of forming and casting technologies",
+   "Apply cutting processes with defined and undefined edges",
+   "Use thermal and electrochemical removal technologies",
+   "Apply thermal and mechanical joining processes"
+  ],
+  "topic_tags": [
+   "manufacturing processes",
+   "forming",
+   "machining",
+   "joining"
+  ]
+ },
+ {
+  "id": "fmb-604178",
+  "title_de": "Form, Farbe, Material",
+  "faculty": "FMB",
+  "description_en": "Trains sculptural design skills uniting form, colour and material for functional objects through sketching, modelling and physical model-making.",
+  "competencies": [
+   "Develop sculptural designs uniting form, colour and material",
+   "Balance aesthetic, ergonomic and technical design requirements",
+   "Sketch and model functional objects to evaluate perceptual quality",
+   "Build physical models to validate design solutions"
+  ],
+  "topic_tags": [
+   "industrial design",
+   "form colour material",
+   "product aesthetics"
+  ]
+ },
+ {
+  "id": "fmb-601324",
+  "title_de": "Grundlagen der visuellen Gestaltung",
+  "faculty": "FMB",
+  "description_en": "A foundational course in visual design developing artistic visual language and aesthetic competence in two-dimensional surface composition.",
+  "competencies": [
+   "Develop an individual artistic visual language",
+   "Apply fundamental principles of two-dimensional visual design",
+   "Build aesthetic competence in surface composition",
+   "Foster creative design thinking independent of technical constraints"
+  ],
+  "topic_tags": [
+   "visual design",
+   "composition",
+   "aesthetics"
+  ]
+ },
+ {
+  "id": "fmb-800337",
+  "title_de": "Grundlagen mobiler und autonomer Roboter",
+  "faculty": "FMB",
+  "description_en": "Covers fundamentals of mobile and autonomous robots including kinematics, sensors, localization and navigation, with a hands-on robot-development lab.",
+  "competencies": [
+   "Perform kinematic and dynamic analysis of mobile robots",
+   "Design wheeled and legged locomotion systems",
+   "Apply localization, path planning and obstacle avoidance methods",
+   "Implement machine vision with feature extraction and sensor data fusion",
+   "Develop mobile robots in teams to accomplish defined tasks"
+  ],
+  "topic_tags": [
+   "mobile robots",
+   "autonomous robots",
+   "path planning"
+  ]
+ },
+ {
+  "id": "fmb-601307",
+  "title_de": "Industrielles Projektmanagement",
+  "faculty": "FMB",
+  "description_en": "Teaches structuring, organizing and controlling of industrial projects through analytical task breakdown and key-figure-based project management.",
+  "competencies": [
+   "Analyze industrial processes to identify change requirements",
+   "Structure and organize industrial projects from analytical task breakdown",
+   "Manage projects using goal-oriented project structures",
+   "Apply key-figure-based project controlling"
+  ],
+  "topic_tags": [
+   "project management",
+   "project controlling",
+   "industrial projects"
+  ]
+ },
+ {
+  "id": "fmb-604163",
+  "title_de": "Integrated Design Engineering",
+  "faculty": "FMB",
+  "description_en": "Teaches integrated, holistic product development balancing function, form and sustainability across interdisciplinary projects using IDE tools.",
+  "competencies": [
+   "Apply holistic, integrated product development across multiple product views",
+   "Balance function, form, safety, quality, ergonomics and sustainability synergistically",
+   "Use IDE authoring, simulation and management tools",
+   "Manage interdisciplinary design projects and processes"
+  ],
+  "topic_tags": [
+   "integrated design",
+   "product development",
+   "design methodology"
+  ]
+ },
+ {
+  "id": "fmb-601431",
+  "title_de": "Intelligente Verkehrssysteme (IVS)",
+  "faculty": "FMB",
+  "description_en": "Introduces intelligent transport systems combining IT, communication and traffic engineering for safer, more efficient mobility and connected autonomous driving.",
+  "competencies": [
+   "Explain elements of transport infrastructure and intelligent transport systems",
+   "Apply traffic data acquisition, analysis and information systems",
+   "Design traffic control and management strategies",
+   "Apply V2X communication for connected and autonomous driving"
+  ],
+  "topic_tags": [
+   "intelligent transport systems",
+   "v2x",
+   "autonomous driving",
+   "traffic management"
+  ]
+ },
+ {
+  "id": "fmb-604148",
+  "title_de": "Logistikstrategien und –methoden",
+  "faculty": "FMB",
+  "description_en": "Surveys logistics strategies and methods including supply chain design, Six-Sigma tools, simulation and reliability of material-flow systems.",
+  "competencies": [
+   "Apply current logistics strategies, methods and tools",
+   "Use Six-Sigma and quality-management tools in logistics",
+   "Design supply chains and model material-flow systems",
+   "Assess system reliability and risk in material-flow systems"
+  ],
+  "topic_tags": [
+   "logistics",
+   "supply chain design",
+   "six sigma",
+   "material flow"
+  ]
+ },
+ {
+  "id": "fmb-604202",
+  "title_de": "Marketing, Vertrieb, Betriebsverfassung, Personalwesen",
+  "faculty": "FMB",
+  "description_en": "Covers marketing, sales, labour-management regulation and human-resource management, including market analysis and staff planning and leadership.",
+  "competencies": [
+   "Analyze markets and buyer behaviour",
+   "Develop marketing and sales plans using suitable methods",
+   "Apply labour-management regulation and works-constitution law",
+   "Apply human-resource planning, acquisition and staff leadership"
+  ],
+  "topic_tags": [
+   "marketing",
+   "sales",
+   "human resources",
+   "business organization"
+  ]
+ },
+ {
+  "id": "etit-mechatronic-systems-ii",
+  "title_de": "Mechatronische Systeme II",
+  "faculty": "FMB",
+  "description_en": "Course on modeling and simulating multi-domain mechatronic systems, including vehicle models, with Matlab/Simulink tools.",
+  "competencies": [
+   "Model and simulate multi-domain mechatronic systems",
+   "Couple mechanical, electrical, thermal and hydraulic components in one model",
+   "Use Matlab/Simulink and toolboxes for mechatronic simulation",
+   "Build vehicle models capturing drive, steering, braking and driving dynamics"
+  ],
+  "topic_tags": [
+   "modeling and simulation",
+   "mechatronics",
+   "simulink",
+   "vehicle dynamics"
+  ]
+ },
+ {
+  "id": "etit-mechatronics-iii",
+  "title_de": "Mechatronik III",
+  "faculty": "FMB",
+  "description_en": "Advanced course on integrated mechatronic system design using the V-model, component-based methods, robustness and optimization.",
+  "competencies": [
+   "Formulate and structure mechatronic design problems",
+   "Apply the V-model of systems development",
+   "Use hierarchical and component-based design procedures",
+   "Evaluate parameter sensitivity, robustness and system optimization"
+  ],
+  "topic_tags": [
+   "mechatronics",
+   "systems design",
+   "v-model"
+  ]
+ },
+ {
+  "id": "fmb-601389",
+  "title_de": "Mikro- und Ultrapräzisionsbearbeitung",
+  "faculty": "FMB",
+  "description_en": "Covers micro and ultra-precision machining, including ablative and cutting processes, process-chain design and ultra-precision turning and milling.",
+  "competencies": [
+   "Classify micro and ultra-precision machining within production technology",
+   "Describe ablative and cutting processes for micro-machining",
+   "Design process chains for micro and ultra-precision manufacturing",
+   "Specify process, tool and machine requirements for ultra-precision machining"
+  ],
+  "topic_tags": [
+   "micro machining",
+   "ultra-precision machining",
+   "manufacturing"
+  ]
+ },
+ {
+  "id": "fmb-601380",
+  "title_de": "Modellierung von Antriebssystemen",
+  "faculty": "FMB",
+  "description_en": "Teaches modelling and simulation of electric and hybrid powertrains and model-based development and optimization of drive components and systems.",
+  "competencies": [
+   "Describe components of electric and hybrid powertrains",
+   "Model and simulate drive components and drivetrain systems",
+   "Apply model-based development methods for powertrains",
+   "Analyze operating behavior and optimization of drive systems"
+  ],
+  "topic_tags": [
+   "powertrains",
+   "electric drives",
+   "modeling and simulation",
+   "hybrid drives"
+  ]
+ },
+ {
+  "id": "fmb-601345",
+  "title_de": "Montagesysteme",
+  "faculty": "FMB",
+  "description_en": "Teaches planning and conceptual design of complex assembly systems from task characterization to layout, configuration and economic evaluation.",
+  "competencies": [
+   "Plan and configure complex assembly systems",
+   "Characterize assembly tasks and identify assembly-specific requirements",
+   "Design technical-organizational assembly system solutions",
+   "Evaluate assembly operations under economic and performance aspects"
+  ],
+  "topic_tags": [
+   "assembly systems",
+   "assembly planning",
+   "production"
+  ]
+ },
+ {
+  "id": "fmb-601189",
+  "title_de": "Motor- und Fahrzeugakustik",
+  "faculty": "FMB",
+  "description_en": "Covers engine and vehicle acoustics, including sound measurement, noise assessment and methods for reducing engine and vehicle noise.",
+  "competencies": [
+   "Apply fundamentals of airborne and structure-borne acoustics",
+   "Use sound measurement and evaluation methods",
+   "Assess noise effects and regulatory limits",
+   "Derive noise-reduction measures for engines and vehicles"
+  ],
+  "topic_tags": [
+   "vehicle acoustics",
+   "engine acoustics",
+   "noise reduction",
+   "acoustics"
+  ]
+ }
+]

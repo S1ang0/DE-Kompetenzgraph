@@ -1,0 +1,243 @@
+[
+ {
+  "id": "fmb-601157",
+  "description_de": "Eine Lehrveranstaltung zum technischen Innovationsmanagement, die Studierende befähigt, Produkt-, Prozess- und Technologieinnovationsprozesse zu planen, einzuordnen, zu steuern und zu bewerten.",
+  "competencies_de": [
+   "Innovationsprozesse in industriellen Organisationen planen und steuern",
+   "Produkt-, Technologie- und Prozessinnovationsentscheidungen anstoßen",
+   "Innovationen klassifizieren und Innovationsprozesse strategisch ausrichten",
+   "Erfolg und Risiko von Innovationen bewerten"
+  ],
+  "topic_tags_de": [
+   "innovationsmanagement",
+   "technologiemanagement",
+   "strategie"
+  ]
+ },
+ {
+  "id": "fmb-601378",
+  "description_de": "Eine Lehrveranstaltung zu Technologien des Fügens, Beschichtens und der Montage, die das Schweißen, thermische Spritzen, additive Fügen sowie die anwendungsoptimierte Verfahrensauswahl behandelt.",
+  "competencies_de": [
+   "Möglichkeiten und Grenzen von Füge-, Beschichtungs- und Montagetechnologien beurteilen",
+   "Anwendungsoptimierte Verfahren und Technologien auswählen",
+   "Lichtbogen-, Elektronenstrahl-, Laser- und Hybridfügetechnologien anwenden",
+   "Thermisches Spritzen und innovative Beschichtungsverfahren einsetzen"
+  ],
+  "topic_tags_de": [
+   "fügen",
+   "beschichten",
+   "montage"
+  ]
+ },
+ {
+  "id": "fmb-601377",
+  "description_de": "Eine Lehrveranstaltung zu Technologien des Urformens, Umformens und Trennens, die Gieß-, pulvermetallurgische, additive, Umform- und Trennverfahren behandelt.",
+  "competencies_de": [
+   "Urform-, Umform- und Trennverfahren benennen und beschreiben",
+   "Möglichkeiten und Grenzen dieser Fertigungstechnologien beurteilen",
+   "Fertigungsverfahren für beispielhafte Anwendungen auswählen",
+   "Gieß-, pulvermetallurgische, additive, Umform- und Trennverfahren anwenden"
+  ],
+  "topic_tags_de": [
+   "umformen",
+   "trennen",
+   "fertigungsverfahren"
+  ]
+ },
+ {
+  "id": "fmb-601385",
+  "description_de": "Eine Lehrveranstaltung zur tribologischen Produktoptimierung, die Reibung, Verschleiß, Schmierung, Beschichtungen sowie die energieeffiziente Auslegung von Tribosystemen behandelt.",
+  "competencies_de": [
+   "Reibungs- und Verschleißprobleme sowie deren Mechanismen analysieren und identifizieren",
+   "Tribologisch beanspruchte Bauteile und Tribosysteme optimieren",
+   "Bedingungen für eine energieeffiziente und nachhaltige Auslegung von Tribosystemen beurteilen",
+   "Software und Prüftechnik zur Bewertung von Tribosystemen einsetzen"
+  ],
+  "topic_tags_de": [
+   "tribologie",
+   "reibung und verschleiß",
+   "produktoptimierung"
+  ]
+ },
+ {
+  "id": "fmb-604162",
+  "description_de": "Eine Lehrveranstaltung zur strategischen Unternehmensplanung und Unternehmensführung, die Strategieanalyse, Geschäftsmodellentwicklung und die Umsetzung von Industrie-4.0-Projekten behandelt.",
+  "competencies_de": [
+   "Methoden der strategischen Unternehmensführung und -planung anwenden",
+   "Das strategische Umfeld mittels SWOT-, PESTEL- und Szenariotechniken analysieren",
+   "Bestehende und neue Geschäftsmodelle entwickeln",
+   "Einen detaillierten Geschäftsplan von der Idee bis zur Umsetzung erstellen"
+  ],
+  "topic_tags_de": [
+   "unternehmensführung",
+   "unternehmensplanung",
+   "strategie"
+  ]
+ },
+ {
+  "id": "fmb-601382",
+  "description_de": "Eine Lehrveranstaltung zu Verbrennungsmotoren, die Grundlagen der Kolbenmaschinen, Thermodynamik, Verbrennung, Emissionen sowie zukünftige Antriebsentwicklungen behandelt.",
+  "competencies_de": [
+   "Die Grundlagen der Konstruktion von Verbrennungsmotoren verstehen",
+   "Thermodynamik und Arbeitsprozesse von Kolbenmaschinen analysieren",
+   "Otto- und Dieselmotoren sowie deren Verbrennung vergleichen",
+   "Abgasemissionen, Abgasnachbehandlung und zukünftige Motorentrends beurteilen"
+  ],
+  "topic_tags_de": [
+   "verbrennungsmotor",
+   "antriebsstrang",
+   "thermodynamik"
+  ]
+ },
+ {
+  "id": "fmb-604171",
+  "description_de": "Eine Lehrveranstaltung zur Verzahnungstechnik, die Geometrie, Fertigung und messtechnische Prüfung evolventischer Stirnräder und Radpaarungen behandelt.",
+  "competencies_de": [
+   "Verzahnungsprobleme evolventischer Stirnräder unter Verwendung der Fachterminologie erörtern",
+   "Den Fertigungsprozess von Verzahnungen vom Schruppen bis zur Endbearbeitung verstehen",
+   "Messmittel zur Verzahnungsprüfung auswählen und anwenden",
+   "Ergebnisse der Verzahnungsmessung und Abweichungen interpretieren"
+  ],
+  "topic_tags_de": [
+   "verzahnungstechnik",
+   "fertigung",
+   "messtechnik"
+  ]
+ },
+ {
+  "id": "fmb-601224",
+  "description_de": "Eine Lehrveranstaltung mit Laborübungen zur Vibroakustik, die Schallabstrahlung und -übertragung von Strukturen, Messverfahren sowie die aktive Lärmminderung behandelt.",
+  "competencies_de": [
+   "Schallabstrahlung und -übertragung schwingender Strukturen erläutern",
+   "Grundlagen der technischen Akustik und der Wellenausbreitung in Festkörpern anwenden",
+   "Vibroakustische Phänomene experimentell messen",
+   "Methoden zur aktiven Minderung des abgestrahlten Schalls anwenden"
+  ],
+  "topic_tags_de": [
+   "vibroakustik",
+   "lärm",
+   "strukturschwingung"
+  ]
+ },
+ {
+  "id": "fmb-603073",
+  "description_de": "Eine Lehrveranstaltung zu Wasserstofftechnologie und Wasserstoffantrieben, die Erzeugung, Speicherung, Sicherheit, Ökobilanz, Verbrennungsmotoren und Brennstoffzellensysteme behandelt.",
+  "competencies_de": [
+   "Anforderungen an Wasserstoff als alternativen Kraftstoff analysieren",
+   "Nachhaltigkeitspotenzial und Sicherheitsstandards für Wasserstoff beurteilen",
+   "Erzeugung, Speicherung, Verteilung und Infrastruktur von Wasserstoff bewerten",
+   "Wasserstoffverbrennungsmotoren und Brennstoffzellenantriebe verstehen"
+  ],
+  "topic_tags_de": [
+   "wasserstoff",
+   "brennstoffzelle",
+   "energiewende"
+  ]
+ },
+ {
+  "id": "fmb-604104",
+  "description_de": "Eine Lehrveranstaltung zu Werkstoffen und Schweißung, die die Schweißeignung von Metallen, Gefügeänderungen in der Wärmeeinflusszone, Schweißzusatzwerkstoffe und erforderliche Wärmebehandlungen behandelt.",
+  "competencies_de": [
+   "Die Schweißeignung von Eisen- und Nichteisenmetallen beurteilen",
+   "Werkstoffveränderungen in der Wärmeeinflusszone und im Schweißgut verstehen",
+   "Schweißzusatz- und Hilfsstoffe für unterschiedliche Werkstoffe auswählen",
+   "Maßnahmen zur Wärmebehandlung vor und nach dem Schweißen festlegen"
+  ],
+  "topic_tags_de": [
+   "schweißmetallurgie",
+   "schweißeignung",
+   "werkstoffe"
+  ]
+ },
+ {
+  "id": "fmb-604123",
+  "description_de": "Eine Lehrveranstaltung zu Werkstoffen und Verfahren im Automobilbau, die Stähle, Legierungen, Verbundwerkstoffe, Leichtbaukonzepte sowie Umform- und Fügetechnologien behandelt.",
+  "competencies_de": [
+   "Werkstoffe und ihre Verarbeitung für automobile Anwendungen überblicken",
+   "Werkstoffkennwerte für die Werkstoffauswahl nutzen",
+   "Fertigungsmöglichkeiten und -grenzen für Automobilwerkstoffe erläutern",
+   "Werkstoffkonzepte für Leichtbau, Sicherheit und Elektromobilität beurteilen"
+  ],
+  "topic_tags_de": [
+   "automobilwerkstoffe",
+   "leichtbau",
+   "werkstoffauswahl"
+  ]
+ },
+ {
+  "id": "fmb-601379",
+  "description_de": "Eine Lehrveranstaltung zur Werkstoffprozesstechnik, die Urformen, Umformen und Wärmebehandlung mit den gefügebezogenen und mechanischen Eigenschaften der Werkstoffe verknüpft.",
+  "competencies_de": [
+   "Umform-, Gieß- und Wärmebehandlungsprozesse mit den Werkstoffeigenschaften verknüpfen",
+   "Die Metallsynthese durch Schmelzen, Gießen und Pulvermetallurgie verstehen",
+   "Gefügeverändernde Prozesse und Phasenumwandlungen analysieren",
+   "Syntheseprozesse mit den Eigenschaften von Keramiken, Polymeren und Verbundwerkstoffen in Beziehung setzen"
+  ],
+  "topic_tags_de": [
+   "werkstoffprozesstechnik",
+   "gefüge",
+   "fertigung"
+  ]
+ },
+ {
+  "id": "fmb-601390",
+  "description_de": "Eine Lehrveranstaltung zur Werkzeugmaschinenprogrammierung für trennende Fertigungsverfahren, die rechnergestützte Steuerungen sowie die manuelle und automatisierte Programmerstellung behandelt.",
+  "competencies_de": [
+   "Methoden der Werkzeugmaschinenprogrammierung für trennende Verfahren benennen und beschreiben",
+   "Besonderheiten der Programmierung für trennende Fertigungsverfahren erläutern und beurteilen",
+   "Einfache Werkzeugmaschinenprogramme entwerfen",
+   "Rechnergestützte Steuerungen sowie manuelle und automatisierte Programmierung anwenden"
+  ],
+  "topic_tags_de": [
+   "werkzeugmaschinenprogrammierung",
+   "cnc",
+   "trennende fertigung"
+  ]
+ },
+ {
+  "id": "fmb-603019",
+  "description_de": "Methoden zur Planung und Gestaltung ergonomischer Arbeitssysteme im Rahmen der Fabrikplanung, mit Schwerpunkt auf menschengerechten Arbeitsbedingungen und der Mensch-Maschine-Funktionsteilung.",
+  "competencies_de": [
+   "Arbeitssysteme ganzheitlich analysieren und synthetisieren",
+   "Ergonomische, menschengerechte Arbeitsplätze planen und gestalten",
+   "Bewertungsmethoden für Umgebungsfaktoren der Arbeit anwenden",
+   "Planungsrelevante Daten für die Fabrikplanung aufbereiten und nutzen",
+   "Die Funktionsteilung zwischen Mensch und Maschine optimieren"
+  ],
+  "topic_tags_de": [
+   "arbeitssystemplanung",
+   "ergonomie",
+   "fabrikplanung"
+  ]
+ },
+ {
+  "id": "fmb-601392",
+  "description_de": "Eine Lehrveranstaltung zur Wärmebehandlung von Werkstoffen, die Härteverfahren, Phasenumwandlungen, Gefüge-Eigenschafts-Beziehungen und die Vermeidung von Fehlern behandelt.",
+  "competencies_de": [
+   "Die Grundlagen der Wärmebehandlung verstehen und anwenden",
+   "Wärmebehandlungsverfahren und ihre Anwendungsgebiete unterscheiden",
+   "Werkstoffgefüge und -eigenschaften nach der Wärmebehandlung beschreiben",
+   "Fehler und Verzüge bei der Wärmebehandlung erkennen und vermeiden"
+  ],
+  "topic_tags_de": [
+   "wärmebehandlung",
+   "gefüge",
+   "werkstoffe"
+  ]
+ },
+ {
+  "id": "fmb-601250",
+  "description_de": "Eine Lehrveranstaltung zu Zeitmanagement und Datenermittlung, die die effiziente Erfassung von Zeitdaten und die zeitwirtschaftliche Optimierung von Produktionssystemen vermittelt.",
+  "competencies_de": [
+   "Zeitdaten für das industrielle Zeitmanagement effizient ermitteln",
+   "Produktionssysteme aus zeitwirtschaftlicher Sicht optimieren",
+   "Arbeitsabläufe mithilfe von Zeitgliederungsschemata analysieren und synthetisieren",
+   "Verfahren der Zeitermittlung wie Systeme vorbestimmter Zeiten anwenden"
+  ],
+  "topic_tags_de": [
+   "zeitmanagement",
+   "arbeitsstudium",
+   "produktionsoptimierung"
+  ]
+ }
+]

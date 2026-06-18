@@ -1,0 +1,275 @@
+[
+ {
+  "id": "fmb-601157",
+  "title_de": "Technisches Innovationsmanagement",
+  "faculty": "FMB",
+  "description_en": "A course on technical innovation management, enabling students to plan, classify, steer, and evaluate product, process, and technology innovation processes.",
+  "competencies": [
+   "Plan and control innovation processes in industrial organizations",
+   "Initiate product, technology, and process innovation decisions",
+   "Classify innovations and align innovation processes strategically",
+   "Evaluate the success and risk of innovations"
+  ],
+  "topic_tags": [
+   "innovation management",
+   "technology management",
+   "strategy"
+  ]
+ },
+ {
+  "id": "fmb-601378",
+  "title_de": "Technologien zum Fügen, Beschichten und zur Montage",
+  "faculty": "FMB",
+  "description_en": "A course on technologies for joining, coating, and assembly, covering welding, thermal spraying, additive joining, and application-optimized process selection.",
+  "competencies": [
+   "Assess possibilities and limits of joining, coating, and assembly technologies",
+   "Select application-optimized processes and technologies",
+   "Apply arc, electron-beam, laser, and hybrid joining technologies",
+   "Use thermal spraying and innovative coating processes"
+  ],
+  "topic_tags": [
+   "joining",
+   "coating",
+   "assembly"
+  ]
+ },
+ {
+  "id": "fmb-601377",
+  "title_de": "Technologien zum Urformen, Umformen und Trennen",
+  "faculty": "FMB",
+  "description_en": "A course on technologies for primary shaping, forming, and machining, covering casting, powder metallurgy, additive, forming, and cutting processes.",
+  "competencies": [
+   "Name and describe primary shaping, forming, and machining processes",
+   "Assess possibilities and limits of these manufacturing technologies",
+   "Select manufacturing processes for exemplary applications",
+   "Apply casting, powder-metallurgical, additive, forming, and cutting methods"
+  ],
+  "topic_tags": [
+   "forming",
+   "machining",
+   "manufacturing processes"
+  ]
+ },
+ {
+  "id": "fmb-601385",
+  "title_de": "Tribologische Produktoptimierung",
+  "faculty": "FMB",
+  "description_en": "A course on tribological product optimization, covering friction, wear, lubrication, coatings, and energy-efficient design of tribosystems.",
+  "competencies": [
+   "Analyze and identify friction and wear problems and their mechanisms",
+   "Optimize tribologically loaded components and tribosystems",
+   "Assess conditions for energy-efficient and sustainable tribosystem design",
+   "Use software and testing equipment to evaluate tribosystems"
+  ],
+  "topic_tags": [
+   "tribology",
+   "friction and wear",
+   "product optimization"
+  ]
+ },
+ {
+  "id": "fmb-604162",
+  "title_de": "Unternehmensplanung und Unternehmensführung",
+  "faculty": "FMB",
+  "description_en": "A course on strategic business planning and corporate management, covering strategy analysis, business model development, and Industry 4.0 project implementation.",
+  "competencies": [
+   "Apply strategic corporate management and planning methods",
+   "Analyze the strategic environment using SWOT, PESTEL, and scenario techniques",
+   "Develop existing and new business models",
+   "Create a detailed business plan from idea to implementation"
+  ],
+  "topic_tags": [
+   "corporate management",
+   "business planning",
+   "strategy"
+  ]
+ },
+ {
+  "id": "fmb-601382",
+  "title_de": "Verbrennungsmotoren",
+  "faculty": "FMB",
+  "description_en": "A course on internal combustion engines, covering reciprocating machine fundamentals, thermodynamics, combustion, emissions, and future powertrain developments.",
+  "competencies": [
+   "Understand the fundamentals of internal combustion engine design",
+   "Analyze thermodynamics and working processes of reciprocating engines",
+   "Compare spark-ignition and diesel engines and their combustion",
+   "Assess exhaust emissions, aftertreatment, and future engine trends"
+  ],
+  "topic_tags": [
+   "combustion engine",
+   "powertrain",
+   "thermodynamics"
+  ]
+ },
+ {
+  "id": "fmb-604171",
+  "title_de": "Verzahnungstechnik",
+  "faculty": "FMB",
+  "description_en": "A course on gear technology, covering the geometry, manufacturing, and metrological inspection of involute spur gears and gear pairs.",
+  "competencies": [
+   "Discuss gearing problems for involute spur gears using technical terminology",
+   "Understand the gear manufacturing process from roughing to finishing",
+   "Select and apply measuring devices for gear inspection",
+   "Interpret gear measurement and deviation results"
+  ],
+  "topic_tags": [
+   "gear technology",
+   "manufacturing",
+   "metrology"
+  ]
+ },
+ {
+  "id": "fmb-601224",
+  "title_de": "Vibroakustik",
+  "faculty": "FMB",
+  "description_en": "A course with lab exercises on vibro-acoustics, covering sound radiation and transmission of structures, measurement methods, and active noise reduction.",
+  "competencies": [
+   "Explain sound radiation and transmission of vibrating structures",
+   "Apply fundamentals of technical acoustics and wave propagation in solids",
+   "Measure vibro-acoustic phenomena experimentally",
+   "Apply methods to actively reduce radiated noise"
+  ],
+  "topic_tags": [
+   "vibro-acoustics",
+   "noise",
+   "structural vibration"
+  ]
+ },
+ {
+  "id": "fmb-603073",
+  "title_de": "Wasserstofftechnologie und Wasserstoffantriebe",
+  "faculty": "FMB",
+  "description_en": "A course on hydrogen technology and hydrogen drives, covering production, storage, safety, life-cycle assessment, combustion engines, and fuel-cell systems.",
+  "competencies": [
+   "Analyze requirements of hydrogen as an alternative fuel",
+   "Assess sustainability potential and safety standards for hydrogen",
+   "Evaluate hydrogen production, storage, distribution, and infrastructure",
+   "Understand hydrogen combustion engines and fuel-cell drive systems"
+  ],
+  "topic_tags": [
+   "hydrogen",
+   "fuel cell",
+   "energy transition"
+  ]
+ },
+ {
+  "id": "fmb-604104",
+  "title_de": "Werkstoffe und Schweißung",
+  "faculty": "FMB",
+  "description_en": "A course on materials and welding, covering the weldability of metals, heat-affected zone changes, weld fillers, and required heat treatments.",
+  "competencies": [
+   "Assess the weldability of ferrous and non-ferrous metals",
+   "Understand material changes in the heat-affected zone and weld metal",
+   "Select weld fillers and auxiliary materials for different materials",
+   "Determine pre- and post-weld heat treatment measures"
+  ],
+  "topic_tags": [
+   "welding metallurgy",
+   "weldability",
+   "materials"
+  ]
+ },
+ {
+  "id": "fmb-604123",
+  "title_de": "Werkstoffe und Verfahren im Automobilbau",
+  "faculty": "FMB",
+  "description_en": "A course on materials and processes in automotive production, covering steels, alloys, composites, lightweight concepts, and forming and joining technologies.",
+  "competencies": [
+   "Survey materials and their processing for automotive applications",
+   "Use material characteristics for material selection",
+   "Explain manufacturing possibilities and limits for automotive materials",
+   "Assess lightweight, safety, and e-mobility material concepts"
+  ],
+  "topic_tags": [
+   "automotive materials",
+   "lightweight",
+   "material selection"
+  ]
+ },
+ {
+  "id": "fmb-601379",
+  "title_de": "Werkstoffprozesstechnik",
+  "faculty": "FMB",
+  "description_en": "A course on materials processing technology, linking primary shaping, forming, and thermal treatment to the microstructural and mechanical properties of materials.",
+  "competencies": [
+   "Link forming, casting, and thermal processes to material properties",
+   "Understand metal synthesis via melting, casting, and powder metallurgy",
+   "Analyze microstructure-changing processes and phase transformations",
+   "Relate synthesis processes to properties of ceramics, polymers, and composites"
+  ],
+  "topic_tags": [
+   "materials processing",
+   "microstructure",
+   "manufacturing"
+  ]
+ },
+ {
+  "id": "fmb-601390",
+  "title_de": "Werkzeugmaschinenprogrammierung für trennende Fertigungsverfahren",
+  "faculty": "FMB",
+  "description_en": "A course on machine tool programming for machining processes, covering computer-based controls and manual and automated program creation.",
+  "competencies": [
+   "Name and describe machine tool programming methods for machining",
+   "Explain and assess specifics of programming for machining processes",
+   "Design simple machine tool programs",
+   "Apply computer-based controls and manual and automated programming"
+  ],
+  "topic_tags": [
+   "machine tool programming",
+   "cnc",
+   "machining"
+  ]
+ },
+ {
+  "id": "fmb-603019",
+  "title_de": "Arbeitssystemplanung",
+  "faculty": "FMB",
+  "description_en": "Methods for planning and designing ergonomic work systems within factory planning, focusing on human-centred work conditions and human-machine allocation.",
+  "competencies": [
+   "Analyze and synthesize work systems holistically",
+   "Plan and design ergonomic, human-centred workplaces",
+   "Apply assessment methods for work environment factors",
+   "Prepare and use planning-relevant data for factory planning",
+   "Optimize human-machine task allocation"
+  ],
+  "topic_tags": [
+   "work system planning",
+   "ergonomics",
+   "factory planning"
+  ]
+ },
+ {
+  "id": "fmb-601392",
+  "title_de": "Wärmebehandlung",
+  "faculty": "FMB",
+  "description_en": "A course on thermal treatment of materials, covering hardening processes, phase transformations, microstructure-property effects, and defect avoidance.",
+  "competencies": [
+   "Understand and apply the fundamentals of heat treatment",
+   "Distinguish heat treatment processes and their application areas",
+   "Describe material microstructures and properties after heat treatment",
+   "Recognize and avoid defects and distortions during heat treatment"
+  ],
+  "topic_tags": [
+   "heat treatment",
+   "microstructure",
+   "materials"
+  ]
+ },
+ {
+  "id": "fmb-601250",
+  "title_de": "Zeitmanagement und Datenermittlung",
+  "faculty": "FMB",
+  "description_en": "A course on time management and data collection, teaching efficient time-data acquisition and time-economy optimization of production systems.",
+  "competencies": [
+   "Determine time data efficiently for industrial time management",
+   "Optimize production systems from a time-economy perspective",
+   "Analyze and synthesize work sequences using time-structuring schemes",
+   "Apply time-study methods such as predetermined motion time systems"
+  ],
+  "topic_tags": [
+   "time management",
+   "work study",
+   "production optimization"
+  ]
+ }
+]

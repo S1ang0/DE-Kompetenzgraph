@@ -1,0 +1,261 @@
+[
+ {
+  "id": "etit-computer-based-controller-design",
+  "description_de": "Vermittelt den rechnergestützten Entwurf und die Echtzeitimplementierung robuster Regelungssysteme mit Matlab/Simulink und modernen Syntheseverfahren.",
+  "competencies_de": [
+   "Regler in Matlab/Simulink entwerfen und implementieren",
+   "PI-/PID-Regler automatisch einstellen",
+   "Robuste Mehrgrößenregler mittels H-Unendlich- und µ-Synthese entwerfen",
+   "Lineare Matrixungleichungen auf den Reglerentwurf anwenden",
+   "Regler für den Echtzeitbetrieb implementieren"
+  ],
+  "topic_tags_de": [
+   "reglerentwurf",
+   "matlab/simulink",
+   "robuste regelung",
+   "echtzeitimplementierung"
+  ]
+ },
+ {
+  "id": "etit-einfuhrung-in-die-medizinische-bildgebung",
+  "description_de": "Einführender Überblick über moderne medizinische Bildgebungsverfahren, ihre Prinzipien, die Bildqualität, Risiken sowie die erforderliche Datenverarbeitung.",
+  "competencies_de": [
+   "Modalitäten der modernen medizinischen Bildgebung beschreiben",
+   "Prinzipien von Röntgen, CT, PET/SPECT, Ultraschall und MRT erläutern",
+   "Bildqualität und Patientenrisiken der Bildgebungsverfahren bewerten",
+   "Schritte der Datenverarbeitung für medizinische Bilder darstellen",
+   "Grundlegende Bildverarbeitung in Laborübungen anwenden"
+  ],
+  "topic_tags_de": [
+   "medizinische bildgebung",
+   "ct",
+   "mrt",
+   "ultraschall"
+  ]
+ },
+ {
+  "id": "etit-eingebettete-mechatronische-systeme-i",
+  "description_de": "Grundlagen eingebetteter mechatronischer Systeme mit analogen und digitalen Lösungen, Signalverarbeitung und Echtzeitverhalten.",
+  "competencies_de": [
+   "Aufbau und Funktion eingebetteter Systeme in der Mechatronik erläutern",
+   "Analoge Lösungen auf Basis von Operationsverstärkern entwerfen",
+   "Digitale Lösungen auf Basis von Mikrocontrollern entwerfen",
+   "Echtzeitsoftware spezifizieren und generieren",
+   "Funktionen auf programmierbarer Logik implementieren"
+  ],
+  "topic_tags_de": [
+   "eingebettete systeme",
+   "mechatronik",
+   "mikrocontroller",
+   "echtzeit"
+  ]
+ },
+ {
+  "id": "fmb-800037",
+  "description_de": "Gesteuerte und geregelte elektrische Antriebssysteme mit Schwerpunkt auf Traktionsantrieben, einschließlich Aufbau, Maschineneigenschaften und Strategien zur Drehzahlregelung.",
+  "competencies_de": [
+   "Aufbau und Funktionen elektrischer Antriebssysteme erläutern",
+   "Elektrische Antriebssysteme für Traktionsanwendungen auswählen",
+   "Stationäres und dynamisches Antriebsverhalten bewerten",
+   "Drehzahl-Drehmoment-Verhalten elektrischer Maschinen analysieren",
+   "Regelungsstrategien für drehzahlveränderbare Antriebe anwenden"
+  ],
+  "topic_tags_de": [
+   "elektrische antriebe",
+   "traktion",
+   "antriebsregelung"
+  ]
+ },
+ {
+  "id": "etit-electromagnetic-compatibility-of-regenerative-el",
+  "description_de": "Behandelt die elektromagnetische Verträglichkeit regenerativer elektrischer Systeme einschließlich Störungsanalyse, Vorhersagemethoden und Entstörmaßnahmen.",
+  "competencies_de": [
+   "Entstehung, Ausbreitung und Wirkung elektromagnetischer Störungen in Netzen beschreiben",
+   "Einfluss erneuerbarer Quellen auf die Netzqualität bewerten",
+   "Analytische und numerische Methoden zur EMV-Vorhersage auswählen",
+   "Schirmungskonzepte und Entstörmaßnahmen bei EMV-Problemen anwenden"
+  ],
+  "topic_tags_de": [
+   "elektromagnetische verträglichkeit",
+   "netzqualität",
+   "erneuerbare energie",
+   "schirmung"
+  ]
+ },
+ {
+  "id": "etit-electromechanical-actuators",
+  "description_de": "Vermittelt vertiefte Kenntnisse über elektrische Maschinen und Aktoren als Komponenten elektromechanischer und mechatronischer Systeme.",
+  "competencies_de": [
+   "Betrieb und Dynamik unkonventioneller elektrischer Maschinen erläutern",
+   "Elektromechanische Aktoren innerhalb mechanischer Systeme modellieren",
+   "Regelung für Reluktanz-, Schritt- und Linearmotoren entwerfen",
+   "Die Integration von Aktoren in mechatronische Systeme projektieren"
+  ],
+  "topic_tags_de": [
+   "elektrische maschinen",
+   "aktoren",
+   "elektromechanische systeme",
+   "antriebsregelung"
+  ]
+ },
+ {
+  "id": "etit-elektrische-energienetze-ii-energieversorgung",
+  "description_de": "Vertiefende Lehrveranstaltung zur Planung und zum Betrieb elektrischer Energienetze, zur Entwicklung von Smart Grids, zur Netzsicherheit und zur Integration dezentraler Erzeugung.",
+  "competencies_de": [
+   "Elektrische Übertragungs- und Verteilnetze planen und betreiben",
+   "Maßnahmen zur Entwicklung intelligenter Smart-Grid-Strukturen ableiten",
+   "Netzsicherheit, dynamische Sicherheit und Black-out-Prävention bewerten",
+   "Dezentrale Erzeuger integrieren und Windparks in Netzen modellieren"
+  ],
+  "topic_tags_de": [
+   "energienetze",
+   "smart grid",
+   "energieversorgung",
+   "netzintegration"
+  ]
+ },
+ {
+  "id": "etit-elektromechanische-aktorsysteme",
+  "description_de": "Aufbau, Verhalten und Regelung elektromechanischer Aktoren wie Piezo- und magnetostriktiver Aktoren sowie deren Systemintegration.",
+  "competencies_de": [
+   "Elektromechanische Systeme mit Lagrange-Gleichungen modellieren",
+   "Aufbau und Verhalten von Piezo- und magnetostriktiven Aktoren erläutern",
+   "Leistungsverstärker und Regelung für Piezoaktoren entwerfen",
+   "Elektrische Aktoren in komplexe mechanische Systeme integrieren",
+   "Aktoren zur Schwingungsdämpfung und Positionierung einsetzen"
+  ],
+  "topic_tags_de": [
+   "aktoren",
+   "piezo",
+   "smart materials",
+   "mechatronik"
+  ]
+ },
+ {
+  "id": "etit-emc-measurement-techniques",
+  "description_de": "Vermittelt Messgeräte, Messsonden und standardisierte Verfahren zur Messung und Bewertung der elektromagnetischen Verträglichkeit elektrischer Systeme.",
+  "competencies_de": [
+   "Messgeräte und Messsonden zur EMV-Bewertung einsetzen",
+   "Messgrenzen und Messfehler im Zeit- und Frequenzbereich analysieren",
+   "Geeignete Messverfahren für EMV-Probleme auswählen",
+   "Messergebnisse zu Störaussendung und Störfestigkeit bewerten"
+  ],
+  "topic_tags_de": [
+   "emv-messtechnik",
+   "messtechnik",
+   "spektralanalyse",
+   "störaussendung"
+  ]
+ },
+ {
+  "id": "etit-emc-measurement-technology-seminar",
+  "description_de": "Ein Seminar, das Messverfahren der elektromagnetischen Verträglichkeit anhand von Experimenten anwendet, um EMV-Probleme zu analysieren und zu bewerten.",
+  "competencies_de": [
+   "EMV-Messverfahren zur Analyse von EMV-Problemen anwenden",
+   "EMV-Untersuchungen im Zeit- und Frequenzbereich durchführen",
+   "Streu- und Transferimpedanzmatrizen experimentell messen",
+   "Experimentelle EMV-Ergebnisse kritisch bewerten"
+  ],
+  "topic_tags_de": [
+   "emv-messtechnik",
+   "experimente",
+   "messtechnik",
+   "störaussendung"
+  ]
+ },
+ {
+  "id": "etit-emc-analysis-of-electronic-systems",
+  "description_de": "Lehrveranstaltung zur Analyse der elektromagnetischen Verträglichkeit elektronischer Systeme mittels Feldtheorie, numerischer Methoden sowie Signal- und Power-Integrity.",
+  "competencies_de": [
+   "Worst-Case-Analysen der elektromagnetischen Verträglichkeit elektronischer Systeme durchführen",
+   "Entstörmaßnahmen auswählen und quantitativ bewerten",
+   "Numerische Verfahren zur Berechnung elektromagnetischer Felder anwenden",
+   "Signal- und Power-Integrity in Verbindungsstrukturen bewerten"
+  ],
+  "topic_tags_de": [
+   "emv",
+   "elektromagnetische felder",
+   "signalintegrität"
+  ]
+ },
+ {
+  "id": "etit-generator-systems-for-renewable-energy",
+  "description_de": "Behandelt elektrische Maschinen und die Regelung von Generatorsystemen zur regenerativen Energieerzeugung einschließlich der Maximum-Power-Point-Verfolgung.",
+  "competencies_de": [
+   "Randbedingungen der regenerativen Energieerzeugung bewerten",
+   "Elektrische Maschinen für den Generatorbetrieb dimensionieren",
+   "Regelung für die Maximum-Power-Point-Verfolgung entwerfen",
+   "Energieertrag in drehzahlveränderbaren Generatorsystemen optimieren"
+  ],
+  "topic_tags_de": [
+   "erneuerbare energie",
+   "generatoren",
+   "elektrische maschinen",
+   "mppt"
+  ]
+ },
+ {
+  "id": "etit-genetic-algorithms",
+  "description_de": "Vermittelt die Anwendung und Implementierung genetischer und evolutionärer Algorithmen zur globalen Optimierung in Technik und Biomedizin.",
+  "competencies_de": [
+   "Genetische und evolutionäre Algorithmen zur globalen Optimierung anwenden",
+   "Geeignete Algorithmenstrukturen für eine Aufgabe auswählen und implementieren",
+   "Fitnessfunktionen und anwendungsspezifische Komponenten entwerfen",
+   "Optimierungsergebnisse bei technischen und biomedizinischen Problemen validieren"
+  ],
+  "topic_tags_de": [
+   "genetische algorithmen",
+   "evolutionäre optimierung",
+   "globale optimierung",
+   "metaheuristiken"
+  ]
+ },
+ {
+  "id": "etit-grundlagen-stochastischer-prozesse-in-biophysika",
+  "description_de": "Einführung in die stochastische Modellierung zufälliger Prozesse in biophysikalischen Nichtgleichgewichtssystemen mit Analyse und numerischer Simulation.",
+  "competencies_de": [
+   "Eigenschaften stochastischer Prozesse charakterisieren",
+   "Mastergleichungen über Fokker-Planck-Gleichungen herleiten und approximieren",
+   "Stochastische Differentialgleichungen mit Fokker-Planck-Beschreibungen in Beziehung setzen",
+   "Stochastische Prozesse mit dem Gillespie-Algorithmus simulieren",
+   "Biophysikalische Nichtgleichgewichtssysteme stochastisch modellieren"
+  ],
+  "topic_tags_de": [
+   "stochastische prozesse",
+   "mastergleichung",
+   "gillespie-algorithmus",
+   "biophysik"
+  ]
+ },
+ {
+  "id": "etit-heterogeneous-computing",
+  "description_de": "Vermittelt Architektur, Programmierung und Integration von Hardwarebeschleunigern wie GPUs, FPGAs und KI-Beschleunigern in CPU-basierte Systeme.",
+  "competencies_de": [
+   "Architekturen von GPU-, FPGA- und KI-Beschleunigern erläutern",
+   "Geeignete Beschleuniger für gegebene Anwendungen auswählen",
+   "Parallele Programme für heterogene Systeme entwerfen und implementieren",
+   "Leistung, Energieverbrauch und Skalierbarkeit heterogener Systeme bewerten"
+  ],
+  "topic_tags_de": [
+   "heterogeneous computing",
+   "gpu",
+   "fpga"
+  ]
+ },
+ {
+  "id": "etit-high-frequency-components-and-systems",
+  "description_de": "Behandelt die Analyse und Dimensionierung hochfrequenter Wellenleiter- und Leitungsstrukturen mit analytischen elektromagnetischen Methoden.",
+  "competencies_de": [
+   "Hochfrequente Leitungsstrukturen analysieren",
+   "Wellenleiter für eine gegebene Anwendung auswählen und dimensionieren",
+   "Bessel-Differentialgleichungen für zylindrische Strukturen lösen",
+   "Werkzeuge zur Analyse komplexer Leitungsstrukturen und Diskontinuitäten anwenden"
+  ],
+  "topic_tags_de": [
+   "hochfrequenztechnik",
+   "wellenleiter",
+   "leitungen",
+   "elektromagnetik"
+  ]
+ }
+]

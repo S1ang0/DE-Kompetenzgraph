@@ -1,0 +1,262 @@
+[
+ {
+  "id": "etit-human-machine-communication",
+  "description_de": "Führt in die Verarbeitung natürlicher Sprache sowie in den Entwurf dialog- und emotionsfähiger Mensch-Maschine-Kommunikationssysteme ein.",
+  "competencies_de": [
+   "Natürlichsprachliche Dialogsysteme entwerfen",
+   "Sprachliche Ressourcen wie Lexika und Parser bewerten",
+   "Mehrdeutigkeit und Produktivität in der Verarbeitung natürlicher Sprache behandeln",
+   "Emotionsfähige Mensch-Maschine-Kommunikationssysteme entwickeln"
+  ],
+  "topic_tags_de": [
+   "verarbeitung natürlicher sprache",
+   "dialogsysteme",
+   "mensch-maschine-interaktion",
+   "semantik"
+  ]
+ },
+ {
+  "id": "etit-image-processing",
+  "description_de": "Führt in die digitale Bilderfassung, -repräsentation, -filterung, -segmentierung und -analyse zur Informationsgewinnung aus Bildern ein.",
+  "competencies_de": [
+   "Punktoperationen und Filterung auf digitale Bilder anwenden",
+   "Bildsegmentierung und die Hough-Transformation implementieren",
+   "Texturanalyse und 3D-Vermessung aus Bildern durchführen",
+   "Algorithmen für Bilderkennungsprobleme auswählen und anpassen"
+  ],
+  "topic_tags_de": [
+   "bildverarbeitung",
+   "segmentierung",
+   "maschinelles sehen",
+   "merkmalsextraktion"
+  ]
+ },
+ {
+  "id": "etit-kommunikationssysteme",
+  "description_de": "Industrielle Kommunikationssysteme auf Basis des ISO/OSI-Modells, einschließlich Protokollen, Ethernet/TCP/IP, Feldbussen und Sicherheit.",
+  "competencies_de": [
+   "Industrielle Kommunikationssysteme mithilfe des ISO/OSI-Modells analysieren",
+   "Prinzipien industrieller Kommunikationsprotokolle und -dienste erläutern",
+   "Ethernet/TCP/IP-Systeme konfigurieren",
+   "Industrielle Bussysteme wie PROFIBUS und CAN beschreiben",
+   "Sicherheitsaspekte der industriellen Kommunikation einordnen"
+  ],
+  "topic_tags_de": [
+   "industrielle netze",
+   "feldbus",
+   "tcp/ip",
+   "kommunikationsprotokolle"
+  ]
+ },
+ {
+  "id": "etit-laboratory-high-frequency-technology-ii",
+  "description_de": "Ein Praktikum, in dem mithilfe eines 3D-Feldsimulators typische Hochfrequenzstrukturen numerisch analysiert werden, unter Einsatz optimierter Vernetzung und Solver-Einstellungen.",
+  "competencies_de": [
+   "Einen dreidimensionalen Feldsimulator für Hochfrequenzstrukturen einsetzen",
+   "Strukturen mit einem CAD-System modellieren und die Vernetzung optimieren",
+   "Vernetzungsstrategien und Solver-Parameter für effiziente Lösungen wählen",
+   "Parameterstudien in der Feldsimulation automatisieren"
+  ],
+  "topic_tags_de": [
+   "hochfrequenztechnik",
+   "feldsimulation",
+   "vernetzung",
+   "elektromagnetik"
+  ]
+ },
+ {
+  "id": "etit-leistungselektronische-systeme",
+  "description_de": "Veranstaltung zur Entwicklung, Dimensionierung und Regelung leistungselektronischer Schaltungen mit Anwendungen bei der Einspeisung erneuerbarer Energien ins Netz.",
+  "competencies_de": [
+   "Komplexe leistungselektronische Schaltungen aus Grundtopologien entwickeln",
+   "Steuerungs- und Regelungsverfahren für leistungselektronische Schaltungen erläutern",
+   "Schaltungen anwendungsspezifisch dimensionieren und für die Regelung modellieren",
+   "Leistungselektronik zur Einspeisung erneuerbarer Energien ins Netz anwenden"
+  ],
+  "topic_tags_de": [
+   "leistungselektronik",
+   "stromrichter",
+   "erneuerbare energien",
+   "schaltungen"
+  ]
+ },
+ {
+  "id": "etit-mathematische-modellierung-physiologischer-syste",
+  "description_de": "Mathematische Modellierung und Computersimulation ausgewählter physiologischer Systeme auf Basis physikalisch-chemischer Gesetze.",
+  "competencies_de": [
+   "Mathematische Modelle physiologischer Systeme aus physikalischen Gesetzen aufstellen",
+   "Das Herz-Kreislauf-System und die elektrischen Eigenschaften von Zellen modellieren",
+   "Signalübertragung und -verarbeitung in Nervenzellen und Sinnesorganen modellieren",
+   "Physiologische Systeme mit Computerwerkzeugen simulieren",
+   "Modellierungsmethoden auf verwandte Forschungsfragen übertragen"
+  ],
+  "topic_tags_de": [
+   "mathematische modellierung",
+   "physiologische systeme",
+   "simulation",
+   "biophysik"
+  ]
+ },
+ {
+  "id": "etit-mechatronik-ii-entwurf-mechatronischer-systeme",
+  "description_de": "Methodischer Entwurf mechatronischer Systeme mithilfe des V-Modells, des funktionalen Entwurfs, von Entwurfswerkzeugen und der Systemoptimierung.",
+  "competencies_de": [
+   "Mechatronische Entwurfsprobleme formulieren",
+   "Das V-Modell der Systementwicklung anwenden",
+   "Gesteuerte und geregelte Wirkungsketten entwerfen",
+   "Die Parameterempfindlichkeit mechatronischer Systeme analysieren",
+   "Optimierungsverfahren auf den Entwurf mechatronischer Systeme anwenden"
+  ],
+  "topic_tags_de": [
+   "mechatronik",
+   "systementwurf",
+   "v-modell",
+   "optimierung"
+  ]
+ },
+ {
+  "id": "etit-mechatronik-ii-mechatronische-sensor-aktor-syste",
+  "description_de": "Vertiefter integrierter Entwurf mechatronischer Sensor-Aktor-Systeme mithilfe komponentenbasierter Methoden, Robustheitsanalyse und Optimierung.",
+  "competencies_de": [
+   "Mechatronische Entwurfsprobleme für Sensor-Aktor-Systeme formulieren",
+   "Das V-Modell mit hierarchischem, komponentenbasiertem Entwurf anwenden",
+   "Einen integrierten Entwurf mechatronischer Systeme durchführen",
+   "Parameterempfindlichkeit und Robustheit beurteilen",
+   "Grundlagen der Systemoptimierung anwenden"
+  ],
+  "topic_tags_de": [
+   "mechatronik",
+   "sensor-aktor-systeme",
+   "systementwurf",
+   "robustheit"
+  ]
+ },
+ {
+  "id": "etit-microcontroller-based-drive-controls",
+  "description_de": "Vermittelt die Implementierung der Regelung elektrischer Antriebe auf Mikrocontrollern einschließlich Echtzeit-Taskverwaltung und Festkommaarithmetik.",
+  "competencies_de": [
+   "Regelungsverfahren für elektrische Antriebe auf Mikrocontrollern implementieren",
+   "Echtzeit-Tasks, Interrupts und Kommunikation verwalten",
+   "Regler diskretisieren und Festkommaarithmetik handhaben",
+   "Die Stromregelung für umrichtergespeiste Maschinen realisieren"
+  ],
+  "topic_tags_de": [
+   "antriebsregelung",
+   "mikrocontroller",
+   "echtzeitsysteme",
+   "leistungselektronik"
+  ]
+ },
+ {
+  "id": "etit-modellierung-und-expertensysteme-in-der-elektris",
+  "description_de": "Veranstaltung zur Modellierung elektrischer Energienetze und zum Aufbau wissensbasierter Expertensysteme unter Einsatz von Fuzzy-Verfahren und neuronalen Netzen.",
+  "competencies_de": [
+   "Physikalische Modelle für Netzberechnungen und -simulationen erstellen",
+   "Schaltgeräte und Wanderwellenphänomene in Netzen modellieren",
+   "Expertensysteme zur Problemlösung in der Energieversorgung entwickeln",
+   "Fuzzy-Verfahren und neuronale Netze in wissensbasierten Systemen anwenden"
+  ],
+  "topic_tags_de": [
+   "expertensysteme",
+   "energienetze",
+   "modellierung",
+   "fuzzy-logik"
+  ]
+ },
+ {
+  "id": "etit-nonlinear-systems",
+  "description_de": "Vermittelt die Analyse und Regelung nichtlinearer dynamischer Systeme im Zustandsraum mithilfe von Lyapunov-Methoden und nichtlinearem Reglerentwurf.",
+  "competencies_de": [
+   "Nichtlineare dynamische Systeme im Zustandsraum beschreiben und analysieren",
+   "Die Stabilität mit der direkten und indirekten Lyapunov-Methode untersuchen",
+   "Energie- und passivitätsbasierte Systembeschreibungen interpretieren",
+   "Nichtlineare Regler mittels Backstepping und Ein-/Ausgangslinearisierung entwerfen"
+  ],
+  "topic_tags_de": [
+   "nichtlineare systeme",
+   "regelungstheorie",
+   "lyapunov-stabilität",
+   "zustandsraum"
+  ]
+ },
+ {
+  "id": "etit-pattern-recognition",
+  "description_de": "Vermittelt Machine Learning, Deep Learning und Informationsfusion, um vollständige Mustererkennungsaufgaben in industriellen und medizinischen Anwendungen zu bearbeiten.",
+  "competencies_de": [
+   "Eine vollständige Mustererkennungsaufgabe von den Daten bis zur Interpretation durchführen",
+   "Lineare und nichtlineare Klassifikatoren sowie die Bayes-Klassifikation anwenden",
+   "Clustering, selbstorganisierende Karten und Informationsfusion einsetzen",
+   "Deep Learning und Transfer Learning auf Erkennungsprobleme anwenden"
+  ],
+  "topic_tags_de": [
+   "mustererkennung",
+   "machine learning",
+   "deep learning",
+   "klassifikation"
+  ]
+ },
+ {
+  "id": "etit-power-electronic-circuits",
+  "description_de": "Vermittelt den Entwurf, die Dimensionierung und die Regelung komplexer leistungselektronischer Schaltungen einschließlich resonanter und Brückenstromrichter-Topologien.",
+  "competencies_de": [
+   "Komplexe leistungselektronische Schaltungen aus Grundtopologien entwickeln",
+   "Die Funktionsweise selbst- und netzgeführter Stromrichter erläutern",
+   "Leistungselektronische Schaltungen für konkrete Anwendungen dimensionieren",
+   "Regelungsstrategien für leistungselektronische Schaltungen modellieren"
+  ],
+  "topic_tags_de": [
+   "leistungselektronik",
+   "stromrichter",
+   "schaltungsentwurf",
+   "regelung"
+  ]
+ },
+ {
+  "id": "etit-power-electronic-systems",
+  "description_de": "Behandelt leistungselektronische Systeme für die Versorgung mit erneuerbarer Energie und die Elektromobilität, einschließlich Antrieben, Ladegeräten, HGÜ und Speichern.",
+  "competencies_de": [
+   "Leistungselektronische Schaltungen innerhalb komplexer Systeme anwenden",
+   "Leistungselektronische Systeme für die Einspeisung erneuerbarer Energien entwerfen",
+   "Leistungselektronik für Elektrofahrzeuge und Antriebe auslegen",
+   "HGÜ- und Speicherankopplungssysteme dimensionieren"
+  ],
+  "topic_tags_de": [
+   "leistungselektronik",
+   "erneuerbare energien",
+   "elektromobilität",
+   "hgü"
+  ]
+ },
+ {
+  "id": "etit-power-network-planning-and-operation",
+  "description_de": "Behandelt die operative Systemführung elektrischer Energienetze einschließlich regulatorischer Rahmenbedingungen, Netzbetrieb und Planungsprozessen.",
+  "competencies_de": [
+   "Wirkungsmechanismen der operativen Systemführung von Energienetzen erläutern",
+   "Akteure und Wechselwirkungen im technischen und marktlichen Bereich identifizieren",
+   "Regulatorische Rahmenbedingungen auf die Aufgaben von Netzbetreibern anwenden",
+   "Engpassmanagement, Spannungshaltung und Netzwiederaufbauprozesse durchführen"
+  ],
+  "topic_tags_de": [
+   "energienetze",
+   "netzbetrieb",
+   "systemführung",
+   "energiemärkte"
+  ]
+ },
+ {
+  "id": "etit-power-systems-1-steady-state-analysis",
+  "description_de": "Behandelt die stationäre Berechnung elektrischer Energienetze einschließlich Betriebsmittelmodellierung, Lastfluss- und Kurzschlussberechnung in MATLAB.",
+  "competencies_de": [
+   "Elektrische Betriebsmittel für die stationäre Netzberechnung modellieren",
+   "Lastfluss- und Kurzschlussberechnungen durchführen",
+   "Die Zustandsschätzung auf Energienetze anwenden",
+   "Das Verhalten von Energienetzen mit MATLAB berechnen"
+  ],
+  "topic_tags_de": [
+   "energiesysteme",
+   "lastfluss",
+   "zustandsschätzung",
+   "netzmodellierung"
+  ]
+ }
+]

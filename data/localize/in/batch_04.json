@@ -1,0 +1,286 @@
+[
+ {
+  "id": "fmb-908730",
+  "title_de": "Politik und Nachhaltigkeit",
+  "faculty": "FHW",
+  "description_en": "A course on the political frameworks, actors and instruments of sustainability policy, illustrated by German environmental policy.",
+  "competencies": [
+   "Analyze political frameworks and actors shaping sustainability transitions",
+   "Apply theories and empirical data of sustainability research",
+   "Evaluate environmental policy instruments and their relevance",
+   "Discuss sustainability policy in written and oral form"
+  ],
+  "topic_tags": [
+   "sustainability",
+   "environmental policy",
+   "governance"
+  ]
+ },
+ {
+  "id": "fmb-906030",
+  "title_de": "Technologien im Sport I (ehemals Sportgerätetechnik I)",
+  "faculty": "FHW",
+  "description_en": "A seminar introducing the technologies and materials used in sports equipment and their performance characteristics.",
+  "competencies": [
+   "Analyze the design and function of sports equipment",
+   "Evaluate materials and technologies used in sports devices",
+   "Assess performance characteristics of sports technology",
+   "Present technical sports-equipment topics in a seminar"
+  ],
+  "topic_tags": [
+   "sports technology",
+   "sports equipment",
+   "materials"
+  ]
+ },
+ {
+  "id": "fmb-technologien-im-sport-ii-ehemals-sportgeratetech",
+  "title_de": "Technologien im Sport II (ehemals Sportgerätetechnik II)",
+  "faculty": "FHW",
+  "description_en": "A seminar on sports-equipment technology, continuing the study of materials, construction and performance of sports devices.",
+  "competencies": [
+   "Analyze advanced sports-equipment technologies",
+   "Evaluate materials and construction of sports devices",
+   "Assess performance and biomechanical aspects of sports technology",
+   "Present technical sports topics in a seminar"
+  ],
+  "topic_tags": [
+   "sports technology",
+   "sports equipment",
+   "materials"
+  ]
+ },
+ {
+  "id": "fmb-920011",
+  "title_de": "Technologien im Sport III (ehemals Technologien im Sport)",
+  "faculty": "FHW",
+  "description_en": "An advanced seminar exploring specialized topics in sports technology and the engineering of sports equipment.",
+  "competencies": [
+   "Analyze specialized sports-technology topics in depth",
+   "Evaluate materials and engineering of advanced sports devices",
+   "Assess technological developments in sports equipment",
+   "Present technical sports topics in a seminar"
+  ],
+  "topic_tags": [
+   "sports technology",
+   "sports equipment",
+   "materials"
+  ]
+ },
+ {
+  "id": "fmb-technologien-im-sport-iv-ehemals-technologien-im",
+  "title_de": "Technologien im Sport IV (ehemals Technologien im Sport)",
+  "faculty": "FHW",
+  "description_en": "An advanced seminar on selected research topics in sports technology and the engineering of sports devices.",
+  "competencies": [
+   "Investigate advanced sports-technology research topics",
+   "Evaluate cutting-edge materials and methods in sports equipment",
+   "Assess innovations in sports technology critically",
+   "Present specialized sports topics in a seminar"
+  ],
+  "topic_tags": [
+   "sports technology",
+   "sports equipment",
+   "materials"
+  ]
+ },
+ {
+  "id": "fmb-102809",
+  "title_de": "Computer Aided Geometric Design",
+  "faculty": "FIN",
+  "description_en": "A course on computer-aided geometric design covering curve and surface modeling for CAD applications.",
+  "competencies": [
+   "Model curves and surfaces using parametric representations",
+   "Apply Bezier, B-spline and NURBS techniques for geometric design",
+   "Implement computer-aided geometric design algorithms",
+   "Construct and manipulate free-form geometry for CAD"
+  ],
+  "topic_tags": [
+   "cagd",
+   "geometric modeling",
+   "splines",
+   "cad"
+  ]
+ },
+ {
+  "id": "fmb-102808",
+  "title_de": "Data Warehouse-Technologies",
+  "faculty": "FIN",
+  "description_en": "A course on data warehouse technologies covering multidimensional modeling, ETL and analytical query processing.",
+  "competencies": [
+   "Design and build data warehouse architectures",
+   "Model multidimensional schemas for analytical workloads",
+   "Implement ETL processes and OLAP operations",
+   "Apply data warehousing technologies for business intelligence"
+  ],
+  "topic_tags": [
+   "data warehouse",
+   "olap",
+   "etl",
+   "business intelligence"
+  ]
+ },
+ {
+  "id": "fmb-100302",
+  "title_de": "Datenmanagement",
+  "faculty": "FIN",
+  "description_en": "A core course on data management covering relational databases, data modeling and practical SQL exercises.",
+  "competencies": [
+   "Design relational database schemas",
+   "Write and optimize SQL queries",
+   "Apply data modeling and normalization principles",
+   "Manage data with relational database systems"
+  ],
+  "topic_tags": [
+   "databases",
+   "sql",
+   "data modeling",
+   "relational"
+  ]
+ },
+ {
+  "id": "etit-eingebettete-mechatronische-systeme-ii",
+  "title_de": "Eingebettete Mechatronische Systeme II",
+  "faculty": "FIN",
+  "description_en": "Advanced development of embedded mechatronic hardware and software for automotive ECUs, industrial PCs and mobile devices using modern tools.",
+  "competencies": [
+   "Develop hardware and software for embedded mechatronic systems",
+   "Program 8-bit and 32-bit microcontrollers with real-time operating systems",
+   "Specify functions with Matlab/Simulink and ASCET and generate code",
+   "Apply AUTOSAR and ECU architectures for automotive control units",
+   "Implement real-time control on industrial PCs and mobile devices"
+  ],
+  "topic_tags": [
+   "embedded systems",
+   "automotive ecu",
+   "real-time os",
+   "autosar"
+  ]
+ },
+ {
+  "id": "etit-eingebettete-systeme",
+  "title_de": "Eingebettete Systeme",
+  "faculty": "FIN",
+  "description_en": "Architectures, design and implementation of computer-controlled embedded systems on hardware and software platforms, with formal methods and testing.",
+  "competencies": [
+   "Design hardware and software platforms for embedded systems",
+   "Model embedded systems with extended finite state machines",
+   "Apply object-oriented design to embedded software development",
+   "Realise functions on FPGA and DSP platforms",
+   "Validate embedded systems through testing"
+  ],
+  "topic_tags": [
+   "embedded systems",
+   "fpga",
+   "dsp",
+   "state machines"
+  ]
+ },
+ {
+  "id": "fmb-901129",
+  "title_de": "Idea Engineering",
+  "faculty": "FIN",
+  "description_en": "A course teaching structured creativity and idea-generation techniques to systematically develop innovative concepts.",
+  "competencies": [
+   "Apply structured creativity techniques to generate ideas",
+   "Develop and refine innovative concepts systematically",
+   "Evaluate and select promising ideas",
+   "Document idea development in a written assignment"
+  ],
+  "topic_tags": [
+   "idea engineering",
+   "creativity",
+   "innovation"
+  ]
+ },
+ {
+  "id": "fin-120506",
+  "title_de": "In-Memory and Cloud-Technologies",
+  "faculty": "FIN",
+  "description_en": "Two-semester course on in-memory and cloud technologies for enterprise and information systems, bridging computer science and engineering domains.",
+  "competencies": [
+   "Apply in-memory data management technologies",
+   "Understand cloud computing technologies for enterprise systems",
+   "Adapt data science methods to novel problems",
+   "Contribute digitalization solutions in interdisciplinary projects"
+  ],
+  "topic_tags": [
+   "in-memory",
+   "cloud",
+   "enterprise systems"
+  ]
+ },
+ {
+  "id": "fmb-100393",
+  "title_de": "Interaktive Systeme",
+  "faculty": "FIN",
+  "description_en": "A course on the design and development of interactive systems, covering interaction techniques and user interface concepts.",
+  "competencies": [
+   "Design interactive user interfaces",
+   "Apply interaction design principles and techniques",
+   "Develop and prototype interactive systems",
+   "Evaluate usability of interactive applications"
+  ],
+  "topic_tags": [
+   "interactive systems",
+   "interaction design",
+   "usability"
+  ]
+ },
+ {
+  "id": "fin-120532",
+  "title_de": "Introduction to Machine Learning Safety",
+  "faculty": "FIN",
+  "description_en": "Introduction to machine learning safety covering failure modes, uncertainty, anomaly detection, adversarial threats and regulatory considerations.",
+  "competencies": [
+   "Analyze typical failure modes of ML systems",
+   "Select test and evaluation methods for safety-critical ML",
+   "Assess uncertainty estimation, anomaly detection and robustness",
+   "Understand adversarial threat models and defenses",
+   "Reflect on regulatory and ethical conditions for ML deployment"
+  ],
+  "topic_tags": [
+   "ml safety",
+   "robustness",
+   "adversarial",
+   "uncertainty"
+  ]
+ },
+ {
+  "id": "fin-999997",
+  "title_de": "Masters Thesis",
+  "faculty": "FIN",
+  "description_en": "Master's thesis in which students independently develop an original scientific solution to a research or applied problem and defend their results.",
+  "competencies": [
+   "Independently solve a complex research or applied problem using scientific methods",
+   "Analyze a problem statement and compare possible solution approaches",
+   "Develop and critically evaluate an original solution",
+   "Assess results and their potential consequences",
+   "Explain findings and defend decisions and interpretations"
+  ],
+  "topic_tags": [
+   "thesis",
+   "scientific work",
+   "research"
+  ]
+ },
+ {
+  "id": "etit-prozessleittechnik-ii",
+  "title_de": "Prozessleittechnik II",
+  "faculty": "FIN",
+  "description_en": "Design and construction of distributed digital automation systems, integrating automation and information technologies for process control.",
+  "competencies": [
+   "Design and build distributed digital automation systems",
+   "Plan integration of diverse automation components",
+   "Apply automation and information technologies in process control",
+   "Interpret abstract automation and information models",
+   "Develop functional automation systems"
+  ],
+  "topic_tags": [
+   "process control",
+   "distributed automation",
+   "automation systems",
+   "integration"
+  ]
+ }
+]

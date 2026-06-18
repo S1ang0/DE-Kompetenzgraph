@@ -1,0 +1,292 @@
+[
+ {
+  "id": "etit-adsorption-und-heterogene-katalyse",
+  "title_de": "Adsorption und heterogene Katalyse",
+  "faculty": "FEIT",
+  "description_en": "Course on adsorption equilibria, fixed-bed adsorber design, heterogeneous catalysis kinetics and industrial chromatography processes.",
+  "competencies": [
+   "Characterize adsorbents and quantify adsorption equilibria of mixtures",
+   "Design fixed-bed adsorbers for separation processes",
+   "Identify effective reaction rates of heterogeneous catalysts",
+   "Apply transient reactor operating modes and industrial chromatography concepts"
+  ],
+  "topic_tags": [
+   "adsorption",
+   "catalysis",
+   "reactor design",
+   "separation"
+  ]
+ },
+ {
+  "id": "etit-alternative-energien-regenerative-energiequellen",
+  "title_de": "Alternative Energien / Regenerative Energiequellen",
+  "faculty": "FEIT",
+  "description_en": "Course on generating electricity from renewable sources and integrating photovoltaics, wind, fuel cells and storage into the energy system.",
+  "competencies": [
+   "Assess effects of renewable electricity on the power supply system",
+   "Evaluate photovoltaic, wind and hydropower generation potentials",
+   "Analyze fuel cells and electrical energy storage options",
+   "Understand grid integration of decentralized renewable generators"
+  ],
+  "topic_tags": [
+   "renewable energy",
+   "photovoltaics",
+   "energy storage",
+   "smart grid"
+  ]
+ },
+ {
+  "id": "fmb-800461",
+  "title_de": "Analyse und Berechnung elektrischer Systeme",
+  "faculty": "FEIT",
+  "description_en": "A course on analytical and numerical methods for simulating and analyzing electrical networks and magnetic circuits.",
+  "competencies": [
+   "Simulate and analyze electrical networks in time and frequency domain",
+   "Apply analytical and numerical methods to magnetic circuits",
+   "Model mechanical systems as equivalent electrical networks",
+   "Simulate magnetic fields and combine network and field methods"
+  ],
+  "topic_tags": [
+   "electrical networks",
+   "magnetic circuits",
+   "simulation"
+  ]
+ },
+ {
+  "id": "etit-analysis-and-calculation-of-electrical-systems",
+  "title_de": "Analyse und Berechnung elektrischer Systeme",
+  "faculty": "FEIT",
+  "description_en": "Course on analytical and numerical methods for simulating electrical networks and electromagnetic field problems using computational tools.",
+  "competencies": [
+   "Apply analytical and numerical methods to analyze electrical networks",
+   "Simulate electromagnetic field problems with finite-difference methods",
+   "Map mechanical systems onto equivalent electrical networks",
+   "Use MATLAB, Octave, Python or SPICE for system simulation"
+  ],
+  "topic_tags": [
+   "circuit simulation",
+   "numerical methods",
+   "electrical networks"
+  ]
+ },
+ {
+  "id": "etit-antennas-and-antenna-systems",
+  "title_de": "Antennen und Antennensysteme (bisher Hochfrequenztechnik III)",
+  "faculty": "FEIT",
+  "description_en": "Covers selection, dimensioning and optimization of antennas using variational and perturbation methods and modal analysis.",
+  "competencies": [
+   "Select and dimension antennas for specific applications",
+   "Optimize antennas using perturbation and variational calculus",
+   "Apply near-field to far-field transformation",
+   "Analyze microwave circuits using three-dimensional modal analysis"
+  ],
+  "topic_tags": [
+   "antennas",
+   "high-frequency technology",
+   "electromagnetics",
+   "microwave"
+  ]
+ },
+ {
+  "id": "etit-applied-image-processing-and-understanding",
+  "title_de": "Angewandte Bildverarbeitung und Bildverstehen",
+  "faculty": "FEIT",
+  "description_en": "Applies advanced image processing and understanding to research topics such as 3D measurement, motion analysis, tracking and biometrics.",
+  "competencies": [
+   "Design complex image processing and understanding systems",
+   "Apply algorithms for 3D measurement, motion analysis and object tracking",
+   "Implement biometric and face analysis recognition techniques",
+   "Develop image evaluation systems for current research applications"
+  ],
+  "topic_tags": [
+   "image understanding",
+   "computer vision",
+   "object tracking",
+   "biometrics"
+  ]
+ },
+ {
+  "id": "etit-applied-microsystems-engineering-innovation-labo",
+  "title_de": "Angewandte Mikrosystemtechnik Innovationslabor",
+  "faculty": "FEIT",
+  "description_en": "Team project realizing a microsystems-based product idea as a start-up demonstrator with market analysis, prototype, pitch and portfolio.",
+  "competencies": [
+   "Coordinate and run a simplified start-up team project to a product demonstrator",
+   "Develop a microsystems-based product idea and build a prototype",
+   "Conduct market analysis and assess business-plan feasibility",
+   "Prepare a marketing pitch, project portfolio and presentation"
+  ],
+  "topic_tags": [
+   "entrepreneurship",
+   "mems",
+   "prototyping",
+   "project"
+  ]
+ },
+ {
+  "id": "etit-architectures-of-sensor-fusion-multimodal-patter",
+  "title_de": "Fusionsarchitekturen / Multimodale Mustererkennung für die",
+  "faculty": "FEIT",
+  "description_en": "A seminar on sensor fusion architectures and multimodal pattern recognition for human-machine interaction under uncertainty.",
+  "competencies": [
+   "Describe multimodal signals and their information content",
+   "Compare early and late sensor fusion architectures",
+   "Apply Markov fusion networks for multimodal pattern recognition",
+   "Handle uncertainty in sensor fusion systems"
+  ],
+  "topic_tags": [
+   "sensor fusion",
+   "multimodal",
+   "pattern recognition",
+   "human-machine interaction"
+  ]
+ },
+ {
+  "id": "etit-automation-systems",
+  "title_de": "Automatisierungssysteme",
+  "faculty": "FEIT",
+  "description_en": "Covers design and construction of distributed digital automation systems including component integration via IT and automation technologies.",
+  "competencies": [
+   "Design distributed digital automation systems",
+   "Plan integration of automation components",
+   "Interpret abstract automation and information technology models",
+   "Apply IT and automation technologies to integrate components"
+  ],
+  "topic_tags": [
+   "automation systems",
+   "system integration",
+   "information models"
+  ]
+ },
+ {
+  "id": "etit-automatisierungsgerate",
+  "title_de": "Automatisierungsgeräte",
+  "faculty": "FEIT",
+  "description_en": "Construction, operation and interconnection of automation devices, including electrical, pneumatic and hydraulic sensors and actuators.",
+  "competencies": [
+   "Explain construction and operation of automation devices",
+   "Describe working principles of digital measurement and actuating devices",
+   "Explain pneumatic and hydraulic actuating devices",
+   "Apply automation devices in practical exercises",
+   "Interpret realisation forms with different signal and energy carriers"
+  ],
+  "topic_tags": [
+   "automation devices",
+   "actuators",
+   "sensors",
+   "automation technology"
+  ]
+ },
+ {
+  "id": "etit-bildcodierung",
+  "title_de": "Bildcodierung",
+  "faculty": "FEIT",
+  "description_en": "Methods and techniques of image and video coding, from signal-theoretic to semantic approaches, for compression and communication.",
+  "competencies": [
+   "Explain methods and techniques of image and video coding",
+   "Assess existing coding schemes for still and moving images",
+   "Estimate the information content of images",
+   "Develop encoders for image and video compression",
+   "Apply transform and semantic coding techniques"
+  ],
+  "topic_tags": [
+   "image coding",
+   "video compression",
+   "information theory",
+   "encoders"
+  ]
+ },
+ {
+  "id": "etit-chatbot-challenge",
+  "title_de": "Chatbot-Challenge",
+  "faculty": "FEIT",
+  "description_en": "Project building an AI-driven Rasa chatbot for an escape-room game, covering NLU model training, evaluation and UX user testing.",
+  "competencies": [
+   "Build chatbot systems with the Rasa framework",
+   "Train and evaluate natural language understanding models",
+   "Collect and prepare classification training data",
+   "Conduct UX user tests and derive improvements",
+   "Manage an AI project from idea to productive deployment"
+  ],
+  "topic_tags": [
+   "chatbots",
+   "natural language understanding",
+   "user experience"
+  ]
+ },
+ {
+  "id": "etit-chip-design",
+  "title_de": "Chip Design",
+  "faculty": "FEIT",
+  "description_en": "Teaches the fundamentals of digital chip design from partitioning and placement to routing, verification and design for testability.",
+  "competencies": [
+   "Apply the main steps of digital chip design",
+   "Create manufacturable chip layouts with industrial tools",
+   "Perform floorplanning, placement, clock tree synthesis and routing",
+   "Design for testability using BIST, boundary scan and ATPG"
+  ],
+  "topic_tags": [
+   "chip design",
+   "vlsi",
+   "asic layout",
+   "design for testability"
+  ]
+ },
+ {
+  "id": "etit-communication-systems",
+  "title_de": "Kommunikationssysteme",
+  "faculty": "FEIT",
+  "description_en": "Covers industrial communication systems, protocols, bus systems and Ethernet/TCP/IP configuration based on the ISO/OSI reference model.",
+  "competencies": [
+   "Analyze communication systems using the ISO/OSI reference model",
+   "Configure Ethernet/TCP/IP networks for industrial use",
+   "Explain operating principles of industrial bus systems and protocols",
+   "Assess security aspects of industrial communication systems",
+   "Integrate devices and controllers into communication networks"
+  ],
+  "topic_tags": [
+   "industrial communication",
+   "fieldbus",
+   "tcp/ip",
+   "iso/osi"
+  ]
+ },
+ {
+  "id": "etit-computational-neuroscience-ii",
+  "title_de": "Computational Neuroscience II",
+  "faculty": "FEIT",
+  "description_en": "Theoretical foundations of neural network architectures and learning rules, including recurrent networks, associative memory and reinforcement learning.",
+  "competencies": [
+   "Explain architectures and learning rules of neural network models",
+   "Analyse stability and asymptotic behaviour of feedforward and recurrent networks",
+   "Model associative memory and excitatory-inhibitory networks",
+   "Apply reinforcement and actor-critic learning concepts",
+   "Implement and visualise neural models in small programs"
+  ],
+  "topic_tags": [
+   "neural networks",
+   "computational neuroscience",
+   "reinforcement learning",
+   "learning rules"
+  ]
+ },
+ {
+  "id": "etit-computer-tomographie-theorie-und-anwendung",
+  "title_de": "Computer Tomographie - Theorie und Anwendung",
+  "faculty": "FEIT",
+  "description_en": "Theory and application of computed tomography, covering imaging physics and mathematical reconstruction methods with artefact correction.",
+  "competencies": [
+   "Explain the physics and operation of computed tomography",
+   "Apply system theory of imaging systems",
+   "Implement tomographic reconstruction algorithms",
+   "Use Fourier, filtered back-projection and algebraic methods",
+   "Identify and correct image artefacts in CT"
+  ],
+  "topic_tags": [
+   "computed tomography",
+   "image reconstruction",
+   "medical imaging",
+   "back-projection"
+  ]
+ }
+]

@@ -1,0 +1,260 @@
+[
+ {
+  "id": "etit-adsorption-und-heterogene-katalyse",
+  "description_de": "Vorlesung zu Adsorptionsgleichgewichten, zur Auslegung von Festbettadsorbern, zur Kinetik der heterogenen Katalyse sowie zu industriellen chromatographischen Verfahren.",
+  "competencies_de": [
+   "Adsorbentien charakterisieren und Adsorptionsgleichgewichte von Gemischen quantifizieren",
+   "Festbettadsorber für Trennprozesse auslegen",
+   "Effektive Reaktionsgeschwindigkeiten heterogener Katalysatoren bestimmen",
+   "Instationäre Reaktorbetriebsweisen und industrielle Chromatographiekonzepte anwenden"
+  ],
+  "topic_tags_de": [
+   "adsorption",
+   "katalyse",
+   "reaktorauslegung",
+   "trenntechnik"
+  ]
+ },
+ {
+  "id": "etit-alternative-energien-regenerative-energiequellen",
+  "description_de": "Vorlesung zur Erzeugung elektrischer Energie aus regenerativen Quellen sowie zur Integration von Photovoltaik, Windkraft, Brennstoffzellen und Speichern in das Energiesystem.",
+  "competencies_de": [
+   "Auswirkungen regenerativer Stromerzeugung auf das Energieversorgungssystem beurteilen",
+   "Erzeugungspotenziale von Photovoltaik, Wind- und Wasserkraft bewerten",
+   "Brennstoffzellen und elektrische Energiespeicher analysieren",
+   "Netzintegration dezentraler regenerativer Erzeuger verstehen"
+  ],
+  "topic_tags_de": [
+   "erneuerbare energien",
+   "photovoltaik",
+   "energiespeicher",
+   "smart grid"
+  ]
+ },
+ {
+  "id": "fmb-800461",
+  "description_de": "Vorlesung zu analytischen und numerischen Methoden für die Simulation und Analyse elektrischer Netzwerke und magnetischer Kreise.",
+  "competencies_de": [
+   "Elektrische Netzwerke im Zeit- und Frequenzbereich simulieren und analysieren",
+   "Analytische und numerische Methoden auf magnetische Kreise anwenden",
+   "Mechanische Systeme als äquivalente elektrische Netzwerke modellieren",
+   "Magnetfelder simulieren und Netzwerk- und Feldmethoden kombinieren"
+  ],
+  "topic_tags_de": [
+   "elektrische netzwerke",
+   "magnetische kreise",
+   "simulation"
+  ]
+ },
+ {
+  "id": "etit-analysis-and-calculation-of-electrical-systems",
+  "description_de": "Vorlesung zu analytischen und numerischen Methoden für die Simulation elektrischer Netzwerke und elektromagnetischer Feldprobleme mithilfe rechnergestützter Werkzeuge.",
+  "competencies_de": [
+   "Analytische und numerische Methoden zur Analyse elektrischer Netzwerke anwenden",
+   "Elektromagnetische Feldprobleme mit Finite-Differenzen-Methoden simulieren",
+   "Mechanische Systeme auf äquivalente elektrische Netzwerke abbilden",
+   "MATLAB, Octave, Python oder SPICE zur Systemsimulation einsetzen"
+  ],
+  "topic_tags_de": [
+   "schaltungssimulation",
+   "numerische methoden",
+   "elektrische netzwerke"
+  ]
+ },
+ {
+  "id": "etit-antennas-and-antenna-systems",
+  "description_de": "Behandelt Auswahl, Dimensionierung und Optimierung von Antennen mithilfe von Variations- und Störungsmethoden sowie der Modalanalyse.",
+  "competencies_de": [
+   "Antennen für spezifische Anwendungen auswählen und dimensionieren",
+   "Antennen mittels Störungsrechnung und Variationsrechnung optimieren",
+   "Nahfeld-Fernfeld-Transformation anwenden",
+   "Mikrowellenschaltungen mittels dreidimensionaler Modalanalyse analysieren"
+  ],
+  "topic_tags_de": [
+   "antennen",
+   "hochfrequenztechnik",
+   "elektromagnetik",
+   "mikrowelle"
+  ]
+ },
+ {
+  "id": "etit-applied-image-processing-and-understanding",
+  "description_de": "Wendet fortgeschrittene Verfahren der Bildverarbeitung und des Bildverstehens auf Forschungsthemen wie 3D-Vermessung, Bewegungsanalyse, Tracking und Biometrie an.",
+  "competencies_de": [
+   "Komplexe Systeme der Bildverarbeitung und des Bildverstehens entwerfen",
+   "Algorithmen zur 3D-Vermessung, Bewegungsanalyse und Objektverfolgung anwenden",
+   "Verfahren der biometrischen und gesichtsbasierten Erkennung implementieren",
+   "Bildauswertungssysteme für aktuelle Forschungsanwendungen entwickeln"
+  ],
+  "topic_tags_de": [
+   "bildverstehen",
+   "computer vision",
+   "objektverfolgung",
+   "biometrie"
+  ]
+ },
+ {
+  "id": "etit-applied-microsystems-engineering-innovation-labo",
+  "description_de": "Teamprojekt zur Umsetzung einer auf Mikrosystemtechnik basierenden Produktidee als Start-up-Demonstrator mit Marktanalyse, Prototyp, Pitch und Portfolio.",
+  "competencies_de": [
+   "Ein vereinfachtes Start-up-Teamprojekt bis zum Produktdemonstrator koordinieren und durchführen",
+   "Eine auf Mikrosystemtechnik basierende Produktidee entwickeln und einen Prototyp aufbauen",
+   "Eine Marktanalyse durchführen und die Tragfähigkeit des Businessplans beurteilen",
+   "Einen Marketing-Pitch, ein Projektportfolio und eine Präsentation erstellen"
+  ],
+  "topic_tags_de": [
+   "unternehmertum",
+   "mems",
+   "prototyping",
+   "projekt"
+  ]
+ },
+ {
+  "id": "etit-architectures-of-sensor-fusion-multimodal-patter",
+  "description_de": "Seminar zu Architekturen der Sensorfusion und zur multimodalen Mustererkennung für die Mensch-Maschine-Interaktion unter Unsicherheit.",
+  "competencies_de": [
+   "Multimodale Signale und ihren Informationsgehalt beschreiben",
+   "Architekturen der frühen und späten Sensorfusion vergleichen",
+   "Markov-Fusionsnetze für die multimodale Mustererkennung anwenden",
+   "Unsicherheit in Systemen der Sensorfusion handhaben"
+  ],
+  "topic_tags_de": [
+   "sensorfusion",
+   "multimodal",
+   "mustererkennung",
+   "mensch-maschine-interaktion"
+  ]
+ },
+ {
+  "id": "etit-automation-systems",
+  "description_de": "Behandelt den Entwurf und Aufbau verteilter digitaler Automatisierungssysteme einschließlich der Integration von Komponenten mittels IT- und Automatisierungstechnologien.",
+  "competencies_de": [
+   "Verteilte digitale Automatisierungssysteme entwerfen",
+   "Die Integration von Automatisierungskomponenten planen",
+   "Abstrakte Modelle der Automatisierungs- und Informationstechnik interpretieren",
+   "IT- und Automatisierungstechnologien zur Integration von Komponenten anwenden"
+  ],
+  "topic_tags_de": [
+   "automatisierungssysteme",
+   "systemintegration",
+   "informationsmodelle"
+  ]
+ },
+ {
+  "id": "etit-automatisierungsgerate",
+  "description_de": "Aufbau, Betrieb und Vernetzung von Automatisierungsgeräten einschließlich elektrischer, pneumatischer und hydraulischer Sensoren und Aktoren.",
+  "competencies_de": [
+   "Aufbau und Funktionsweise von Automatisierungsgeräten erläutern",
+   "Wirkprinzipien digitaler Mess- und Stellgeräte beschreiben",
+   "Pneumatische und hydraulische Stellgeräte erläutern",
+   "Automatisierungsgeräte in praktischen Übungen einsetzen",
+   "Realisierungsformen mit unterschiedlichen Signal- und Energieträgern interpretieren"
+  ],
+  "topic_tags_de": [
+   "automatisierungsgeräte",
+   "aktoren",
+   "sensoren",
+   "automatisierungstechnik"
+  ]
+ },
+ {
+  "id": "etit-bildcodierung",
+  "description_de": "Methoden und Techniken der Bild- und Videocodierung, von signaltheoretischen bis zu semantischen Ansätzen, zur Kompression und Übertragung.",
+  "competencies_de": [
+   "Methoden und Techniken der Bild- und Videocodierung erläutern",
+   "Bestehende Codierverfahren für Stand- und Bewegtbilder beurteilen",
+   "Den Informationsgehalt von Bildern abschätzen",
+   "Codierer für die Bild- und Videokompression entwickeln",
+   "Transformations- und semantische Codierverfahren anwenden"
+  ],
+  "topic_tags_de": [
+   "bildcodierung",
+   "videokompression",
+   "informationstheorie",
+   "codierer"
+  ]
+ },
+ {
+  "id": "etit-chatbot-challenge",
+  "description_de": "Projekt zur Entwicklung eines KI-gestützten Rasa-Chatbots für ein Escape-Room-Spiel, das das Training von NLU-Modellen, deren Evaluation sowie UX-Nutzertests umfasst.",
+  "competencies_de": [
+   "Chatbot-Systeme mit dem Rasa-Framework aufbauen",
+   "Modelle zum natürlichsprachlichen Verstehen trainieren und evaluieren",
+   "Trainingsdaten für die Klassifikation erheben und aufbereiten",
+   "UX-Nutzertests durchführen und Verbesserungen ableiten",
+   "Ein KI-Projekt von der Idee bis zum produktiven Einsatz steuern"
+  ],
+  "topic_tags_de": [
+   "chatbots",
+   "natürlichsprachliches verstehen",
+   "user experience"
+  ]
+ },
+ {
+  "id": "etit-chip-design",
+  "description_de": "Vermittelt die Grundlagen des digitalen Chipentwurfs von Partitionierung und Platzierung über Verdrahtung und Verifikation bis zur testgerechten Gestaltung.",
+  "competencies_de": [
+   "Die wesentlichen Schritte des digitalen Chipentwurfs anwenden",
+   "Fertigbare Chip-Layouts mit industriellen Werkzeugen erstellen",
+   "Floorplanning, Platzierung, Clock-Tree-Synthese und Verdrahtung durchführen",
+   "Testgerechten Entwurf mittels BIST, Boundary-Scan und ATPG umsetzen"
+  ],
+  "topic_tags_de": [
+   "chipentwurf",
+   "vlsi",
+   "asic-layout",
+   "testgerechter entwurf"
+  ]
+ },
+ {
+  "id": "etit-communication-systems",
+  "description_de": "Behandelt industrielle Kommunikationssysteme, Protokolle, Bussysteme sowie die Konfiguration von Ethernet/TCP/IP auf Basis des ISO/OSI-Referenzmodells.",
+  "competencies_de": [
+   "Kommunikationssysteme anhand des ISO/OSI-Referenzmodells analysieren",
+   "Ethernet/TCP/IP-Netze für den industriellen Einsatz konfigurieren",
+   "Wirkprinzipien industrieller Bussysteme und Protokolle erläutern",
+   "Sicherheitsaspekte industrieller Kommunikationssysteme beurteilen",
+   "Geräte und Steuerungen in Kommunikationsnetze integrieren"
+  ],
+  "topic_tags_de": [
+   "industrielle kommunikation",
+   "feldbus",
+   "tcp/ip",
+   "iso/osi"
+  ]
+ },
+ {
+  "id": "etit-computational-neuroscience-ii",
+  "description_de": "Theoretische Grundlagen von Architekturen neuronaler Netze und Lernregeln, einschließlich rekurrenter Netze, assoziativer Speicher und bestärkenden Lernens.",
+  "competencies_de": [
+   "Architekturen und Lernregeln von Modellen neuronaler Netze erläutern",
+   "Stabilität und asymptotisches Verhalten von vorwärtsgerichteten und rekurrenten Netzen analysieren",
+   "Assoziative Speicher sowie exzitatorisch-inhibitorische Netze modellieren",
+   "Konzepte des bestärkenden Lernens und des Actor-Critic-Lernens anwenden",
+   "Neuronale Modelle in kleinen Programmen implementieren und visualisieren"
+  ],
+  "topic_tags_de": [
+   "neuronale netze",
+   "computational neuroscience",
+   "bestärkendes lernen",
+   "lernregeln"
+  ]
+ },
+ {
+  "id": "etit-computer-tomographie-theorie-und-anwendung",
+  "description_de": "Theorie und Anwendung der Computertomographie mit Schwerpunkt auf der Physik der Bildgebung und mathematischen Rekonstruktionsverfahren einschließlich Artefaktkorrektur.",
+  "competencies_de": [
+   "Physik und Funktionsweise der Computertomographie erläutern",
+   "Die Systemtheorie bildgebender Systeme anwenden",
+   "Tomographische Rekonstruktionsalgorithmen implementieren",
+   "Fourier-Verfahren, gefilterte Rückprojektion und algebraische Methoden einsetzen",
+   "Bildartefakte in der CT erkennen und korrigieren"
+  ],
+  "topic_tags_de": [
+   "computertomographie",
+   "bildrekonstruktion",
+   "medizinische bildgebung",
+   "rückprojektion"
+  ]
+ }
+]

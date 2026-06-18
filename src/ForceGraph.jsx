@@ -324,7 +324,7 @@ export default function ForceGraph({
       if (filters.clusters.size && !filters.clusters.has(d.cluster)) return false;
       if (filters.semesters?.size && !filters.semesters.has(d.semester)) return false;
       if (filters.q) {
-        const hay = `${d.label} ${d.title_de || ""} ${(d.topic_tags || []).join(" ")}`.toLowerCase();
+        const hay = `${d.label} ${d.title_de || ""} ${d.title_en || ""} ${(d.topic_tags || []).join(" ")}`.toLowerCase();
         if (!hay.includes(filters.q)) return false;
       }
       return true;

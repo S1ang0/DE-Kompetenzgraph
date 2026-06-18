@@ -1,0 +1,291 @@
+[
+ {
+  "id": "etit-radar-technology",
+  "title_de": "Radartechnik",
+  "faculty": "FEIT",
+  "description_en": "Covers radar concepts and systems for object detection, ranging and positioning including the required signal processing and propagation effects.",
+  "competencies": [
+   "Explain concepts for object detection, ranging and angular positioning",
+   "Describe the operation of primary and secondary radar systems",
+   "Apply signal processing methods for radar",
+   "Assess physical propagation effects in radar systems"
+  ],
+  "topic_tags": [
+   "radar",
+   "object detection",
+   "signal processing",
+   "sensing"
+  ]
+ },
+ {
+  "id": "etit-rechnerbasierter-reglerentwurf",
+  "title_de": "Rechnerbasierter Reglerentwurf",
+  "faculty": "FEIT",
+  "description_en": "Course on computer-aided control design and implementation in Matlab/Simulink, covering robust multivariable and real-time controllers.",
+  "competencies": [
+   "Design and implement controllers computationally in Matlab/Simulink",
+   "Auto-tune centralized and decentralized PI/PID controllers",
+   "Design robust multivariable controllers via H-infinity and mu-synthesis",
+   "Synthesize controllers using linear matrix inequalities and real-time implementation"
+  ],
+  "topic_tags": [
+   "control design",
+   "robust control",
+   "matlab",
+   "lmi"
+  ]
+ },
+ {
+  "id": "fmb-800376",
+  "title_de": "Regelung von Drehstrommaschinen",
+  "faculty": "FEIT",
+  "description_en": "A course on the control of AC drives covering space-vector modeling, field-oriented control and direct torque control.",
+  "competencies": [
+   "Model AC machines using space-vector representation",
+   "Design control loops for synchronous and asynchronous machines",
+   "Apply field-oriented control and direct torque control",
+   "Evaluate machine types and control methods for applications"
+  ],
+  "topic_tags": [
+   "ac drives",
+   "field-oriented control",
+   "electric machines"
+  ]
+ },
+ {
+  "id": "etit-renewable-electricity-sources-system-analysis",
+  "title_de": "Regenerative Elektroenergiequellen - Systembetrachtung",
+  "faculty": "FEIT",
+  "description_en": "Examines electricity generation from renewable sources and its integration into the overall energy system and smart grids.",
+  "competencies": [
+   "Assess the impact of renewable sources on the energy supply system",
+   "Evaluate photovoltaic, wind and hydro power generation",
+   "Analyze grid integration of decentralized renewable generators",
+   "Incorporate storage and fuel cells into smart grid concepts"
+  ],
+  "topic_tags": [
+   "renewable energy",
+   "smart grid",
+   "grid integration",
+   "energy storage"
+  ]
+ },
+ {
+  "id": "etit-robotersysteme",
+  "title_de": "Robotersysteme",
+  "faculty": "FEIT",
+  "description_en": "Design, modelling, control and programming of robot drive systems, including dynamic models and experimental robot investigations.",
+  "competencies": [
+   "Design, model and control robot drive systems",
+   "Describe spatial robot motion with Denavit-Hartenberg coordinates",
+   "Build dynamic models of robotic systems",
+   "Program robot controllers and cascade drive control",
+   "Conduct experimental investigations on robot systems"
+  ],
+  "topic_tags": [
+   "robotics",
+   "robot control",
+   "drive systems",
+   "kinematics"
+  ]
+ },
+ {
+  "id": "etit-seminar-cognitive-systems",
+  "title_de": "Seminar Kognitive Systeme",
+  "faculty": "FEIT",
+  "description_en": "A seminar on the practical application of cognitive intelligent systems including language modeling and realization in engineering systems.",
+  "competencies": [
+   "Apply principles of cognitive intelligence in practical programs",
+   "Build models of acoustic and written language as representation models",
+   "Implement cognitive systems in engineering applications",
+   "Handle meaning assignment and data in cognitive systems"
+  ],
+  "topic_tags": [
+   "cognitive systems",
+   "artificial intelligence",
+   "language modeling",
+   "intelligent systems"
+  ]
+ },
+ {
+  "id": "etit-sensor-applications",
+  "title_de": "Sensorapplikationen",
+  "faculty": "FEIT",
+  "description_en": "Two-semester practical project designing, building and testing sensor systems with microcontroller-based data acquisition and evaluation.",
+  "competencies": [
+   "Design, build and test sensor-based systems for given tasks",
+   "Acquire and process measurement data with microcontrollers",
+   "Select and evaluate sensors by working principle for application domains",
+   "Document and present a two-semester practical sensor project"
+  ],
+  "topic_tags": [
+   "sensors",
+   "measurement",
+   "microcontroller",
+   "project"
+  ]
+ },
+ {
+  "id": "fmb-800302",
+  "title_de": "Sensorapplikationen",
+  "faculty": "FEIT",
+  "description_en": "A two-semester practical project in which students design, build and test sensor systems for selected application domains.",
+  "competencies": [
+   "Design and build sensor systems for a given application",
+   "Select sensors based on their functional principles",
+   "Acquire and microcontroller-based evaluation of measurement data",
+   "Test, document and present a sensor-based solution"
+  ],
+  "topic_tags": [
+   "sensors",
+   "measurement",
+   "embedded systems"
+  ]
+ },
+ {
+  "id": "etit-speicherprogrammierbare-steuerungen",
+  "title_de": "Speicherprogrammierbare Steuerungen",
+  "faculty": "FEIT",
+  "description_en": "Structure and programming of programmable logic controllers for binary control and drive automation, with hands-on programming exercises.",
+  "competencies": [
+   "Explain tasks and application fields of programmable logic controllers",
+   "Design binary control circuits for asynchronous machines",
+   "Program PLC-controlled drive systems",
+   "Implement machine and plant control with PLCs",
+   "Control motion-control systems with stored-program drive control"
+  ],
+  "topic_tags": [
+   "plc",
+   "automation",
+   "motion control",
+   "drive control"
+  ]
+ },
+ {
+  "id": "etit-stromversorgungstechnik",
+  "title_de": "Stromversorgungstechnik",
+  "faculty": "FEIT",
+  "description_en": "Course on power-electronic systems for power supply, covering renewable generation, HVDC, storage and electric-vehicle charging.",
+  "competencies": [
+   "Implement power-electronic circuits in complex power-supply systems",
+   "Design power supplies for renewable generation and electric vehicles",
+   "Dimension power-electronic systems application-specifically",
+   "Apply HVDC, storage and charging-system concepts in electromobility"
+  ],
+  "topic_tags": [
+   "power supply",
+   "power electronics",
+   "electromobility",
+   "renewable energy"
+  ]
+ },
+ {
+  "id": "etit-strukturelle-und-funktionale-analyse-von-zellula",
+  "title_de": "Strukturelle und funktionale Analyse von zellulären Netzwerken",
+  "faculty": "FEIT",
+  "description_en": "Structural and qualitative modelling and analysis of cellular networks using graph theory, Boolean networks and metabolic network methods.",
+  "competencies": [
+   "Model cellular networks using graph and hypergraph theory",
+   "Perform metabolic network analysis with elementary modes and cut sets",
+   "Model regulatory and signalling networks with Boolean networks",
+   "Compute structural and statistical network measures",
+   "Apply software tools for computational analysis of biochemical networks"
+  ],
+  "topic_tags": [
+   "network analysis",
+   "graph theory",
+   "systems biology",
+   "boolean networks"
+  ]
+ },
+ {
+  "id": "etit-system-integration-of-power-electronics",
+  "title_de": "Systemintegration von Leistungselektronik",
+  "faculty": "FEIT",
+  "description_en": "A seminar on system integration of power electronics using modeling, simulation and hardware-in-the-loop for renewable energy and electromobility.",
+  "competencies": [
+   "Address system integration questions for power electronics",
+   "Quantify interactions between power electronics and the surrounding system",
+   "Apply modeling, simulation and hardware-in-the-loop methods",
+   "Represent a complete system including power-electronic assemblies and control"
+  ],
+  "topic_tags": [
+   "power electronics",
+   "system integration",
+   "hardware-in-the-loop",
+   "simulation"
+  ]
+ },
+ {
+  "id": "etit-technical-cognitive-systems",
+  "title_de": "Technische Kognitive Systeme",
+  "faculty": "FEIT",
+  "description_en": "Conveys advanced concepts of technical cognitive intelligent systems and their practical realization in engineering applications.",
+  "competencies": [
+   "Explain principles of cognitive intelligence and their computer transfer",
+   "Work with cognitive model architectures",
+   "Implement meaning assignment and data handling in assistive systems",
+   "Realize cognitive system concepts in practical programs"
+  ],
+  "topic_tags": [
+   "cognitive systems",
+   "artificial intelligence",
+   "cognitive modeling",
+   "intelligent systems"
+  ]
+ },
+ {
+  "id": "etit-voice-user-interfaces",
+  "title_de": "Sprachdialogsysteme",
+  "faculty": "FEIT",
+  "description_en": "Teaches design and implementation of voice user interfaces and dialogue systems using VXML and modern speech assistants.",
+  "competencies": [
+   "Explain concepts and methods of automatic dialogue systems",
+   "Represent knowledge in speech grammars",
+   "Build voice dialogues in VXML and Amazon Alexa skills",
+   "Evaluate strengths and weaknesses of voice user interfaces"
+  ],
+  "topic_tags": [
+   "voice user interfaces",
+   "dialogue systems",
+   "vxml",
+   "speech assistants"
+  ]
+ },
+ {
+  "id": "etit-wind-energy",
+  "title_de": "Windenergie",
+  "faculty": "FEIT",
+  "description_en": "Covers conversion, design and grid integration of wind turbines for electricity generation including aerodynamics and economics.",
+  "competencies": [
+   "Explain the physics and conversion principles of wind energy",
+   "Design wind turbines using aerofoil theory",
+   "Calculate power curves and part-load behaviour of wind turbines",
+   "Assess grid integration and economics of wind power plants"
+  ],
+  "topic_tags": [
+   "wind energy",
+   "wind turbines",
+   "renewable energy",
+   "grid integration"
+  ]
+ },
+ {
+  "id": "etit-windenergie",
+  "title_de": "Windenergie",
+  "faculty": "FEIT",
+  "description_en": "Course on wind energy conversion, wind turbine design and components, and the technical and economic aspects of grid integration.",
+  "competencies": [
+   "Explain the physics and conversion principles of wind energy",
+   "Design wind turbines using airfoil theory and performance curves",
+   "Compute partial-load behavior and power characteristics of turbines",
+   "Analyze grid integration and economic viability of wind farms"
+  ],
+  "topic_tags": [
+   "wind energy",
+   "wind turbines",
+   "renewable energy",
+   "grid integration"
+  ]
+ }
+]

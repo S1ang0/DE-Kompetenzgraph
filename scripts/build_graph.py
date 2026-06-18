@@ -12,17 +12,29 @@ def clusters_of(m):
     return set([m["primary_cluster"]] + list(m.get("secondary_clusters", [])))
 
 # ---- nodes (slim) ----
+# Each module is shown in its own teaching language: German-taught modules carry
+# German description / competencies / topic_tags (and the German title as label),
+# everything else stays English. The ORIGINAL name is never translated — the label
+# is simply the native title, and both titles are kept for the detail subtitle/search.
+def native(m, en_field, de_field):
+    if m["language"] == "de" and m.get(de_field):
+        return m[de_field]
+    return m.get(en_field)
+
 nodes = []
 for m in mods:
+    de = m["language"] == "de"
+    label = (m.get("title_de") or m.get("title_en")) if de else (m.get("title_en") or m.get("title_de"))
     nodes.append({
         "id": m["id"],
         "title_en": m["title_en"], "title_de": m["title_de"],
-        "label": m["title_en"] or m["title_de"],
+        "label": label,
         "faculty": m["faculty"], "language": m["language"], "cp": m["cp"], "semester": m.get("semester", "both"),
         "level_band": m.get("level_band", "core"), "kind": m.get("kind", "course"),
         "cluster": m["primary_cluster"], "secondary_clusters": m.get("secondary_clusters", []),
-        "competencies": m.get("competencies", []), "topic_tags": m.get("topic_tags", []),
-        "description_en": m.get("description_en", ""),
+        "competencies": native(m, "competencies", "competencies_de") or [],
+        "topic_tags": native(m, "topic_tags", "topic_tags_de") or [],
+        "description": native(m, "description_en", "description_de") or "",
         "module_code": m.get("module_code"), "source": m.get("source"), "source_url": m.get("source_url"),
     })
 

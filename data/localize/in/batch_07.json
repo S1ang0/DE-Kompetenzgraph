@@ -1,0 +1,280 @@
+[
+ {
+  "id": "fmb-601352",
+  "title_de": "Nachhaltige Mobilität",
+  "faculty": "FMB",
+  "description_en": "Provides a holistic systemic view of sustainable mobility, covering electromobility, resources, environmental impact and policy instruments.",
+  "competencies": [
+   "Apply a holistic systemic approach to sustainable mobility",
+   "Relate mobility to quality of life, resources and environmental impact",
+   "Evaluate electromobility, new mobility forms and Mobility-as-a-Service",
+   "Assess policy instruments and acceptance of mobility measures"
+  ],
+  "topic_tags": [
+   "sustainable mobility",
+   "electromobility",
+   "maas",
+   "transport"
+  ]
+ },
+ {
+  "id": "fmb-601374",
+  "title_de": "Neue Werkstoffe",
+  "faculty": "FMB",
+  "description_en": "Surveys new materials including non-ferrous metals, polymers, composites and ceramics, focusing on structure-property relationships and material selection.",
+  "competencies": [
+   "Select non-ferrous metals and alloys for special applications",
+   "Relate structure to properties for polymers and composite materials",
+   "Characterize ceramics, glasses and inorganic functional materials",
+   "Apply structure-property relationships for material selection"
+  ],
+  "topic_tags": [
+   "new materials",
+   "non-ferrous metals",
+   "polymers",
+   "composites"
+  ]
+ },
+ {
+  "id": "fmb-604152",
+  "title_de": "Planung logistischer Systeme (PLS)",
+  "faculty": "FMB",
+  "description_en": "A practice-oriented project module developing planning solutions for production and logistics systems through company case studies and team project work.",
+  "competencies": [
+   "Develop planning solutions for production and logistics systems",
+   "Analyze logistics processes in distribution and fulfilment centres",
+   "Evaluate solution variants and analyze and control supply chains",
+   "Document, present and defend project results to target audiences"
+  ],
+  "topic_tags": [
+   "logistics planning",
+   "supply chain",
+   "distribution centre",
+   "project work"
+  ]
+ },
+ {
+  "id": "fmb-604124",
+  "title_de": "Produktdesign und Entwurf",
+  "faculty": "FMB",
+  "description_en": "Teaches the role of product design in integrated development, training design-oriented form-giving that balances aesthetic, ergonomic and technical needs.",
+  "competencies": [
+   "Apply design-oriented and integrative approaches to product design",
+   "Balance aesthetic, ergonomic and technical product requirements",
+   "Use analog and digital design and drawing tools",
+   "Account for human-centred usage processes in product form-giving"
+  ],
+  "topic_tags": [
+   "product design",
+   "industrial design",
+   "ergonomics",
+   "form-giving"
+  ]
+ },
+ {
+  "id": "fmb-603020",
+  "title_de": "Produktionssystemplanung",
+  "faculty": "FMB",
+  "description_en": "Teaches methodical planning and design of factory and production systems, including data analysis, resource dimensioning and machine-layout optimization.",
+  "competencies": [
+   "Apply methods for planning and designing factory and production systems",
+   "Analyze and condense planning-relevant data for production systems",
+   "Dimension resources and optimize machine layout under constraints",
+   "Develop a master plan for a functional overall production system"
+  ],
+  "topic_tags": [
+   "production system planning",
+   "factory planning",
+   "production"
+  ]
+ },
+ {
+  "id": "fmb-604165",
+  "title_de": "Projektmodul (FMB)",
+  "faculty": "FMB",
+  "description_en": "An individual or team project module in which students work on, document, present and defend a research- or teaching-related engineering project.",
+  "competencies": [
+   "Work on a project in a goal-oriented and effective manner",
+   "Establish the connections needed to deliver a project",
+   "Document project results",
+   "Present and defend project outcomes"
+  ],
+  "topic_tags": [
+   "project work",
+   "scientific project",
+   "team project"
+  ]
+ },
+ {
+  "id": "fmb-604165-2",
+  "title_de": "Projektmodul (FMB)",
+  "faculty": "FMB",
+  "description_en": "An individual or team project in which students independently plan, execute, document, and defend an engineering project linked to institute research or teaching.",
+  "competencies": [
+   "Plan and execute an engineering project in a goal-directed way",
+   "Establish the contacts and resources required for project work",
+   "Document project results in a written report",
+   "Present and defend project outcomes"
+  ],
+  "topic_tags": [
+   "project work",
+   "scientific project",
+   "teamwork"
+  ]
+ },
+ {
+  "id": "fmb-604161",
+  "title_de": "Rechnerunterstützter Designentwurf",
+  "faculty": "FMB",
+  "description_en": "A practice-oriented course on computer-aided industrial design, focusing on CAID/CAD tools, software interfaces, and complex product visualization.",
+  "competencies": [
+   "Apply computer-aided design methods to product design tasks",
+   "Use industrial-design-typical design tools and methods",
+   "Manage interfaces between CAID, CAD, and ergonomic software systems",
+   "Create complex visualizations of products"
+  ],
+  "topic_tags": [
+   "cad",
+   "industrial design",
+   "product visualization"
+  ]
+ },
+ {
+  "id": "fmb-601406",
+  "title_de": "Schadensanalyse und -forschung",
+  "faculty": "FMB",
+  "description_en": "A course on failure analysis of metallic components, covering damage mechanisms, fracture and corrosion types, and damage-preventing component design.",
+  "competencies": [
+   "Understand the interaction of material, design, and loading for safe component design",
+   "Detect, analyze, and prevent damage in metallic components",
+   "Identify fracture and corrosion damage types and topographies",
+   "Apply standards and regulations in failure detection"
+  ],
+  "topic_tags": [
+   "failure analysis",
+   "fatigue",
+   "corrosion"
+  ]
+ },
+ {
+  "id": "fmb-604111",
+  "title_de": "Schweißtechnische Fertigungsverfahren",
+  "faculty": "FMB",
+  "description_en": "An advanced course on welding manufacturing processes, teaching process selection, quality-oriented welding technology, and automation of welded joint production.",
+  "competencies": [
+   "Select appropriate welding processes for a given application",
+   "Design quality-oriented welding technologies",
+   "Apply arc, laser, electron-beam, and pressure welding processes",
+   "Implement mechanization, automation, and quality assurance of welding"
+  ],
+  "topic_tags": [
+   "welding",
+   "joining",
+   "manufacturing"
+  ]
+ },
+ {
+  "id": "fmb-601325",
+  "title_de": "Schweißtechnische Konstruktion",
+  "faculty": "FMB",
+  "description_en": "A course on the design of welded structures, covering weld-appropriate detailing, joint dimensioning, fatigue strength, and relevant standards and codes.",
+  "competencies": [
+   "Design weld-appropriate and requirement-driven welded constructions",
+   "Dimension welded joints and provide conformity proof",
+   "Assess strength and crack avoidance in high-strength welded joints",
+   "Apply standards, codes, and IIW recommendations to welded structures"
+  ],
+  "topic_tags": [
+   "welded construction",
+   "joining design",
+   "weld strength"
+  ]
+ },
+ {
+  "id": "fmb-603028",
+  "title_de": "Simulation innermotorischer Prozesse",
+  "faculty": "FMB",
+  "description_en": "A course on simulating internal combustion engine processes using 1D and 3D-CFD tools, covering engine design, combustion, and full powertrain modelling.",
+  "competencies": [
+   "Apply 1D and 3D simulation tools in powertrain development",
+   "Design and model engine concepts including turbocharging and injection systems",
+   "Model combustion, mixture formation, and pollutant formation",
+   "Simulate full vehicle systems and fuel-cell drive systems"
+  ],
+  "topic_tags": [
+   "engine simulation",
+   "cfd",
+   "combustion"
+  ]
+ },
+ {
+  "id": "fmb-604117",
+  "title_de": "Adaptronik",
+  "faculty": "FMB",
+  "description_en": "Course on adaptronics and adaptive structures, covering structure-integrated sensors and actuators for active shape adaptation, vibration and noise control.",
+  "competencies": [
+   "Understand adaptronic systems and their application fields",
+   "Design structure-integrated sensors and actuators",
+   "Apply active vibration and noise reduction techniques",
+   "Implement active shape adaptation through elastic deformation",
+   "Combine materials, mechanical, electrical and control engineering knowledge in the lab"
+  ],
+  "topic_tags": [
+   "adaptronics",
+   "smart structures",
+   "actuators",
+   "vibration control"
+  ]
+ },
+ {
+  "id": "fmb-604147",
+  "title_de": "Strahltechnik",
+  "faculty": "FMB",
+  "description_en": "A course on laser and electron-beam technology as manufacturing tools for joining and cutting, covering beam systems, material effects, and joint quality.",
+  "competencies": [
+   "Understand the generation and use of laser and electron beams for manufacturing",
+   "Apply beam processes for welding, cutting, drilling, and marking",
+   "Assess material suitability for beam welding",
+   "Design beam-welded joints and ensure their quality"
+  ],
+  "topic_tags": [
+   "laser",
+   "electron beam",
+   "beam welding"
+  ]
+ },
+ {
+  "id": "fmb-601381",
+  "title_de": "Strukturdynamik und Lebensdaueranalyse",
+  "faculty": "FMB",
+  "description_en": "A course on structural dynamics and durability analysis, covering vibration modelling, modal analysis, load spectra derivation, and service-life estimation.",
+  "competencies": [
+   "Transfer structural-dynamic systems into mechanical substitute models",
+   "Solve vibration differential equations for single and multi-degree-of-freedom systems",
+   "Derive load spectra using classification methods",
+   "Estimate component service life via damage accumulation models"
+  ],
+  "topic_tags": [
+   "structural dynamics",
+   "fatigue life",
+   "vibration"
+  ]
+ },
+ {
+  "id": "fmb-604179",
+  "title_de": "Sustainable Design",
+  "faculty": "FMB",
+  "description_en": "A course on sustainable product design through aesthetic means of form, colour, and material within integrated product development processes.",
+  "competencies": [
+   "Apply aesthetic design means of form, colour, and material for sustainability",
+   "Integrate sustainable design into integrated product development",
+   "Analyze sustainability potentials of object and usage aesthetics",
+   "Investigate perception and usage effects of aesthetic design choices"
+  ],
+  "topic_tags": [
+   "sustainable design",
+   "industrial design",
+   "product development"
+  ]
+ }
+]

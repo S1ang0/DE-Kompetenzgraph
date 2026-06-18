@@ -1,0 +1,260 @@
+[
+ {
+  "id": "fmb-102812",
+  "description_de": "Eine Lehrveranstaltung zur Daten- und wissenschaftlichen Visualisierung, die Techniken zur Erstellung wirksamer visueller Repräsentationen von Daten behandelt.",
+  "competencies_de": [
+   "Verfahren der wissenschaftlichen Visualisierung und der Informationsvisualisierung anwenden",
+   "Wirksame visuelle Repräsentationen von Daten entwerfen",
+   "Visualisierungspipelines und Renderingverfahren implementieren",
+   "Visualisierungen kritisch bewerten und interpretieren"
+  ],
+  "topic_tags_de": [
+   "visualisierung",
+   "wissenschaftliche visualisierung",
+   "rendering"
+  ]
+ },
+ {
+  "id": "etit-statistische-planung-und-auswertung-von-versuche",
+  "description_de": "Lehrveranstaltung zur statistischen Auswertung von Versuchsdaten, zur Regressionsanalyse sowie zur Versuchsplanung für Modelle erster und zweiter Ordnung.",
+  "competencies_de": [
+   "Experimentelle Produktionsdaten mit statistischen Methoden auswerten",
+   "Regressions- und Korrelationsanalysen für lineare und nichtlineare Modelle durchführen",
+   "Konfidenzintervalle von Modellparametern bestimmen",
+   "Faktorielle und zentral zusammengesetzte Versuchspläne aufstellen"
+  ],
+  "topic_tags_de": [
+   "versuchsplanung",
+   "statistik",
+   "regression"
+  ]
+ },
+ {
+  "id": "fmb-601170",
+  "description_de": "Methodisches Konstruieren mit Behandlung des Produktentwicklungsprozesses, des Systems Engineering, interdisziplinärer Informationsflüsse sowie teambasierter Projektarbeit.",
+  "competencies_de": [
+   "Systematische Produktentwicklungsprozesse anwenden",
+   "Disziplinübergreifende Ansätze des Systems Engineering einsetzen",
+   "Methodisches Konzipieren und Detaillieren durchführen",
+   "Interdisziplinäre Konstruktionsprojekte im Team leiten",
+   "Methoden der qualitätsorientierten Produktentwicklung anwenden"
+  ],
+  "topic_tags_de": [
+   "konstruktionstechnik",
+   "systems engineering",
+   "produktentwicklung"
+  ]
+ },
+ {
+  "id": "fmb-601376",
+  "description_de": "Angewandte Finite-Elemente-Analyse zur Festigkeits- und Strukturberechnung von Produkten mit Behandlung von Vernetzung, Materialmodellen, Kontakt und Strukturdynamik.",
+  "competencies_de": [
+   "Die Finite-Elemente-Methode für die Festigkeits- und Strukturberechnung anwenden",
+   "Geeignete Vernetzungsverfahren und Materialmodelle auswählen",
+   "Simulationsergebnisse bewerten und die Lösungsgenauigkeit beurteilen",
+   "Kontaktprobleme modellieren und Modellreduktionen durchführen",
+   "Eigenwert-, harmonische und transiente strukturdynamische Analysen durchführen"
+  ],
+  "topic_tags_de": [
+   "fem",
+   "strukturberechnung",
+   "simulation",
+   "strukturdynamik"
+  ]
+ },
+ {
+  "id": "fmb-601166",
+  "description_de": "Überblick über CAx-Anwendungen entlang des Produktlebenszyklus mit Behandlung der CAD-Modellierung, der CAE-Simulation, der Optimierung sowie der CAP-/CAM-Prozessintegration.",
+  "competencies_de": [
+   "CAx-Werkzeuge entlang des Produktlebenszyklus anwenden",
+   "3D-CAD-Modelle mittels B-Rep-, CSG- und parametrischer Verfahren erstellen",
+   "CAE-Simulation einschließlich FEM, CFD und Mehrkörpersystemen einsetzen",
+   "Verfahren der Topologie- und Gestaltoptimierung anwenden",
+   "CAP und CAM in die digitale Prozesskette integrieren"
+  ],
+  "topic_tags_de": [
+   "cax",
+   "cad",
+   "cae",
+   "produktlebenszyklus"
+  ]
+ },
+ {
+  "id": "fmb-601167",
+  "description_de": "Management von CAx-Systemen mit Behandlung der Systemeinführung und -migration, der Wirtschaftlichkeitsbewertung, der Lebenszykluskostenrechnung sowie der Technologiebewertung.",
+  "competencies_de": [
+   "Einführung und Migration von CAx-Systemen planen",
+   "Die Wirtschaftlichkeit von CAx-Systemen bewerten",
+   "Kostenmethoden zur Prognose der Produktkosten über den Lebenszyklus anwenden",
+   "CAx-Systeme und -Anwendungen managen",
+   "Neue Technologien mit der BAPM-Methode bewerten"
+  ],
+  "topic_tags_de": [
+   "cax-management",
+   "plm",
+   "produktlebenszykluskosten"
+  ]
+ },
+ {
+  "id": "fmb-601467",
+  "description_de": "Einführung in datengetriebene und maschinelle Lernverfahren zur Entwicklung, Analyse und Optimierung dynamischer mechatronischer Systeme.",
+  "competencies_de": [
+   "Datengetriebene Verfahren auf dynamische mechatronische Systeme anwenden",
+   "Verfahren des überwachten und unüberwachten Lernens einsetzen",
+   "Perzeptronen und neuronale Netze aufbauen und anwenden",
+   "Datengetriebene Regelung und bestärkendes Lernen anwenden",
+   "Physik-informiertes maschinelles Lernen einsetzen und dessen Grenzen beurteilen"
+  ],
+  "topic_tags_de": [
+   "machine learning",
+   "neuronale netze",
+   "physik-informiertes ml"
+  ]
+ },
+ {
+  "id": "fmb-601387",
+  "description_de": "Entwicklung von Arbeits- und Fördermaschinen mit Schwerpunkt auf der Ableitung von Lastannahmen und Lastkollektiven sowie der Anwendung der Mehrkörpersimulation zur Dimensionierung komplexer Baugruppen.",
+  "competencies_de": [
+   "Lastannahmen für Arbeits- und Fördermaschinen bestimmen",
+   "Kräfte und Momente zur Dimensionierung von Antrieben und Bauteilen berechnen",
+   "Lastkollektive zur Dimensionierung von Maschinenantrieben ableiten",
+   "Komplexe Maschinenbaugruppen konzipieren und entwerfen",
+   "Die Mehrkörpersimulation zur Dimensionierung komplexer Maschinen anwenden"
+  ],
+  "topic_tags_de": [
+   "maschinenkonstruktion",
+   "lastannahmen",
+   "mehrkörpersimulation",
+   "krane"
+  ]
+ },
+ {
+  "id": "fmb-604167",
+  "description_de": "Fahrerassistenzsysteme und autonomes Fahren mit Behandlung der Fahrzeugdynamik, der Sensoren und Aktoren sowie von Assistenzfunktionen auf Stabilisierungs- und Navigationsebene.",
+  "competencies_de": [
+   "Aufbau und Funktion von Fahrerassistenzsystemen erläutern",
+   "Entwicklungsmethodik für Fahrerassistenzsysteme anwenden",
+   "Fahrzeugdynamik für Assistenzfunktionen modellieren",
+   "Sensoren und Aktoren für Assistenzsysteme auswählen",
+   "Assistenzsysteme auf Stabilisierungs- und Navigationsebene beurteilen"
+  ],
+  "topic_tags_de": [
+   "fahrerassistenz",
+   "autonomes fahren",
+   "fahrzeugdynamik"
+  ]
+ },
+ {
+  "id": "fmb-601384",
+  "description_de": "Energiequellen und Speichertechnologien für Fahrzeuge mit Behandlung fossiler und biogener Kraftstoffe, von Wasserstoff, kinetischer und elektrochemischer Speicher sowie des Batteriemanagements.",
+  "competencies_de": [
+   "Energiequellen und Speichertechnologien anwendungsbezogen auswählen",
+   "Kraftstoffe nach Verfügbarkeit, Nachhaltigkeit und Wirtschaftlichkeit bewerten",
+   "Elektrochemische Grundlagen von Primär- und Sekundärzellen erläutern",
+   "Kinetische und elektrische Energiespeicher bewerten",
+   "Batteriemanagement und Skalierung für mobile Systeme anwenden"
+  ],
+  "topic_tags_de": [
+   "energiespeicher",
+   "kraftstoffe",
+   "batterien",
+   "nachhaltigkeit"
+  ]
+ },
+ {
+  "id": "fmb-601124",
+  "description_de": "Experimentelle Mechanik, die Theorie und Anwendung durch die labortechnische Messung von Verformungen, Spannungen und Schwingungen mittels Dehnungsmessstreifen und Spannungsoptik verbindet.",
+  "competencies_de": [
+   "Geeignete experimentelle Messverfahren selbstständig auswählen",
+   "Verformungen, Spannungen und Schwingungen in Festkörpern messen",
+   "Dehnungsmessstreifen, Spannungsoptik und Frequenzanalyse anwenden",
+   "Messdaten erfassen und verarbeiten",
+   "Versuche durchführen und Ergebnisse korrekt auswerten"
+  ],
+  "topic_tags_de": [
+   "experimentelle mechanik",
+   "dehnungsmessung",
+   "schwingungsanalyse"
+  ]
+ },
+ {
+  "id": "fmb-601229",
+  "description_de": "Planung und Steuerung der industriellen Produktion mit Behandlung von Organisationsstrukturen, Auftragsabwicklung, ERP-gestützter Ressourcenplanung sowie der Bewertung von Produktionssystemen.",
+  "competencies_de": [
+   "Industrielle Produktionsprozesse planen und steuern",
+   "Organisationsstrukturen aus der Unternehmensstrategie ableiten",
+   "ERP-gestützte Methoden der Produktionsplanung anwenden",
+   "Ressourceneinsatz und Materialbereitstellung planen",
+   "Produktionssysteme anhand logistischer Kennzahlen bewerten"
+  ],
+  "topic_tags_de": [
+   "produktionsplanung",
+   "erp",
+   "betriebsorganisation"
+  ]
+ },
+ {
+  "id": "fmb-601383",
+  "description_de": "Fahrzeugemissionen mit Behandlung von Emissionsarten und -wirkungen, gesetzlichen Vorschriften, Entstehungs- und Minderungsmaßnahmen sowie der Abgasnachbehandlung über verschiedene Antriebskonzepte hinweg.",
+  "competencies_de": [
+   "Arten von Fahrzeugemissionen und ihre Wirkungen analysieren",
+   "Emissionen von Immissionen unterscheiden",
+   "Gesetzliche Vorschriften zu Fahrzeugemissionen anwenden",
+   "Maßnahmen zur Emissionsentstehung und -minderung bewerten",
+   "Emissionen verschiedener Fahrzeug- und Antriebskonzepte vergleichen"
+  ],
+  "topic_tags_de": [
+   "fahrzeugemissionen",
+   "abgasnachbehandlung",
+   "nachhaltigkeit"
+  ]
+ },
+ {
+  "id": "fmb-601351",
+  "description_de": "Fahrzeugsystementwurf mit Behandlung des Entwicklungsprozesses, der Plattformen, des Anforderungsmanagements, elektrifizierter und konventioneller Architekturen sowie der Ökobilanzierung.",
+  "competencies_de": [
+   "Anforderungen in der Fahrzeugentwicklung analysieren",
+   "Fahrzeugarchitekturen und -plattformen entwerfen",
+   "Den Produktentwicklungsprozess auf Fahrzeuge anwenden",
+   "BEV-, HEV-, FCEV- und konventionelle Architekturen vergleichen",
+   "Recycling und Ökobilanzierung im Entwurf berücksichtigen"
+  ],
+  "topic_tags_de": [
+   "fahrzeugarchitektur",
+   "fahrzeugentwicklung",
+   "antriebskonzepte"
+  ]
+ },
+ {
+  "id": "fmb-601375",
+  "description_de": "Fertigungs- und montagegerechte Produktgestaltung mit Behandlung der Prinzipien des fertigungs- und montagegerechten Konstruierens, des Recyclings sowie der Konformitätsbewertung.",
+  "competencies_de": [
+   "Prinzipien des fertigungsgerechten Konstruierens anwenden",
+   "Methoden des montagegerechten Konstruierens anwenden",
+   "Die Bauteilgestaltung an spezifische Fertigungsverfahren anpassen",
+   "Demontage und Recycling in der Gestaltung berücksichtigen",
+   "Verfahren der Konformitätsbewertung und CE-Kennzeichnung anwenden"
+  ],
+  "topic_tags_de": [
+   "fertigungsgerechtes konstruieren",
+   "montagegerechtes konstruieren",
+   "ce-kennzeichnung"
+  ]
+ },
+ {
+  "id": "fmb-601247",
+  "description_de": "Fertigungsmesstechnik mit Behandlung der Gestaltung von Messaufbauten, der Geräteauswahl, der geometrischen Prüfung, der Messunsicherheit sowie der statistischen Datenanalyse.",
+  "competencies_de": [
+   "Messaufbauten aus Zeichnungsvorgaben gestalten",
+   "Geeignete Messgeräte und Messmittel auswählen",
+   "Messgeräte zur Prüfung geometrischer Elemente einsetzen",
+   "Messabweichungen und Messunsicherheiten beurteilen",
+   "Messdaten statistisch analysieren und verarbeiten"
+  ],
+  "topic_tags_de": [
+   "messtechnik",
+   "messverfahren",
+   "qualitätssicherung"
+  ]
+ }
+]

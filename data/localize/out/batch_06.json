@@ -1,0 +1,252 @@
+[
+ {
+  "id": "fmb-601317",
+  "description_de": "Fertigungsplanung mit Rohteilauswahl, Festlegung der Bearbeitungsreihenfolge, Montagevorgängen, Abschätzung der Betriebsmittel sowie Produktionssteuerung und Qualitätsplanung.",
+  "competencies_de": [
+   "Fertigungsschritte für typische mechanische Bauteile planen",
+   "Rohteile auswählen und technologische Bezugsbasen festlegen",
+   "Montage- und Demontagevorgänge planen",
+   "Erforderliche Betriebsmittel abschätzen",
+   "Produktionssteuerung, -überwachung und Qualitätsplanung anwenden"
+  ],
+  "topic_tags_de": [
+   "fertigungsplanung",
+   "arbeitsplanung",
+   "produktionssteuerung"
+  ]
+ },
+ {
+  "id": "fmb-601373",
+  "description_de": "Fertigungstechnologien aus den Bereichen Urformen, Umformen, Trennen, Abtragen und Fügen, die eine anwendungsoptimierte Auswahl von Verfahren und Technologien ermöglichen.",
+  "competencies_de": [
+   "Anwendungsoptimierte Fertigungsverfahren auswählen",
+   "Möglichkeiten und Grenzen der Umform- und Gießtechnologien beurteilen",
+   "Trennverfahren mit geometrisch bestimmter und unbestimmter Schneide anwenden",
+   "Thermische und elektrochemische Abtragtechnologien einsetzen",
+   "Thermische und mechanische Fügeverfahren anwenden"
+  ],
+  "topic_tags_de": [
+   "fertigungsverfahren",
+   "umformen",
+   "zerspanung",
+   "fügen"
+  ]
+ },
+ {
+  "id": "fmb-604178",
+  "description_de": "Vermittelt Kompetenzen der skulpturalen Gestaltung, die Form, Farbe und Material für funktionale Objekte durch Skizzieren, Modellieren und physischen Modellbau vereinen.",
+  "competencies_de": [
+   "Skulpturale Entwürfe entwickeln, die Form, Farbe und Material vereinen",
+   "Ästhetische, ergonomische und technische Gestaltungsanforderungen ausbalancieren",
+   "Funktionale Objekte skizzieren und modellieren, um die Wahrnehmungsqualität zu bewerten",
+   "Physische Modelle bauen, um Gestaltungslösungen zu validieren"
+  ],
+  "topic_tags_de": [
+   "industriedesign",
+   "form farbe material",
+   "produktästhetik"
+  ]
+ },
+ {
+  "id": "fmb-601324",
+  "description_de": "Eine Grundlagenveranstaltung zur visuellen Gestaltung, die eine künstlerische Bildsprache und ästhetische Kompetenz in der zweidimensionalen Flächengestaltung entwickelt.",
+  "competencies_de": [
+   "Eine individuelle künstlerische Bildsprache entwickeln",
+   "Grundprinzipien der zweidimensionalen visuellen Gestaltung anwenden",
+   "Ästhetische Kompetenz in der Flächengestaltung aufbauen",
+   "Kreatives Gestaltungsdenken unabhängig von technischen Zwängen fördern"
+  ],
+  "topic_tags_de": [
+   "visuelle gestaltung",
+   "komposition",
+   "ästhetik"
+  ]
+ },
+ {
+  "id": "fmb-800337",
+  "description_de": "Behandelt die Grundlagen mobiler und autonomer Roboter einschließlich Kinematik, Sensorik, Lokalisierung und Navigation, ergänzt durch ein praktisches Labor zur Roboterentwicklung.",
+  "competencies_de": [
+   "Kinematische und dynamische Analysen mobiler Roboter durchführen",
+   "Rad- und beingebundene Fortbewegungssysteme entwerfen",
+   "Verfahren zur Lokalisierung, Bahnplanung und Hindernisvermeidung anwenden",
+   "Maschinelles Sehen mit Merkmalsextraktion und Sensordatenfusion umsetzen",
+   "Mobile Roboter im Team entwickeln, um definierte Aufgaben zu lösen"
+  ],
+  "topic_tags_de": [
+   "mobile roboter",
+   "autonome roboter",
+   "bahnplanung"
+  ]
+ },
+ {
+  "id": "fmb-601307",
+  "description_de": "Vermittelt die Strukturierung, Organisation und Steuerung industrieller Projekte durch analytische Aufgabenzerlegung und kennzahlenbasiertes Projektmanagement.",
+  "competencies_de": [
+   "Industrielle Prozesse analysieren, um Änderungsbedarfe zu identifizieren",
+   "Industrielle Projekte aus analytischer Aufgabenzerlegung strukturieren und organisieren",
+   "Projekte mit zielorientierten Projektstrukturen steuern",
+   "Kennzahlenbasiertes Projektcontrolling anwenden"
+  ],
+  "topic_tags_de": [
+   "projektmanagement",
+   "projektcontrolling",
+   "industrieprojekte"
+  ]
+ },
+ {
+  "id": "fmb-604163",
+  "description_de": "Vermittelt eine integrierte, ganzheitliche Produktentwicklung, die Funktion, Form und Nachhaltigkeit in interdisziplinären Projekten unter Einsatz von IDE-Werkzeugen ausbalanciert.",
+  "competencies_de": [
+   "Ganzheitliche, integrierte Produktentwicklung über mehrere Produktsichten anwenden",
+   "Funktion, Form, Sicherheit, Qualität, Ergonomie und Nachhaltigkeit synergetisch ausbalancieren",
+   "IDE-Werkzeuge zur Erstellung, Simulation und zum Management einsetzen",
+   "Interdisziplinäre Entwicklungsprojekte und -prozesse steuern"
+  ],
+  "topic_tags_de": [
+   "integrierte produktentwicklung",
+   "produktentwicklung",
+   "konstruktionsmethodik"
+  ]
+ },
+ {
+  "id": "fmb-601431",
+  "description_de": "Führt in intelligente Verkehrssysteme ein, die Informationstechnik, Kommunikation und Verkehrstechnik für sicherere, effizientere Mobilität und vernetztes autonomes Fahren verbinden.",
+  "competencies_de": [
+   "Elemente der Verkehrsinfrastruktur und intelligenter Verkehrssysteme erläutern",
+   "Verfahren zur Verkehrsdatenerfassung, -analyse und Informationssysteme anwenden",
+   "Strategien zur Verkehrssteuerung und zum Verkehrsmanagement entwerfen",
+   "V2X-Kommunikation für vernetztes und autonomes Fahren anwenden"
+  ],
+  "topic_tags_de": [
+   "intelligente verkehrssysteme",
+   "v2x",
+   "autonomes fahren",
+   "verkehrsmanagement"
+  ]
+ },
+ {
+  "id": "fmb-604148",
+  "description_de": "Gibt einen Überblick über Logistikstrategien und -methoden einschließlich Supply-Chain-Gestaltung, Six-Sigma-Werkzeugen, Simulation und Zuverlässigkeit von Materialflusssystemen.",
+  "competencies_de": [
+   "Aktuelle Logistikstrategien, -methoden und -werkzeuge anwenden",
+   "Six-Sigma- und Qualitätsmanagement-Werkzeuge in der Logistik einsetzen",
+   "Lieferketten gestalten und Materialflusssysteme modellieren",
+   "Zuverlässigkeit und Risiko von Materialflusssystemen bewerten"
+  ],
+  "topic_tags_de": [
+   "logistik",
+   "supply-chain-gestaltung",
+   "six sigma",
+   "materialfluss"
+  ]
+ },
+ {
+  "id": "fmb-604202",
+  "description_de": "Behandelt Marketing, Vertrieb, Betriebsverfassung und Personalwesen einschließlich Marktanalyse sowie Personalplanung und -führung.",
+  "competencies_de": [
+   "Märkte und Käuferverhalten analysieren",
+   "Marketing- und Vertriebspläne mit geeigneten Methoden entwickeln",
+   "Arbeitsrechtliche Regelungen und Betriebsverfassungsrecht anwenden",
+   "Personalplanung, -beschaffung und Mitarbeiterführung anwenden"
+  ],
+  "topic_tags_de": [
+   "marketing",
+   "vertrieb",
+   "personalwesen",
+   "betriebsorganisation"
+  ]
+ },
+ {
+  "id": "etit-mechatronic-systems-ii",
+  "description_de": "Veranstaltung zur Modellierung und Simulation domänenübergreifender mechatronischer Systeme, einschließlich Fahrzeugmodellen, mit den Werkzeugen Matlab/Simulink.",
+  "competencies_de": [
+   "Domänenübergreifende mechatronische Systeme modellieren und simulieren",
+   "Mechanische, elektrische, thermische und hydraulische Komponenten in einem Modell koppeln",
+   "Matlab/Simulink und Toolboxen für die mechatronische Simulation einsetzen",
+   "Fahrzeugmodelle aufbauen, die Antrieb, Lenkung, Bremsung und Fahrdynamik abbilden"
+  ],
+  "topic_tags_de": [
+   "modellierung und simulation",
+   "mechatronik",
+   "simulink",
+   "fahrdynamik"
+  ]
+ },
+ {
+  "id": "etit-mechatronics-iii",
+  "description_de": "Vertiefende Veranstaltung zum integrierten Entwurf mechatronischer Systeme unter Verwendung des V-Modells, komponentenbasierter Methoden, Robustheit und Optimierung.",
+  "competencies_de": [
+   "Mechatronische Entwurfsaufgaben formulieren und strukturieren",
+   "Das V-Modell der Systementwicklung anwenden",
+   "Hierarchische und komponentenbasierte Entwurfsverfahren einsetzen",
+   "Parameterempfindlichkeit, Robustheit und Systemoptimierung bewerten"
+  ],
+  "topic_tags_de": [
+   "mechatronik",
+   "systementwurf",
+   "v-modell"
+  ]
+ },
+ {
+  "id": "fmb-601389",
+  "description_de": "Behandelt die Mikro- und Ultrapräzisionsbearbeitung einschließlich abtragender und zerspanender Verfahren, der Gestaltung von Prozessketten sowie des Ultrapräzisionsdrehens und -fräsens.",
+  "competencies_de": [
+   "Mikro- und Ultrapräzisionsbearbeitung in die Produktionstechnik einordnen",
+   "Abtragende und zerspanende Verfahren der Mikrobearbeitung beschreiben",
+   "Prozessketten für die Mikro- und Ultrapräzisionsfertigung gestalten",
+   "Prozess-, Werkzeug- und Maschinenanforderungen der Ultrapräzisionsbearbeitung spezifizieren"
+  ],
+  "topic_tags_de": [
+   "mikrobearbeitung",
+   "ultrapräzisionsbearbeitung",
+   "fertigung"
+  ]
+ },
+ {
+  "id": "fmb-601380",
+  "description_de": "Vermittelt die Modellierung und Simulation elektrischer und hybrider Antriebsstränge sowie die modellbasierte Entwicklung und Optimierung von Antriebskomponenten und -systemen.",
+  "competencies_de": [
+   "Komponenten elektrischer und hybrider Antriebsstränge beschreiben",
+   "Antriebskomponenten und Antriebsstrangsysteme modellieren und simulieren",
+   "Modellbasierte Entwicklungsmethoden für Antriebsstränge anwenden",
+   "Betriebsverhalten und Optimierung von Antriebssystemen analysieren"
+  ],
+  "topic_tags_de": [
+   "antriebsstränge",
+   "elektrische antriebe",
+   "modellierung und simulation",
+   "hybridantriebe"
+  ]
+ },
+ {
+  "id": "fmb-601345",
+  "description_de": "Vermittelt die Planung und Konzeption komplexer Montagesysteme von der Aufgabencharakterisierung über das Layout und die Konfiguration bis zur wirtschaftlichen Bewertung.",
+  "competencies_de": [
+   "Komplexe Montagesysteme planen und konfigurieren",
+   "Montageaufgaben charakterisieren und montagespezifische Anforderungen identifizieren",
+   "Technisch-organisatorische Lösungen für Montagesysteme gestalten",
+   "Montagevorgänge unter wirtschaftlichen und leistungsbezogenen Gesichtspunkten bewerten"
+  ],
+  "topic_tags_de": [
+   "montagesysteme",
+   "montageplanung",
+   "produktion"
+  ]
+ },
+ {
+  "id": "fmb-601189",
+  "description_de": "Behandelt die Motor- und Fahrzeugakustik einschließlich Schallmessung, Geräuschbewertung und Methoden zur Minderung von Motor- und Fahrzeuggeräuschen.",
+  "competencies_de": [
+   "Grundlagen der Luft- und Körperschallakustik anwenden",
+   "Verfahren zur Schallmessung und -bewertung einsetzen",
+   "Geräuschwirkungen und regulatorische Grenzwerte beurteilen",
+   "Geräuschminderungsmaßnahmen für Motoren und Fahrzeuge ableiten"
+  ],
+  "topic_tags_de": [
+   "fahrzeugakustik",
+   "motorakustik",
+   "geräuschminderung",
+   "akustik"
+  ]
+ }
+]

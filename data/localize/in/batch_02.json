@@ -1,0 +1,294 @@
+[
+ {
+  "id": "etit-human-machine-communication",
+  "title_de": "Mensch-Maschine-Kommunikation (ersetzt Automatisierungsgeräte)",
+  "faculty": "FEIT",
+  "description_en": "Introduces natural-language processing and the design of dialogue and emotion-aware human-machine communication systems.",
+  "competencies": [
+   "Design natural-language dialogue systems",
+   "Evaluate linguistic resources such as lexica and parsers",
+   "Handle ambiguity and productivity in natural language processing",
+   "Build emotion-aware human-machine communication systems"
+  ],
+  "topic_tags": [
+   "natural language processing",
+   "dialogue systems",
+   "human-machine interaction",
+   "semantics"
+  ]
+ },
+ {
+  "id": "etit-image-processing",
+  "title_de": "Bildverarbeitung",
+  "faculty": "FEIT",
+  "description_en": "Introduces digital image acquisition, representation, filtering, segmentation and analysis for information extraction from images.",
+  "competencies": [
+   "Apply point operations and filtering to digital images",
+   "Implement image segmentation and the Hough transform",
+   "Perform texture analysis and 3D measurement from images",
+   "Select and adapt algorithms for image recognition problems"
+  ],
+  "topic_tags": [
+   "image processing",
+   "segmentation",
+   "computer vision",
+   "feature extraction"
+  ]
+ },
+ {
+  "id": "etit-kommunikationssysteme",
+  "title_de": "Kommunikationssysteme",
+  "faculty": "FEIT",
+  "description_en": "Industrial communication systems based on the ISO/OSI model, covering protocols, Ethernet/TCP/IP, fieldbuses and security.",
+  "competencies": [
+   "Analyse industrial communication systems using the ISO/OSI model",
+   "Explain principles of industrial communication protocols and services",
+   "Configure Ethernet/TCP/IP systems",
+   "Describe industrial bus systems such as PROFIBUS and CAN",
+   "Classify security aspects of industrial communication"
+  ],
+  "topic_tags": [
+   "industrial networks",
+   "fieldbus",
+   "tcp/ip",
+   "communication protocols"
+  ]
+ },
+ {
+  "id": "etit-laboratory-high-frequency-technology-ii",
+  "title_de": "Laborpraktikum Hochfrequenztechnik II",
+  "faculty": "FEIT",
+  "description_en": "A laboratory using a 3D field simulator to numerically analyze typical high-frequency structures with optimized meshing and solver settings.",
+  "competencies": [
+   "Use a three-dimensional field simulator for high-frequency structures",
+   "Model structures with a CAD system and optimize meshing",
+   "Choose meshing strategies and solver parameters for efficient solutions",
+   "Automate parameter scans in field simulation"
+  ],
+  "topic_tags": [
+   "high-frequency technology",
+   "field simulation",
+   "meshing",
+   "electromagnetics"
+  ]
+ },
+ {
+  "id": "etit-leistungselektronische-systeme",
+  "title_de": "Leistungselektronische Systeme",
+  "faculty": "FEIT",
+  "description_en": "Course on developing, dimensioning and controlling power-electronic circuits, with applications in feeding renewable energy into the grid.",
+  "competencies": [
+   "Develop complex power-electronic circuits from basic topologies",
+   "Explain control and regulation methods for power-electronic circuits",
+   "Dimension circuits application-specifically and model them for control",
+   "Apply power electronics to feed renewable energy into the grid"
+  ],
+  "topic_tags": [
+   "power electronics",
+   "converters",
+   "renewable energy",
+   "circuits"
+  ]
+ },
+ {
+  "id": "etit-mathematische-modellierung-physiologischer-syste",
+  "title_de": "Mathematische Modellierung physiologischer Systeme",
+  "faculty": "FEIT",
+  "description_en": "Mathematical modelling and computer simulation of selected physiological systems based on physical-chemical laws.",
+  "competencies": [
+   "Build mathematical models of physiological systems from physical laws",
+   "Model the cardiovascular system and cell electrical properties",
+   "Model signal transmission and processing in nerve cells and senses",
+   "Simulate physiological systems with computer tools",
+   "Transfer modelling methods to related research questions"
+  ],
+  "topic_tags": [
+   "mathematical modeling",
+   "physiological systems",
+   "simulation",
+   "biophysics"
+  ]
+ },
+ {
+  "id": "etit-mechatronik-ii-entwurf-mechatronischer-systeme",
+  "title_de": "Mechatronik II – Entwurf mechatronischer Systeme",
+  "faculty": "FEIT",
+  "description_en": "Methodical design of mechatronic systems using the V-model, functional design, design tools and system optimization.",
+  "competencies": [
+   "Formulate mechatronic design problems",
+   "Apply the V-model of systems development",
+   "Design open and feedback-controlled action chains",
+   "Analyse parameter sensitivity of mechatronic systems",
+   "Apply optimization to mechatronic system design"
+  ],
+  "topic_tags": [
+   "mechatronics",
+   "system design",
+   "v-model",
+   "optimization"
+  ]
+ },
+ {
+  "id": "etit-mechatronik-ii-mechatronische-sensor-aktor-syste",
+  "title_de": "Mechatronik II – Mechatronische Sensor-Aktor-Systeme",
+  "faculty": "FEIT",
+  "description_en": "Advanced integrated design of mechatronic sensor-actuator systems using component-based methods, robustness analysis and optimization.",
+  "competencies": [
+   "Formulate mechatronic design problems for sensor-actuator systems",
+   "Apply the V-model with hierarchical, component-based design",
+   "Perform integrated mechatronic system design",
+   "Assess parameter sensitivity and robustness",
+   "Apply fundamentals of system optimization"
+  ],
+  "topic_tags": [
+   "mechatronics",
+   "sensor-actuator systems",
+   "system design",
+   "robustness"
+  ]
+ },
+ {
+  "id": "etit-microcontroller-based-drive-controls",
+  "title_de": "Mikrocontroller-basierte Antriebsregelungen",
+  "faculty": "FEIT",
+  "description_en": "Teaches implementation of electrical drive control on microcontrollers including real-time task management and fixed-point arithmetic.",
+  "competencies": [
+   "Implement control methods for electrical drives on microcontrollers",
+   "Manage real-time tasks, interrupts and communication",
+   "Discretize controllers and handle fixed-point arithmetic",
+   "Realize current control for converter-fed machines"
+  ],
+  "topic_tags": [
+   "drive control",
+   "microcontrollers",
+   "real-time systems",
+   "power electronics"
+  ]
+ },
+ {
+  "id": "etit-modellierung-und-expertensysteme-in-der-elektris",
+  "title_de": "Modellierung und Expertensysteme in der elektrischen",
+  "faculty": "FEIT",
+  "description_en": "Course on modeling electrical power grids and building knowledge-based expert systems using fuzzy techniques and neural networks.",
+  "competencies": [
+   "Build physical models for power-grid calculations and simulations",
+   "Model switching devices and travelling-wave phenomena in grids",
+   "Develop expert systems for power-supply problem solving",
+   "Apply fuzzy techniques and neural networks in knowledge-based systems"
+  ],
+  "topic_tags": [
+   "expert systems",
+   "power grids",
+   "modeling",
+   "fuzzy logic"
+  ]
+ },
+ {
+  "id": "etit-nonlinear-systems",
+  "title_de": "Nichtlineare Systeme",
+  "faculty": "FEIT",
+  "description_en": "Teaches analysis and control of nonlinear dynamic systems in state space using Lyapunov methods and nonlinear controller design.",
+  "competencies": [
+   "Describe and analyze nonlinear dynamic systems in state space",
+   "Investigate stability using direct and indirect Lyapunov methods",
+   "Interpret energy- and passivity-based system descriptions",
+   "Design nonlinear controllers via backstepping and input-output linearization"
+  ],
+  "topic_tags": [
+   "nonlinear systems",
+   "control theory",
+   "lyapunov stability",
+   "state space"
+  ]
+ },
+ {
+  "id": "etit-pattern-recognition",
+  "title_de": "Mustererkennung",
+  "faculty": "FEIT",
+  "description_en": "Teaches machine learning, deep learning and information fusion to carry out complete pattern recognition tasks in industrial and medical applications.",
+  "competencies": [
+   "Carry out a complete pattern recognition task from data to interpretation",
+   "Apply linear and nonlinear classifiers and Bayes classification",
+   "Use clustering, self-organizing maps and information fusion",
+   "Apply deep learning and transfer learning to recognition problems"
+  ],
+  "topic_tags": [
+   "pattern recognition",
+   "machine learning",
+   "deep learning",
+   "classification"
+  ]
+ },
+ {
+  "id": "etit-power-electronic-circuits",
+  "title_de": "Schaltungen der Leistungselektronik",
+  "faculty": "FEIT",
+  "description_en": "Teaches the design, dimensioning and control of complex power-electronic circuits including resonant and bridge converter topologies.",
+  "competencies": [
+   "Develop complex power-electronic circuits from basic topologies",
+   "Explain operation of self-commutated and line-commutated converters",
+   "Dimension power-electronic circuits for specific applications",
+   "Model control strategies for power-electronic circuits"
+  ],
+  "topic_tags": [
+   "power electronics",
+   "converters",
+   "circuit design",
+   "control"
+  ]
+ },
+ {
+  "id": "etit-power-electronic-systems",
+  "title_de": "Systeme der Leistungselektronik",
+  "faculty": "FEIT",
+  "description_en": "Covers power-electronic systems for renewable energy supply and electromobility, including drives, chargers, HVDC and storage.",
+  "competencies": [
+   "Apply power-electronic circuits within complex systems",
+   "Design power-electronic systems for renewable energy feed-in",
+   "Engineer power electronics for electric vehicles and drives",
+   "Dimension HVDC and storage interface systems"
+  ],
+  "topic_tags": [
+   "power electronics",
+   "renewable energy",
+   "electromobility",
+   "hvdc"
+  ]
+ },
+ {
+  "id": "etit-power-network-planning-and-operation",
+  "title_de": "Operative Systemführung elektrischer Netze",
+  "faculty": "FEIT",
+  "description_en": "Covers operational system management of electrical power networks including regulatory frameworks, grid operation and planning processes.",
+  "competencies": [
+   "Explain operational mechanisms of power network system management",
+   "Identify actors and interactions in technical and market domains",
+   "Apply regulatory frameworks to network operator tasks",
+   "Manage congestion, voltage control and grid restoration processes"
+  ],
+  "topic_tags": [
+   "power networks",
+   "grid operation",
+   "system management",
+   "energy markets"
+  ]
+ },
+ {
+  "id": "etit-power-systems-1-steady-state-analysis",
+  "title_de": "Elektrische Netze 1 - Stationäre Netzberechnung",
+  "faculty": "FEIT",
+  "description_en": "Covers steady-state analysis of electrical power networks including equipment modeling, load-flow and short-circuit calculation in MATLAB.",
+  "competencies": [
+   "Model electrical equipment for steady-state power system analysis",
+   "Perform load-flow and short-circuit calculations",
+   "Apply state estimation to power networks",
+   "Compute power network behaviour using MATLAB"
+  ],
+  "topic_tags": [
+   "power systems",
+   "load flow",
+   "state estimation",
+   "grid modeling"
+  ]
+ }
+]

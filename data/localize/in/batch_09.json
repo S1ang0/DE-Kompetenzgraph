@@ -1,0 +1,148 @@
+[
+ {
+  "id": "etit-computational-neuroscience-i",
+  "title_de": "Computational Neuroscience I",
+  "faculty": "FNW",
+  "description_en": "Biophysical foundations of neuronal activity and neural coding, with mathematical models, Bayesian decoding and information theory.",
+  "competencies": [
+   "Describe biophysical generation of neuronal activity mathematically",
+   "Model neurons with RC, LIF and Hodgkin-Huxley equations",
+   "Analyse encoding and decoding of sensory information",
+   "Apply Bayesian estimation and information-theoretic measures",
+   "Simulate dynamical neural systems in self-written programs"
+  ],
+  "topic_tags": [
+   "computational neuroscience",
+   "neural coding",
+   "bayesian inference",
+   "simulation"
+  ]
+ },
+ {
+  "id": "fmb-601430",
+  "title_de": "Hörakustik",
+  "faculty": "FNW",
+  "description_en": "Teaches the fundamentals of psychoacoustics, including loudness calculation, sound measurement and perceptual characterization of technical and environmental noise.",
+  "competencies": [
+   "Describe fundamental psychoacoustic quantities and their physical correlates",
+   "Apply measurement methods for hearing acoustics",
+   "Calculate loudness as a basic perceptual quantity",
+   "Characterize perception of noise, tonal sounds and binaural hearing"
+  ],
+  "topic_tags": [
+   "psychoacoustics",
+   "acoustics",
+   "noise perception"
+  ]
+ },
+ {
+  "id": "etit-fluidenergiemaschinen",
+  "title_de": "Fluidenergiemaschinen",
+  "faculty": "FVST",
+  "description_en": "Fundamentals, design, operation and control of fluid-energy machines such as pumps, turbines and compressors for efficient energy conversion.",
+  "competencies": [
+   "Explain working principles and construction of turbomachines",
+   "Select and dimension pumps, turbines and compressors",
+   "Analyse operating behaviour and control for optimal energy conversion",
+   "Apply affinity laws and dimensionless characteristic numbers",
+   "Assess energy transfer in fluid-flow machines"
+  ],
+  "topic_tags": [
+   "turbomachinery",
+   "pumps",
+   "turbines",
+   "energy conversion"
+  ]
+ },
+ {
+  "id": "etit-modellierung-mit-populationsbilanzen",
+  "title_de": "Modellierung mit Populationsbilanzen",
+  "faculty": "FVST",
+  "description_en": "Course on formulating, analyzing and numerically solving population-balance models for disperse systems in particle and bioprocess engineering.",
+  "competencies": [
+   "Recognize population-dynamic mechanisms in disperse systems",
+   "Formulate and analyze population-balance models mathematically",
+   "Solve population balances with specialized numerical methods",
+   "Apply population-balance results to process design and operation"
+  ],
+  "topic_tags": [
+   "population balance",
+   "modeling",
+   "disperse systems",
+   "numerical methods"
+  ]
+ },
+ {
+  "id": "etit-molekulares-modellieren",
+  "title_de": "Molekulares Modellieren",
+  "faculty": "FVST",
+  "description_en": "Course teaching molecular modeling and simulation as an engineering tool using Monte-Carlo, molecular-dynamics and quantum-mechanical methods.",
+  "competencies": [
+   "Apply molecular modeling tools across spatial and temporal scales",
+   "Use Monte-Carlo methods for equilibrium and dynamic simulations",
+   "Run molecular-dynamics simulations of diffusion and nucleation",
+   "Match process-engineering problems to adequate models and numerical methods"
+  ],
+  "topic_tags": [
+   "molecular modeling",
+   "molecular dynamics",
+   "monte carlo",
+   "simulation"
+  ]
+ },
+ {
+  "id": "etit-prozesssimulation",
+  "title_de": "Prozesssimulation",
+  "faculty": "FVST",
+  "description_en": "Course on conceptual process design via steady-state and dynamic simulation of chemical processes using Aspen Plus and Aspen Dynamics.",
+  "competencies": [
+   "Perform steady-state and dynamic process simulation in Aspen Plus/Dynamics",
+   "Model unit operations such as reactors, columns and heat exchangers",
+   "Configure recycle streams and overall process flowsheets",
+   "Evaluate alternative process variants for conceptual process design"
+  ],
+  "topic_tags": [
+   "process simulation",
+   "aspen plus",
+   "flowsheet",
+   "process design"
+  ]
+ },
+ {
+  "id": "etit-simulation-und-steuerung-regelung-der-biol-abwas",
+  "title_de": "Simulation und Steuerung/Regelung der biol. Abwasserreinigung",
+  "faculty": "FVST",
+  "description_en": "Dynamic simulation and control of biological wastewater treatment using activated sludge models for reliable, economic plant operation.",
+  "competencies": [
+   "Build dynamic simulation models of wastewater treatment plants",
+   "Apply activated sludge models (ASM3) to biological treatment",
+   "Calibrate and verify plant models with simulation software",
+   "Design measurement and oxygen control concepts for treatment plants",
+   "Combine steady-state design with dynamic simulation"
+  ],
+  "topic_tags": [
+   "dynamic simulation",
+   "wastewater treatment",
+   "activated sludge model",
+   "process control"
+  ]
+ },
+ {
+  "id": "etit-stromungsmechanik-ii",
+  "title_de": "Strömungsmechanik II",
+  "faculty": "FVST",
+  "description_en": "Advanced fluid mechanics course on complex flows including compressible, turbulent, multiphase and non-Newtonian flow phenomena.",
+  "competencies": [
+   "Analyze and compute complex flows in process engineering apparatus",
+   "Treat compressible flows with friction, heat transfer and shock waves",
+   "Model laminar and turbulent boundary layers and turbulence",
+   "Analyze multiphase and non-Newtonian fluid flows"
+  ],
+  "topic_tags": [
+   "fluid mechanics",
+   "turbulence",
+   "multiphase flow",
+   "compressible flow"
+  ]
+ }
+]
